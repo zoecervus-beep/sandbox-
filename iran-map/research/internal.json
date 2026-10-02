@@ -432,7 +432,7 @@
   },
   {
    "id": "i_russian_occupation_azerbaijan_1827",
-   "name": "Azerbaijan occupied by Russia (1827-28)",
+   "name": "Azerbaijan occupied by Russia (1827-28) except Khoy",
    "name_fa": "آذربایجان در اشغال روسیه (۱۸۲۷ و ۱۸۲۸)",
    "units": [
     "IRN2_104",
@@ -440,13 +440,12 @@
     "IRN2_120",
     "IRN2_28",
     "IRN2_34",
-    "IRN2_150",
     "IRN2_223"
    ],
    "minus_units": [],
    "custom": null,
    "geometry_confidence": "low",
-   "geometry_note": "Tabriz (13 Oct 1827), Urmia (28 Jan 1828), Ardabil (8 Feb 1828) are the documented captures; Marand/Jolfa (the Aras crossing and road), Khoy and Salmas are inferred as lying on the Russian line. The Turkmenchay treaty tied evacuation to indemnity instalments, so the occupied area shrank by stages."
+   "geometry_note": "Tabriz (13 Oct 1827), Urmia (28 Jan 1828), Ardabil (8 Feb 1828) are the documented captures; Marand/Jolfa (the Aras crossing and road), Khoy and Salmas are inferred as lying on the Russian line. The Turkmenchay treaty tied evacuation to indemnity instalments, so the occupied area shrank by stages. Verification: Khoy split off to i_russian_khoy_1828, which Russia kept as security for the indemnity long after the rest of Azerbaijan was evacuated."
   },
   {
    "id": "i_qazvin_zanjan_norperforce",
@@ -932,30 +931,14 @@
   },
   {
    "id": "i_spr_garrison_towns",
-   "name": "South Persia Rifles garrison towns (Shiraz, Kerman, Bandar Abbas)",
+   "name": "South Persia Rifles base at Bandar Abbas (1916-21)",
    "name_fa": "شهرهای پادگان پلیس جنوب",
    "units": [],
    "minus_units": [],
    "custom": {
     "op": "circles",
-    "description": "Three garrison towns (circles) rather than whole counties.",
+    "description": "Bandar Abbas garrison town (circle) rather than a whole county.",
     "circles": [
-     {
-      "name": "Shiraz",
-      "center": [
-       52.53,
-       29.61
-      ],
-      "radius_km": 15
-     },
-     {
-      "name": "Kerman",
-      "center": [
-       57.08,
-       30.28
-      ],
-      "radius_km": 15
-     },
      {
       "name": "Bandar Abbas",
       "center": [
@@ -965,10 +948,10 @@
       "radius_km": 15
      }
     ],
-    "note": "SPR brigades were at these three centres by Dec 1916; the force did not control the Qashqai/Khamseh countryside."
+    "note": "Sykes landed here in March 1916; Kerman and Shiraz are now separate regions because the SPR reached them months later (i_spr_kerman, i_spr_shiraz)."
    },
    "geometry_confidence": "low",
-   "geometry_note": "Circle approximations only."
+   "geometry_note": "Circle approximation only. Verification: the original single region covered Shiraz, Kerman and Bandar Abbas from March 1916, but Sykes reached Kerman on 12 June 1916 and Shiraz on 11 Nov 1916, so those towns were split into i_spr_kerman and i_spr_shiraz."
   },
   {
    "id": "i_isfahan_1909",
@@ -1134,7 +1117,7 @@
   },
   {
    "id": "i_wwii_soviet_north",
-   "name": "Soviet-occupied north (Gilan, Mazandaran, Golestan, Qazvin, Semnan)",
+   "name": "Soviet-occupied north (Gilan, Mazandaran, Golestan, Qazvin)",
    "name_fa": "شمال در اشغال شوروی (گیلان، مازندران، گلستان، قزوین، سمنان)",
    "units": [
     "IRN2_17",
@@ -1194,21 +1177,12 @@
     "IRN2_46",
     "IRN2_92",
     "IRN2_102",
-    "IRN2_289",
-    "IRN2_14",
-    "IRN2_153",
-    "IRN2_215",
-    "IRN2_224",
-    "IRN2_239",
-    "IRN2_249",
-    "IRN2_354",
-    "IRN2_358",
-    "IRN2_416"
+    "IRN2_289"
    ],
    "minus_units": [],
    "custom": null,
    "geometry_confidence": "low",
-   "geometry_note": "Gilan, Mazandaran and Gorgan are named in the sources; Qazvin (southern outpost of the Soviet line) and Semnan are inferred. Soviet garrisons were concentrated in towns and along the roads; Iranian civil administration continued."
+   "geometry_note": "Gilan, Mazandaran and Gorgan are named in the sources; Qazvin (southern outpost of the Soviet line) and Semnan are inferred. Soviet garrisons were concentrated in towns and along the roads; Iranian civil administration continued. (Verification: Semnan province was split out to i_wwii_soviet_semnan because the Soviets left Mashhad/Shahrud/Semnan in March 1946, earlier than the rest.)"
   },
   {
    "id": "i_wwii_soviet_khorasan",
@@ -1342,29 +1316,151 @@
     "IRN2_172",
     "IRN2_262",
     "IRN2_313",
-    "IRN2_424"
+    "IRN2_424",
+    "IRN2_227"
    ],
    "minus_units": [],
    "custom": null,
    "geometry_confidence": "low",
-   "geometry_note": "The British entered Khuzestan, Kermanshah and Hamadan in Aug-Sept 1941 and held the Persian Corridor from the Gulf to Hamadan. Paiforce garrisons later reached Isfahan, Shiraz and the Gulf ports, but Fars (Qashqai/Khamseh range, treated separately), Hormozgan and the east are NOT included because British control there was thin or absent. Only a schematic block."
+   "geometry_note": "The British entered Khuzestan, Kermanshah and Hamadan in Aug-Sept 1941 and held the Persian Corridor from the Gulf to Hamadan. Paiforce garrisons later reached Isfahan, Shiraz and the Gulf ports, but Fars (Qashqai/Khamseh range, treated separately), Hormozgan and the east are NOT included because British control there was thin or absent. Only a schematic block. Verification: Sanandaj county (IRN2_227) added - British and Soviet columns met at Sanandaj on 30 Aug 1941 and 'southern Kurdistan up to Sanandaj' fell in the British zone (low confidence; the Kurdish-held belt from Mahabad to Saqqez lay between the zones). The wider extent of the British zone (Fars, Isfahan, Kerman, Hormozgan) was not established."
+  },
+  {
+   "id": "i_wwii_soviet_semnan",
+   "name": "Soviet-occupied Semnan province (1941-46)",
+   "name_fa": "سمنان (اشغال شوروی)",
+   "units": [
+    "IRN2_14",
+    "IRN2_153",
+    "IRN2_215",
+    "IRN2_224",
+    "IRN2_239",
+    "IRN2_249",
+    "IRN2_354",
+    "IRN2_358",
+    "IRN2_416"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Semnan province counties (Shahrud, Damghan, Semnan, Garmsar etc.), split out of i_wwii_soviet_north. Sources say the Soviets held Shahrud and Semnan until March 1946; the extent south to Garmsar is inferred from the Soviet advance to Qazvin/Tehran and the Mashhad road."
+  },
+  {
+   "id": "i_russian_khoy_1828",
+   "name": "Khoy (Russian-held pledge, 1828)",
+   "name_fa": "خوی (گرو روسیه ۱۸۲۸)",
+   "units": [
+    "IRN2_150"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Khoy county. Under Turkmenchay Russia evacuated Azerbaijan except Khoy, which it held as a deposit until the indemnity was paid; modern Khoy county is larger than the 1828 district."
+  },
+  {
+   "id": "i_shiraz_1915",
+   "name": "Shiraz (pro-German Gendarmerie, 1915-16)",
+   "name_fa": "شیراز (ژاندارمری ۱۹۱۵)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "op": "circle",
+    "center": [
+     52.54,
+     29.61
+    ],
+    "radius_km": 15,
+    "description": "Shiraz city and its immediate surroundings.",
+    "note": "The gendarmes and Democrats held the city; the countryside was held by tribal forces on both sides."
+   },
+   "geometry_confidence": "medium",
+   "geometry_note": "Circle round Shiraz city; the surrounding Fars countryside was divided among Qashqai, Khamseh and Tangestani forces."
+  },
+  {
+   "id": "i_zanjan_babi_1850",
+   "name": "Zanjan town (Babi revolt, 1850-51)",
+   "name_fa": "زنجان (شورش بابیان)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "op": "circle",
+    "center": [
+     48.49,
+     36.67
+    ],
+    "radius_km": 6,
+    "description": "Zanjan town and its outskirts.",
+    "note": "Only part of the town (Hujjat's quarters) was Babi-held; a county-union would grossly overstate."
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "Circle round Zanjan town; the divided town cannot be mapped more finely."
+  },
+  {
+   "id": "i_abadan_british_1914",
+   "name": "Abadan island (British garrison, 1914-18)",
+   "name_fa": "آبادان (حضور نظامی بریتانیا ۱۹۱۴)",
+   "units": [
+    "IRN2_10"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Abadan county stands in for the island refinery zone; the British perimeter did not cover the whole county."
+  },
+  {
+   "id": "i_spr_kerman",
+   "name": "South Persia Rifles garrison at Kerman (1916-21)",
+   "name_fa": "کرمان (پادگان پلیس جنوب ایران)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "op": "circle",
+    "center": [
+     57.08,
+     30.28
+    ],
+    "radius_km": 15,
+    "description": "Kerman city.",
+    "note": "Garrison town only."
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "Circle approximation of the garrison town."
+  },
+  {
+   "id": "i_spr_shiraz",
+   "name": "South Persia Rifles garrison at Shiraz (1916-21)",
+   "name_fa": "شیراز (پادگان پلیس جنوب ایران)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "op": "circle",
+    "center": [
+     52.53,
+     29.61
+    ],
+    "radius_km": 15,
+    "description": "Shiraz city.",
+    "note": "Garrison town only; the force did not control the Qashqai/Khamseh countryside."
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "Circle approximation of the garrison town."
   }
  ],
  "dejure": [],
  "defacto": [
   {
    "region": "i_ashurada",
-   "from": "1842",
-   "to": "1921",
+   "from": "1838",
+   "to": "1921-02",
    "status": "foreign_occupation",
    "controller": "Imperial Russia (Caspian naval station; Soviet Russia to 1921)",
    "start_event": "i_ev_ashurada_russian_station",
    "end_event": null,
-   "note": "Following a Persian request for ships against Turkmen raiders (1838) Russia built barracks and stationed warships on Ashurada; Iranica says a station was founded by 1842 (Wikipedia gives 1837; others 1841). Russians recognised Iranian sovereignty but refused to evacuate; they left after the Feb 1921 Persian-Soviet treaty.",
+   "note": "Following a Persian request for ships against Turkmen raiders (Iranica: 1254/1838), Russia built barracks and stationed warships on Ashurada; Iranica ('Gorgan vii') places the occupation in Mohammad Shah's reign (1834-48). Wikipedia gives 1837 and Qajar-era sources 1841; the earlier 1842 start was too late. Russians recognised Iranian sovereignty but refused to evacuate and returned the islands under the Persian-Soviet treaty of Feb 1921 (Iranica dates this to 13 Feb 1921; the treaty was signed 26 Feb 1921).",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Āšūrāda' (https://www.iranicaonline.org/articles/asurada/)",
-    "Wikipedia, 'Ashuradeh' (cross-check; 1837 / 1841 variants)"
+    "Wikipedia, 'Ashuradeh' (cross-check; 1837 / 1841 variants)",
+    "Encyclopaedia Iranica, 'Gorgān vii. History from the Safavids to the end of the Pahlavi era' (https://www.iranicaonline.org/articles/gorgan-vii/)"
    ]
   },
   {
@@ -1375,11 +1471,12 @@
    "controller": "Sheikh Mohammad Khiabani and the Democratic Party of Azerbaijan (\"Azadistan\")",
    "start_event": "i_ev_khiabani_rising_1920",
    "end_event": "i_ev_khiabani_crushed_1920",
-   "note": "Khiabani's armed supporters took Tabriz on 7 April 1920 (Swedish-officered police left; bazaar closed 9 April) and proclaimed Azadistan as a model of free government against the 1919 Anglo-Persian Agreement; he considered himself an Iranian nationalist, not a separatist. Cossack forces entered Tabriz on 14 Sept 1920 and Khiabani was killed. Only Tabriz's control is firmly documented.",
-   "date_confidence": "high",
+   "note": "Khiabani's armed supporters took Tabriz on 7 April 1920 (Swedish-officered police left; bazaar closed 9 April) and proclaimed Azadistan as a model of free government against the 1919 Anglo-Persian Agreement; he considered himself an Iranian nationalist, not a separatist. Cossack forces entered Tabriz on 14 Sept 1920 and Khiabani was killed. Only Tabriz's control is firmly documented. Persian-language sources used by Wikipedia ('Mohammad Khiabani's uprising') date the start to 5 April 1920; Iranica has 7 April.",
+   "date_confidence": "medium",
    "sources": [
     "Encyclopaedia Iranica, 'Ḵiābāni, Shaikh Moḥammad' (https://www.iranicaonline.org/articles/%E1%B8%B5iabani-shaikh-mo%E1%B8%A5ammad/)",
-    "Wikipedia, 'Russian occupation of Tabriz' (cross-check; 30 Apr 1909 - 28 Feb 1918, break 17 Dec 1914 - 31 Jan 1915)"
+    "Wikipedia, 'Russian occupation of Tabriz' (cross-check; 30 Apr 1909 - 28 Feb 1918, break 17 Dec 1914 - 31 Jan 1915)",
+    "Wikipedia, 'Mohammad Khiabani's uprising' (cross-check; 5 Apr - 14 Sept 1920)"
    ]
   },
   {
@@ -1419,28 +1516,30 @@
    "controller": "Persian governor at Bampur (Sartip Ebrahim Khan) with local rulers paying taxes; later the Barakzai (Baranzai) chiefs Mir Bahram Khan (d. 1921) and Dost Mohammad Khan (1921-28)",
    "start_event": "i_ev_bampur_1849",
    "end_event": "i_ev_baluchistan_1928",
-   "note": "Bampur was garrisoned permanently from 1850; Kerman's governor campaigned against Baluch tribes in 1862. Persian influence waned after 1905; Dost Mohammad, recognised as governor of Bampur in 1921, claimed autonomy until Gen. Jahanbani's 1928 campaign; he later escaped from Tehran and was hanged on 16 Jan 1930. End month is an estimate.",
+   "note": "Bampur was garrisoned permanently from 1850; Kerman's governor campaigned against Baluch tribes in 1862. Persian influence waned after 1905; Dost Mohammad, recognised as governor of Bampur in 1921, claimed autonomy until Gen. Jahanbani's 1928 campaign; he later escaped from Tehran and was hanged on 16 Jan 1930. End month is an estimate. After the 1928-29 campaign the Iranian state continued to govern Persian Baluchistan through Iranian-appointed local sardars (Jan-Mohammad Buledi at Qasr-e Qand, Mehrab Khan Bozorgzadeh at Jaleq, Mohammadshah Mir-Moradzay at Sib, Shahbaz Khan Bozorgzadeh at Dizzak - Wikipedia 'Dost Mohammad Khan Baloch'); that quasi-indirect phase is NOT mapped here (no end date established), so the renderer shows direct control after 1928.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Baluchistan i. Geography, History and Ethnography' (https://www.iranicaonline.org/articles/baluchistan-index/baluchistan-i/) [search extract]",
     "Encyclopaedia Iranica, 'Kerman ix. History in the Qajar Period' (https://www.iranicaonline.org/articles/kerman-09-qajar-period/)",
     "Wikipedia, 'Dost Mohammad Khan Baloch' (cross-check)",
-    "Koyagi, M., 'Tribes and Smugglers in Iran's Eastern Borderlands, 1921-41', Iranian Studies (Cambridge UP, 2021), pp. 405-422"
+    "Koyagi, M., 'Tribes and Smugglers in Iran's Eastern Borderlands, 1921-41', Iranian Studies (Cambridge UP, 2021), pp. 405-422",
+    "Wikipedia, 'Dost Mohammad Khan Baloch' (cross-check; post-1928 appointed sardars)"
    ]
   },
   {
    "region": "i_baluch_sarhad",
    "from": "1800",
-   "to": "1916-05",
+   "to": "1850",
    "status": "none",
    "controller": "Baluch tribes of Sarhad (Rigi, Ismailzai, Damani, Baranzai) under their sardars",
    "start_event": null,
-   "end_event": null,
-   "note": "Qajar presence was minimal; after the Constitutional Revolution it \"waned significantly\", leaving a vacuum that raids into British Baluchistan exploited. Frontier demarcated 1895-96.",
+   "end_event": "i_ev_bampur_1849",
+   "note": "Iranica: Persian Baluchistan was 'practically independent' until Persian troops occupied Bampur in 1849/50; Sarhad lay beyond even that. Frontier demarcated 1895-96.",
    "date_confidence": "low",
    "sources": [
     "Koyagi, M., 'Tribes and Smugglers in Iran's Eastern Borderlands, 1921-41', Iranian Studies (Cambridge UP, 2021), pp. 405-422",
-    "Encyclopaedia Iranica, 'Baluchistan i. Geography, History and Ethnography' (https://www.iranicaonline.org/articles/baluchistan-index/baluchistan-i/) [search extract]"
+    "Encyclopaedia Iranica, 'Baluchistan i. Geography, History and Ethnography' (https://www.iranicaonline.org/articles/baluchistan-index/baluchistan-i/) [search extract]",
+    "Gazetteer of Persia vol. IV (Government of India, c.1908-10), via Qatar Digital Library (qdl.qa) [search extract]"
    ]
   },
   {
@@ -1491,16 +1590,17 @@
   {
    "region": "i_bastak",
    "from": "1800",
-   "to": "1887",
+   "to": "1925",
    "status": "indirect",
-   "controller": "Hereditary Khans of Bastak (Mohammad Khan Bastaki etc.)",
+   "controller": "Hereditary Khans of Bastak (Sheikh Mohammad Khan Bastaki in the 18th century; later Mohammad-Reza Khan and his father, titled Sowlat al-Molk)",
    "start_event": null,
    "end_event": null,
-   "note": "The Khans of Bastak governed the district and controlled Lengeh's Qasimi sheikh as late as 1854; a Fars governor's force from Lar captured Bastak in 1809. The end date is a placeholder tied to the 1887 Gulf Ports reorganisation and has not been established.",
+   "note": "The Khans of Bastak governed the district and, as late as 1854, controlled Lengeh's Qasimi sheikh (revenue collector under the governor of Bastak); a Fars governor's force from Lar captured Bastak in 1809. From 1856 the governorship of Lengeh itself went to outsiders and in 1887 Persia ended the Qasimi governorship, but that does NOT end the Bastak khans: Persian Gulf Residency monthly reports of 1912-20 (file 2297/1919) still show the Khan of Bastak (Mohammad-Reza Khan) and his father contending for the Lengeh administration, so the researcher's 1887 end was too early. The new end, 1925, is still a placeholder tied to Reza Khan's consolidation in the south; the real date was not found.",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Bandar Lengeh' (Sheikh of Lengeh as revenue collector under the governor of Bastak, to at least 1854; cross-check)",
-    "Not independently verified in this research pass; reconstructed from general scholarship"
+    "Persian Gulf Residency Monthly Reports 1912-20, File 2297/1919 (Khan of Bastak and the Lengeh administration), via Qatar Digital Library [search extract]",
+    "Encyclopaedia Iranica, 'Kholosi' (mentions the khans of Bastak) [search extract]"
    ]
   },
   {
@@ -1511,7 +1611,7 @@
    "controller": "Shadlu Kurdish ilkhanis (Ebrahim Khan; Najaf-Ali Khan, ilkhani from 1802; Sardar Mo'azzaz Bojnurdi in 1921)",
    "start_event": null,
    "end_event": "i_ev_khorasan_kurds_1925",
-   "note": "Shadlu and other Kurdish tribes ran Bojnurd and Esfarayen; they were the force that killed Col. Pesyan in 1921. Bombing of Bojnurd on 18 May 1925 marked the collapse; forced settlement from 1929; the last Kurdish ilkhan (Faraj-Allah Khan Bicaranlu) failed to seize power in 1942.",
+   "note": "Shadlu and other Kurdish tribes ran Bojnurd and Esfarayen; they were the force that killed Col. Pesyan in 1921. Bombing of Bojnurd on 18 May 1925 marked the collapse; forced settlement from 1929; the last Kurdish ilkhan (Faraj-Allah Khan Bicaranlu) failed to seize power in 1942. Iranica adds that in spring 1925 the Kurds of Bojnurd were 'apparently under the control of the central government' (acting against Turkmen besiegers of Bojnurd) and that from about 1925 the ilkhani system collapsed; on 16 Feb 1942 Faraj-Allah Khan Bicaranlu briefly seized Shirvan, Esfarayen, Darreh Gaz, Mane, Samalqan, Jajarm, Faruj and Quchan before being defeated (under a month; not mapped).",
    "date_confidence": "medium",
    "sources": [
     "Encyclopaedia Iranica, 'Khorasan xvii. The Kurdish Communities of Khorasan' (https://www.iranicaonline.org/articles/khorasan-xvii-the-kurdish-communities-of-khorasan/)",
@@ -1630,36 +1730,38 @@
    "controller": "Imperial Russia (Baratov column)",
    "start_event": "i_ev_baratov_expedition_1915_16",
    "end_event": "i_ev_ottoman_counteroffensive_1916",
-   "note": "Baratov took Hamadan in December 1915 (dates in sources: 3 or 15 Dec); the Ottoman XIII Corps took it on 10 Aug 1916.",
+   "note": "Baratov took Hamadan in December 1915 (sources: 3 or 15 Dec). The Russians evacuated it on 9 Aug 1916 (last troops marched out that afternoon) and the Ottoman XIII Corps entered on 10 Aug 1916 (Segal 2023, citing A.C. Edwards, an eyewitness).",
    "date_confidence": "medium",
    "sources": [
     "Wikipedia, 'Persian campaign (World War I)' (cross-check; Ottoman and Russian dated operations)",
-    "Wikipedia, 'Kermanshah operation' (cross-check; Russian entry to Kermanshah 26 Feb 1916)"
+    "Wikipedia, 'Kermanshah operation' (cross-check; Russian entry to Kermanshah 26 Feb 1916)",
+    "Segal, J. E., 'Americans Join the Russian Persia Expeditionary Force', Journal of Russian American Studies 7.2 (Nov 2023) (eyewitness account of the evacuation of Hamadan 9 Aug 1916)"
    ]
   },
   {
    "region": "i_hamadan_area",
    "from": "1916-08-10",
-   "to": "1917-03",
-   "status": "contested",
-   "controller": "Ottoman XIII Corps vs. Russian forces",
+   "to": "1916-12",
+   "status": "foreign_occupation",
+   "controller": "Ottoman Empire (XIII Corps, Ali Ihsan)",
    "start_event": "i_ev_ottoman_counteroffensive_1916",
    "end_event": null,
-   "note": "Hamadan fell to the Ottomans on 10 Aug 1916; the Ottoman advance then stalled at the end of its supply lines and Russian forces re-entered the area. The sequence of holders between August 1916 and March 1917 is not established.",
+   "note": "Ottoman XIII Corps entered Hamadan on 10 Aug 1916 while Baratov's Russians held the Sultan Bulagh pass about 75 miles from Qazvin. The Ottoman advance halted at the end of its supply line; the sources consulted (Wikipedia 'Persian campaign (World War I)', citing Caven) have Baratov moving on Hamadan again in December 1916, and Hamadan changed hands that month. This replaces the researcher's undated 'contested' status Aug 1916-Mar 1917; the end month is the weakest part (some accounts keep the Ottomans there into early 1917).",
    "date_confidence": "low",
    "sources": [
-    "Wikipedia, 'Persian campaign (World War I)' (cross-check; Ottoman and Russian dated operations)"
+    "Wikipedia, 'Persian campaign (World War I)' (cross-check; Ottoman and Russian dated operations)",
+    "Segal, J. E., Journal of Russian American Studies 7.2 (2023) [Ottoman entry 10 Aug 1916; Russian line at Sultan Bulagh]"
    ]
   },
   {
    "region": "i_hamadan_area",
-   "from": "1917-03",
+   "from": "1916-12",
    "to": "1918-02",
    "status": "foreign_occupation",
    "controller": "Imperial Russia (Baratov corps, disintegrating)",
    "start_event": null,
    "end_event": null,
-   "note": "Russian garrisons held Hamadan until the army dissolved in winter 1917-18. Low-confidence.",
+   "note": "Russian garrisons (Baratov's Caucasian Cavalry Corps) re-entered Hamadan in December 1916 and held it until the army dissolved in winter 1917-18. Start moved from 1917-03 to 1916-12 (see the Ottoman record above); low confidence.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Russia i. Russo-Iranian Relations up to the Bolshevik Revolution' (https://www.iranicaonline.org/articles/russia-i-relations/)"
@@ -1716,11 +1818,12 @@
    "controller": "Iraq",
    "start_event": "i_ev_ceasefire_1988",
    "end_event": "i_ev_iraq_withdrawal_1990",
-   "note": "Iraq entered Dehloran, Qasr-e Shirin, Sumar, Naft Shahr, Sar-e Pol-e Zahab and Mousiyan on 12 July 1988 and withdrew from the towns after Iran accepted the ceasefire; but reports in August 1990 say Iraq still held about 2,600 km2 (1,000 sq mi) of Iranian territory, which it began to evacuate on 16-17 Aug 1990 (a UN report of 24 Sept 1990 said withdrawal was almost complete). Locations of the pockets were not identified in sources found.",
+   "note": "Iraq entered Dehloran, Qasr-e Shirin, Sumar, Naft Shahr, Sar-e Pol-e Zahab and Mousiyan on 12 July 1988 and withdrew from the towns after Iran accepted the ceasefire; but reports in August 1990 say Iraq still held about 2,600 km2 (1,000 sq mi) of Iranian territory, which it began to evacuate on 16-17 Aug 1990 (a UN report of 24 Sept 1990 said withdrawal was almost complete). Locations of the pockets were not identified in sources found. Verification: UNIIMOG's own background says that by end-September 1990 withdrawal to the international boundaries was 'almost complete' with a few locations where forces of each side were still on the wrong side, and that by end-January 1991 Iraq had withdrawn from 23 of 29 disputed positions (Iran from 13 of 17). The pockets were therefore a handful of border positions, not a large contiguous area, and the Aug 1990 '2,600 km2' figure comes from press reports of Saddam Hussein's offer. Record kept at low confidence.",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Tawakalna ala Allah Operations' (cross-check; Iraqi entry to Dehloran/Qasr-e Shirin 12 July 1988)",
-    "Reports of the UN Secretary-General on UNIIMOG (Sept 1990) and contemporary press (CS Monitor 17 Aug 1990; UPI 16 Aug 1990) [search extracts]"
+    "Reports of the UN Secretary-General on UNIIMOG (Sept 1990) and contemporary press (CS Monitor 17 Aug 1990; UPI 16 Aug 1990) [search extracts]",
+    "UN, 'United Nations Iran-Iraq Military Observer Group (UNIIMOG) - Background' (peacekeeping.un.org/sites/default/files/past/uniimogbackgr.html)"
    ]
   },
   {
@@ -1742,15 +1845,16 @@
    "region": "i_iraq_mehran",
    "from": "1980-09",
    "to": "1982-06",
-   "status": "foreign_occupation",
-   "controller": "Iraq",
+   "status": "contested",
+   "controller": "Iraq vs. Iran (Mehran changed hands several times)",
    "start_event": "i_ev_iraq_invasion_1980",
-   "end_event": "i_ev_iraq_withdrawal_1982",
-   "note": "Iraq captured Mehran in 1980; Wikipedia counts several changes of hands before May 1986. Dates of the first Iranian recapture are not established; the record spans to Iraq's June 1982 withdrawal.",
+   "end_event": null,
+   "note": "Iraq captured Mehran in the 1980 invasion; Wikipedia ('Battle of Mehran (1986)') calls the May 1986 capture the third time Iraq took it, so Iraqi control before 1986 was not continuous, and the Mehran article says the Iraqis had been driven out by 1982-83. Dates of the first recapture are not established, so the whole span is coded contested (low) instead of the researcher's continuous foreign occupation to June 1982.",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Battle of Mehran (1986)' (cross-check)",
-    "Encyclopaedia Iranica, 'Iraq vii. Iran-Iraq War' (https://www.iranicaonline.org/articles/iraq-vii-iran-iraq-war/)"
+    "Encyclopaedia Iranica, 'Iraq vii. Iran-Iraq War' (https://www.iranicaonline.org/articles/iraq-vii-iran-iraq-war/)",
+    "Wikipedia, 'Mehran, Ilam' (cross-check; captured 1980, driven out by 1982-83)"
    ]
   },
   {
@@ -1784,16 +1888,17 @@
   {
    "region": "i_iraq_susangerd",
    "from": "1980-10",
-   "to": "1982-06",
+   "to": "1982-05",
    "status": "foreign_occupation",
    "controller": "Iraq",
    "start_event": "i_ev_iraq_invasion_1980",
    "end_event": "i_ev_iraq_withdrawal_1982",
-   "note": "Iraqi forces held Bostan and parts of the Dasht-e Azadegan plain (the Susangerd salient). Iran relieved a siege of Susangerd in Nov 1980 and recaptured Bostan and 70 villages on 29 Nov-7 Dec 1981 (Operation Tariq al-Quds); the rest was cleared by June 1982. Holdings varied by month.",
+   "note": "Iraqi forces held Bostan and parts of the Dasht-e Azadegan plain (the Susangerd salient). Iran relieved a siege of Susangerd in Nov 1980 and recaptured Bostan and 70 villages on 29 Nov-7 Dec 1981 (Operation Tariq al-Quds); the rest was cleared by June 1982. Holdings varied by month. Verification (Iranica 'Iraq vii'): after Fath ol-Mobin (22 March 1982, Shush-Dezful) and the 22 March offensive north of Bostan, the stage of 24 April-12 May 1982 'drove the Iraqi troops back to Khorramshahr from the Ahvaz-Susangird area'; the end is therefore moved from 1982-06 (the date of Iraq's general withdrawal announcement) to 1982-05. Khorramshahr itself (separate record) fell on 24-25 May.",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Operation Tariq al-Quds' and 'Liberation of Susangerd' (cross-check)",
-    "Encyclopaedia Iranica, 'Iraq vii. Iran-Iraq War' (https://www.iranicaonline.org/articles/iraq-vii-iran-iraq-war/)"
+    "Encyclopaedia Iranica, 'Iraq vii. Iran-Iraq War' (https://www.iranicaonline.org/articles/iraq-vii-iran-iraq-war/)",
+    "Encyclopaedia Iranica, 'Iraq vii. Iran-Iraq War' (https://www.iranicaonline.org/articles/iraq-vii-iran-iraq-war/) [read directly: spring 1982 offensives]"
    ]
   },
   {
@@ -1828,32 +1933,34 @@
   },
   {
    "region": "i_kalhor_border_kurds",
-   "from": "1800",
+   "from": "1900",
    "to": "1926",
    "status": "indirect",
    "controller": "Kalhor chiefs (Davud Khan, killed 1912 fighting for Salar al-Dowleh; his successor Abbas Khan), with Guran and Sanjabi subordinate",
    "start_event": null,
    "end_event": null,
-   "note": "Iranica: Davud Khan Kalhor made himself \"absolute master of the entire territory between Kermanshah and the Ottoman border\". After his death in 1912 the Kalhor declined; Abbas Khan was imprisoned by Reza Shah in 1926. The long baseline is a generalisation; earlier Qajar governors of Kermanshah exercised more control at times.",
+   "note": "Iranica: Davud Khan Kalhor, who 'ruled the tribe in the early 1900s', started as a peddler and made himself 'the absolute master of the entire territory between Kermanshah and the Ottoman border', also subjugating the Guran and Sanjabi; he held the Qajar title Sardar-e Mozaffar and governed the Kalhor district. He was killed fighting for Salar al-Dowleh (1911 per British records and Wikipedia; 1912 per Iranica) and his successor Abbas Khan was imprisoned by Reza Shah in 1926. CORRECTION: the researcher's 1800 start is dropped. Before c.1900 the Kalhor were one of several tribes inside the province of Kermanshah, governed from the city by Qajar princes (Kalhor and Zangana levies served those governors, e.g. against the Bakhtiari in 1830), with no autonomous Kalhor ruler; those years are left as direct. The exact start of Davud Khan's ascendancy (c.1900) is approximate.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Kalhor' (https://www.iranicaonline.org/articles/kalhor/) [search extract]",
-    "Encyclopaedia Iranica, 'Kermanshah iv. History to 1953' (https://www.iranicaonline.org/articles/kermanshah-04-history-to-1953/)"
+    "Encyclopaedia Iranica, 'Kermanshah iv. History to 1953' (https://www.iranicaonline.org/articles/kermanshah-04-history-to-1953/)",
+    "Wikipedia, 'Kalhor (tribe)' (cross-check; Qajar-era role of the Kalhor and Zangana under the governors of Kermanshah)"
    ]
   },
   {
    "region": "i_kermanshah_area",
    "from": "1911-07",
-   "to": "1911-12",
+   "to": "1912-07",
    "status": "contested",
    "controller": "Salar al-Dowleh (Abolfath Mirza) with Kalhor, Jaf, Sanjabi and Lur followers vs. Bakhtiari/government forces",
    "start_event": "i_ev_salar_dowleh_1911",
    "end_event": null,
-   "note": "Mohammad Ali Shah's brother occupied Sanandaj by 17 July 1911, seized Kermanshah (given up to plunder) and Hamadan, advanced toward Tehran, and was defeated near Saveh by Amir Mofakham Bakhtiari; his second revolt lasted into 1912 (Farmanfarma defeated him in his 1912-14 governorship). Dates of occupation are not given in the sources consulted.",
+   "note": "Mohammad Ali Shah's brother occupied Sanandaj by 17 July 1911, seized Kermanshah (given up to plunder) and, per Wikipedia, Hamadan; he marched on Tehran, won a first battle near Malayer and was decisively beaten near Saveh by Amir Mofakham Bakhtiari (his Kalhor ally Davud Khan died in this campaign: 1911 per the British records and Wikipedia, 1912 per Iranica). The revolt did not end there: he remained in the Kermanshah-Kurdistan area until Farman Farma's 1912 expedition (Persian Gulf Administration Report 1911-14: 'In July Salar-ed-Dowleh fled from Kermanshah, on the arrival of Farman Farma ... and left for Luristan and Kurdistan'), so the end is moved from Dec 1911 to July 1912. Control of each town in between is not established; status stays contested.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Kermanshah iv. History to 1953' (https://www.iranicaonline.org/articles/kermanshah-04-history-to-1953/)",
-    "Not independently verified in this research pass; reconstructed from general scholarship"
+    "Persian Gulf Political Residency, Administration Report 1911-1914 (IOR/L/PS), via Qatar Digital Library [search extract: Salar-ed-Dowleh fled from Kermanshah in July on Farman Farma's arrival]",
+    "Wikipedia, 'Abdol-Hossein Farman Farma' (cross-check; 1912 expedition to Kermanshah) and 'Abolfath Mirza Salar od-Dowleh' (cross-check)"
    ]
   },
   {
@@ -1894,11 +2001,12 @@
    "controller": "Ottoman Empire (XIII Corps, Ali Ihsan) and German officers, with the returned Persian nationalist government",
    "start_event": "i_ev_ottoman_counteroffensive_1916",
    "end_event": null,
-   "note": "The Ottomans held Kermanshah from 2 July 1916 until their retreat after the fall of Baghdad (11 March 1917); the exact evacuation date is not established.",
+   "note": "The Ottomans held Kermanshah from 2 July 1916 until their retreat after the fall of Baghdad (11 March 1917); the exact evacuation date is not established. Verification: Wikipedia ('Battle of Khanaqin') says the Russians occupied Khanaqin after Ali Ihsan was recalled to Baghdad in Feb 1917, so the Ottoman hold on Kermanshah ended between Feb and mid-March 1917; the exact date remains unknown.",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Persian campaign (World War I)' (cross-check; Ottoman and Russian dated operations)",
-    "Encyclopaedia Iranica, 'Kermanshah iv. History to 1953' (https://www.iranicaonline.org/articles/kermanshah-04-history-to-1953/)"
+    "Encyclopaedia Iranica, 'Kermanshah iv. History to 1953' (https://www.iranicaonline.org/articles/kermanshah-04-history-to-1953/)",
+    "Wikipedia, 'Battle of Khanaqin' (cross-check; Ali Ihsan recalled Feb 1917, Russians occupy Khanaqin)"
    ]
   },
   {
@@ -2012,11 +2120,12 @@
    "controller": "Boir Ahmad / Kohgiluyeh / Mamasani khans vs. Reza Shah's army",
    "start_event": "i_ev_tamradi_1930",
    "end_event": "i_ev_boirahmad_khans_executed_1932",
-   "note": "After the Tamradi defeat (about 400 soldiers killed, Aug 1930) the khans eventually surrendered and were executed in 1932; a military government then imposed order for the next decade.",
+   "note": "After the Tamradi defeat (heavy losses - Iranica Boir Ahmadi: \"said to have exceeded 1,000 casualties\"; Fars iv gives about 400 killed; Aug 1930) the khans eventually surrendered and were executed in 1932; a military government then imposed order for the next decade.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Boir Aḥmadī' (https://www.iranicaonline.org/articles/boir-ahmadi/)",
-    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)"
+    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)",
+    "Encyclopaedia Iranica, 'Boir Aḥmadī' (casualty figure) "
    ]
   },
   {
@@ -2112,43 +2221,45 @@
   {
    "region": "i_mahabad_zone",
    "from": "1800",
-   "to": "1880-10",
+   "to": "1883",
    "status": "indirect",
    "controller": "Mukri khans/emirs of Mukriyan as Qajar-appointed hereditary governors (Sauj Bulaq/Mahabad)",
    "start_event": null,
    "end_event": "i_ev_ubeydullah_1880",
-   "note": "Mukriyan, south of Lake Urmia, was ruled by a line of hereditary Mukri khans under the Qajars. Their autonomy was gradually eroded; the end date is a placeholder tied to Ubeydullah's 1880 invasion and the true date of the shift to direct administration is not established (some accounts: by the early 20th century).",
+   "note": "Mukriyan, south of Lake Urmia, was ruled by hereditary Mokri khans who served the Qajars as governors of Savojbolagh (Sayf al-Din Khan, d. 1891/2, held the post several times; his son Hosein Khan was killed in the Ottoman attack of 1914). Their power was eroded after Ubeydullah's 1880 invasion: the Qajar state built the Savujbulagh garrison in 1883 (Sayadi 2019: 'a manifestation of the exclusion of the Mukris from the Qajar political power structure'), so 1883 replaces the former 1880-10 placeholder. Not independently dated to the month; some accounts keep Mokri influence into the 1910s.",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Mukriyan' (cross-check; weak on Qajar-period chronology)",
-    "Not independently verified in this research pass; reconstructed from general scholarship"
+    "Sayadi, N., 'Architecture of Exclusion: The Savujbulagh-i Mukri Garrison, Border-Making, and the Transformation of the Ottoman-Qajar Frontier' (2019; Archnet) [search extract: garrison 1883 to c.1910s]",
+    "Wikipedia, 'Aziz Khan Mokri' (cross-check; Sayf al-Din Khan and Hosein Khan as governors of Savojbolagh)"
    ]
   },
   {
    "region": "i_mahabad_zone",
    "from": "1941-09",
-   "to": "1946-01-22",
+   "to": "1945-12-15",
    "status": "none",
    "controller": "Local Kurdish chiefs and the Society for the Revival of Kurdistan (Komala-i Jiyanewey Kurdistan, 1942) under Qazi Muhammad; Soviet zone",
    "start_event": "i_ev_anglo_soviet_invasion_1941",
-   "end_event": "i_ev_mahabad_republic_1946",
-   "note": "After the Iranian army collapsed in August-September 1941 Kurdish leaders returned and rearmed. In the Soviet zone the Kurds of north-west Iran enjoyed de facto independence; Qazi Muhammad led the Komala (1942) and then the Kurdistan Democratic Party (1945). Start date is approximate.",
+   "end_event": "i_ev_kurdish_gov_1945",
+   "note": "After the Iranian army collapsed in Aug-Sept 1941 Kurdish leaders returned and rearmed; Soviet forces held the zone to the north and the Iranian gendarmerie and army were driven out of the Mahabad area. Qazi Muhammad led the Komala (1942) and the KDP (founded Sept 1945). Per British-zone accounts, southern Kurdistan up to Sanandaj was under British occupation, while the Kurdish-held belt from Mahabad to Saqqez lay between the two zones; by 1945 the Iranian government effectively controlled Kurdish areas only south of the Saqqez-Baneh-Sardasht line. Start date approximate.",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Republic of Mahabad' (cross-check)",
-    "Encyclopaedia Iranica, 'Azarbaijan v. History from 1941 to 1947' (https://www.iranicaonline.org/articles/azerbaijan-v/)"
+    "Encyclopaedia Iranica, 'Azarbaijan v. History from 1941 to 1947' (https://www.iranicaonline.org/articles/azerbaijan-v/)",
+    "Kurdistan Chronicle, 'Soviet Union's Politics Toward the Iranian Kurds' (kurdistanchronicle.com/babat/2718) [search extract on zones]"
    ]
   },
   {
    "region": "i_mahabad_zone",
-   "from": "1946-01-22",
+   "from": "1945-12-15",
    "to": "1946-12-15",
    "status": "breakaway",
    "controller": "Republic of Mahabad (Qazi Muhammad, president)",
-   "start_event": "i_ev_mahabad_republic_1946",
+   "start_event": "i_ev_kurdish_gov_1945",
    "end_event": "i_ev_mahabad_fall_1946",
-   "note": "Proclaimed on 22 Jan 1946 (Wikipedia; an Iranica extract places Qazi Muhammad's inauguration of the republic on 15 December, presumably 1945) and covering Mahabad, Bukan, Naghadeh, Piranshahr and Oshnavieh (Sardasht usually added). After the Soviets left (May 1946) the republic was isolated; Iranian troops entered Mahabad on 15-17 Dec 1946.",
-   "date_confidence": "high",
+   "note": "Iranica ('Azarbaijan v') has Qazi Muhammad inaugurating the Kurdish Republic at Mahabad on 15 December 1945; Wikipedia gives 22 Jan 1946 for the formal proclamation and presidency. Because the question here is when a rival administration actually replaced Tehran's, 15 Dec 1945 is used (the Jan 1946 proclamation is event i_ev_mahabad_republic_1946). Territory: Mahabad, Bukan, Naghadeh, Piranshahr and Oshnavieh (Sardasht usually added); the republic claimed but did not hold Urmia, Khoy and Salmas. After the Soviets left (May 1946) it was isolated; Iranian troops entered Mahabad on 15-17 Dec 1946.",
+   "date_confidence": "medium",
    "sources": [
     "Encyclopaedia Iranica, 'Azarbaijan v. History from 1941 to 1947' (https://www.iranicaonline.org/articles/azerbaijan-v/)",
     "Wikipedia, 'Republic of Mahabad' (cross-check)",
@@ -2342,14 +2453,16 @@
    "from": "1800",
    "to": "1929",
    "status": "indirect",
-   "controller": "Walis of Pusht-e Kuh (hereditary Faili Lur valis; last wali named Gholam Reza Khan in the research brief, not confirmed in the sources consulted)",
+   "controller": "Valis of Pusht-e Kuh (hereditary Faili Lur 'Vali dynasty': Hoseynqoli Khan Abu Qaddara to c.1900-01, then his son Gholam-Reza Khan, titled Sarim al-Saltaneh/Sardar Ashrafi)",
    "start_event": null,
    "end_event": "i_ev_posht_e_kuh_1929",
-   "note": "After 1796 the wali family withdrew from Khorramabad to Pusht-e Kuh, where \"quasi-autonomous governors (wali)\" ruled until about 1929, with frequent Ottoman and Iraqi-side influence. One account has the Vali of Pusht-e Kuh defeated and fleeing to Iraq together with Simko in 1922.",
+   "note": "After 1796 the wali family withdrew from Khorramabad to Pusht-e Kuh, where 'quasi-autonomous governors (wali)' ruled until about 1929 (Iranica). Wali names confirmed: Hoseynqoli Khan Abu Qaddara, succeeded around 1900-01 by his son Gholam-Reza Khan, who 'only tacitly acknowledged his vassal status to the Qajars with annual tribute' (hence indirect), held the rank of major-general and fled to Baghdad with his valuables in 1928-29 rather than accept Reza Shah's invitation to Tehran; he died in Baghdad in 1939. The researcher's alternative account (Vali defeated and fleeing to Iraq with Simko in 1922) is contradicted by this chronology and is dropped.",
    "date_confidence": "medium",
    "sources": [
     "Encyclopaedia Iranica, 'Pošt-e Kuh' (https://www.iranicaonline.org/articles/post-e-kuh/)",
-    "Wikipedia, 'Simko Shikak revolt (1918-1922)' (cross-check)"
+    "Wikipedia, 'Simko Shikak revolt (1918-1922)' (cross-check)",
+    "Wikipedia, 'Gholamreza Khan' (cross-check; citing Afshar Sistani 1993 and Amanolahi 2002)",
+    "Who's Who in Persia vol. III (Arabistan, Luristan, Isfahan and Bakhtiari), via Qatar Digital Library [search extract]"
    ]
   },
   {
@@ -2357,25 +2470,26 @@
    "from": "1800",
    "to": "1935",
    "status": "indirect",
-   "controller": "Khozeimeh 'Alam amirs of Qa'enat (Mir 'Alam Khan; Amir Esma'il Shawkat al-Molk; Amir Mohammad Ebrahim Shawkat al-Molk, governor 1904-1930s)",
+   "controller": "Khozeimeh 'Alam amirs of Qa'enat (Mir 'Alam Khan Heshmat al-Molk; Amir Esma'il Shawkat al-Molk, to 1904; Amir Mohammad Ebrahim Shawkat al-Molk, governor 1904-1924, then his two nephews, incl. Amir Ma'soum Khan, 'the last ruling amir')",
    "start_event": null,
    "end_event": null,
-   "note": "Hereditary local rulers of Birjand/Qa'en acknowledged the Qajars and acted as their governors. The family's hereditary hold on the Qa'enat and Sistan governorships ended in the 1930s-40s (Shawkat al-Molk moved to Fars in 1937). End date is a rough marker.",
+   "note": "Hereditary local rulers of Birjand/Qa'en acknowledged the Qajars and acted as their governors (Iranica: 'in practice the administration of large parts of [Khorasan] was in the hands of local tribal khans', among them the Khozeima 'Alam of Birjand and the Qa'enat). Correction: Shawkat al-Molk was governor 1904-1924, not 'to the 1930s'; he resigned in 1924 handing power to two nephews and moved to Tehran, was governor of Fars 1937 and returned to Birjand in 1942 (d. 1944). The family's hereditary hold ended sometime in the 1930s; no source gives a date, so 1935 is a marker only. Mirza Rafi' Khan's rebellion from the citadel of Furg (1850s) was put down.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Birjand: town and district' (https://www.iranicaonline.org/articles/birjand-town-and-district) [search extract]",
-    "Encyclopaedia Iranica, 'ʿAlam, Moḥammad Ebrāhim, Amir Šawkat-al-Molk' (https://iranicaonline.org/articles/alam-mohammad-ebrahim-amir-sawkat-al-molk) [search extract]"
+    "Encyclopaedia Iranica, 'ʿAlam, Moḥammad Ebrāhim, Amir Šawkat-al-Molk' (https://iranicaonline.org/articles/alam-mohammad-ebrahim-amir-sawkat-al-molk) [search extract]",
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
    ]
   },
   {
    "region": "i_qashqai",
    "from": "1800",
-   "to": "1929-03",
+   "to": "1926",
    "status": "indirect",
    "controller": "Qashqai ilkhanis (Jani Khan, ilkhani from 1818/19; Mohammad-Ali Khan 1823-52; Mohammad-Qoli Khan 1852-67/8; Esmail Khan Soulat al-Dowleh from 1904)",
    "start_event": null,
    "end_event": null,
-   "note": "The Qashqai ilkhanate controlled Fars' grazing lands and routes, bowing to the shah at times (Mohammad-Ali Khan was held at court in 1836) and dominating Fars during the weak central rule of 1909-21 (1911 civil war with the Qavami; anti-British rising in 1918). In 1926 Soulat al-Dowleh and Nasser Khan were forced to attend the Majles and disarm. Highly variable autonomy; treated as a single phase.",
+   "note": "The Qashqai ilkhanate controlled Fars' grazing lands and routes, bowing to the shah at times (Mohammad-Ali Khan was held at court in 1836) and dominating Fars during the weak central rule of 1909-21 (1911 civil war with the Qavami; anti-British rising in 1918; Soulat al-Dowleh reinstated as ilkhani by Mosaddeq in late 1920). CORRECTION: the record ended 1929-03, but Iranica says that in 1926 Soulat al-Dowleh and Nasser Khan were summoned to Tehran as deputies and became virtual prisoners, and 'military governors were assigned to the various Qashqai tribes' with conscription and a new tax system - i.e. direct rule 1926-29. Highly variable autonomy; treated as a single phase.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Qašqāʾi tribal confederacy i. History' (https://www.iranicaonline.org/articles/qasqai-tribal-confederacy-i/)",
@@ -2384,18 +2498,19 @@
   },
   {
    "region": "i_qashqai",
-   "from": "1929-03",
-   "to": "1933",
+   "from": "1929-04",
+   "to": "1929-08",
    "status": "contested",
    "controller": "Qashqai (Soulat al-Dowleh, Nasser Khan, Khosrow Khan) and allied tribes vs. Reza Shah",
    "start_event": "i_ev_tribal_rising_1929",
-   "end_event": "i_ev_qashqai_1933",
-   "note": "The 1929 rising (early spring) put Shiraz under siege by mid-June and left rebels in control of most of Fars outside the city until an amnesty in August 1929; in 1932 the Qashqai rebelled again, Soulat al-Dowleh was arrested and put to death in 1933, and the army cut migration routes.",
-   "date_confidence": "low",
+   "end_event": null,
+   "note": "The 1929 rising began in spring (the Khamseh Baharlu drove officials out of Darab at the end of April and took Fasa on 9 May); on 4 June the Qashqai closed the Bushehr road and then the Isfahan road, isolating Shiraz, which was under siege by mid-June; on 10 July the government flew Soulat al-Dowleh from prison to Shiraz to negotiate; the Khamseh occupied the eastern towns and the Baharlu reached the Kerman frontier; by summer the rebels held 'the whole province of Fars' outside the cities (Iranica 'Fars iv'). It ended with the August 1929 truce and amnesty. CORRECTION: the record previously ran to 1933 as 'contested'; the 1929 truce withdrew the military governors, and the 1932 rebellion 'in vain' is not documented as holding territory (see the next record).",
+   "date_confidence": "medium",
    "sources": [
     "Wikipedia, 'Persian tribal uprisings of 1929' (cross-check)",
     "Encyclopaedia Iranica, 'Qašqāʾi tribal confederacy i. History' (https://www.iranicaonline.org/articles/qasqai-tribal-confederacy-i/)",
-    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)"
+    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)",
+    "Wikipedia, 'Persian tribal uprisings of 1929' (cross-check; summarising the British Persian Gulf Administration Reports 1926-38: Darab end April, Fasa 9 May, roads closed 4 June, Soulat released 10 July)"
    ]
   },
   {
@@ -2465,7 +2580,7 @@
    "controller": "Qashqai insurgents (Khosrow Khan Qashqai) vs. IRGC",
    "start_event": "i_ev_qashqai_insurgency_1980_82",
    "end_event": "i_ev_qashqai_insurgency_1980_82",
-   "note": "After an attempt to arrest Khosrow Khan in June 1980, Qashqai insurgents \"defied the central government\" for two years from camps in the mountains until a night attack by the Revolutionary Guards in April 1982; Khosrow Khan was executed on 8 Oct 1982. This was a mobile insurgency, not territorial control; included at low confidence.",
+   "note": "After an attempt to arrest Khosrow Khan in June 1980, Qashqai insurgents \"defied the central government\" for two years from camps in the mountains until a night attack by the Revolutionary Guards in April 1982; Khosrow Khan was executed on 8 Oct 1982. This was a mobile insurgency, not territorial control; included at low confidence. Verification: this is the weakest record in the file - a mobile insurgency from mountain camps, not control of the Qashqai counties; the IRGC held the towns and roads. Kept at low confidence rather than deleted; the opposite-error risk (central control actually direct) is real.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Qašqāʾi tribal confederacy i. History' (https://www.iranicaonline.org/articles/qasqai-tribal-confederacy-i/)"
@@ -2494,7 +2609,7 @@
    "controller": "Za'faranlu Kurdish ilkhanis of Quchan (e.g. Reza-Qoli Khan, defeated by Abbas Mirza in 1832; Sam Khan)",
    "start_event": null,
    "end_event": "i_ev_khorasan_kurds_1925",
-   "note": "Kurdish khans held the Quchan marches as hereditary governors, fielding thousands of horsemen and acknowledging the shah only intermittently. Reza Khan's bombing of Bojnurd (18 May 1925) opened the end of the Kurdish ilkhani system; end date is therefore a convenience marker, not a precise date for Quchan.",
+   "note": "Kurdish khans held the Quchan marches as hereditary governors, fielding thousands of horsemen and acknowledging the shah only intermittently. Reza Khan's bombing of Bojnurd (18 May 1925) opened the end of the Kurdish ilkhani system; end date is therefore a convenience marker, not a precise date for Quchan. Abbas Mirza razed the Quchan fortress and exiled Reza-Qoli Khan after the 1832 battle (13,000 Kurds against 19,000 men); Iranica nonetheless says the Za'faranlu kept their tribal structure and ilkhani leadership throughout the Qajar era (Sam Khan fought for the shah against Salar and at Herat), and that Chenaran and Darreh Gaz were 'from time to time' under the governor of Khorasan's direct rule. So 'indirect' is retained, with brief direct episodes.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Khorasan xvii. The Kurdish Communities of Khorasan' (https://www.iranicaonline.org/articles/khorasan-xvii-the-kurdish-communities-of-khorasan/)",
@@ -2504,16 +2619,17 @@
   {
    "region": "i_russian_occupation_azerbaijan_1827",
    "from": "1827-10-13",
-   "to": "1828-09",
+   "to": "1828-04",
    "status": "foreign_occupation",
    "controller": "Imperial Russian army (Gen. Paskevich)",
    "start_event": "i_ev_russian_occupation_azerbaijan_1827",
    "end_event": null,
-   "note": "Tabriz was taken on 13 Oct 1827, Urmia on 28 Jan 1828 and Ardabil on 8 Feb 1828. Turkmenchay (22 Feb 1828) tied Russian evacuation of Azerbaijan to indemnity payments; Paskevich left Tabriz in March and Khoy and neighbouring districts were evacuated after instalments were paid. Final evacuation date is not verified.",
+   "note": "Tabriz was taken on 13 Oct 1827, Urmia on 28 Jan 1828 and Ardabil on 8 Feb 1828. Turkmenchay (22 Feb 1828) tied evacuation to indemnity instalments. Kinneir reported on 12 March 1828 that he had negotiated 'the immediate evacuation of Azerbijan, with the exception of Khoee' and that the Russians were 'duly preparing to withdraw'; Paskevich left Tabriz in March. The end is therefore set at April 1828 (low); Khoy is handled in i_russian_khoy_1828.",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Treaty of Turkmenchay' and 'Russo-Persian War (1826-1828)' (cross-check; Tabriz 13 Oct 1827, Urmia 28 Jan 1828, Ardabil 8 Feb 1828)",
-    "Qatar Digital Library, 'Enclosure no 1 to letter of 16 Mar 1828' (qdl.qa) [search extract: Paskevich leaving Tabriz, evacuation of Khoy tied to indemnity instalments]"
+    "Qatar Digital Library, 'Enclosure no 1 to letter of 16 Mar 1828' (qdl.qa) [search extract: Paskevich leaving Tabriz, evacuation of Khoy tied to indemnity instalments]",
+    "Kinneir to the Governor-General of India, Dispatch 88, 12 Mar 1828 (IOR/L/PS/9/71/192), Qatar Digital Library (qdl.qa/en/archive/81055/vdc_100038378586.0x000436)"
    ]
   },
   {
@@ -2569,7 +2685,7 @@
    "controller": "Shahsevan tribal khans (\"the time of the independent khans\")",
    "start_event": null,
    "end_event": "i_ev_shahsevan_pacified_1923",
-   "note": "Russia closed the Moghan frontier to the Shahsevan in 1884 and between 1884 and 1922 the Shahsevan operated with minimal central authority. They were among the first major tribes pacified and disarmed by Reza Khan's army in winter-spring 1922-23. Status before 1884 (Qajar-appointed governors with tribal chiefs) is not recorded here.",
+   "note": "Russia closed the Moghan frontier to the Shahsevan in 1884 and between 1884 and 1922 the Shahsevan operated with minimal central authority. They were among the first major tribes pacified and disarmed by Reza Khan's army in winter-spring 1922-23. Status before 1884 (Qajar-appointed governors with tribal chiefs) is not recorded here. Verification (Iranica 'Shahsevan'): 'virtually independent of central government for nearly four decades'; the chiefs 'usually controlled the region ... focused on the city of Ardabil and smaller urban centers' until Reza Khan's army pacified them in winter-spring 1922-23; a Russian force of 5,000 under Gen. Fidarov campaigned against them in 1912. 'none' is kept because Iranica does not describe an acknowledgment of the shah, but 'indirect' is arguable.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'Shahsevan' (https://www.iranicaonline.org/articles/shahsevan/)"
@@ -2658,11 +2774,12 @@
    "controller": "'Alam amirs of Qa'enat as governors of Sistan",
    "start_event": null,
    "end_event": null,
-   "note": "After the British withdrawal the Alam family governed Sistan and Qa'enat as quasi-hereditary governors until the 1930s. Weakly documented; end date is a marker only.",
+   "note": "After the British withdrawal the Alam family governed Sistan and Qa'enat as quasi-hereditary governors: Shawkat al-Molk had full authority in 1921 and resigned in 1924 in favour of two nephews (Iranica). Weakly documented; the 1935 end is a marker only.",
    "date_confidence": "low",
    "sources": [
     "Encyclopaedia Iranica, 'ʿAlam, Moḥammad Ebrāhim, Amir Šawkat-al-Molk' (https://iranicaonline.org/articles/alam-mohammad-ebrahim-amir-sawkat-al-molk) [search extract]",
-    "Encyclopaedia Iranica, 'Birjand: town and district' (https://www.iranicaonline.org/articles/birjand-town-and-district) [search extract]"
+    "Encyclopaedia Iranica, 'Birjand: town and district' (https://www.iranicaonline.org/articles/birjand-town-and-district) [search extract]",
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
    ]
   },
   {
@@ -2673,7 +2790,7 @@
    "controller": "British-officered South Persia Rifles (Sir Percy Sykes) with Indian Army support",
    "start_event": "i_ev_south_persia_rifles",
    "end_event": "i_ev_south_persia_rifles",
-   "note": "Sykes landed at Bandar Abbas in March 1916; by December 1916 SPR brigades sat at Shiraz, Kerman and Bandar Abbas (authorised strength 11,000; about 3,300 infantry and 450 cavalry by mid-1917). Persian civil governors remained and the force was disbanded in 1921. Whether this deserves the occupation label is debatable (the Qajar government assented under pressure).",
+   "note": "Sykes landed at Bandar Abbas in March 1916 to raise the South Persia Rifles (authorised strength 11,000; about 3,300 infantry and 450 cavalry by mid-1917); the force was disbanded in 1921 after the coup. Persian civil governors remained. Whether this deserves the occupation label is debatable (the Qajar government assented under pressure). Verification: this record now covers Bandar Abbas only; Kerman (from June 1916) and Shiraz (from Nov 1916) have their own records.",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'South Persia Rifles' (cross-check; raised 1916, disbanded 1921)",
@@ -2688,7 +2805,7 @@
    "controller": "Hereditary governors of Tabas (Mir Hasan Khan 'Vakil-i-Tabas' family; Zangu'i khans; Haji Mohammad Baqer Khan 'Emad al-Molk' under Naser al-Din Shah)",
    "start_event": null,
    "end_event": null,
-   "note": "Per the Gazetteer of Persia the Tabas governorship was hereditary for generations; the khan paid a fixed sum to the shah and was otherwise left to do much as he pleased. I found no source for the end of hereditary rule; 1935 is a placeholder tied to Pahlavi centralisation.",
+   "note": "Per the Gazetteer of Persia vol. I (c.1910) the Tabas governorship was hereditary: Nader Shah gave the district to 'Ali Murad Khan of the Zangu'i (Arab, related to the Khozeima amirs of Qa'en) and 'the same family still govern[s] the district'; the older Vakil-i-Tabas family also held it. Haji Mohammad Baqer Khan 'Emad al-Molk' (d. 1894) was succeeded by his eldest son 'Ali Akbar Khan. The khan paid a fixed sum to the shah and was otherwise left to do much as he pleased. The family was still in office around 1910, so the end cannot be earlier; no source for its end was found and 1935 stays a placeholder tied to Pahlavi centralisation.",
    "date_confidence": "low",
    "sources": [
     "Gazetteer of Persia vol. I (Government of India, c.1910), via Qatar Digital Library (qdl.qa): Tabas governorship hereditary in the family of Mir Hasan Khan 'Vakil-i-Tabas' [search extract]; also Iranica 'Khorasan xi' extract naming the Zangu'i khans of Tabas",
@@ -2836,15 +2953,16 @@
    "region": "i_ubeydullah_1880",
    "from": "1880-10",
    "to": "1880-12",
-   "status": "none",
-   "controller": "Sheikh Ubeydullah of Nehri and his Kurdish tribal host (Ottoman and Iranian Kurds)",
+   "status": "contested",
+   "controller": "Sheikh Ubeydullah of Nehri and his Kurdish tribal host (Ottoman and Iranian Kurds) vs. Qajar forces from Tabriz",
    "start_event": "i_ev_ubeydullah_1880",
    "end_event": null,
-   "note": "Tens of thousands of Kurds crossed into north-west Persia in autumn 1880, took Sauj Bulaq (Mahabad) and Maragheh, failed to take Urmia (its Shia population refused to surrender) and withdrew after about eight weeks. Exact start/end dates not fixed in the sources consulted.",
+   "note": "Tens of thousands of Kurds crossed into north-west Persia in autumn 1880, took Sauj Bulaq (Mahabad) and Maragheh, failed to take Urmia (its Shia population refused to surrender) and withdrew after about eight weeks. Exact start/end dates not fixed in the sources consulted. Verification: Wikipedia ('Uprising of Sheikh Ubeydullah') says Ubeydullah's son Abdulqadir 'retreated to Mahabad, which they held for a few days' before Qajar forces from Tabriz arrived, and that after about eight weeks the rebels retreated; Urmia held out. Control was transient and set up no administration, so the status is changed from 'none' to 'contested' (low).",
    "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Uprising of Sheikh Ubeydullah' (cross-check; ~8 weeks, Mahabad and Maragheh taken, Urmia held out)",
-    "Encyclopaedia Iranica, extract on Sheikh Ubeydullah's 1298/1880 invasion of Azarbaijan (iranicaonline.org, 'Kurdish language ii' / 'Safavid dynasty (cont.)' search results)"
+    "Encyclopaedia Iranica, extract on Sheikh Ubeydullah's 1298/1880 invasion of Azarbaijan (iranicaonline.org, 'Kurdish language ii' / 'Safavid dynasty (cont.)' search results)",
+    "Wikipedia, 'Uprising of Sheikh Ubeydullah' (cross-check; Mahabad held a few days; withdrawal after eight weeks)"
    ]
   },
   {
@@ -2885,10 +3003,11 @@
    "start_event": "i_ev_anglo_soviet_invasion_1941",
    "end_event": "i_ev_british_withdrawal_1946",
    "note": "British forces entered Khuzestan, took Abadan and the Ahvaz oilfields and advanced from Iraq via Kermanshah to Hamadan in Aug-Sept 1941. Iranian administration continued. The Allies withdrew from Tehran on 17 Oct 1941; British (and US) troops left by 2 March 1946 under the Tripartite Treaty.",
-   "date_confidence": "medium",
+   "date_confidence": "low",
    "sources": [
     "Wikipedia, 'Anglo-Soviet invasion of Iran' (cross-check)",
-    "Wikipedia, 'Iran crisis of 1946' (cross-check)"
+    "Wikipedia, 'Iran crisis of 1946' (cross-check)",
+    "Kurdistan Chronicle, 'Soviet Union's Politics Toward the Iranian Kurds' (kurdistanchronicle.com/babat/2718) [search extract]"
    ]
   },
   {
@@ -2914,8 +3033,8 @@
    "controller": "Azerbaijan People's Government (Democratic Party of Azerbaijan; Ja'far Pishevari, premier) under Soviet protection",
    "start_event": "i_ev_adp_1945",
    "end_event": "i_ev_adp_fall_1946",
-   "note": "The Democrats took Tabriz around 20-21 Nov 1945 and proclaimed the Autonomous Government of Azerbaijan on 12 Dec 1945 while Soviet troops blocked the Iranian army. Soviet forces left in May 1946; Iranian forces began moving in on 9 Dec 1946 and entered Tabriz on 12-13 Dec 1946, when Pishevari fled to Baku.",
-   "date_confidence": "high",
+   "note": "The Democrats took Tabriz around 20-21 Nov 1945 and proclaimed the Autonomous Government of Azerbaijan on 12 Dec 1945 while Soviet troops blocked the Iranian army. Soviet forces left in May 1946; Iranian forces began moving in on 9 Dec 1946 and entered Tabriz on 12-13 Dec 1946, when Pishevari fled to Baku. Dating: Iranica ('Azarbaijan v') says all major routes into the province were seized by the Democrats by 19 Nov 1945, an Iranian column of 1,500 troops was stopped at Qazvin by the Soviets, and Tabriz was 'in the hands of the Democratic Party' by 10 Dec 1945; Wikipedia has 21 Nov. The Soviet-held zone therefore reached the Qazvin line. The Zanjan province units were included by the original researcher; Iranica does not name Zanjan, so their inclusion is unverified (the Iranian advance of Dec 1946 is said to have moved on Zanjan, but no source was found here).",
+   "date_confidence": "medium",
    "sources": [
     "Encyclopaedia Iranica, 'Azarbaijan v. History from 1941 to 1947' (https://www.iranicaonline.org/articles/azerbaijan-v/)",
     "Wikipedia, 'Iran crisis of 1946' (cross-check)"
@@ -2924,15 +3043,17 @@
   {
    "region": "i_wwii_soviet_khorasan",
    "from": "1941-08-25",
-   "to": "1943",
+   "to": "1946-03-24",
    "status": "foreign_occupation",
    "controller": "Soviet Union (based at Mashhad and Bojnurd)",
    "start_event": "i_ev_anglo_soviet_invasion_1941",
-   "end_event": "i_ev_soviet_khorasan_1943",
-   "note": "Soviet troops entered Khorasan on 3 Shahrivar 1320 (25 Aug 1941) from Sarakhs, Dargaz and Bajgiran and, per Iranica, \"occupied all of Khorasan until the winter of 1943\". After that Soviet presence there was withdrawn (the exact month is not given).",
+   "end_event": "i_ev_soviet_east_withdrawal_1946",
+   "note": "Soviet troops entered Khorasan on 3 Shahrivar 1320 (25 Aug 1941) from Sarakhs, Dargaz and Bajgiran and occupied the north-east, based at Mashhad and Bojnurd; Iranian civil administration continued. CORRECTION: Iranica ('Khorasan xi') says the Soviets stayed 'until the winter of 1943', but the Soviet communique of 25 Feb 1946 announced that evacuation of 'Meshed, Shahrud and Semnan' would begin on 2 March 1946, and on 24-25 March the Soviets (via Kennan, FRUS) said it 'has already been finished' (Mossadegh doubted this on 3-4 March). 'Winter of 1943' is probably a mis-conversion of winter 1324 Sh. (1945-46). The end date is the Soviet claim of completion; the south-east (Birjand, Tabas) was not in the Soviet zone.",
    "date_confidence": "medium",
    "sources": [
-    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)",
+    "FRUS 1946 vol. VII, doc. 282, Kennan to Secretary of State, 25 Mar 1946 (history.state.gov/historicaldocuments/frus1946v07/d282): Soviet statement that evacuation of Meshed, Shahrud and Semnan, begun 2 Mar 1946, was finished",
+    "Mossadegh speech of 3 Mar 1946 quoting the Soviet communique of 25 Feb 1946 on evacuating Mashhad, Shahrud and Semnan from 2 Mar (mohammadmossadegh.com/biography/speeches/march-3-1946/)"
    ]
   },
   {
@@ -2943,12 +3064,167 @@
    "controller": "Soviet Union",
    "start_event": "i_ev_anglo_soviet_invasion_1941",
    "end_event": "i_ev_soviet_withdrawal_1946",
-   "note": "Soviet forces took Gilan (Anzali, Rasht), Mazandaran and Gorgan in August 1941 and reached Qazvin; they entered Tehran on 17 Sept 1941 and withdrew from it by 17 Oct. Iranian civil administration continued. The last Soviet troops left on about 6-9 May 1946.",
+   "note": "Soviet forces took Gilan (Anzali, Rasht), Mazandaran and Gorgan in August 1941 and reached Qazvin; they entered Tehran on 17 Sept 1941 and withdrew from it by 17 Oct. Iranian civil administration continued. The last Soviet troops left on about 6-9 May 1946. Verification: Semnan province was split into i_wwii_soviet_semnan (evacuated by 24 March 1946); this record now covers Gilan, Mazandaran, Golestan and Qazvin, held to about 6-9 May 1946.",
    "date_confidence": "medium",
    "sources": [
     "Wikipedia, 'Anglo-Soviet invasion of Iran' (cross-check)",
     "Encyclopaedia Iranica, 'Azarbaijan v. History from 1941 to 1947' (https://www.iranicaonline.org/articles/azerbaijan-v/)",
     "Wikipedia, 'Iran crisis of 1946' (cross-check)"
+   ]
+  },
+  {
+   "region": "i_baluch_sarhad",
+   "from": "1850",
+   "to": "1916-05",
+   "status": "indirect",
+   "controller": "Baluch chiefs of Sarhad (Rigi, Ismailzai, Damani, Baranzai) who had come to terms with the Persian governor of Bampur; Persian officials at Bampur, Khash and Nasratabad",
+   "start_event": "i_ev_bampur_1849",
+   "end_event": null,
+   "note": "Gazetteer of Persia vol. IV (c.1908-10): the power of the Sarhad chiefs 'continued almost undiminished', although 'within the last few years' they had submitted to the Persian governor of Bampur, and a small Persian party from Bampur, Khash or Nasratabad could pass through Sarhad levying taxes or blackmail on chiefs and headmen. That is acknowledgment of the shah's governor by local chiefs (indirect), not the total absence of state authority the researcher's 'none' implied. Koyagi: Qajar presence 'waned significantly' after 1906, leaving a vacuum that raiding exploited. The 1850-1900 stretch is weakly documented (Persian garrison at Bampur from 1850) and may have been 'none'; the status here is a low-confidence compromise. Frontier demarcated 1895-96.",
+   "date_confidence": "low",
+   "sources": [
+    "Gazetteer of Persia vol. IV (Government of India, c.1908-10), via Qatar Digital Library (qdl.qa) [search extract]",
+    "Koyagi, M., 'Tribes and Smugglers in Iran's Eastern Borderlands, 1921-41', Iranian Studies (Cambridge UP, 2021), pp. 405-422",
+    "Encyclopaedia Iranica, 'Baluchistan i. Geography, History and Ethnography' (https://www.iranicaonline.org/articles/baluchistan-index/baluchistan-i/) [search extract]"
+   ]
+  },
+  {
+   "region": "i_wwii_soviet_semnan",
+   "from": "1941-08-25",
+   "to": "1946-03-24",
+   "status": "foreign_occupation",
+   "controller": "Soviet Union",
+   "start_event": "i_ev_anglo_soviet_invasion_1941",
+   "end_event": "i_ev_soviet_east_withdrawal_1946",
+   "note": "Soviet forces held Semnan province (Shahrud, Damghan, Semnan) on the Tehran-Mashhad route from the August 1941 invasion; Iranian civil administration continued. Evacuation of Shahrud and Semnan began on 2 March 1946 and was reported finished by 24-25 March (FRUS 1946 VII, doc. 282). Split from the other Soviet-held provinces, which were evacuated until about 6-9 May 1946.",
+   "date_confidence": "medium",
+   "sources": [
+    "FRUS 1946 vol. VII, doc. 282, Kennan to Secretary of State, 25 Mar 1946 (history.state.gov/historicaldocuments/frus1946v07/d282): Soviet statement that evacuation of Meshed, Shahrud and Semnan, begun 2 Mar 1946, was finished",
+    "Mossadegh speech of 3 Mar 1946 quoting the Soviet communique of 25 Feb 1946 on evacuating Mashhad, Shahrud and Semnan from 2 Mar (mohammadmossadegh.com/biography/speeches/march-3-1946/)",
+    "Wikipedia, 'Anglo-Soviet invasion of Iran' (cross-check)"
+   ]
+  },
+  {
+   "region": "i_russian_khoy_1828",
+   "from": "1827-10",
+   "to": "1828-11",
+   "status": "foreign_occupation",
+   "controller": "Imperial Russian army (Gen. Paskevich)",
+   "start_event": "i_ev_russian_occupation_azerbaijan_1827",
+   "end_event": null,
+   "note": "Khoy was held as a deposit until the whole indemnity was paid. Kinneir's letters show the Russians still in Khoy on 14 and 25 Aug 1828 (he suspected they hoped to occupy it indefinitely), and his dispatch of 26 Nov 1828 reports the withdrawal from Khoy in exchange for a large Persian payment (with a 100,000-toman gift from Paskevich on receipt). End set to Nov 1828 (low); the start month is not established (after the fall of Tabriz on 13 Oct 1827).",
+   "date_confidence": "low",
+   "sources": [
+    "Kinneir, letters of 14 and 25 Aug 1828 (IOR/L/PS/9/71/288-289) and Dispatch 121 of 26 Nov 1828 (IOR/L/PS/9/71/304), Qatar Digital Library (qdl.qa, vdc_100038378586.0x000496, 0x000497, 0x0004a6)",
+    "Wikipedia, 'Treaty of Turkmenchay' (cross-check)"
+   ]
+  },
+  {
+   "region": "i_qashqai",
+   "from": "1929-08",
+   "to": "1932",
+   "status": "indirect",
+   "controller": "Qashqai ilkhani family (Soulat al-Dowleh, Nasser Khan, Khosrow Khan), reinstated in the Majles after the truce",
+   "start_event": null,
+   "end_event": "i_ev_qashqai_1933",
+   "note": "After the 1929 truce Soulat al-Dowleh and Nasser Khan were reinstated as deputies, the military governors were withdrawn from tribal territory and a general amnesty was declared (Iranica). The Qashqai rebelled again in 1932 'but in vain', Soulat al-Dowleh died in prison in 1933 and the army then cut the migration routes; direct control followed. Low confidence on both ends.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Qašqāʾi tribal confederacy i. History' (https://www.iranicaonline.org/articles/qasqai-tribal-confederacy-i/)",
+    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)"
+   ]
+  },
+  {
+   "region": "i_shiraz_1915",
+   "from": "1915-11-10",
+   "to": "1916-04",
+   "status": "breakaway",
+   "controller": "Pro-German officers of the Fars Gendarmerie and Democrat Party members (with the Tangestani khans and the German agent Wassmuss as allies)",
+   "start_event": "i_ev_shiraz_gendarmerie_1915",
+   "end_event": null,
+   "note": "On 10 Nov 1915 the Gendarmerie seized the government buildings of Shiraz and arrested the British consul (Maj. O'Connor) and the British colony, having 'openly declared with the Germans and revolted against their own Government' (India Office file); Iranica places the expulsion of the British-backed acting governor Habib-Allah Qavam al-Molk in late 1915. His son Ebrahim Khan Qavam al-Molk, with a British-aided tribal army and pro-British gendarmes, took the city back in April 1916 and became acting governor-general. Gendarmes also seized Kerman and Yazd in the same crisis according to Wikipedia, but without dates; not mapped. Added in verification as an omitted rebel-held area of about five months.",
+   "date_confidence": "medium",
+   "sources": [
+    "India Office Records, File 3516/1914 Pt 18 'German War: Persia; general situation - 1916' and File 334/1916 'Shiraz Prisoners - Major O'Connor', via Qatar Digital Library [search extracts: 10 Nov 1915]",
+    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)",
+    "Encyclopaedia Iranica, 'Qašqāʾi tribal confederacy i' (Qavam al-Molk recaptures Shiraz, Feb-Apr 1916)"
+   ]
+  },
+  {
+   "region": "i_zanjan_babi_1850",
+   "from": "1850-05-13",
+   "to": "1851-01-02",
+   "status": "contested",
+   "controller": "Babis led by Mulla Mohammad-'Ali Hojjat al-Eslam Zanjani (about 2,000 fighters and their families) vs. the governor and the shah's army",
+   "start_event": "i_ev_zanjan_babi_1850",
+   "end_event": null,
+   "note": "The Zanjan 'upheaval' began on 13 May 1850; from about 19 May the town was divided in two, with the Babis holding their fortified quarters against the governor and then against the army that gathered from June (Aziz Khan Mokri, commander-in-chief, arrived on 25 Aug). Hojjat died on 29 Dec and the last Babi positions fell in a general assault about 2 Jan 1851. Added in verification as an omitted eight-month armed enclave; coded contested because the town was split rather than ceded to a separate government. The Babi stand at Shaykh Tabarsi (Mazandaran, late 1848-May 1849) and the Neyriz rising (1850) were also armed enclaves but were not mapped (single fort / weeks).",
+   "date_confidence": "medium",
+   "sources": [
+    "'The Babi Uprising in Zanjan: Causes and Issues', Iranian Studies (cambridge.org/core/journals/iranian-studies/article/babi-uprising-in-zanjan-causes-and-issues/D3DA0EDE843431436706E292F3B62AD9) [search extract]",
+    "Bahai-library.com / Bahaipedia chronology of the Zanjan upheaval (13 May 1850 - 2 Jan 1851; low-grade source, cross-check only)"
+   ]
+  },
+  {
+   "region": "i_urmia_khoy_salmas",
+   "from": "1910",
+   "to": "1918-02",
+   "status": "foreign_occupation",
+   "controller": "Imperial Russia (Cossack and line garrisons at Urmia, Khoy and Salmas)",
+   "start_event": null,
+   "end_event": "i_ev_russian_withdrawal_1918",
+   "note": "Wikipedia ('Persian campaign (World War I)') says Russia occupied Tabriz in 1909 and Urmia and Khoy in 1910 to secure the road from Julfa to Van; Russian consulates and garrisons controlled the Urmia plain until the Russian withdrawal of Jan-Mar 1918. In Dec 1914 the Russians pulled back to one brigade around Salmas and Urmia and the Ottomans held Urmia from 4 Jan 1915 and briefly Salmas/Dilman; the Russians returned from early Feb 1915 (the Tabriz record treats the same break as under two months). Persian civil administration continued. Added in verification as an omission; start month and extent are approximate (Salmas on the strength of the 1915 fighting at Dilman).",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Persian campaign (World War I)' (cross-check; Russian occupation of Urmia and Khoy in 1910; Dec 1914 withdrawal; Jan-Mar 1915)",
+    "Encyclopaedia Iranica, 'Russia i. Russo-Iranian Relations up to the Bolshevik Revolution' (https://www.iranicaonline.org/articles/russia-i-relations/) [Russian withdrawal Dec 1917-Mar 1918]"
+   ]
+  },
+  {
+   "region": "i_abadan_british_1914",
+   "from": "1914-11-06",
+   "to": "1918-11",
+   "status": "foreign_occupation",
+   "controller": "British Indian Army (Indian Expeditionary Force D, 6th Poona Division) guarding the Anglo-Persian Oil Company refinery",
+   "start_event": null,
+   "end_event": null,
+   "note": "On 6 Nov 1914, the day after Britain's war with the Ottoman Empire began, Indian Expeditionary Force D occupied Fao and then Abadan island, where Sheikh Khaz'al (who rented the island to the Anglo-Persian Oil Company in 1909 and administered it until 1924) allowed the British to garrison the refinery; a small force went up the Karun to Ahvaz in Feb-Mar 1915 (Battle of Ahvaz, 3 Mar 1915). Added in verification as an omission; the withdrawal date was not found and 1918-11 (the Armistice) is a placeholder. Treated as foreign occupation despite the sheikh's consent, like the Bushehr and SPR records.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Mesopotamian campaign' and 'Abadan, Iran' (cross-check; IEF D occupies Fao and Abadan, 6 Nov 1914)",
+    "India Office Records, File 3516/1914 Pt 5 'German War: Persia; situation in Arabistan 1915', via Qatar Digital Library [search extract]",
+    "Western Front Association, 'The Battle at Ahwaz, Persia, 3 March 1915'"
+   ]
+  },
+  {
+   "region": "i_spr_kerman",
+   "from": "1916-06",
+   "to": "1921-03",
+   "status": "foreign_occupation",
+   "controller": "British-officered South Persia Rifles (Sir Percy Sykes) with Indian Army support",
+   "start_event": "i_ev_south_persia_rifles",
+   "end_event": "i_ev_south_persia_rifles",
+   "note": "Sykes's column reached Kerman on 12 June 1916 and an SPR brigade was stationed there by December 1916; Persian civil governors remained and the force was disbanded in 1921 after the coup. Same caveat as the Bandar Abbas record (assented under pressure).",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Persian campaign (World War I)' (cross-check; Sykes reaches Kerman 12 June 1916)",
+    "Wikipedia, 'South Persia Rifles' (cross-check)",
+    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)"
+   ]
+  },
+  {
+   "region": "i_spr_shiraz",
+   "from": "1916-11-11",
+   "to": "1921-03",
+   "status": "foreign_occupation",
+   "controller": "British-officered South Persia Rifles (Sir Percy Sykes) with Indian Army support",
+   "start_event": "i_ev_south_persia_rifles",
+   "end_event": "i_ev_south_persia_rifles",
+   "note": "Sykes marched into Shiraz on 11 Nov 1916 with the new governor-general Farman Farma (Iranica 'Fars iv'); an SPR brigade stayed there until the force was disbanded in 1921. Persian civil governors remained; same caveat as the other SPR records.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)",
+    "Wikipedia, 'South Persia Rifles' (cross-check)"
    ]
   }
  ],
@@ -2988,16 +3264,17 @@
   {
    "id": "i_ev_russian_occupation_azerbaijan_1827",
    "date": "1827-10-13",
-   "end_date": "1828-09",
+   "end_date": "1828-11",
    "title": "Russian army occupies Tabriz, Urmia and Ardabil",
    "type": "occupation",
-   "summary": "Paskevich took Tabriz (13 Oct 1827), Urmia (28 Jan 1828) and Ardabil (8 Feb 1828). Under Turkmenchay (22 Feb 1828) Russia kept Azerbaijan as security for the 10-kurur indemnity and withdrew by stages (Tabriz in March; Khoy and neighbours after instalments). Final evacuation date unverified.",
+   "summary": "Paskevich took Tabriz (13 Oct 1827), Urmia (28 Jan 1828) and Ardabil (8 Feb 1828). Under Turkmenchay (22 Feb 1828) Russia kept Azerbaijan as security for the 10-kurur indemnity; most of it was evacuated by about April 1828 (Kinneir, 12 Mar 1828), but Khoy was held as a deposit until about November 1828 (Kinneir, Aug and Nov 1828).",
    "layers": [
     "defacto"
    ],
    "sources": [
     "Wikipedia, 'Treaty of Turkmenchay' and 'Russo-Persian War (1826-1828)' (cross-check; Tabriz 13 Oct 1827, Urmia 28 Jan 1828, Ardabil 8 Feb 1828)",
-    "Qatar Digital Library, 'Enclosure no 1 to letter of 16 Mar 1828' (qdl.qa) [search extract: Paskevich leaving Tabriz, evacuation of Khoy tied to indemnity instalments]"
+    "Qatar Digital Library, 'Enclosure no 1 to letter of 16 Mar 1828' (qdl.qa) [search extract: Paskevich leaving Tabriz, evacuation of Khoy tied to indemnity instalments]",
+    "Kinneir, Dispatch 88 of 12 Mar 1828 and letters of Aug and Nov 1828, via Qatar Digital Library"
    ]
   },
   {
@@ -3046,11 +3323,11 @@
   },
   {
    "id": "i_ev_ashurada_russian_station",
-   "date": "1842",
+   "date": "1838",
    "end_date": null,
    "title": "Russia founds a naval station on Ashurada",
    "type": "occupation",
-   "summary": "After a 1838 Persian request for help against Turkmen raiders, Russia built barracks and stationed warships on Ashurada in Gorgan Bay; Iranica says the station existed by 1842 (other dates: 1837, 1841). Russia recognised Persian sovereignty but refused to leave until the 1921 Persian-Soviet treaty.",
+   "summary": "After a 1838 Persian request for help against Turkmen raiders, Russia built barracks and stationed warships on Ashurada in Gorgan Bay (Iranica 'Ashurada'; other dates: 1837, 1841). Russia recognised Persian sovereignty but refused to leave until the Persian-Soviet treaty of February 1921.",
    "layers": [
     "defacto"
    ],
@@ -3373,16 +3650,17 @@
   {
    "id": "i_ev_salar_dowleh_1911",
    "date": "1911-07-17",
-   "end_date": "1912",
+   "end_date": "1912-07",
    "title": "Salar al-Dowleh's revolt in the west",
    "type": "rebellion",
-   "summary": "After Mohammad Ali Shah's return attempt, his brother occupied Sanandaj by 17 July 1911 and took Kermanshah and Hamadan with tribal levies; he was beaten at Saveh by Amir Mofakham Bakhtiari and the revolt was finally quelled in 1912-13 (Farmanfarma). A first revolt in 1907 was routed at Nehavand (Iranica). Mohammad Ali Shah's own July 1911 landing near Astarabad was defeated within weeks and is not mapped (not independently verified here). Duration of control of each town is not established.",
+   "summary": "After Mohammad Ali Shah's return attempt, his brother occupied Sanandaj by 17 July 1911 and took Kermanshah and Hamadan with tribal levies; he won near Malayer but was decisively beaten at Saveh by Amir Mofakham Bakhtiari and then held the Kermanshah-Kurdistan area until Farman Farma's 1912 expedition drove him out (he fled in July 1912 to Luristan and Kurdistan). A first revolt in 1907 was routed at Nehavand (Iranica). Mohammad Ali Shah's own July 1911 landing near Astarabad was defeated within weeks and is not mapped. Duration of control of each town is not established.",
    "layers": [
     "defacto"
    ],
    "sources": [
     "Encyclopaedia Iranica, 'Kermanshah iv. History to 1953' (https://www.iranicaonline.org/articles/kermanshah-04-history-to-1953/)",
-    "Not independently verified in this research pass; reconstructed from general scholarship"
+    "Not independently verified in this research pass; reconstructed from general scholarship",
+    "Persian Gulf Political Residency, Administration Report 1911-1914, via QDL [search extract]"
    ]
   },
   {
@@ -3695,16 +3973,18 @@
   },
   {
    "id": "i_ev_lahuti_1922",
-   "date": "1922",
-   "end_date": null,
-   "title": "Lahuti's gendarmerie revolt at Tabriz (duration unverified)",
+   "date": "1922-01-31",
+   "end_date": "1922-02-10",
+   "title": "Lahuti's gendarmerie revolt at Tabriz",
    "type": "rebellion",
-   "summary": "Maj. Abolqasem Lahuti staged a revolt at Tabriz in 1922 and fled to the USSR after its failure. I could not verify its date or whether it held the city for more than about a week, so no region record is made.",
+   "summary": "Maj. Abolqasem Lahuti, with dissident gendarmes, occupied Sufian on 30 Jan 1922, marched into Tabriz the next day and arrested the governor; the movement was crushed on about 10 Feb 1922 and he crossed the Aras to Soviet Azerbaijan. At roughly 11 days it is under the one-month threshold, so no region record is made.",
    "layers": [
     "defacto"
    ],
    "sources": [
-    "Not independently verified in this research pass; reconstructed from general scholarship"
+    "Encyclopaedia Iranica, 'Lāhuti, Abu'l-Qāsem' (iranicaonline.org/articles/lahuti-abul-qasem) [search extract: 30 Jan 1922, Sufian, Tabriz]",
+    "Artebox, 'Abolqasem Lahouti' (artebox.org/?p=67081), reproducing the Iranica entry: crushed 10 Feb 1922 [cross-check]",
+    "Cronin, S., 'Soldiers, Shahs and Subalterns in Iran' (2010), ch. on 'Major Abulqasim Lahuti and the Tabriz insurrection of 1922'"
    ]
   },
   {
@@ -3825,17 +4105,18 @@
   },
   {
    "id": "i_ev_tribal_rising_1929",
-   "date": "1929-03",
+   "date": "1929-04",
    "end_date": "1929-08",
    "title": "Southern tribal rising of 1929",
    "type": "rebellion",
-   "summary": "In early spring 1929 the Qashqai rose and by June had Shiraz under siege and most of Fars outside the city in rebel hands; Boir Ahmad, Khamseh and Bakhtiari groups joined. The government agreed amnesty terms in August 1929.",
+   "summary": "From the end of April 1929 the Khamseh Baharlu (Darab, Fasa) and then the Qashqai rose; by June the rebels held the roads and most of Fars outside the cities and had Shiraz under siege; Boir Ahmad, Khamseh and Bakhtiari groups joined. The government agreed amnesty terms in July-August 1929.",
    "layers": [
     "defacto"
    ],
    "sources": [
     "Wikipedia, 'Persian tribal uprisings of 1929' (cross-check)",
-    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)"
+    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)",
+    "Wikipedia, 'Persian tribal uprisings of 1929' (cross-check; British Administration Reports 1926-38)"
    ]
   },
   {
@@ -3943,20 +4224,6 @@
    ]
   },
   {
-   "id": "i_ev_soviet_khorasan_1943",
-   "date": "1943",
-   "end_date": null,
-   "title": "Soviet troops leave Khorasan",
-   "type": "withdrawal",
-   "summary": "Iranica says Soviet troops occupied all of Khorasan \"until the winter of 1943\"; the other Soviet-occupied provinces were held until 1946.",
-   "layers": [
-    "defacto"
-   ],
-   "sources": [
-    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
-   ]
-  },
-  {
    "id": "i_ev_adp_1945",
    "date": "1945-11-21",
    "end_date": "1945-12-12",
@@ -3975,7 +4242,7 @@
    "id": "i_ev_mahabad_republic_1946",
    "date": "1946-01-22",
    "end_date": null,
-   "title": "Republic of Mahabad proclaimed",
+   "title": "Republic of Mahabad formally proclaimed (22 Jan 1946)",
    "type": "other",
    "summary": "The Kurdistan Republic under Qazi Muhammad was proclaimed at Mahabad on 22 Jan 1946, covering Mahabad, Bukan, Naghadeh, Piranshahr and Oshnavieh.",
    "layers": [
@@ -4007,7 +4274,7 @@
    "end_date": null,
    "title": "Soviet troops leave northern Iran",
    "type": "withdrawal",
-   "summary": "The Soviets missed the 2 March deadline; after pressure (UNSC) and the Qavam-Soviet agreement of 4 April they announced withdrawal on 24 March and were gone by about 6-9 May 1946.",
+   "summary": "The Soviets missed the 2 March deadline; after pressure (UNSC) and the Qavam-Soviet agreement of 4 April they announced withdrawal on 24 March and were gone by about 6-9 May 1946. The garrisons of Mashhad, Shahrud and Semnan had already been evacuated between 2 and 24 March 1946 (event i_ev_soviet_east_withdrawal_1946).",
    "layers": [
     "defacto"
    ],
@@ -4233,7 +4500,9 @@
    "sources": [
     "Encyclopaedia Britannica, '2026 Iran war' (britannica.com/event/2026-Iran-war), status as of 1 Oct 2026",
     "Wikipedia, '2026 Kurdish rebellion in Iran' and 'Western Iran clashes (2026-present)' (cross-check; no confirmed territorial holdings)",
-    "Iran International, 6 Jan 2026 and i24NEWS, 7 Jan 2026 (protesters in Abdanan/Malekshahi) [search extracts]; JISS, 'Iran After the January 2026 Protests'"
+    "Iran International, 6 Jan 2026 and i24NEWS, 7 Jan 2026 (protesters in Abdanan/Malekshahi) [search extracts]; JISS, 'Iran After the January 2026 Protests'",
+    "Wikipedia, 'Western Iran clashes (2026-present)' (cross-check, Sept 2026: clashes in the Sardasht-Baneh-Saqqez triangle but no held territory)",
+    "GlobalSecurity, 'Iran War 2026 -- Day 216 Update -- 01 October 2026' (no coalition strike ashore for 24 operational periods; no territory seized)"
    ]
   },
   {
@@ -4334,6 +4603,67 @@
    ],
    "sources": [
     "Wikipedia, '2026 Kurdish rebellion in Iran' and 'Western Iran clashes (2026-present)' (cross-check; no confirmed territorial holdings)"
+   ]
+  },
+  {
+   "id": "i_ev_kurdish_gov_1945",
+   "date": "1945-12-15",
+   "end_date": null,
+   "title": "Qazi Muhammad inaugurates the Kurdish people's government at Mahabad",
+   "type": "rebellion",
+   "summary": "Iranica ('Azarbaijan v', citing Eagleton and Roosevelt) dates Qazi Muhammad's inauguration of the Kurdish Republic at Mahabad to 15 December 1945, three days after the Azerbaijan autonomous government was proclaimed; the formal proclamation of the Republic and his presidency are usually dated 22 Jan 1946.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Azarbaijan v. History from 1941 to 1947' (https://www.iranicaonline.org/articles/azerbaijan-v/)",
+    "Wikipedia, 'Republic of Mahabad' (cross-check)"
+   ]
+  },
+  {
+   "id": "i_ev_soviet_east_withdrawal_1946",
+   "date": "1946-03-02",
+   "end_date": "1946-03-24",
+   "title": "Soviet troops evacuate Mashhad, Shahrud and Semnan",
+   "type": "withdrawal",
+   "summary": "Under the Soviet communique of 25 Feb 1946, the evacuation of the Soviet garrisons of Mashhad, Shahrud and Semnan began on 2 March 1946 (the Tripartite Treaty deadline); the Soviets reported it finished by 24-25 March 1946, while troops stayed in Azerbaijan, Gilan, Mazandaran and Gorgan until May. Iranica's statement that the Soviets left Khorasan in 'the winter of 1943' is not supported by these contemporary records.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "FRUS 1946 vol. VII, doc. 282, Kennan to Secretary of State, 25 Mar 1946 (history.state.gov/historicaldocuments/frus1946v07/d282): Soviet statement that evacuation of Meshed, Shahrud and Semnan, begun 2 Mar 1946, was finished",
+    "Mossadegh speech of 3 Mar 1946 quoting the Soviet communique of 25 Feb 1946 on evacuating Mashhad, Shahrud and Semnan from 2 Mar (mohammadmossadegh.com/biography/speeches/march-3-1946/)",
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
+   ]
+  },
+  {
+   "id": "i_ev_shiraz_gendarmerie_1915",
+   "date": "1915-11-10",
+   "end_date": null,
+   "title": "Pro-German Gendarmerie seizes Shiraz",
+   "type": "rebellion",
+   "summary": "On 10 Nov 1915 the Fars Gendarmerie, aided by Democrat Party radicals, seized Shiraz and arrested the British consul and colony, expelling the British-backed acting governor Qavam al-Molk; the city returned to the Qavam family and the pro-British gendarmes in April 1916 and Sykes's South Persia Rifles arrived in November 1916.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "India Office Records, File 3516/1914 Pt 18 'German War: Persia', via Qatar Digital Library [search extract]",
+    "Encyclopaedia Iranica, 'Fārs iv. History in the Qajar and Pahlavi Periods' (https://www.iranicaonline.org/articles/fars-iv/)"
+   ]
+  },
+  {
+   "id": "i_ev_zanjan_babi_1850",
+   "date": "1850-05-13",
+   "end_date": "1851-01-02",
+   "title": "Babi uprising at Zanjan",
+   "type": "rebellion",
+   "summary": "Hojjat Zanjani's Babi followers held part of Zanjan against the governor and the shah's army from 13 May 1850 until a general assault about 2 Jan 1851 killed several hundred.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "'The Babi Uprising in Zanjan: Causes and Issues', Iranian Studies (Cambridge) [search extract]",
+    "Bahai-library.com / Bahaipedia chronology of the Zanjan upheaval (cross-check only)"
    ]
   }
  ]
