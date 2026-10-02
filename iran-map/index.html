@@ -137,7 +137,7 @@ header.top p { margin: 0; color: var(--muted); font-size: var(--s-sm); max-width
 .L-dv .reg.claimed_not_held { fill: url(#p-dv-cnh); stroke: var(--occupied); stroke-width: 1.1; }
 .L-dv .reg.nominal { fill: url(#p-dv-nom); stroke: var(--breakaway); stroke-width: .8; }
 .L-dv .reg.held_not_claimed { fill: url(#p-dv-hnc); stroke: var(--held); stroke-width: 1.2; }
-.mk { stroke-width: 1.2; vector-effect: non-scaling-stroke; }
+.mk { stroke-width: 1; vector-effect: non-scaling-stroke; }
 .reg.sel, .mk.sel { stroke: var(--focus) !important; stroke-width: 2.5 !important; stroke-opacity: 1 !important; stroke-dasharray: none !important; }
 .reg.flash { animation: flash 1.2s ease-out 2; }
 @keyframes flash { 0% { stroke: var(--focus); stroke-width: 4; } 100% { stroke-width: 1; } }
@@ -257,12 +257,15 @@ aside.side { grid-area: side; border-left: 1px solid var(--rule); background: va
 
 @media (max-width: 860px) {
   html, body { height: auto; }
-  .app { height: auto; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 62vh auto auto; grid-template-areas: "head" "map" "time" "side"; }
-  .map { min-height: 340px; }
+  .app { height: auto; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto clamp(300px, 88vw, 64vh) auto auto; grid-template-areas: "head" "map" "time" "side"; }
   aside.side { border-left: 0; border-top: 1px solid var(--rule); }
   .pane { max-height: none; overflow: visible; }
   .readout .year { font-size: 2.4rem; }
-  .readout .now-event { display: none; }
+  .time .readout { position: static; display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .9rem; padding: 0; background: none; }
+  .time .readout .year { font-size: 2.1rem; }
+  .time .readout .stats { margin: 0 0 0 auto; grid-template-columns: auto auto; }
+  .time .readout .stats dd { white-space: nowrap; }
+  .time .readout .now-event { order: 5; flex-basis: 100%; max-width: none; margin: 0; }
   .time .ctl .legend { margin-left: 0; }
 }
 </style>
@@ -465,8 +468,9 @@ function init() {
   for (const f of regions) regionFeat.set(f.properties.id, f);
   for (const [id, m] of Object.entries(H.regions)) if (m.area_km2 < 600) smallIds.add(id);
   const fitTo = { type: "FeatureCollection", features: [core, ...regions.filter((f) => H.regions[f.properties.id]?.kind === "frontier" && H.regions[f.properties.id].area_km2 > 2000)] };
-  projection.fitExtent([[16, 20], [W - 56, Hh - 16]], fitTo);
+  projection.fitExtent([[16, 44], [W - 56, Hh - 16]], fitTo);
   path = d3.geoPath(projection);
+  { const a = projection([54, 33]), b = projection([54, 34]); state.px2PerKm2 = ((b[1] - a[1]) / 111.2) ** 2; }
 
   defsPatterns();
   gWorld.append("g").selectAll("path").data(countries).join("path").attr("class", "land").attr("d", path);
@@ -493,15 +497,15 @@ function init() {
     fz.append("rect").attr("class", "fz-tex").attr("mask", `url(#fz-${st})`).attr("fill", `url(#${cfg.tex})`).attr("x", big.x).attr("y", big.y).attr("width", big.width).attr("height", big.height);
   }
   gDF.append("g").attr("class", "regs top").selectAll("path").data(sorted).join("path").attr("class", "reg").attr("d", path).attr("data-id", (d) => d.properties.id);
-  gDF.append("g").attr("class", "ext").selectAll("path").data(feats("df_extent")).join("path").attr("class", "extent").attr("d", path);
+  gDF.append("g").attr("class", "ext").selectAll("path").data(feats("df_extent")).join("path").attr("class", "extent");
   gDJ = gWorld.append("g").attr("class", "L-dj");
-  gDJ.append("g").attr("class", "regs").selectAll("path").data(regions.filter((f) => f.properties.id.startsWith("f_"))).join("path").attr("class", "reg").attr("d", path).attr("data-id", (d) => d.properties.id);
-  gDJ.append("g").attr("class", "ext").selectAll("path").data(feats("dj_extent")).join("path").attr("class", "extent").attr("d", path);
+  gDJ.append("g").attr("class", "regs").selectAll("path").data([core, ...regions.filter((f) => f.properties.id.startsWith("f_"))]).join("path").attr("class", "reg").attr("d", path).attr("data-id", (d) => d.properties.id);
+  gDJ.append("g").attr("class", "ext").selectAll("path").data(feats("dj_extent")).join("path").attr("class", "extent");
   gDV = gWorld.append("g").attr("class", "L-dv");
   gDV.append("g").attr("class", "regs").selectAll("path").data(dfFeats).join("path").attr("class", "reg").attr("d", path).attr("data-id", (d) => d.properties.id);
   for (const [g, cls] of [[gDF, "df"], [gDJ, "dj"], [gDV, "dv"]]) {
     g.append("g").attr("class", "mks").selectAll("circle").data([...smallIds].filter((id) => cls !== "dj" || id.startsWith("f_")))
-      .join("circle").attr("class", "mk").attr("data-id", (d) => d).attr("r", 5)
+      .join("circle").attr("class", "mk").attr("data-id", (d) => d).attr("r", 3.6)
       .attr("cx", (d) => projection(H.regions[d].label)[0]).attr("cy", (d) => projection(H.regions[d].label)[1]);
   }
   gWorld.append("path").datum(modern).attr("class", "modern").attr("id", "modern-line").attr("d", path);
@@ -530,7 +534,7 @@ function init() {
       return this.dataset.base ? `${this.dataset.base} scale(${1 / k})` : `scale(${1 / k})`;
     });
     gWorld.selectAll(".city text").attr("x", 4).attr("y", -4);
-    gWorld.selectAll(".mk").attr("r", 5 / k); gWorld.selectAll("circle.hit").attr("r", 9 / k);
+    gWorld.selectAll(".mk").attr("r", 3.6 / Math.sqrt(k)); gWorld.selectAll("circle.hit").attr("r", 9 / k);
     gWorld.selectAll(".city.r2").style("display", k > 1.6 ? null : "none");
     state.k = k; drawLabels();
   });
@@ -542,6 +546,9 @@ function init() {
   state.k = 1; gWorld.selectAll(".city.r2").style("display", "none");
 
   buildLegends(); buildChart(); buildEvents(); buildLedger(); wireUI();
+  const mq = matchMedia("(max-width: 860px)");
+  const placeReadout = () => { const ro = $(".readout"); if (mq.matches) $(".time").prepend(ro); else $("#map").append(ro); };
+  placeReadout(); mq.addEventListener("change", placeReadout);
   const hash = location.hash.replace("#", "");
   const ht = /^\d{4}$/.test(hash) ? Math.min(Math.max(+hash, H.range[0]), H.range[1]) : 1800.0;
   setTime(ht);
@@ -624,7 +631,7 @@ function render() {
     gDF.selectAll(".mk").attr("class", (id) => { const r = dfAt(id, t); return "mk" + (r ? " " : ""); })
       .style("display", (id) => dfAt(id, t) ? null : "none").style("fill", (id) => { const r = dfAt(id, t); return r ? `var(${DF_COLOR[r.status]})` : "none"; })
       .style("stroke", "var(--paper)");
-    gDF.selectAll(".extent").style("display", (d) => d.properties.t0 <= t + 1e-6 && (d.properties.t1 == null || t < d.properties.t1 - 1e-6) ? null : "none");
+    showExtent(gDF, t);
   }
   if (L.dj) {
     gDJ.selectAll(".reg").attr("class", (d) => {
@@ -634,7 +641,7 @@ function render() {
     });
     gDJ.selectAll(".mk").style("display", (id) => djAt(id, t) || (L.ghost && everClaimedBefore(id, t)) ? null : "none")
       .style("fill", (id) => djAt(id, t) ? "var(--claim)" : "var(--paper)").style("stroke", "var(--claim)");
-    gDJ.selectAll(".extent").style("display", (d) => d.properties.t0 <= t + 1e-6 && (d.properties.t1 == null || t < d.properties.t1 - 1e-6) ? null : "none");
+    showExtent(gDJ, t);
   }
   if (L.dv) {
     gDV.selectAll(".reg").attr("class", (d) => { const c = d.properties.id === "core" ? null : divergence(d.properties.id, t); return "reg" + (c ? " " + c : ""); });
@@ -645,6 +652,14 @@ function render() {
   if (state.sel) d3.select("#selpath").attr("d", state.sel === "core" || !smallIds.has(state.sel) ? path(regionFeat.get(state.sel)) : null);
 }
 
+function showExtent(g, t) {
+  // the outline of the claim / of control is precomputed per interval; draw only the active one, building its path on first use
+  g.selectAll(".extent").each(function (d) {
+    const on = d.properties.t0 <= t + 1e-6 && (d.properties.t1 == null || t < d.properties.t1 - 1e-6);
+    if (on && !this.getAttribute("d")) this.setAttribute("d", path(d));
+    this.style.display = on ? "" : "none";
+  });
+}
 function drawLabels() {
   if (!gLabels) return;
   const t = state.t, k = state.k || 1;
@@ -652,7 +667,8 @@ function drawLabels() {
   if (state.layers.labels) {
     for (const [id, m] of Object.entries(H.regions)) {
       if (!m.label) continue;
-      const big = m.area_km2 * k * k > 9000 || (k > 3 && m.area_km2 > 300) || (smallIds.has(id) && k > 1.5);
+      const px = m.area_km2 * state.px2PerKm2 * k * k;
+      const big = px > 1500 || (smallIds.has(id) && k > 2.5);
       if (!big && !(state.sel === id)) continue;
       let sub = null, cls = "rlabel";
       const dj = djAt(id, t), df = dfAt(id, t);
@@ -674,6 +690,7 @@ function drawLabels() {
   items.sort((a, b) => b.area - a.area);
   // greedy collision avoidance in screen space
   const tr = d3.zoomTransform(svg.node()), placed = [], keep = [];
+  for (const w of WATERS) { const [sx, sy] = tr.apply(projection([w[1], w[2]])), hw = w[0].length * 4.2; placed.push([sx - hw, sy - 10, sx + hw, sy + 4]); }
   for (const it of items) {
     const [sx, sy] = tr.apply(it.xy), w = Math.max(it.name.length, (it.sub || "").length) * 6.2 + 6, h = it.sub ? 26 : 14;
     const bb = [sx - w / 2, sy - h / 2, sx + w / 2, sy + h / 2];
@@ -857,8 +874,8 @@ function updateEvents(fromEvent) {
     li.classList.toggle("cur", li.dataset.id === id); li.classList.toggle("past", e.t < state.t - 1e-6 && li.dataset.id !== id);
   });
   if (id !== lastCur && !$("#pane-events").hidden && !fromEvent) {
-    const li = $("#evlist").querySelector(`li[data-id="${CSS.escape(id || "")}"]`);
-    if (li) li.scrollIntoView({ block: "nearest" });
+    const li = $("#evlist").querySelector(`li[data-id="${CSS.escape(id || "")}"]`), pane = $("#pane-events");
+    if (li && getComputedStyle(pane).overflowY !== "visible") pane.scrollTop = li.offsetTop - pane.offsetTop - pane.clientHeight / 3;
   }
   lastCur = id;
 }
@@ -924,12 +941,28 @@ function renderRegion(id, scroll) {
 
 // ---------- ledger ----------
 function buildLedger() {
-  const firstChange = (id) => { const rs = [...(djBy.get(id) || []), ...(dfBy.get(id) || [])]; return d3.min(rs, (r) => r.t1 ?? r.t0) ?? 9999; };
+  // order frontier regions by the first moment their status changed: a claim renounced, a claim begun, or Iranian control gained
+  const firstChange = (id) => {
+    const dj = djBy.get(id) || [], df = dfBy.get(id) || [], ks = [];
+    for (const r of dj) { if (r.t1 != null) ks.push(r.t1); if (r.t0 > H.range[0] + .01) ks.push(r.t0); }
+    for (const r of df) if (IRANIAN.has(r.status) && r.t0 > H.range[0] + .01) ks.push(r.t0);
+    return d3.min(ks) ?? 9999;
+  };
+  const verdict = (id) => {
+    const dj = djBy.get(id) || [], last = dj[dj.length - 1];
+    if (last && last.t1 != null) return "renounced " + yearOf(last.t1);
+    if (last && last.t0 > H.range[0] + .01) return "claimed from " + yearOf(last.t0);
+    const g = (dfBy.get(id) || []).find((r) => IRANIAN.has(r.status) && r.t0 > H.range[0] + .01);
+    if (g && !dj.length) return "held " + yearOf(g.t0) + (g.t1 ? "–" + yearOf(g.t1) : "");
+    if (g) return "held from " + yearOf(g.t0);
+    return "";
+  };
   const ids = Object.keys(H.regions);
   const fr = ids.filter((i) => H.regions[i].kind === "frontier").sort((a, b) => firstChange(a) - firstChange(b));
   const ir = ids.filter((i) => H.regions[i].kind === "internal").sort((a, b) => d3.min(dfBy.get(a) || [], (r) => r.t0) - d3.min(dfBy.get(b) || [], (r) => r.t0));
   const item = (id) => { const m = H.regions[id];
-    return `<li data-id="${esc(id)}" data-q="${esc((m.name + " " + (m.name_fa || "")).toLowerCase())}"><button><span class="nm"><span>${esc(m.name)}</span><span class="k">${m.area_km2.toLocaleString("en")} km²</span></span>
+    const v = m.kind === "frontier" ? verdict(id) : "";
+    return `<li data-id="${esc(id)}" data-q="${esc((m.name + " " + (m.name_fa || "")).toLowerCase())}"><button><span class="nm"><span>${esc(m.name)}</span><span class="k">${v ? esc(v) + " · " : ""}${m.area_km2.toLocaleString("en")} km²</span></span>
       ${m.kind === "frontier" ? barHTML(djBy.get(id), djColor) : ""}${barHTML(dfBy.get(id), dfColor)}</button></li>`; };
   $("#ledger").innerHTML = `<h3>Frontier regions · claim and control</h3><ul class="ledger">${fr.map(item).join("")}</ul>
     <h3>Inside modern Iran · control</h3><ul class="ledger">${ir.map(item).join("")}</ul>`;
@@ -947,7 +980,7 @@ function showTab(name) {
   for (const n of ["layers", "events", "region", "ledger"]) {
     $(`#tab-${n}`).setAttribute("aria-selected", String(n === name)); $(`#pane-${n}`).hidden = n !== name;
   }
-  if (name === "events") updateEvents();
+  if (name === "events") { lastCur = null; updateEvents(); }
 }
 function wireUI() {
   for (const n of ["layers", "events", "region", "ledger"]) $(`#tab-${n}`).addEventListener("click", () => showTab(n));

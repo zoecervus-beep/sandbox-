@@ -15,7 +15,7 @@ const { chromium } = require(require('child_process').execSync('npm root -g').to
     if (a.key) { await p.focus(a.focus || 'body'); await p.keyboard.press(a.key); }
     await p.waitForTimeout(a.wait || 300);
   }
-  await p.screenshot({ path: out + '.png', fullPage: w < 900 });
+  await p.screenshot({ path: out + '.png', fullPage: w < 900 && process.env.FULL !== '0' });
   const sw = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   console.log('horizontal overflow px:', sw);
   console.log(errs.join('\n') || 'no console errors');
