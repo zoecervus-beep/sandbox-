@@ -3,3 +3,4 @@ raw/
 build/tmp/
 vendor
 preview.html
+build/__pycache__/

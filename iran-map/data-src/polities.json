@@ -1,0 +1,382 @@
+{
+ "iran": {
+  "name": "Iran",
+  "name_fa": "ایران",
+  "kind": "state",
+  "regimes": [
+   {
+    "name": "Qajar",
+    "from": "1789",
+    "to": "1925-12-15"
+   },
+   {
+    "name": "Pahlavi",
+    "from": "1925-12-15",
+    "to": "1979-02-11"
+   },
+   {
+    "name": "Islamic Republic",
+    "from": "1979-02-11",
+    "to": null
+   }
+  ]
+ },
+ "russia": {
+  "name": "Russian Empire",
+  "name_fa": "امپراتوری روسیه",
+  "kind": "state",
+  "to": "1918-03-03",
+  "note": "Includes the imperial army's last garrisons in Iran, which stayed through the revolutions of 1917 and withdrew in early 1918."
+ },
+ "ussr": {
+  "name": "Soviet Union",
+  "name_fa": "اتحاد جماهیر شوروی",
+  "kind": "state",
+  "from": "1917-11-07",
+  "to": "1991-12-26"
+ },
+ "ottoman": {
+  "name": "Ottoman Empire",
+  "name_fa": "امپراتوری عثمانی",
+  "kind": "state",
+  "to": "1922-11-01"
+ },
+ "britain": {
+  "name": "Britain and British India",
+  "name_fa": "بریتانیا و هند بریتانیا",
+  "kind": "state"
+ },
+ "iraq": {
+  "name": "Iraq",
+  "name_fa": "عراق",
+  "kind": "state",
+  "from": "1932-10-03"
+ },
+ "afghanistan": {
+  "name": "Afghanistan",
+  "name_fa": "افغانستان",
+  "kind": "state"
+ },
+ "oman": {
+  "name": "Sultanate of Muscat and Oman",
+  "name_fa": "سلطنت مسقط و عمان",
+  "kind": "state"
+ },
+ "bahrain": {
+  "name": "Bahrain (Al Khalifa)",
+  "name_fa": "بحرین (آل خلیفه)",
+  "kind": "sheikhdom"
+ },
+ "qawasim": {
+  "name": "Qasimi shaykhdoms of Sharjah and Ras al-Khaimah",
+  "name_fa": "قواسم شارجه و رأس‌الخیمه",
+  "kind": "sheikhdom"
+ },
+ "herat": {
+  "name": "Principality of Herat",
+  "name_fa": "حکومت هرات",
+  "kind": "principality"
+ },
+ "kandahar": {
+  "name": "Principality of Kandahar",
+  "name_fa": "حکومت قندهار",
+  "kind": "principality"
+ },
+ "ganja": {
+  "name": "Ganja Khanate",
+  "name_fa": "خانات گنجه",
+  "kind": "khanate"
+ },
+ "karabakh": {
+  "name": "Karabakh Khanate",
+  "name_fa": "خانات قره‌باغ",
+  "kind": "khanate"
+ },
+ "shaki": {
+  "name": "Shaki Khanate",
+  "name_fa": "خانات شکی",
+  "kind": "khanate"
+ },
+ "shirvan": {
+  "name": "Shirvan Khanate",
+  "name_fa": "خانات شیروان",
+  "kind": "khanate"
+ },
+ "baku": {
+  "name": "Baku Khanate",
+  "name_fa": "خانات باکو",
+  "kind": "khanate"
+ },
+ "quba": {
+  "name": "Quba Khanate",
+  "name_fa": "خانات قبه",
+  "kind": "khanate"
+ },
+ "talysh": {
+  "name": "Talysh Khanate",
+  "name_fa": "خانات طالش",
+  "kind": "khanate"
+ },
+ "nakhchivan": {
+  "name": "Nakhchivan Khanate",
+  "name_fa": "خانات نخجوان",
+  "kind": "khanate"
+ },
+ "shuragel": {
+  "name": "Shuragel sultanate",
+  "name_fa": "سلطان‌نشین شوره‌گل",
+  "kind": "khanate"
+ },
+ "dagestan": {
+  "name": "Dagestani khanates and free societies",
+  "name_fa": "خانات و جوامع آزاد داغستان",
+  "kind": "tribal"
+ },
+ "tekke": {
+  "name": "Tekke Turkmen",
+  "name_fa": "ترکمن‌های تکه",
+  "kind": "tribal"
+ },
+ "merv_turkmen": {
+  "name": "Turkmen of Merv and Sarakhs",
+  "name_fa": "ترکمن‌های مرو و سرخس",
+  "kind": "tribal"
+ },
+ "yomut_goklen": {
+  "name": "Yomut and Goklen Turkmen",
+  "name_fa": "ترکمن‌های یموت و گوکلان",
+  "kind": "tribal"
+ },
+ "turkmen_councils": {
+  "name": "Turkmen People's Councils",
+  "name_fa": "شوراهای خلق ترکمن",
+  "kind": "movement"
+ },
+ "baban": {
+  "name": "Baban emirate",
+  "name_fa": "امارت بابان",
+  "kind": "principality"
+ },
+ "ardalan": {
+  "name": "Ardalan valis of Kurdistan",
+  "name_fa": "والیان اردلان",
+  "kind": "principality"
+ },
+ "mukri": {
+  "name": "Mukri khans of Mukriyan",
+  "name_fa": "خوانین مکری",
+  "kind": "tribal"
+ },
+ "kalhor": {
+  "name": "Kalhor chiefs",
+  "name_fa": "ایل کلهر",
+  "kind": "tribal"
+ },
+ "shikak": {
+  "name": "Shikak under Simko",
+  "name_fa": "ایل شکاک (سمکو)",
+  "kind": "tribal"
+ },
+ "jalali": {
+  "name": "Jalali and Haydaranlu Kurds",
+  "name_fa": "کردهای جلالی و حیدرانلو",
+  "kind": "tribal"
+ },
+ "ubeydullah": {
+  "name": "Sheikh Ubeydullah's Kurdish host",
+  "name_fa": "سپاه شیخ عبیدالله نهری",
+  "kind": "movement"
+ },
+ "jk_komala": {
+  "name": "Society for the Revival of Kurdistan",
+  "name_fa": "کومله ژ.ک",
+  "kind": "movement"
+ },
+ "mahabad": {
+  "name": "Republic of Mahabad",
+  "name_fa": "جمهوری مهاباد",
+  "kind": "movement"
+ },
+ "kdpi": {
+  "name": "Kurdish parties (KDPI, Komala)",
+  "name_fa": "حزب دموکرات کردستان و کومله",
+  "kind": "movement"
+ },
+ "zafaranlu": {
+  "name": "Za'faranlu Kurds of Quchan",
+  "name_fa": "ایل زعفرانلو",
+  "kind": "tribal"
+ },
+ "shadlu": {
+  "name": "Shadlu Kurds of Bojnurd",
+  "name_fa": "ایل شادلو",
+  "kind": "tribal"
+ },
+ "pishkuh_lurs": {
+  "name": "Lur tribes of Pish-e Kuh",
+  "name_fa": "ایلات لر پیشکوه",
+  "kind": "tribal"
+ },
+ "pushtkuh_valis": {
+  "name": "Valis of Pusht-e Kuh",
+  "name_fa": "والیان پشتکوه",
+  "kind": "principality"
+ },
+ "bakhtiari": {
+  "name": "Bakhtiari confederation",
+  "name_fa": "ایل بختیاری",
+  "kind": "tribal"
+ },
+ "boir_ahmad": {
+  "name": "Kohgiluyeh and Boir Ahmad khans",
+  "name_fa": "خوانین کهگیلویه و بویراحمد",
+  "kind": "tribal"
+ },
+ "qashqai": {
+  "name": "Qashqai confederation",
+  "name_fa": "ایل قشقایی",
+  "kind": "tribal"
+ },
+ "southern_tribes_1946": {
+  "name": "Southern tribes' movement of 1946",
+  "name_fa": "نهضت جنوب",
+  "kind": "movement"
+ },
+ "shahsevan": {
+  "name": "Shahsevan",
+  "name_fa": "ایل شاهسون",
+  "kind": "tribal"
+ },
+ "kaab": {
+  "name": "Ka'b sheikhdom of Fallahiyeh",
+  "name_fa": "شیخ‌نشین بنی‌کعب",
+  "kind": "sheikhdom"
+ },
+ "muhaysin": {
+  "name": "Muhaysin sheikhdom of Mohammerah",
+  "name_fa": "شیخ‌نشین محمره",
+  "kind": "sheikhdom"
+ },
+ "qawasim_lengeh": {
+  "name": "Qasimi sheikhs of Lengeh",
+  "name_fa": "قواسم بندر لنگه",
+  "kind": "sheikhdom"
+ },
+ "bastak": {
+  "name": "Khans of Bastak",
+  "name_fa": "خوانین بستک",
+  "kind": "tribal"
+ },
+ "tangestan": {
+  "name": "Khans of Tangestan, Dashtestan and Dashti",
+  "name_fa": "خوانین تنگستان و دشتستان",
+  "kind": "tribal"
+ },
+ "baluch_bampur": {
+  "name": "Baluch sardars of Bampur and Saravan",
+  "name_fa": "سرداران بلوچ بمپور و سراوان",
+  "kind": "tribal"
+ },
+ "baluch_sarhad": {
+  "name": "Baluch chiefs of Sarhad",
+  "name_fa": "سرداران بلوچ سرحد",
+  "kind": "tribal"
+ },
+ "makran_baluch": {
+  "name": "Gichki and Baluch sardars of Makran",
+  "name_fa": "سرداران گچکی و بلوچ مکران",
+  "kind": "tribal"
+ },
+ "sistan_chiefs": {
+  "name": "Sistani chiefs",
+  "name_fa": "سرداران سیستان",
+  "kind": "tribal"
+ },
+ "afsharid": {
+  "name": "Afsharid remnant at Mashhad",
+  "name_fa": "بازماندگان افشاریه در مشهد",
+  "kind": "principality"
+ },
+ "salar": {
+  "name": "Salar's revolt in Khorasan",
+  "name_fa": "شورش سالار",
+  "kind": "movement"
+ },
+ "qarai": {
+  "name": "Qara'i khans of Torbat",
+  "name_fa": "خوانین قرائی تربت",
+  "kind": "tribal"
+ },
+ "qaenat": {
+  "name": "Khozeimeh 'Alam amirs of Qa'enat",
+  "name_fa": "امیران خزیمه قائنات",
+  "kind": "principality"
+ },
+ "tabas": {
+  "name": "Hereditary governors of Tabas",
+  "name_fa": "حاکمان موروثی طبس",
+  "kind": "principality"
+ },
+ "constitutionalists": {
+  "name": "Constitutionalist forces",
+  "name_fa": "مشروطه‌خواهان",
+  "kind": "movement"
+ },
+ "lari": {
+  "name": "Sayyed Abd al-Hosayn Lari's government",
+  "name_fa": "حکومت سید عبدالحسین لاری",
+  "kind": "movement"
+ },
+ "salar_dowleh": {
+  "name": "Salar al-Dowleh's forces",
+  "name_fa": "سپاه سالارالدوله",
+  "kind": "movement"
+ },
+ "national_govt_1915": {
+  "name": "National Government at Kermanshah",
+  "name_fa": "حکومت ملی کرمانشاه",
+  "kind": "movement"
+ },
+ "fars_gendarmerie_1915": {
+  "name": "Pro-German Gendarmerie of Fars",
+  "name_fa": "ژاندارمری هوادار آلمان در فارس",
+  "kind": "movement"
+ },
+ "jangali": {
+  "name": "Jangal movement and Gilan Soviet Republic",
+  "name_fa": "نهضت جنگل و جمهوری شوروی گیلان",
+  "kind": "movement"
+ },
+ "azadistan": {
+  "name": "Azadistan (Khiabani)",
+  "name_fa": "آزادیستان (خیابانی)",
+  "kind": "movement"
+ },
+ "pesyan": {
+  "name": "Pesyan's Khorasan government",
+  "name_fa": "قیام کلنل پسیان",
+  "kind": "movement"
+ },
+ "urmia_1918": {
+  "name": "Assyrian and Armenian forces at Urmia",
+  "name_fa": "نیروهای آشوری و ارمنی ارومیه",
+  "kind": "movement"
+ },
+ "adp": {
+  "name": "Azerbaijan People's Government",
+  "name_fa": "حکومت ملی آذربایجان",
+  "kind": "movement"
+ },
+ "babis": {
+  "name": "Babis of Zanjan",
+  "name_fa": "بابیان زنجان",
+  "kind": "movement"
+ },
+ "turkey": {
+  "name": "Turkey",
+  "name_fa": "ترکیه",
+  "kind": "state",
+  "from": "1922-11-01",
+  "note": "Ankara government from November 1922; republic proclaimed 29 Oct 1923."
+ }
+}
