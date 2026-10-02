@@ -1,0 +1,10460 @@
+{
+"IRN1_0": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Mazandaran",
+"parent": null,
+"lon": 52.384,
+"lat": 36.38,
+"area_km2": null
+},
+"IRN1_1": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "North Khorasan",
+"parent": null,
+"lon": 57.136,
+"lat": 37.409,
+"area_km2": null
+},
+"IRN1_2": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Kerman",
+"parent": null,
+"lon": 57.297,
+"lat": 29.616,
+"area_km2": null
+},
+"IRN1_3": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Ilam",
+"parent": null,
+"lon": 46.937,
+"lat": 33.117,
+"area_km2": null
+},
+"IRN1_4": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Lorestan",
+"parent": null,
+"lon": 48.436,
+"lat": 33.464,
+"area_km2": null
+},
+"IRN1_5": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Markazi",
+"parent": null,
+"lon": 49.958,
+"lat": 34.491,
+"area_km2": null
+},
+"IRN1_6": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Chaharmahal and Bakhtiari",
+"parent": null,
+"lon": 50.645,
+"lat": 32.042,
+"area_km2": null
+},
+"IRN1_7": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Kermanshah",
+"parent": null,
+"lon": 46.687,
+"lat": 34.434,
+"area_km2": null
+},
+"IRN1_8": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Hamadan",
+"parent": null,
+"lon": 48.61,
+"lat": 34.886,
+"area_km2": null
+},
+"IRN1_9": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Qazvin",
+"parent": null,
+"lon": 49.766,
+"lat": 36.089,
+"area_km2": null
+},
+"IRN1_10": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Gilan",
+"parent": null,
+"lon": 49.492,
+"lat": 37.253,
+"area_km2": null
+},
+"IRN1_11": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Zanjan",
+"parent": null,
+"lon": 48.383,
+"lat": 36.499,
+"area_km2": null
+},
+"IRN1_12": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Semnan",
+"parent": null,
+"lon": 54.673,
+"lat": 35.427,
+"area_km2": null
+},
+"IRN1_13": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Isfahan",
+"parent": null,
+"lon": 52.501,
+"lat": 33.126,
+"area_km2": null
+},
+"IRN1_14": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Kohgiluyeh and Boyer-Ahmad",
+"parent": null,
+"lon": 50.841,
+"lat": 30.768,
+"area_km2": null
+},
+"IRN1_15": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Kurdistan",
+"parent": null,
+"lon": 46.983,
+"lat": 35.683,
+"area_km2": null
+},
+"IRN1_16": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "West Azerbaijan",
+"parent": null,
+"lon": 45.343,
+"lat": 37.657,
+"area_km2": null
+},
+"IRN1_17": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Fars",
+"parent": null,
+"lon": 53.26,
+"lat": 29.165,
+"area_km2": null
+},
+"IRN1_18": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Bushehr",
+"parent": null,
+"lon": 51.387,
+"lat": 28.828,
+"area_km2": null
+},
+"IRN1_19": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Ardabil",
+"parent": null,
+"lon": 48.079,
+"lat": 38.443,
+"area_km2": null
+},
+"IRN1_20": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Golestan",
+"parent": null,
+"lon": 55.105,
+"lat": 37.324,
+"area_km2": null
+},
+"IRN1_21": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Razavi Khorasan",
+"parent": null,
+"lon": 59.052,
+"lat": 35.677,
+"area_km2": null
+},
+"IRN1_22": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "South Khorasan",
+"parent": null,
+"lon": 58.33,
+"lat": 32.915,
+"area_km2": null
+},
+"IRN1_23": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Sistan and Baluchestan",
+"parent": null,
+"lon": 60.729,
+"lat": 27.919,
+"area_km2": null
+},
+"IRN1_24": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Qom",
+"parent": null,
+"lon": 51.024,
+"lat": 34.697,
+"area_km2": null
+},
+"IRN1_25": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Alborz",
+"parent": null,
+"lon": 50.801,
+"lat": 35.964,
+"area_km2": null
+},
+"IRN1_26": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "East Azerbaijan",
+"parent": null,
+"lon": 46.659,
+"lat": 38.002,
+"area_km2": null
+},
+"IRN1_27": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Yazd",
+"parent": null,
+"lon": 54.61,
+"lat": 31.806,
+"area_km2": null
+},
+"IRN1_28": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Hormozgan",
+"parent": null,
+"lon": 56.482,
+"lat": 27.015,
+"area_km2": null
+},
+"IRN1_29": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Khuzestan",
+"parent": null,
+"lon": 49.022,
+"lat": 31.455,
+"area_km2": null
+},
+"IRN1_30": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Tehran",
+"parent": null,
+"lon": 51.733,
+"lat": 35.554,
+"area_km2": null
+},
+"IRN1_31": {
+"iso": "IRN",
+"level": "ADM1",
+"name": "Mazandaran",
+"parent": null,
+"lon": 53.965,
+"lat": 36.731,
+"area_km2": null
+},
+"IRN2_0": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shirwan",
+"parent": "North Khorasan",
+"lon": 57.891,
+"lat": 37.543,
+"area_km2": null
+},
+"IRN2_1": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Esfarayen County",
+"parent": "North Khorasan",
+"lon": 57.556,
+"lat": 36.954,
+"area_km2": null
+},
+"IRN2_2": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Eyvan County",
+"parent": "Ilam",
+"lon": 46.174,
+"lat": 33.882,
+"area_km2": null
+},
+"IRN2_3": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Abdanan County",
+"parent": "Ilam",
+"lon": 47.546,
+"lat": 32.848,
+"area_km2": null
+},
+"IRN2_4": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dehloran County",
+"parent": "Ilam",
+"lon": 47.284,
+"lat": 32.661,
+"area_km2": null
+},
+"IRN2_5": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Darreh Shahr County",
+"parent": "Ilam",
+"lon": 47.574,
+"lat": 33.023,
+"area_km2": null
+},
+"IRN2_6": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mehran County",
+"parent": "Ilam",
+"lon": 46.295,
+"lat": 33.238,
+"area_km2": null
+},
+"IRN2_7": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Chaldoran County",
+"parent": "West Azerbaijan",
+"lon": 44.373,
+"lat": 39.098,
+"area_km2": null
+},
+"IRN2_8": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Saqqez",
+"parent": "Kurdistan",
+"lon": 46.378,
+"lat": 36.158,
+"area_km2": null
+},
+"IRN2_9": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Baneh",
+"parent": "Kurdistan",
+"lon": 45.85,
+"lat": 35.997,
+"area_km2": null
+},
+"IRN2_10": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Abadan",
+"parent": "Khuzestan",
+"lon": 48.607,
+"lat": 30.197,
+"area_km2": null
+},
+"IRN2_11": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Abadeh",
+"parent": "Fars",
+"lon": 52.512,
+"lat": 31.259,
+"area_km2": null
+},
+"IRN2_12": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Abyek",
+"parent": "Qazvin",
+"lon": 50.344,
+"lat": 36.089,
+"area_km2": null
+},
+"IRN2_13": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Azarshahr",
+"parent": "East Azerbaijan",
+"lon": 45.903,
+"lat": 37.73,
+"area_km2": null
+},
+"IRN2_14": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Aradan",
+"parent": "Semnan",
+"lon": 52.635,
+"lat": 34.903,
+"area_km2": null
+},
+"IRN2_15": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Aran and Bidgol",
+"parent": "Isfahan",
+"lon": 51.874,
+"lat": 34.174,
+"area_km2": null
+},
+"IRN2_16": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Azadshahr",
+"parent": "Golestan",
+"lon": 55.34,
+"lat": 36.989,
+"area_km2": null
+},
+"IRN2_17": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Astara",
+"parent": "Gilan",
+"lon": 48.742,
+"lat": 38.351,
+"area_km2": null
+},
+"IRN2_18": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Astan-e-Ashrafieh",
+"parent": "Gilan",
+"lon": 49.986,
+"lat": 37.334,
+"area_km2": null
+},
+"IRN2_19": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ashtian",
+"parent": "Markazi",
+"lon": 50.051,
+"lat": 34.434,
+"area_km2": null
+},
+"IRN2_20": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Aghajari",
+"parent": "Khuzestan",
+"lon": 49.904,
+"lat": 30.748,
+"area_km2": null
+},
+"IRN2_21": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Aqqala",
+"parent": "Golestan",
+"lon": 54.529,
+"lat": 37.164,
+"area_km2": null
+},
+"IRN2_22": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Amol",
+"parent": "Mazandaran",
+"lon": 52.244,
+"lat": 36.113,
+"area_km2": null
+},
+"IRN2_23": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Avaj",
+"parent": "Qazvin",
+"lon": 49.226,
+"lat": 35.673,
+"area_km2": null
+},
+"IRN2_24": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Abarkuh",
+"parent": "Yazd",
+"lon": 53.385,
+"lat": 31.091,
+"area_km2": null
+},
+"IRN2_25": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Abhar",
+"parent": "Zanjan",
+"lon": 49.141,
+"lat": 36.172,
+"area_km2": null
+},
+"IRN2_26": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Abumusa",
+"parent": "Hormozgan",
+"lon": 54.751,
+"lat": 26.114,
+"area_km2": null
+},
+"IRN2_27": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Arak",
+"parent": "Markazi",
+"lon": 49.805,
+"lat": 34.142,
+"area_km2": null
+},
+"IRN2_28": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ardebil",
+"parent": "Ardabil",
+"lon": 48.272,
+"lat": 38.264,
+"area_km2": null
+},
+"IRN2_29": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ardestan",
+"parent": "Isfahan",
+"lon": 52.614,
+"lat": 33.593,
+"area_km2": null
+},
+"IRN2_30": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ardekan",
+"parent": "Yazd",
+"lon": 54.768,
+"lat": 32.606,
+"area_km2": null
+},
+"IRN2_31": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ardal",
+"parent": "Chaharmahal and Bakhtiari",
+"lon": 50.463,
+"lat": 31.921,
+"area_km2": null
+},
+"IRN2_32": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Arzuiyeh",
+"parent": "Kerman",
+"lon": 56.532,
+"lat": 28.431,
+"area_km2": null
+},
+"IRN2_33": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Arsanjan",
+"parent": "Fars",
+"lon": 53.385,
+"lat": 29.832,
+"area_km2": null
+},
+"IRN2_34": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Urumia",
+"parent": "West Azerbaijan",
+"lon": 44.926,
+"lat": 37.617,
+"area_km2": null
+},
+"IRN2_35": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Azna",
+"parent": "Lorestan",
+"lon": 49.442,
+"lat": 33.508,
+"area_km2": null
+},
+"IRN2_36": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Estahban",
+"parent": "Fars",
+"lon": 54.004,
+"lat": 29.146,
+"area_km2": null
+},
+"IRN2_37": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Asadabad",
+"parent": "Hamadan",
+"lon": 48.029,
+"lat": 34.781,
+"area_km2": null
+},
+"IRN2_38": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Osku",
+"parent": "East Azerbaijan",
+"lon": 45.871,
+"lat": 37.87,
+"area_km2": null
+},
+"IRN2_39": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Eslamabad-e Gharb",
+"parent": "Kermanshah",
+"lon": 46.679,
+"lat": 34.024,
+"area_km2": null
+},
+"IRN2_40": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Islamshahr",
+"parent": "Tehran",
+"lon": 51.249,
+"lat": 35.581,
+"area_km2": null
+},
+"IRN2_41": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Eshtehard",
+"parent": "Alborz",
+"lon": 50.426,
+"lat": 35.704,
+"area_km2": null
+},
+"IRN2_42": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ashkezar",
+"parent": "Yazd",
+"lon": 54.043,
+"lat": 31.992,
+"area_km2": null
+},
+"IRN2_43": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ashnavieh",
+"parent": "West Azerbaijan",
+"lon": 45.056,
+"lat": 37.072,
+"area_km2": null
+},
+"IRN2_44": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Isfahan County",
+"parent": "Isfahan",
+"lon": 52.453,
+"lat": 32.24,
+"area_km2": null
+},
+"IRN2_45": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Eqlid",
+"parent": "Fars",
+"lon": 52.397,
+"lat": 30.722,
+"area_km2": null
+},
+"IRN2_46": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Alborz",
+"parent": "Qazvin",
+"lon": 50.18,
+"lat": 36.223,
+"area_km2": null
+},
+"IRN2_47": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Aligudarz",
+"parent": "Lorestan",
+"lon": 49.416,
+"lat": 33.126,
+"area_km2": null
+},
+"IRN2_48": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Amlash",
+"parent": "Gilan",
+"lon": 50.138,
+"lat": 36.965,
+"area_km2": null
+},
+"IRN2_49": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Omidieh",
+"parent": "Khuzestan",
+"lon": 49.702,
+"lat": 30.772,
+"area_km2": null
+},
+"IRN2_50": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Anar",
+"parent": "Kerman",
+"lon": 55.291,
+"lat": 30.834,
+"area_km2": null
+},
+"IRN2_51": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Andika",
+"parent": "Khuzestan",
+"lon": 49.538,
+"lat": 32.306,
+"area_km2": null
+},
+"IRN2_52": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Andimeshk",
+"parent": "Khuzestan",
+"lon": 48.327,
+"lat": 32.699,
+"area_km2": null
+},
+"IRN2_53": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ahar",
+"parent": "East Azerbaijan",
+"lon": 47.208,
+"lat": 38.623,
+"area_km2": null
+},
+"IRN2_54": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ahvaz",
+"parent": "Khuzestan",
+"lon": 48.703,
+"lat": 31.232,
+"area_km2": null
+},
+"IRN2_55": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ijrud",
+"parent": "Zanjan",
+"lon": 48.198,
+"lat": 36.344,
+"area_km2": null
+},
+"IRN2_56": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Izeh",
+"parent": "Khuzestan",
+"lon": 49.981,
+"lat": 31.87,
+"area_km2": null
+},
+"IRN2_57": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Iranshahr",
+"parent": "Sistan and Baluchestan",
+"lon": 60.141,
+"lat": 27.732,
+"area_km2": null
+},
+"IRN2_58": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ilam",
+"parent": "Ilam",
+"lon": 46.213,
+"lat": 33.647,
+"area_km2": null
+},
+"IRN2_59": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Babol",
+"parent": "Mazandaran",
+"lon": 52.624,
+"lat": 36.305,
+"area_km2": null
+},
+"IRN2_60": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Babolsar",
+"parent": "Mazandaran",
+"lon": 52.702,
+"lat": 36.668,
+"area_km2": null
+},
+"IRN2_61": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bakharz",
+"parent": "Razavi Khorasan",
+"lon": 60.298,
+"lat": 35.039,
+"area_km2": null
+},
+"IRN2_62": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Basht",
+"parent": "Kohgiluyeh and Boyer-Ahmad",
+"lon": 51.07,
+"lat": 30.458,
+"area_km2": null
+},
+"IRN2_63": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Baghmalek",
+"parent": "Khuzestan",
+"lon": 49.913,
+"lat": 31.478,
+"area_km2": null
+},
+"IRN2_64": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Baft",
+"parent": "Kerman",
+"lon": 56.492,
+"lat": 29.012,
+"area_km2": null
+},
+"IRN2_65": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bafq",
+"parent": "Yazd",
+"lon": 55.398,
+"lat": 31.668,
+"area_km2": null
+},
+"IRN2_66": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bavi",
+"parent": "Khuzestan",
+"lon": 48.971,
+"lat": 31.518,
+"area_km2": null
+},
+"IRN2_67": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bajestan",
+"parent": "Razavi Khorasan",
+"lon": 58.089,
+"lat": 34.605,
+"area_km2": null
+},
+"IRN2_68": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bojnurd",
+"parent": "North Khorasan",
+"lon": 57.343,
+"lat": 37.554,
+"area_km2": null
+},
+"IRN2_69": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Badreh",
+"parent": "Ilam",
+"lon": 47.026,
+"lat": 33.313,
+"area_km2": null
+},
+"IRN2_70": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Barkhar",
+"parent": "Isfahan",
+"lon": 51.753,
+"lat": 33.023,
+"area_km2": null
+},
+"IRN2_71": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bardaskan",
+"parent": "Razavi Khorasan",
+"lon": 57.361,
+"lat": 35.176,
+"area_km2": null
+},
+"IRN2_72": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bardsir",
+"parent": "Kerman",
+"lon": 56.693,
+"lat": 29.774,
+"area_km2": null
+},
+"IRN2_73": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Borujerd",
+"parent": "Lorestan",
+"lon": 48.757,
+"lat": 33.892,
+"area_km2": null
+},
+"IRN2_74": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Borujen",
+"parent": "Chaharmahal and Bakhtiari",
+"lon": 51.154,
+"lat": 31.867,
+"area_km2": null
+},
+"IRN2_75": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bostanabad",
+"parent": "East Azerbaijan",
+"lon": 46.814,
+"lat": 37.804,
+"area_km2": null
+},
+"IRN2_76": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bastak",
+"parent": "Hormozgan",
+"lon": 54.487,
+"lat": 27.195,
+"area_km2": null
+},
+"IRN2_77": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bashagard",
+"parent": "Hormozgan",
+"lon": 58.183,
+"lat": 26.442,
+"area_km2": null
+},
+"IRN2_78": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Boshruyeh",
+"parent": "South Khorasan",
+"lon": 57.406,
+"lat": 34.013,
+"area_km2": null
+},
+"IRN2_79": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bam",
+"parent": "Kerman",
+"lon": 58.199,
+"lat": 29.114,
+"area_km2": null
+},
+"IRN2_80": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ben",
+"parent": "Chaharmahal and Bakhtiari",
+"lon": 50.648,
+"lat": 32.582,
+"area_km2": null
+},
+"IRN2_81": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bonab",
+"parent": "East Azerbaijan",
+"lon": 46.017,
+"lat": 37.329,
+"area_km2": null
+},
+"IRN2_82": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bandar-e-Lengeh",
+"parent": "Hormozgan",
+"lon": 54.607,
+"lat": 26.837,
+"area_km2": null
+},
+"IRN2_83": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bandar-e-Anzali",
+"parent": "Gilan",
+"lon": 49.412,
+"lat": 37.461,
+"area_km2": null
+},
+"IRN2_84": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bandar-e-Abbas",
+"parent": "Hormozgan",
+"lon": 56.242,
+"lat": 27.527,
+"area_km2": null
+},
+"IRN2_85": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bandar-e-Mahshahr",
+"parent": "Khuzestan",
+"lon": 49.232,
+"lat": 30.543,
+"area_km2": null
+},
+"IRN2_86": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bahabad",
+"parent": "Yazd",
+"lon": 56.143,
+"lat": 32.01,
+"area_km2": null
+},
+"IRN2_87": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bahar",
+"parent": "Hamadan",
+"lon": 48.363,
+"lat": 34.986,
+"area_km2": null
+},
+"IRN2_88": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Baharestan",
+"parent": "Tehran",
+"lon": 51.171,
+"lat": 35.53,
+"area_km2": null
+},
+"IRN2_89": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Behbahan",
+"parent": "Khuzestan",
+"lon": 50.224,
+"lat": 30.525,
+"area_km2": null
+},
+"IRN2_90": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Behshahr",
+"parent": "Mazandaran",
+"lon": 53.697,
+"lat": 36.665,
+"area_km2": null
+},
+"IRN2_91": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bahmai",
+"parent": "Kohgiluyeh and Boyer-Ahmad",
+"lon": 50.127,
+"lat": 31.01,
+"area_km2": null
+},
+"IRN2_92": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Buin Zahra",
+"parent": "Qazvin",
+"lon": 49.952,
+"lat": 35.791,
+"area_km2": null
+},
+"IRN2_93": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Buin and Miandasht",
+"parent": "Isfahan",
+"lon": 50.09,
+"lat": 33.158,
+"area_km2": null
+},
+"IRN2_94": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bavanat",
+"parent": "Fars",
+"lon": 53.666,
+"lat": 30.303,
+"area_km2": null
+},
+"IRN2_95": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bushehr",
+"parent": "Bushehr",
+"lon": 50.939,
+"lat": 29.076,
+"area_km2": null
+},
+"IRN2_96": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bukan",
+"parent": "West Azerbaijan",
+"lon": 46.139,
+"lat": 36.557,
+"area_km2": null
+},
+"IRN2_97": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Buyerahmad",
+"parent": "Kohgiluyeh and Boyer-Ahmad",
+"lon": 51.237,
+"lat": 30.833,
+"area_km2": null
+},
+"IRN2_98": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bijar",
+"parent": "Kurdistan",
+"lon": 47.646,
+"lat": 35.945,
+"area_km2": null
+},
+"IRN2_99": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Birjand",
+"parent": "South Khorasan",
+"lon": 59.266,
+"lat": 33.058,
+"area_km2": null
+},
+"IRN2_100": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bilehsavar",
+"parent": "Ardabil",
+"lon": 47.974,
+"lat": 39.344,
+"area_km2": null
+},
+"IRN2_101": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Binalud",
+"parent": "Razavi Khorasan",
+"lon": 59.319,
+"lat": 36.288,
+"area_km2": null
+},
+"IRN2_102": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Takestan",
+"parent": "Qazvin",
+"lon": 49.543,
+"lat": 36.015,
+"area_km2": null
+},
+"IRN2_103": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Taybad",
+"parent": "Razavi Khorasan",
+"lon": 60.703,
+"lat": 34.762,
+"area_km2": null
+},
+"IRN2_104": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Tabriz",
+"parent": "East Azerbaijan",
+"lon": 46.289,
+"lat": 38.066,
+"area_km2": null
+},
+"IRN2_105": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Torbat-e-jam",
+"parent": "Razavi Khorasan",
+"lon": 60.748,
+"lat": 35.478,
+"area_km2": null
+},
+"IRN2_106": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Torbat-e-Heydarieh",
+"parent": "Razavi Khorasan",
+"lon": 59.119,
+"lat": 35.469,
+"area_km2": null
+},
+"IRN2_107": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Turkman",
+"parent": "Golestan",
+"lon": 54.168,
+"lat": 36.915,
+"area_km2": null
+},
+"IRN2_108": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Taft",
+"parent": "Yazd",
+"lon": 53.814,
+"lat": 31.454,
+"area_km2": null
+},
+"IRN2_109": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Tafresh",
+"parent": "Markazi",
+"lon": 49.857,
+"lat": 34.815,
+"area_km2": null
+},
+"IRN2_110": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Takab",
+"parent": "West Azerbaijan",
+"lon": 47.124,
+"lat": 36.505,
+"area_km2": null
+},
+"IRN2_111": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Tonekabon",
+"parent": "Mazandaran",
+"lon": 50.832,
+"lat": 36.604,
+"area_km2": null
+},
+"IRN2_112": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Tangestan",
+"parent": "Bushehr",
+"lon": 51.252,
+"lat": 28.811,
+"area_km2": null
+},
+"IRN2_113": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Tehran",
+"parent": "Tehran",
+"lon": 51.428,
+"lat": 35.739,
+"area_km2": null
+},
+"IRN2_114": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Tuyserkan",
+"parent": "Hamadan",
+"lon": 48.331,
+"lat": 34.544,
+"area_km2": null
+},
+"IRN2_115": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Tiran and Karvan",
+"parent": "Isfahan",
+"lon": 50.957,
+"lat": 32.787,
+"area_km2": null
+},
+"IRN2_116": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Salas-e Babajani",
+"parent": "Kermanshah",
+"lon": 46.051,
+"lat": 34.789,
+"area_km2": null
+},
+"IRN2_117": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Jajrom",
+"parent": "North Khorasan",
+"lon": 56.669,
+"lat": 37.033,
+"area_km2": null
+},
+"IRN2_118": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Jask",
+"parent": "Hormozgan",
+"lon": 58.281,
+"lat": 25.869,
+"area_km2": null
+},
+"IRN2_119": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Joghatai",
+"parent": "Razavi Khorasan",
+"lon": 56.99,
+"lat": 36.684,
+"area_km2": null
+},
+"IRN2_120": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Jolfa",
+"parent": "East Azerbaijan",
+"lon": 45.869,
+"lat": 38.838,
+"area_km2": null
+},
+"IRN2_121": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Jam",
+"parent": "Bushehr",
+"lon": 52.237,
+"lat": 27.936,
+"area_km2": null
+},
+"IRN2_122": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Jahrom",
+"parent": "Fars",
+"lon": 53.352,
+"lat": 28.695,
+"area_km2": null
+},
+"IRN2_123": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Javanrud",
+"parent": "Kermanshah",
+"lon": 46.296,
+"lat": 34.847,
+"area_km2": null
+},
+"IRN2_124": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Juybar",
+"parent": "Mazandaran",
+"lon": 52.913,
+"lat": 36.675,
+"area_km2": null
+},
+"IRN2_125": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Jowayin",
+"parent": "Razavi Khorasan",
+"lon": 57.477,
+"lat": 36.602,
+"area_km2": null
+},
+"IRN2_126": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Jiroft",
+"parent": "Kerman",
+"lon": 57.495,
+"lat": 28.777,
+"area_km2": null
+},
+"IRN2_127": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Hajiabad",
+"parent": "Hormozgan",
+"lon": 56.009,
+"lat": 28.24,
+"area_km2": null
+},
+"IRN2_128": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Hamidieh",
+"parent": "Khuzestan",
+"lon": 48.449,
+"lat": 31.492,
+"area_km2": null
+},
+"IRN2_129": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khatam",
+"parent": "Yazd",
+"lon": 54.238,
+"lat": 30.364,
+"area_km2": null
+},
+"IRN2_130": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khash",
+"parent": "Sistan and Baluchestan",
+"lon": 61.262,
+"lat": 28.183,
+"area_km2": null
+},
+"IRN2_131": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khoda Afarin",
+"parent": "East Azerbaijan",
+"lon": 46.946,
+"lat": 39.064,
+"area_km2": null
+},
+"IRN2_132": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khodabandeh",
+"parent": "Zanjan",
+"lon": 48.483,
+"lat": 35.99,
+"area_km2": null
+},
+"IRN2_133": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kharameh",
+"parent": "Fars",
+"lon": 53.264,
+"lat": 29.502,
+"area_km2": null
+},
+"IRN2_134": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khoramabad",
+"parent": "Lorestan",
+"lon": 48.57,
+"lat": 33.392,
+"area_km2": null
+},
+"IRN2_135": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khorambid",
+"parent": "Fars",
+"lon": 53.136,
+"lat": 30.566,
+"area_km2": null
+},
+"IRN2_136": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khoramdareh",
+"parent": "Zanjan",
+"lon": 49.151,
+"lat": 36.27,
+"area_km2": null
+},
+"IRN2_137": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khoramshahr",
+"parent": "Khuzestan",
+"lon": 48.207,
+"lat": 30.71,
+"area_km2": null
+},
+"IRN2_138": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kahlkhal",
+"parent": "Ardabil",
+"lon": 48.542,
+"lat": 37.429,
+"area_km2": null
+},
+"IRN2_139": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khalilabad",
+"parent": "Razavi Khorasan",
+"lon": 58.187,
+"lat": 35.174,
+"area_km2": null
+},
+"IRN2_140": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khomein",
+"parent": "Markazi",
+"lon": 49.997,
+"lat": 33.668,
+"area_km2": null
+},
+"IRN2_141": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khomeini Shahr",
+"parent": "Isfahan",
+"lon": 51.518,
+"lat": 32.683,
+"area_km2": null
+},
+"IRN2_142": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khamir",
+"parent": "Hormozgan",
+"lon": 55.497,
+"lat": 27.281,
+"area_km2": null
+},
+"IRN2_143": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khonj",
+"parent": "Fars",
+"lon": 53.068,
+"lat": 27.964,
+"area_km2": null
+},
+"IRN2_144": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khondab",
+"parent": "Markazi",
+"lon": 49.22,
+"lat": 34.348,
+"area_km2": null
+},
+"IRN2_145": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khaf",
+"parent": "Razavi Khorasan",
+"lon": 60.036,
+"lat": 34.411,
+"area_km2": null
+},
+"IRN2_146": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khansar",
+"parent": "Isfahan",
+"lon": 50.381,
+"lat": 33.252,
+"area_km2": null
+},
+"IRN2_147": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khur and Biabanak",
+"parent": "Isfahan",
+"lon": 54.916,
+"lat": 33.795,
+"area_km2": null
+},
+"IRN2_148": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khusf",
+"parent": "South Khorasan",
+"lon": 58.69,
+"lat": 32.303,
+"area_km2": null
+},
+"IRN2_149": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khoshab",
+"parent": "Razavi Khorasan",
+"lon": 58.006,
+"lat": 36.492,
+"area_km2": null
+},
+"IRN2_150": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Khoy",
+"parent": "West Azerbaijan",
+"lon": 44.763,
+"lat": 38.604,
+"area_km2": null
+},
+"IRN2_151": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Darab",
+"parent": "Fars",
+"lon": 54.897,
+"lat": 28.532,
+"area_km2": null
+},
+"IRN2_152": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dalahu",
+"parent": "Kermanshah",
+"lon": 46.243,
+"lat": 34.405,
+"area_km2": null
+},
+"IRN2_153": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Damghan",
+"parent": "Semnan",
+"lon": 54.35,
+"lat": 35.56,
+"area_km2": null
+},
+"IRN2_154": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Davarzan",
+"parent": "Razavi Khorasan",
+"lon": 57.071,
+"lat": 36.29,
+"area_km2": null
+},
+"IRN2_155": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Darmian",
+"parent": "South Khorasan",
+"lon": 60.127,
+"lat": 32.951,
+"area_km2": null
+},
+"IRN2_156": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dargaz",
+"parent": "Razavi Khorasan",
+"lon": 59.017,
+"lat": 37.363,
+"area_km2": null
+},
+"IRN2_157": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dezful",
+"parent": "Khuzestan",
+"lon": 48.839,
+"lat": 32.576,
+"area_km2": null
+},
+"IRN2_158": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dasht-e-Azadegan",
+"parent": "Khuzestan",
+"lon": 48.066,
+"lat": 31.728,
+"area_km2": null
+},
+"IRN2_159": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dashtestan",
+"parent": "Bushehr",
+"lon": 51.35,
+"lat": 29.242,
+"area_km2": null
+},
+"IRN2_160": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dashti",
+"parent": "Bushehr",
+"lon": 51.629,
+"lat": 28.437,
+"area_km2": null
+},
+"IRN2_161": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Delfan",
+"parent": "Lorestan",
+"lon": 47.823,
+"lat": 34.061,
+"area_km2": null
+},
+"IRN2_162": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Delijan",
+"parent": "Markazi",
+"lon": 50.747,
+"lat": 34.02,
+"area_km2": null
+},
+"IRN2_163": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dalagan",
+"parent": "Sistan and Baluchestan",
+"lon": 59.306,
+"lat": 27.416,
+"area_km2": null
+},
+"IRN2_164": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Damavand",
+"parent": "Tehran",
+"lon": 52.172,
+"lat": 35.624,
+"area_km2": null
+},
+"IRN2_165": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dena",
+"parent": "Kohgiluyeh and Boyer-Ahmad",
+"lon": 51.263,
+"lat": 31.017,
+"area_km2": null
+},
+"IRN2_166": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dehaqan",
+"parent": "Isfahan",
+"lon": 51.615,
+"lat": 31.981,
+"area_km2": null
+},
+"IRN2_167": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dehgolan",
+"parent": "Kurdistan",
+"lon": 47.356,
+"lat": 35.337,
+"area_km2": null
+},
+"IRN2_168": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Doreh",
+"parent": "Lorestan",
+"lon": 47.952,
+"lat": 33.591,
+"area_km2": null
+},
+"IRN2_169": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Dorud",
+"parent": "Lorestan",
+"lon": 49.074,
+"lat": 33.527,
+"area_km2": null
+},
+"IRN2_170": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Deylam",
+"parent": "Bushehr",
+"lon": 50.343,
+"lat": 30.019,
+"area_km2": null
+},
+"IRN2_171": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Divandareh",
+"parent": "Kurdistan",
+"lon": 46.962,
+"lat": 35.948,
+"area_km2": null
+},
+"IRN2_172": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Deyr",
+"parent": "Bushehr",
+"lon": 51.685,
+"lat": 28.019,
+"area_km2": null
+},
+"IRN2_173": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rabor",
+"parent": "Kerman",
+"lon": 56.988,
+"lat": 29.235,
+"area_km2": null
+},
+"IRN2_174": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Raz and Jargalan",
+"parent": "North Khorasan",
+"lon": 56.909,
+"lat": 38.097,
+"area_km2": null
+},
+"IRN2_175": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ramsar",
+"parent": "Mazandaran",
+"lon": 50.553,
+"lat": 36.781,
+"area_km2": null
+},
+"IRN2_176": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ramshir",
+"parent": "Khuzestan",
+"lon": 49.393,
+"lat": 30.944,
+"area_km2": null
+},
+"IRN2_177": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ramhormoz",
+"parent": "Khuzestan",
+"lon": 49.658,
+"lat": 31.219,
+"area_km2": null
+},
+"IRN2_178": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ramian",
+"parent": "Golestan",
+"lon": 55.098,
+"lat": 36.956,
+"area_km2": null
+},
+"IRN2_179": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ravar",
+"parent": "Kerman",
+"lon": 57.154,
+"lat": 31.323,
+"area_km2": null
+},
+"IRN2_180": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Robatkarim",
+"parent": "Tehran",
+"lon": 51.051,
+"lat": 35.498,
+"area_km2": null
+},
+"IRN2_181": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Razan",
+"parent": "Hamadan",
+"lon": 48.972,
+"lat": 35.434,
+"area_km2": null
+},
+"IRN2_182": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rostam",
+"parent": "Fars",
+"lon": 51.368,
+"lat": 30.399,
+"area_km2": null
+},
+"IRN2_183": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rasht",
+"parent": "Gilan",
+"lon": 49.682,
+"lat": 37.274,
+"area_km2": null
+},
+"IRN2_184": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Roshtkhar",
+"parent": "Razavi Khorasan",
+"lon": 59.393,
+"lat": 34.831,
+"area_km2": null
+},
+"IRN2_185": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rezvanshahr",
+"parent": "Gilan",
+"lon": 48.951,
+"lat": 37.53,
+"area_km2": null
+},
+"IRN2_186": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rafsanjan",
+"parent": "Kerman",
+"lon": 55.898,
+"lat": 30.54,
+"area_km2": null
+},
+"IRN2_187": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ravansar",
+"parent": "Kermanshah",
+"lon": 46.589,
+"lat": 34.737,
+"area_km2": null
+},
+"IRN2_188": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rudan",
+"parent": "Hormozgan",
+"lon": 57.154,
+"lat": 27.608,
+"area_km2": null
+},
+"IRN2_189": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rudbar",
+"parent": "Gilan",
+"lon": 49.626,
+"lat": 36.797,
+"area_km2": null
+},
+"IRN2_190": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rudbar-e-Jonub",
+"parent": "Kerman",
+"lon": 58.454,
+"lat": 27.893,
+"area_km2": null
+},
+"IRN2_191": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rudsar",
+"parent": "Gilan",
+"lon": 50.319,
+"lat": 36.878,
+"area_km2": null
+},
+"IRN2_192": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rumeshkhan",
+"parent": "Lorestan",
+"lon": 47.412,
+"lat": 33.272,
+"area_km2": null
+},
+"IRN2_193": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rigan",
+"parent": "Kerman",
+"lon": 58.946,
+"lat": 28.504,
+"area_km2": null
+},
+"IRN2_194": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Rey",
+"parent": "Tehran",
+"lon": 51.27,
+"lat": 35.34,
+"area_km2": null
+},
+"IRN2_195": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Zabol",
+"parent": "Sistan and Baluchestan",
+"lon": 61.586,
+"lat": 31.027,
+"area_km2": null
+},
+"IRN2_196": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Zahedan",
+"parent": "Sistan and Baluchestan",
+"lon": 60.192,
+"lat": 29.631,
+"area_km2": null
+},
+"IRN2_197": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Zaveh",
+"parent": "Razavi Khorasan",
+"lon": 59.72,
+"lat": 35.295,
+"area_km2": null
+},
+"IRN2_198": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Zarand",
+"parent": "Kerman",
+"lon": 56.289,
+"lat": 30.94,
+"area_km2": null
+},
+"IRN2_199": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Zarandieh",
+"parent": "Markazi",
+"lon": 50.332,
+"lat": 35.364,
+"area_km2": null
+},
+"IRN2_200": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Zarindasht",
+"parent": "Fars",
+"lon": 54.476,
+"lat": 28.289,
+"area_km2": null
+},
+"IRN2_201": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Zanjan",
+"parent": "Zanjan",
+"lon": 48.218,
+"lat": 36.846,
+"area_km2": null
+},
+"IRN2_202": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Zahak",
+"parent": "Sistan and Baluchestan",
+"lon": 61.635,
+"lat": 30.822,
+"area_km2": null
+},
+"IRN2_203": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Zirkuh",
+"parent": "South Khorasan",
+"lon": 60.158,
+"lat": 33.557,
+"area_km2": null
+},
+"IRN2_204": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sari",
+"parent": "Mazandaran",
+"lon": 53.356,
+"lat": 36.323,
+"area_km2": null
+},
+"IRN2_205": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Saman",
+"parent": "Chaharmahal and Bakhtiari",
+"lon": 50.889,
+"lat": 32.551,
+"area_km2": null
+},
+"IRN2_206": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Savojbolagh",
+"parent": "Alborz",
+"lon": 50.811,
+"lat": 35.967,
+"area_km2": null
+},
+"IRN2_207": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Saveh",
+"parent": "Markazi",
+"lon": 50.026,
+"lat": 35.077,
+"area_km2": null
+},
+"IRN2_208": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sabzevar",
+"parent": "Razavi Khorasan",
+"lon": 57.561,
+"lat": 35.91,
+"area_km2": null
+},
+"IRN2_209": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sarab",
+"parent": "East Azerbaijan",
+"lon": 47.467,
+"lat": 37.98,
+"area_km2": null
+},
+"IRN2_210": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Saravan",
+"parent": "Sistan and Baluchestan",
+"lon": 62.568,
+"lat": 27.349,
+"area_km2": null
+},
+"IRN2_211": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sarayan",
+"parent": "South Khorasan",
+"lon": 58.243,
+"lat": 33.364,
+"area_km2": null
+},
+"IRN2_212": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sarbaz",
+"parent": "Sistan and Baluchestan",
+"lon": 61.404,
+"lat": 26.454,
+"area_km2": null
+},
+"IRN2_213": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sarbisheh",
+"parent": "South Khorasan",
+"lon": 60.071,
+"lat": 32.442,
+"area_km2": null
+},
+"IRN2_214": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sarakhs",
+"parent": "Razavi Khorasan",
+"lon": 60.786,
+"lat": 36.299,
+"area_km2": null
+},
+"IRN2_215": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sorkheh",
+"parent": "Semnan",
+"lon": 53.147,
+"lat": 34.929,
+"area_km2": null
+},
+"IRN2_216": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sardasht",
+"parent": "West Azerbaijan",
+"lon": 45.461,
+"lat": 36.232,
+"area_km2": null
+},
+"IRN2_217": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sareyn",
+"parent": "Ardabil",
+"lon": 48.016,
+"lat": 38.196,
+"area_km2": null
+},
+"IRN2_218": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sarvabad",
+"parent": "Kurdistan",
+"lon": 46.4,
+"lat": 35.232,
+"area_km2": null
+},
+"IRN2_219": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sarvestan",
+"parent": "Fars",
+"lon": 53.112,
+"lat": 29.234,
+"area_km2": null
+},
+"IRN2_220": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sarpol-e-Zahab",
+"parent": "Kermanshah",
+"lon": 45.886,
+"lat": 34.54,
+"area_km2": null
+},
+"IRN2_221": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Selseleh",
+"parent": "Lorestan",
+"lon": 48.169,
+"lat": 33.831,
+"area_km2": null
+},
+"IRN2_222": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Soltanieh",
+"parent": "Zanjan",
+"lon": 48.823,
+"lat": 36.48,
+"area_km2": null
+},
+"IRN2_223": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Salmas",
+"parent": "West Azerbaijan",
+"lon": 44.653,
+"lat": 38.138,
+"area_km2": null
+},
+"IRN2_224": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Semnan",
+"parent": "Semnan",
+"lon": 53.802,
+"lat": 35.048,
+"area_km2": null
+},
+"IRN2_225": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Semirom",
+"parent": "Isfahan",
+"lon": 51.6,
+"lat": 31.28,
+"area_km2": null
+},
+"IRN2_226": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sonqor",
+"parent": "Kermanshah",
+"lon": 47.544,
+"lat": 34.864,
+"area_km2": null
+},
+"IRN2_227": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sanandaj",
+"parent": "Kurdistan",
+"lon": 46.902,
+"lat": 35.373,
+"area_km2": null
+},
+"IRN2_228": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Savadkuh-e-Shomali",
+"parent": "Mazandaran",
+"lon": 52.839,
+"lat": 36.267,
+"area_km2": null
+},
+"IRN2_229": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Savdkuh",
+"parent": "Mazandaran",
+"lon": 52.946,
+"lat": 36.054,
+"area_km2": null
+},
+"IRN2_230": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Siahkal",
+"parent": "Gilan",
+"lon": 49.9,
+"lat": 36.949,
+"area_km2": null
+},
+"IRN2_231": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sib and Suran",
+"parent": "Sistan and Baluchestan",
+"lon": 61.88,
+"lat": 27.302,
+"area_km2": null
+},
+"IRN2_232": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sirjan",
+"parent": "Kerman",
+"lon": 55.717,
+"lat": 29.371,
+"area_km2": null
+},
+"IRN2_233": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sirvan",
+"parent": "Ilam",
+"lon": 46.676,
+"lat": 33.606,
+"area_km2": null
+},
+"IRN2_234": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sirik",
+"parent": "Hormozgan",
+"lon": 57.226,
+"lat": 26.482,
+"area_km2": null
+},
+"IRN2_235": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Simorgh",
+"parent": "Mazandaran",
+"lon": 52.819,
+"lat": 36.579,
+"area_km2": null
+},
+"IRN2_236": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sepidan",
+"parent": "Fars",
+"lon": 52.125,
+"lat": 30.171,
+"area_km2": null
+},
+"IRN2_237": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shadegan",
+"parent": "Khuzestan",
+"lon": 48.68,
+"lat": 30.649,
+"area_km2": null
+},
+"IRN2_238": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shazand",
+"parent": "Markazi",
+"lon": 49.304,
+"lat": 33.896,
+"area_km2": null
+},
+"IRN2_239": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shahrud",
+"parent": "Semnan",
+"lon": 55.609,
+"lat": 35.44,
+"area_km2": null
+},
+"IRN2_240": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shahin Shahr and Meymeh",
+"parent": "Isfahan",
+"lon": 51.154,
+"lat": 33.303,
+"area_km2": null
+},
+"IRN2_241": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shahindezh",
+"parent": "West Azerbaijan",
+"lon": 46.643,
+"lat": 36.677,
+"area_km2": null
+},
+"IRN2_242": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shabestar",
+"parent": "East Azerbaijan",
+"lon": 45.747,
+"lat": 38.245,
+"area_km2": null
+},
+"IRN2_243": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shaft",
+"parent": "Gilan",
+"lon": 49.372,
+"lat": 37.087,
+"area_km2": null
+},
+"IRN2_244": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shemiranat",
+"parent": "Tehran",
+"lon": 51.612,
+"lat": 35.922,
+"area_km2": null
+},
+"IRN2_245": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shahr-e-Babak",
+"parent": "Kerman",
+"lon": 54.991,
+"lat": 30.238,
+"area_km2": null
+},
+"IRN2_246": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sahreza",
+"parent": "Isfahan",
+"lon": 51.88,
+"lat": 31.862,
+"area_km2": null
+},
+"IRN2_247": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sharekurd",
+"parent": "Chaharmahal and Bakhtiari",
+"lon": 50.8,
+"lat": 32.305,
+"area_km2": null
+},
+"IRN2_248": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shahriar",
+"parent": "Tehran",
+"lon": 51.031,
+"lat": 35.606,
+"area_km2": null
+},
+"IRN2_249": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shahmirzad",
+"parent": "Semnan",
+"lon": 53.427,
+"lat": 35.946,
+"area_km2": null
+},
+"IRN2_250": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shush",
+"parent": "Khuzestan",
+"lon": 48.225,
+"lat": 32.034,
+"area_km2": null
+},
+"IRN2_251": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shushtar",
+"parent": "Khuzestan",
+"lon": 48.877,
+"lat": 31.887,
+"area_km2": null
+},
+"IRN2_252": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Showt",
+"parent": "West Azerbaijan",
+"lon": 44.838,
+"lat": 39.138,
+"area_km2": null
+},
+"IRN2_253": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shiraz",
+"parent": "Fars",
+"lon": 52.434,
+"lat": 29.599,
+"area_km2": null
+},
+"IRN2_254": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sahneh",
+"parent": "Kermanshah",
+"lon": 47.507,
+"lat": 34.572,
+"area_km2": null
+},
+"IRN2_255": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Sowme'eh Sara",
+"parent": "Gilan",
+"lon": 49.299,
+"lat": 37.357,
+"area_km2": null
+},
+"IRN2_256": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Tarom",
+"parent": "Zanjan",
+"lon": 48.878,
+"lat": 36.947,
+"area_km2": null
+},
+"IRN2_257": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Taleghan",
+"parent": "Alborz",
+"lon": 50.774,
+"lat": 36.215,
+"area_km2": null
+},
+"IRN2_258": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Tabas",
+"parent": "South Khorasan",
+"lon": 56.823,
+"lat": 33.308,
+"area_km2": null
+},
+"IRN2_259": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Talesh",
+"parent": "Gilan",
+"lon": 48.786,
+"lat": 37.889,
+"area_km2": null
+},
+"IRN2_260": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Abbasabad",
+"parent": "Mazandaran",
+"lon": 51.157,
+"lat": 36.648,
+"area_km2": null
+},
+"IRN2_261": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ajabshir",
+"parent": "East Azerbaijan",
+"lon": 46.029,
+"lat": 37.55,
+"area_km2": null
+},
+"IRN2_262": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Asaluyeh",
+"parent": "Bushehr",
+"lon": 52.708,
+"lat": 27.437,
+"area_km2": null
+},
+"IRN2_263": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Aliabad",
+"parent": "Golestan",
+"lon": 54.854,
+"lat": 36.84,
+"area_km2": null
+},
+"IRN2_264": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Anbarabad",
+"parent": "Kerman",
+"lon": 58.145,
+"lat": 28.402,
+"area_km2": null
+},
+"IRN2_265": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Farsan",
+"parent": "Chaharmahal and Bakhtiari",
+"lon": 50.562,
+"lat": 32.229,
+"area_km2": null
+},
+"IRN2_266": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Faruj",
+"parent": "North Khorasan",
+"lon": 58.171,
+"lat": 37.2,
+"area_km2": null
+},
+"IRN2_267": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Faryab",
+"parent": "Kerman",
+"lon": 57.251,
+"lat": 28.159,
+"area_km2": null
+},
+"IRN2_268": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Famenin",
+"parent": "Hamadan",
+"lon": 49.191,
+"lat": 35.092,
+"area_km2": null
+},
+"IRN2_269": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Farashband",
+"parent": "Fars",
+"lon": 52.21,
+"lat": 28.622,
+"area_km2": null
+},
+"IRN2_270": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Farahan",
+"parent": "Markazi",
+"lon": 49.63,
+"lat": 34.609,
+"area_km2": null
+},
+"IRN2_271": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ferdows",
+"parent": "South Khorasan",
+"lon": 57.979,
+"lat": 34.016,
+"area_km2": null
+},
+"IRN2_272": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Fereydan",
+"parent": "Isfahan",
+"lon": 50.402,
+"lat": 32.977,
+"area_km2": null
+},
+"IRN2_273": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Fereydunshahr",
+"parent": "Isfahan",
+"lon": 50.001,
+"lat": 32.854,
+"area_km2": null
+},
+"IRN2_274": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Fereydunkenar",
+"parent": "Mazandaran",
+"lon": 52.532,
+"lat": 36.646,
+"area_km2": null
+},
+"IRN2_275": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Fariman",
+"parent": "Razavi Khorasan",
+"lon": 59.879,
+"lat": 35.696,
+"area_km2": null
+},
+"IRN2_276": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Fasa",
+"parent": "Fars",
+"lon": 53.784,
+"lat": 28.949,
+"area_km2": null
+},
+"IRN2_277": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Falaverjan",
+"parent": "Isfahan",
+"lon": 51.538,
+"lat": 32.521,
+"area_km2": null
+},
+"IRN2_278": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Fanuj",
+"parent": "Sistan and Baluchestan",
+"lon": 59.543,
+"lat": 26.713,
+"area_km2": null
+},
+"IRN2_279": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Fahraj",
+"parent": "Kerman",
+"lon": 59.18,
+"lat": 29.096,
+"area_km2": null
+},
+"IRN2_280": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Fuman",
+"parent": "Gilan",
+"lon": 49.133,
+"lat": 37.183,
+"area_km2": null
+},
+"IRN2_281": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Firuzabad",
+"parent": "Fars",
+"lon": 52.562,
+"lat": 28.896,
+"area_km2": null
+},
+"IRN2_282": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Firuzkuh",
+"parent": "Tehran",
+"lon": 52.659,
+"lat": 35.706,
+"area_km2": null
+},
+"IRN2_283": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Firuzeh",
+"parent": "Razavi Khorasan",
+"lon": 58.423,
+"lat": 36.32,
+"area_km2": null
+},
+"IRN2_284": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ghaemshahr",
+"parent": "Mazandaran",
+"lon": 52.879,
+"lat": 36.457,
+"area_km2": null
+},
+"IRN2_285": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ghaenat",
+"parent": "South Khorasan",
+"lon": 59.153,
+"lat": 33.728,
+"area_km2": null
+},
+"IRN2_286": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Qods",
+"parent": "Tehran",
+"lon": 51.096,
+"lat": 35.706,
+"area_km2": null
+},
+"IRN2_287": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ghorveh",
+"parent": "Kurdistan",
+"lon": 47.827,
+"lat": 35.231,
+"area_km2": null
+},
+"IRN2_288": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Gharchak",
+"parent": "Tehran",
+"lon": 51.57,
+"lat": 35.415,
+"area_km2": null
+},
+"IRN2_289": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Qazvin",
+"parent": "Qazvin",
+"lon": 49.859,
+"lat": 36.472,
+"area_km2": null
+},
+"IRN2_290": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Qeshm",
+"parent": "Hormozgan",
+"lon": 55.842,
+"lat": 26.789,
+"area_km2": null
+},
+"IRN2_291": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Qasr-e-Shirin",
+"parent": "Kermanshah",
+"lon": 45.612,
+"lat": 34.204,
+"area_km2": null
+},
+"IRN2_292": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Qasr-e-Ghand",
+"parent": "Sistan and Baluchestan",
+"lon": 60.83,
+"lat": 26.076,
+"area_km2": null
+},
+"IRN2_293": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Ghalehganj",
+"parent": "Kerman",
+"lon": 58.4,
+"lat": 27.17,
+"area_km2": null
+},
+"IRN2_294": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Qom",
+"parent": "Qom",
+"lon": 51.024,
+"lat": 34.697,
+"area_km2": null
+},
+"IRN2_295": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Quchan",
+"parent": "Razavi Khorasan",
+"lon": 58.589,
+"lat": 37.118,
+"area_km2": null
+},
+"IRN2_296": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Qir and Karzin",
+"parent": "Fars",
+"lon": 52.911,
+"lat": 28.341,
+"area_km2": null
+},
+"IRN2_297": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Karun",
+"parent": "Khuzestan",
+"lon": 48.628,
+"lat": 31.074,
+"area_km2": null
+},
+"IRN2_298": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kazerun",
+"parent": "Fars",
+"lon": 51.714,
+"lat": 29.519,
+"area_km2": null
+},
+"IRN2_299": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kashan",
+"parent": "Isfahan",
+"lon": 51.278,
+"lat": 33.924,
+"area_km2": null
+},
+"IRN2_300": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kashmar",
+"parent": "Razavi Khorasan",
+"lon": 58.493,
+"lat": 35.418,
+"area_km2": null
+},
+"IRN2_301": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kamyaran",
+"parent": "Kurdistan",
+"lon": 46.921,
+"lat": 34.951,
+"area_km2": null
+},
+"IRN2_302": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kabutarahang",
+"parent": "Hamadan",
+"lon": 48.383,
+"lat": 35.368,
+"area_km2": null
+},
+"IRN2_303": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Karaj",
+"parent": "Alborz",
+"lon": 51.15,
+"lat": 35.958,
+"area_km2": null
+},
+"IRN2_304": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kordkuy",
+"parent": "Golestan",
+"lon": 54.198,
+"lat": 36.68,
+"area_km2": null
+},
+"IRN2_305": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kerman",
+"parent": "Kerman",
+"lon": 58.13,
+"lat": 30.348,
+"area_km2": null
+},
+"IRN2_306": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kermanshah",
+"parent": "Kermanshah",
+"lon": 47.009,
+"lat": 34.3,
+"area_km2": null
+},
+"IRN2_307": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kalat",
+"parent": "Razavi Khorasan",
+"lon": 59.922,
+"lat": 36.832,
+"area_km2": null
+},
+"IRN2_308": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kelardasht",
+"parent": "Mazandaran",
+"lon": 51.083,
+"lat": 36.432,
+"area_km2": null
+},
+"IRN2_309": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kalaleh",
+"parent": "Golestan",
+"lon": 55.583,
+"lat": 37.557,
+"area_km2": null
+},
+"IRN2_310": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kaleybar",
+"parent": "East Azerbaijan",
+"lon": 47.138,
+"lat": 38.939,
+"area_km2": null
+},
+"IRN2_311": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Komijan",
+"parent": "Markazi",
+"lon": 49.306,
+"lat": 34.725,
+"area_km2": null
+},
+"IRN2_312": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Konarak",
+"parent": "Sistan and Baluchestan",
+"lon": 59.903,
+"lat": 25.668,
+"area_km2": null
+},
+"IRN2_313": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kangan",
+"parent": "Bushehr",
+"lon": 52.237,
+"lat": 27.761,
+"area_km2": null
+},
+"IRN2_314": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "kangavar",
+"parent": "Kermanshah",
+"lon": 47.916,
+"lat": 34.477,
+"area_km2": null
+},
+"IRN2_315": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kahnuj",
+"parent": "Kerman",
+"lon": 57.635,
+"lat": 27.845,
+"area_km2": null
+},
+"IRN2_316": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kohkiluyeh",
+"parent": "Kohgiluyeh and Boyer-Ahmad",
+"lon": 50.493,
+"lat": 31.057,
+"area_km2": null
+},
+"IRN2_317": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kavar",
+"parent": "Fars",
+"lon": 52.715,
+"lat": 29.22,
+"area_km2": null
+},
+"IRN2_318": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kosar",
+"parent": "Ardabil",
+"lon": 48.275,
+"lat": 37.718,
+"area_km2": null
+},
+"IRN2_319": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kuhbanan",
+"parent": "Kerman",
+"lon": 56.284,
+"lat": 31.382,
+"area_km2": null
+},
+"IRN2_320": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kuhdasht",
+"parent": "Lorestan",
+"lon": 47.39,
+"lat": 33.544,
+"area_km2": null
+},
+"IRN2_321": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kuhrang",
+"parent": "Chaharmahal and Bakhtiari",
+"lon": 50.035,
+"lat": 32.421,
+"area_km2": null
+},
+"IRN2_322": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Kiar",
+"parent": "Chaharmahal and Bakhtiari",
+"lon": 50.77,
+"lat": 31.927,
+"area_km2": null
+},
+"IRN2_323": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Larestan",
+"parent": "Fars",
+"lon": 54.376,
+"lat": 27.815,
+"area_km2": null
+},
+"IRN2_324": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Lali",
+"parent": "Khuzestan",
+"lon": 49.175,
+"lat": 32.429,
+"area_km2": null
+},
+"IRN2_325": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Lamerd",
+"parent": "Fars",
+"lon": 53.349,
+"lat": 27.404,
+"area_km2": null
+},
+"IRN2_326": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Lahijan",
+"parent": "Gilan",
+"lon": 50.036,
+"lat": 37.223,
+"area_km2": null
+},
+"IRN2_327": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Lordegan",
+"parent": "Chaharmahal and Bakhtiari",
+"lon": 50.887,
+"lat": 31.461,
+"area_km2": null
+},
+"IRN2_328": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Lenjan",
+"parent": "Isfahan",
+"lon": 51.224,
+"lat": 32.398,
+"area_km2": null
+},
+"IRN2_329": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Landeh",
+"parent": "Kohgiluyeh and Boyer-Ahmad",
+"lon": 50.359,
+"lat": 30.992,
+"area_km2": null
+},
+"IRN2_330": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Langerud",
+"parent": "Gilan",
+"lon": 50.112,
+"lat": 37.125,
+"area_km2": null
+},
+"IRN2_331": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Masal",
+"parent": "Gilan",
+"lon": 49.031,
+"lat": 37.401,
+"area_km2": null
+},
+"IRN2_332": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Maku",
+"parent": "West Azerbaijan",
+"lon": 44.592,
+"lat": 39.45,
+"area_km2": null
+},
+"IRN2_333": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Maneh and Samalqan",
+"parent": "North Khorasan",
+"lon": 56.59,
+"lat": 37.68,
+"area_km2": null
+},
+"IRN2_334": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mahneshan",
+"parent": "Zanjan",
+"lon": 47.581,
+"lat": 36.645,
+"area_km2": null
+},
+"IRN2_335": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mobarakeh",
+"parent": "Isfahan",
+"lon": 51.512,
+"lat": 32.281,
+"area_km2": null
+},
+"IRN2_336": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mahallat",
+"parent": "Markazi",
+"lon": 50.449,
+"lat": 33.885,
+"area_km2": null
+},
+"IRN2_337": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mahmudabad",
+"parent": "Mazandaran",
+"lon": 52.334,
+"lat": 36.607,
+"area_km2": null
+},
+"IRN2_338": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Maragheh",
+"parent": "East Azerbaijan",
+"lon": 46.421,
+"lat": 37.363,
+"area_km2": null
+},
+"IRN2_339": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Maraveh Tapeh",
+"parent": "Golestan",
+"lon": 55.917,
+"lat": 37.857,
+"area_km2": null
+},
+"IRN2_340": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Marand",
+"parent": "East Azerbaijan",
+"lon": 45.657,
+"lat": 38.56,
+"area_km2": null
+},
+"IRN2_341": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Marvdasht",
+"parent": "Fars",
+"lon": 52.644,
+"lat": 30.1,
+"area_km2": null
+},
+"IRN2_342": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Marivan",
+"parent": "Kurdistan",
+"lon": 46.352,
+"lat": 35.573,
+"area_km2": null
+},
+"IRN2_343": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Masjedsoleyman",
+"parent": "Khuzestan",
+"lon": 49.311,
+"lat": 31.951,
+"area_km2": null
+},
+"IRN2_344": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mashhad",
+"parent": "Razavi Khorasan",
+"lon": 59.814,
+"lat": 36.253,
+"area_km2": null
+},
+"IRN2_345": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Meshkinshahr",
+"parent": "Ardabil",
+"lon": 47.761,
+"lat": 38.562,
+"area_km2": null
+},
+"IRN2_346": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Malard",
+"parent": "Tehran",
+"lon": 50.71,
+"lat": 35.61,
+"area_km2": null
+},
+"IRN2_347": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Malayer",
+"parent": "Hamadan",
+"lon": 48.794,
+"lat": 34.324,
+"area_km2": null
+},
+"IRN2_348": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Malekan",
+"parent": "East Azerbaijan",
+"lon": 46.203,
+"lat": 37.128,
+"area_km2": null
+},
+"IRN2_349": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Malekshahi",
+"parent": "Ilam",
+"lon": 46.59,
+"lat": 33.302,
+"area_km2": null
+},
+"IRN2_350": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mamasani",
+"parent": "Fars",
+"lon": 51.377,
+"lat": 30.011,
+"area_km2": null
+},
+"IRN2_351": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Manujan",
+"parent": "Kerman",
+"lon": 57.673,
+"lat": 27.324,
+"area_km2": null
+},
+"IRN2_352": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mahvelat",
+"parent": "Razavi Khorasan",
+"lon": 58.73,
+"lat": 35.019,
+"area_km2": null
+},
+"IRN2_353": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mahabad",
+"parent": "West Azerbaijan",
+"lon": 45.736,
+"lat": 36.665,
+"area_km2": null
+},
+"IRN2_354": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mehdishahr",
+"parent": "Semnan",
+"lon": 53.33,
+"lat": 35.743,
+"area_km2": null
+},
+"IRN2_355": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mehr",
+"parent": "Fars",
+"lon": 52.761,
+"lat": 27.633,
+"area_km2": null
+},
+"IRN2_356": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mehrestan",
+"parent": "Sistan and Baluchestan",
+"lon": 61.658,
+"lat": 26.969,
+"area_km2": null
+},
+"IRN2_357": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mehriz",
+"parent": "Yazd",
+"lon": 54.644,
+"lat": 31.346,
+"area_km2": null
+},
+"IRN2_358": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Miami",
+"parent": "Semnan",
+"lon": 56.057,
+"lat": 36.625,
+"area_km2": null
+},
+"IRN2_359": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Miandoab",
+"parent": "West Azerbaijan",
+"lon": 46.236,
+"lat": 36.998,
+"area_km2": null
+},
+"IRN2_360": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Miandorud",
+"parent": "Mazandaran",
+"lon": 53.26,
+"lat": 36.599,
+"area_km2": null
+},
+"IRN2_361": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mianeh",
+"parent": "East Azerbaijan",
+"lon": 47.724,
+"lat": 37.468,
+"area_km2": null
+},
+"IRN2_362": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Meybod",
+"parent": "Yazd",
+"lon": 53.525,
+"lat": 32.009,
+"area_km2": null
+},
+"IRN2_363": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Mirjaveh",
+"parent": "Sistan and Baluchestan",
+"lon": 61.332,
+"lat": 28.846,
+"area_km2": null
+},
+"IRN2_364": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Minab",
+"parent": "Hormozgan",
+"lon": 57.324,
+"lat": 26.942,
+"area_km2": null
+},
+"IRN2_365": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Minudasht",
+"parent": "Golestan",
+"lon": 55.461,
+"lat": 37.138,
+"area_km2": null
+},
+"IRN2_366": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Nain",
+"parent": "Isfahan",
+"lon": 53.688,
+"lat": 33.406,
+"area_km2": null
+},
+"IRN2_367": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Najafabad",
+"parent": "Isfahan",
+"lon": 51.056,
+"lat": 32.962,
+"area_km2": null
+},
+"IRN2_368": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Narmashir",
+"parent": "Kerman",
+"lon": 58.755,
+"lat": 29.258,
+"area_km2": null
+},
+"IRN2_369": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Natanz",
+"parent": "Isfahan",
+"lon": 51.876,
+"lat": 33.549,
+"area_km2": null
+},
+"IRN2_370": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Nazarabad",
+"parent": "Alborz",
+"lon": 50.518,
+"lat": 35.897,
+"area_km2": null
+},
+"IRN2_371": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Naghadeh",
+"parent": "West Azerbaijan",
+"lon": 45.443,
+"lat": 36.977,
+"area_km2": null
+},
+"IRN2_372": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Neka",
+"parent": "Mazandaran",
+"lon": 53.56,
+"lat": 36.515,
+"area_km2": null
+},
+"IRN2_373": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Namin",
+"parent": "Ardabil",
+"lon": 48.467,
+"lat": 38.392,
+"area_km2": null
+},
+"IRN2_374": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Nahavand",
+"parent": "Hamadan",
+"lon": 48.244,
+"lat": 34.222,
+"area_km2": null
+},
+"IRN2_375": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Nehbandan",
+"parent": "South Khorasan",
+"lon": 59.747,
+"lat": 31.495,
+"area_km2": null
+},
+"IRN2_376": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Nur",
+"parent": "Mazandaran",
+"lon": 51.896,
+"lat": 36.276,
+"area_km2": null
+},
+"IRN2_377": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Noshahr",
+"parent": "Mazandaran",
+"lon": 51.605,
+"lat": 36.435,
+"area_km2": null
+},
+"IRN2_378": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Neyriz",
+"parent": "Fars",
+"lon": 54.43,
+"lat": 29.338,
+"area_km2": null
+},
+"IRN2_379": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Nir",
+"parent": "Ardabil",
+"lon": 48.104,
+"lat": 37.993,
+"area_km2": null
+},
+"IRN2_380": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Neyshabur",
+"parent": "Razavi Khorasan",
+"lon": 58.678,
+"lat": 36.171,
+"area_km2": null
+},
+"IRN2_381": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Nikshahr",
+"parent": "Sistan and Baluchestan",
+"lon": 59.913,
+"lat": 26.393,
+"area_km2": null
+},
+"IRN2_382": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Nimruz",
+"parent": "Sistan and Baluchestan",
+"lon": 60.792,
+"lat": 30.985,
+"area_km2": null
+},
+"IRN2_383": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Hamun",
+"parent": "Sistan and Baluchestan",
+"lon": 61.131,
+"lat": 30.532,
+"area_km2": null
+},
+"IRN2_384": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Harsin",
+"parent": "Kermanshah",
+"lon": 47.454,
+"lat": 34.348,
+"area_km2": null
+},
+"IRN2_385": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Heris",
+"parent": "East Azerbaijan",
+"lon": 46.823,
+"lat": 38.229,
+"area_km2": null
+},
+"IRN2_386": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Hashtrud",
+"parent": "East Azerbaijan",
+"lon": 46.904,
+"lat": 37.425,
+"area_km2": null
+},
+"IRN2_387": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Haftgol",
+"parent": "Khuzestan",
+"lon": 49.404,
+"lat": 31.538,
+"area_km2": null
+},
+"IRN2_388": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Hamedan",
+"parent": "Hamadan",
+"lon": 48.801,
+"lat": 34.827,
+"area_km2": null
+},
+"IRN2_389": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Hendijan",
+"parent": "Khuzestan",
+"lon": 49.738,
+"lat": 30.31,
+"area_km2": null
+},
+"IRN2_390": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Hoveyzeh",
+"parent": "Khuzestan",
+"lon": 47.917,
+"lat": 31.323,
+"area_km2": null
+},
+"IRN2_391": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Hirmand",
+"parent": "Sistan and Baluchestan",
+"lon": 61.666,
+"lat": 31.207,
+"area_km2": null
+},
+"IRN2_392": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Varamin",
+"parent": "Tehran",
+"lon": 51.757,
+"lat": 35.133,
+"area_km2": null
+},
+"IRN2_393": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Varzaqan",
+"parent": "East Azerbaijan",
+"lon": 46.452,
+"lat": 38.601,
+"area_km2": null
+},
+"IRN2_394": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Yazd",
+"parent": "Yazd",
+"lon": 54.517,
+"lat": 31.934,
+"area_km2": null
+},
+"IRN2_395": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Parsabad",
+"parent": "Ardabil",
+"lon": 47.735,
+"lat": 39.477,
+"area_km2": null
+},
+"IRN2_396": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Parsian",
+"parent": "Hormozgan",
+"lon": 53.265,
+"lat": 27.134,
+"area_km2": null
+},
+"IRN2_397": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Pasargad",
+"parent": "Fars",
+"lon": 53.159,
+"lat": 30.137,
+"area_km2": null
+},
+"IRN2_398": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Pakdasht",
+"parent": "Tehran",
+"lon": 51.779,
+"lat": 35.452,
+"area_km2": null
+},
+"IRN2_399": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Paveh",
+"parent": "Kermanshah",
+"lon": 46.252,
+"lat": 35.064,
+"area_km2": null
+},
+"IRN2_400": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Paveh",
+"parent": "Tehran",
+"lon": 51.788,
+"lat": 35.695,
+"area_km2": null
+},
+"IRN2_401": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Pol-e-Dokhtar",
+"parent": "Lorestan",
+"lon": 47.975,
+"lat": 33.129,
+"area_km2": null
+},
+"IRN2_402": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Poldasht",
+"parent": "West Azerbaijan",
+"lon": 45.096,
+"lat": 39.198,
+"area_km2": null
+},
+"IRN2_403": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Piranshahr",
+"parent": "West Azerbaijan",
+"lon": 45.224,
+"lat": 36.685,
+"area_km2": null
+},
+"IRN2_404": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Pishva",
+"parent": "Tehran",
+"lon": 51.751,
+"lat": 35.324,
+"area_km2": null
+},
+"IRN2_405": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Chadegan",
+"parent": "Isfahan",
+"lon": 50.532,
+"lat": 32.75,
+"area_km2": null
+},
+"IRN2_406": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Charuymaq",
+"parent": "East Azerbaijan",
+"lon": 47.113,
+"lat": 37.061,
+"area_km2": null
+},
+"IRN2_407": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Chalus",
+"parent": "Mazandaran",
+"lon": 51.259,
+"lat": 36.404,
+"area_km2": null
+},
+"IRN2_408": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Chabahar",
+"parent": "Sistan and Baluchestan",
+"lon": 61.191,
+"lat": 25.521,
+"area_km2": null
+},
+"IRN2_409": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Chaypareh",
+"parent": "West Azerbaijan",
+"lon": 45.022,
+"lat": 38.881,
+"area_km2": null
+},
+"IRN2_410": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Charam",
+"parent": "Kohgiluyeh and Boyer-Ahmad",
+"lon": 50.872,
+"lat": 30.771,
+"area_km2": null
+},
+"IRN2_411": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Chardavol",
+"parent": "Ilam",
+"lon": 46.934,
+"lat": 33.771,
+"area_km2": null
+},
+"IRN2_412": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Chenaran",
+"parent": "Razavi Khorasan",
+"lon": 59.052,
+"lat": 36.695,
+"area_km2": null
+},
+"IRN2_413": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Galikash",
+"parent": "Golestan",
+"lon": 55.674,
+"lat": 37.329,
+"area_km2": null
+},
+"IRN2_414": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Gotvand",
+"parent": "Khuzestan",
+"lon": 48.82,
+"lat": 32.24,
+"area_km2": null
+},
+"IRN2_415": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Gerash",
+"parent": "Fars",
+"lon": 53.709,
+"lat": 27.65,
+"area_km2": null
+},
+"IRN2_416": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Garmsar",
+"parent": "Semnan",
+"lon": 52.173,
+"lat": 34.949,
+"area_km2": null
+},
+"IRN2_417": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Garmeh",
+"parent": "North Khorasan",
+"lon": 56.239,
+"lat": 37.156,
+"area_km2": null
+},
+"IRN2_418": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Garmi",
+"parent": "Ardabil",
+"lon": 47.879,
+"lat": 39.036,
+"area_km2": null
+},
+"IRN2_419": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Gorgan",
+"parent": "Golestan",
+"lon": 54.506,
+"lat": 36.75,
+"area_km2": null
+},
+"IRN2_420": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Galugah",
+"parent": "Mazandaran",
+"lon": 53.801,
+"lat": 36.695,
+"area_km2": null
+},
+"IRN2_421": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Golpayegan",
+"parent": "Isfahan",
+"lon": 50.388,
+"lat": 33.45,
+"area_km2": null
+},
+"IRN2_422": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Gomishan",
+"parent": "Golestan",
+"lon": 54.17,
+"lat": 37.135,
+"area_km2": null
+},
+"IRN2_423": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Gonabad",
+"parent": "Razavi Khorasan",
+"lon": 58.854,
+"lat": 34.378,
+"area_km2": null
+},
+"IRN2_424": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Genaveh",
+"parent": "Bushehr",
+"lon": 50.631,
+"lat": 29.61,
+"area_km2": null
+},
+"IRN2_425": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Gonbad-e-Kavus",
+"parent": "Golestan",
+"lon": 55.105,
+"lat": 37.563,
+"area_km2": null
+},
+"IRN2_426": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Gilan-e-Gharb",
+"parent": "Kermanshah",
+"lon": 45.977,
+"lat": 34.07,
+"area_km2": null
+},
+"IRN2_427": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Gachsaran",
+"parent": "Kohgiluyeh and Boyer-Ahmad",
+"lon": 50.747,
+"lat": 30.293,
+"area_km2": null
+},
+"IRN2_428": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "City of Tehran",
+"parent": "Tehran",
+"lon": 51.378,
+"lat": 35.715,
+"area_km2": null
+},
+"IRN2_429": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Shahariar",
+"parent": "Alborz",
+"lon": 50.975,
+"lat": 35.74,
+"area_km2": null
+},
+"IRN2_430": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Bandar-e-Gaz",
+"parent": "Mazandaran",
+"lon": 53.965,
+"lat": 36.731,
+"area_km2": null
+},
+"IRN2_431": {
+"iso": "IRN",
+"level": "ADM2",
+"name": "Isfahan",
+"parent": "Isfahan",
+"lon": 51.661,
+"lat": 32.667,
+"area_km2": null
+},
+"AZE2_0": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Khachmaz District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.767,
+"lat": 41.551,
+"area_km2": null
+},
+"AZE2_1": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Shabran District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.9,
+"lat": 41.16,
+"area_km2": null
+},
+"AZE2_2": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Siazan District",
+"parent": "Contiguous Azerbaijan",
+"lon": 49.095,
+"lat": 41.013,
+"area_km2": null
+},
+"AZE2_3": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Khizi District",
+"parent": "Contiguous Azerbaijan",
+"lon": 49.21,
+"lat": 40.745,
+"area_km2": null
+},
+"AZE2_4": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Qusar District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.277,
+"lat": 41.449,
+"area_km2": null
+},
+"AZE2_5": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Quba District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.458,
+"lat": 41.19,
+"area_km2": null
+},
+"AZE2_6": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Absheron District",
+"parent": "Contiguous Azerbaijan",
+"lon": 49.336,
+"lat": 40.345,
+"area_km2": null
+},
+"AZE2_7": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Sumqayit City",
+"parent": "Contiguous Azerbaijan",
+"lon": 49.632,
+"lat": 40.583,
+"area_km2": null
+},
+"AZE2_8": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Baku City",
+"parent": "Contiguous Azerbaijan",
+"lon": 49.778,
+"lat": 40.317,
+"area_km2": null
+},
+"AZE2_9": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Gobustan District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.95,
+"lat": 40.532,
+"area_km2": null
+},
+"AZE2_10": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Shamakhi District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.649,
+"lat": 40.652,
+"area_km2": null
+},
+"AZE2_11": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Qabala District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.811,
+"lat": 40.939,
+"area_km2": null
+},
+"AZE2_12": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Ismailli District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.187,
+"lat": 40.812,
+"area_km2": null
+},
+"AZE2_13": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Agsu District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.403,
+"lat": 40.537,
+"area_km2": null
+},
+"AZE2_14": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Hajigabul District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.905,
+"lat": 40.124,
+"area_km2": null
+},
+"AZE2_15": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Shirvan City",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.92,
+"lat": 39.972,
+"area_km2": null
+},
+"AZE2_16": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Oghuz District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.529,
+"lat": 41.063,
+"area_km2": null
+},
+"AZE2_17": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Ganja City",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.354,
+"lat": 40.691,
+"area_km2": null
+},
+"AZE2_18": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Shusha City",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.747,
+"lat": 39.738,
+"area_km2": null
+},
+"AZE2_19": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Khankendi City",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.797,
+"lat": 39.842,
+"area_km2": null
+},
+"AZE2_20": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Yevlakh City",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.167,
+"lat": 40.614,
+"area_km2": null
+},
+"AZE2_21": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Naftalan City",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.801,
+"lat": 40.447,
+"area_km2": null
+},
+"AZE2_22": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Shaki City",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.189,
+"lat": 41.208,
+"area_km2": null
+},
+"AZE2_23": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Salyan District",
+"parent": "Contiguous Azerbaijan",
+"lon": 49.064,
+"lat": 39.682,
+"area_km2": null
+},
+"AZE2_24": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Sabirabad District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.689,
+"lat": 39.913,
+"area_km2": null
+},
+"AZE2_25": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Lankaran City",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.843,
+"lat": 38.742,
+"area_km2": null
+},
+"AZE2_26": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Neftchala District",
+"parent": "Contiguous Azerbaijan",
+"lon": 49.063,
+"lat": 39.353,
+"area_km2": null
+},
+"AZE2_27": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Lankaran District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.997,
+"lat": 39.126,
+"area_km2": null
+},
+"AZE2_28": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Shaki District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.173,
+"lat": 41.096,
+"area_km2": null
+},
+"AZE2_29": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Mingachevir City",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.023,
+"lat": 40.77,
+"area_km2": null
+},
+"AZE2_30": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Yevlakh District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.047,
+"lat": 40.695,
+"area_km2": null
+},
+"AZE2_31": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Qakh District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.883,
+"lat": 41.315,
+"area_km2": null
+},
+"AZE2_32": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Zaqatala District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.684,
+"lat": 41.588,
+"area_km2": null
+},
+"AZE2_33": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Balakan District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.429,
+"lat": 41.737,
+"area_km2": null
+},
+"AZE2_34": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Masally District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.696,
+"lat": 39.023,
+"area_km2": null
+},
+"AZE2_35": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Lankaran District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.736,
+"lat": 38.772,
+"area_km2": null
+},
+"AZE2_36": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Astara District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.71,
+"lat": 38.517,
+"area_km2": null
+},
+"AZE2_37": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Lerik District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.453,
+"lat": 38.746,
+"area_km2": null
+},
+"AZE2_38": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Yardymli District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.244,
+"lat": 38.904,
+"area_km2": null
+},
+"AZE2_39": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Jalilabad District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.456,
+"lat": 39.236,
+"area_km2": null
+},
+"AZE2_40": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Bilasuvar District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.459,
+"lat": 39.541,
+"area_km2": null
+},
+"AZE2_41": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Saatly District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.475,
+"lat": 39.842,
+"area_km2": null
+},
+"AZE2_42": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Agdash District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.429,
+"lat": 40.582,
+"area_km2": null
+},
+"AZE2_43": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Goychay District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.863,
+"lat": 40.58,
+"area_km2": null
+},
+"AZE2_44": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Ujar District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.76,
+"lat": 40.431,
+"area_km2": null
+},
+"AZE2_45": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Kurdamir District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.207,
+"lat": 40.261,
+"area_km2": null
+},
+"AZE2_46": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Zardab District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.729,
+"lat": 40.25,
+"area_km2": null
+},
+"AZE2_47": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Imishli District",
+"parent": "Contiguous Azerbaijan",
+"lon": 48.067,
+"lat": 39.874,
+"area_km2": null
+},
+"AZE2_48": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Barda District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.233,
+"lat": 40.342,
+"area_km2": null
+},
+"AZE2_49": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Aghjabadi District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.438,
+"lat": 40.026,
+"area_km2": null
+},
+"AZE2_50": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Beylagan District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.693,
+"lat": 39.814,
+"area_km2": null
+},
+"AZE2_51": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Samukh District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.457,
+"lat": 40.946,
+"area_km2": null
+},
+"AZE2_52": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Goranboy District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.659,
+"lat": 40.557,
+"area_km2": null
+},
+"AZE2_53": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Tartar District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.822,
+"lat": 40.282,
+"area_km2": null
+},
+"AZE2_54": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Kalbajar District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.21,
+"lat": 40.074,
+"area_km2": null
+},
+"AZE2_55": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Agdam District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.021,
+"lat": 40.04,
+"area_km2": null
+},
+"AZE2_56": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Goygol District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.326,
+"lat": 40.545,
+"area_km2": null
+},
+"AZE2_57": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Shamkir District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.058,
+"lat": 40.841,
+"area_km2": null
+},
+"AZE2_58": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Dashkasan District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.045,
+"lat": 40.457,
+"area_km2": null
+},
+"AZE2_59": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Gadabay District",
+"parent": "Contiguous Azerbaijan",
+"lon": 45.68,
+"lat": 40.549,
+"area_km2": null
+},
+"AZE2_60": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Tovuz District",
+"parent": "Contiguous Azerbaijan",
+"lon": 45.773,
+"lat": 40.982,
+"area_km2": null
+},
+"AZE2_61": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Agstafa District",
+"parent": "Contiguous Azerbaijan",
+"lon": 45.454,
+"lat": 41.263,
+"area_km2": null
+},
+"AZE2_62": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Qazakh District",
+"parent": "Contiguous Azerbaijan",
+"lon": 45.212,
+"lat": 41.168,
+"area_km2": null
+},
+"AZE2_63": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Lachin District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.354,
+"lat": 39.734,
+"area_km2": null
+},
+"AZE2_64": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Khojaly District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.735,
+"lat": 39.872,
+"area_km2": null
+},
+"AZE2_65": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Shusha District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.672,
+"lat": 39.697,
+"area_km2": null
+},
+"AZE2_66": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Khojavend District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.018,
+"lat": 39.666,
+"area_km2": null
+},
+"AZE2_67": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Fuzuli District",
+"parent": "Contiguous Azerbaijan",
+"lon": 47.354,
+"lat": 39.584,
+"area_km2": null
+},
+"AZE2_68": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Jabrayil District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.993,
+"lat": 39.33,
+"area_km2": null
+},
+"AZE2_69": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Qubadli District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.617,
+"lat": 39.351,
+"area_km2": null
+},
+"AZE2_70": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Zangilan District",
+"parent": "Contiguous Azerbaijan",
+"lon": 46.649,
+"lat": 39.091,
+"area_km2": null
+},
+"AZE2_71": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Ordubad District",
+"parent": "Nakhchivan Autonomous Republic",
+"lon": 45.936,
+"lat": 39.051,
+"area_km2": null
+},
+"AZE2_72": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Julfa District",
+"parent": "Nakhchivan Autonomous Republic",
+"lon": 45.701,
+"lat": 39.156,
+"area_km2": null
+},
+"AZE2_73": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Shahbuz District",
+"parent": "Nakhchivan Autonomous Republic",
+"lon": 45.637,
+"lat": 39.447,
+"area_km2": null
+},
+"AZE2_74": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Nakhchivan City",
+"parent": "Nakhchivan Autonomous Republic",
+"lon": 45.412,
+"lat": 39.213,
+"area_km2": null
+},
+"AZE2_75": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Babek District",
+"parent": "Nakhchivan Autonomous Republic",
+"lon": 45.385,
+"lat": 39.255,
+"area_km2": null
+},
+"AZE2_76": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Kangarli District",
+"parent": "Nakhchivan Autonomous Republic",
+"lon": 45.206,
+"lat": 39.425,
+"area_km2": null
+},
+"AZE2_77": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Sharur District",
+"parent": "Nakhchivan Autonomous Republic",
+"lon": 45.061,
+"lat": 39.575,
+"area_km2": null
+},
+"AZE2_78": {
+"iso": "AZE",
+"level": "ADM2",
+"name": "Sadarak District",
+"parent": "Nakhchivan Autonomous Republic",
+"lon": 44.883,
+"lat": 39.681,
+"area_km2": null
+},
+"ARM1_0": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Gegharkunik",
+"parent": null,
+"lon": 45.312,
+"lat": 40.297,
+"area_km2": null
+},
+"ARM1_1": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Syunik",
+"parent": null,
+"lon": 46.159,
+"lat": 39.352,
+"area_km2": null
+},
+"ARM1_2": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Tavush",
+"parent": null,
+"lon": 45.109,
+"lat": 40.901,
+"area_km2": null
+},
+"ARM1_3": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Shirak",
+"parent": null,
+"lon": 43.855,
+"lat": 40.806,
+"area_km2": null
+},
+"ARM1_4": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Lori",
+"parent": null,
+"lon": 44.452,
+"lat": 40.97,
+"area_km2": null
+},
+"ARM1_5": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Kotayk",
+"parent": null,
+"lon": 44.679,
+"lat": 40.381,
+"area_km2": null
+},
+"ARM1_6": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Vayots Dzor",
+"parent": null,
+"lon": 45.434,
+"lat": 39.767,
+"area_km2": null
+},
+"ARM1_7": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Armavir",
+"parent": null,
+"lon": 44.032,
+"lat": 40.137,
+"area_km2": null
+},
+"ARM1_8": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Aragatsotn",
+"parent": null,
+"lon": 44.132,
+"lat": 40.425,
+"area_km2": null
+},
+"ARM1_9": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Yerevan",
+"parent": null,
+"lon": 44.53,
+"lat": 40.148,
+"area_km2": null
+},
+"ARM1_10": {
+"iso": "ARM",
+"level": "ADM1",
+"name": "Ararat",
+"parent": null,
+"lon": 44.777,
+"lat": 39.948,
+"area_km2": null
+},
+"GEO1_0": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Abkhazia",
+"parent": null,
+"lon": 41.16,
+"lat": 43.112,
+"area_km2": null
+},
+"GEO1_1": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Kakheti",
+"parent": null,
+"lon": 45.766,
+"lat": 41.772,
+"area_km2": null
+},
+"GEO1_2": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Kvemo Kartli",
+"parent": null,
+"lon": 44.49,
+"lat": 41.502,
+"area_km2": null
+},
+"GEO1_3": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Tbilisi",
+"parent": null,
+"lon": 44.819,
+"lat": 41.717,
+"area_km2": null
+},
+"GEO1_4": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Mtskheta-Mtianeti",
+"parent": null,
+"lon": 44.737,
+"lat": 42.3,
+"area_km2": null
+},
+"GEO1_5": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Samtskhe–Javakheti",
+"parent": null,
+"lon": 43.324,
+"lat": 41.543,
+"area_km2": null
+},
+"GEO1_6": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Adjara",
+"parent": null,
+"lon": 42.09,
+"lat": 41.653,
+"area_km2": null
+},
+"GEO1_7": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Guria",
+"parent": null,
+"lon": 42.151,
+"lat": 41.976,
+"area_km2": null
+},
+"GEO1_8": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Shida Kartli",
+"parent": null,
+"lon": 43.992,
+"lat": 42.127,
+"area_km2": null
+},
+"GEO1_9": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Imereti",
+"parent": null,
+"lon": 42.952,
+"lat": 42.186,
+"area_km2": null
+},
+"GEO1_10": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Racha-Lechkhumi and Kvemo Svaneti",
+"parent": null,
+"lon": 43.133,
+"lat": 42.679,
+"area_km2": null
+},
+"GEO1_11": {
+"iso": "GEO",
+"level": "ADM1",
+"name": "Samegrelo-Zemo Svaneti",
+"parent": null,
+"lon": 42.243,
+"lat": 42.702,
+"area_km2": null
+},
+"GEO2_0": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Gagra",
+"parent": "Abkhazia",
+"lon": 40.275,
+"lat": 43.418,
+"area_km2": null
+},
+"GEO2_1": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Gudauta",
+"parent": "Abkhazia",
+"lon": 40.644,
+"lat": 43.288,
+"area_km2": null
+},
+"GEO2_2": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Sokhumi",
+"parent": "Abkhazia",
+"lon": 41.014,
+"lat": 43.256,
+"area_km2": null
+},
+"GEO2_3": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Gulripshi",
+"parent": "Abkhazia",
+"lon": 41.505,
+"lat": 43.129,
+"area_km2": null
+},
+"GEO2_4": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Ochamchire",
+"parent": "Abkhazia",
+"lon": 41.579,
+"lat": 42.92,
+"area_km2": null
+},
+"GEO2_5": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Mestia",
+"parent": "Samegrelo-Zemo Svaneti",
+"lon": 42.486,
+"lat": 43.018,
+"area_km2": null
+},
+"GEO2_6": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Gali",
+"parent": "Abkhazia",
+"lon": 41.693,
+"lat": 42.671,
+"area_km2": null
+},
+"GEO2_7": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Tsalenjikha",
+"parent": "Samegrelo-Zemo Svaneti",
+"lon": 42.038,
+"lat": 42.733,
+"area_km2": null
+},
+"GEO2_8": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Zugdidi",
+"parent": "Samegrelo-Zemo Svaneti",
+"lon": 41.787,
+"lat": 42.504,
+"area_km2": null
+},
+"GEO2_9": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Lentekhi",
+"parent": "Racha-Lechkhumi and Kvemo Svaneti",
+"lon": 42.842,
+"lat": 42.809,
+"area_km2": null
+},
+"GEO2_10": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Chkhorotsku",
+"parent": "Samegrelo-Zemo Svaneti",
+"lon": 42.202,
+"lat": 42.644,
+"area_km2": null
+},
+"GEO2_11": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Khobi",
+"parent": "Samegrelo-Zemo Svaneti",
+"lon": 41.8,
+"lat": 42.323,
+"area_km2": null
+},
+"GEO2_12": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Senaki",
+"parent": "Samegrelo-Zemo Svaneti",
+"lon": 42.076,
+"lat": 42.345,
+"area_km2": null
+},
+"GEO2_13": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Martvili",
+"parent": "Samegrelo-Zemo Svaneti",
+"lon": 42.372,
+"lat": 42.555,
+"area_km2": null
+},
+"GEO2_14": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Tsageri",
+"parent": "Racha-Lechkhumi and Kvemo Svaneti",
+"lon": 42.758,
+"lat": 42.626,
+"area_km2": null
+},
+"GEO2_15": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Khoni",
+"parent": "Imereti",
+"lon": 42.471,
+"lat": 42.417,
+"area_km2": null
+},
+"GEO2_16": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Abasha",
+"parent": "Samegrelo-Zemo Svaneti",
+"lon": 42.195,
+"lat": 42.241,
+"area_km2": null
+},
+"GEO2_17": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Lanchkhuti",
+"parent": "Guria",
+"lon": 41.927,
+"lat": 42.131,
+"area_km2": null
+},
+"GEO2_18": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Samtredia",
+"parent": "Imereti",
+"lon": 42.361,
+"lat": 42.192,
+"area_km2": null
+},
+"GEO2_19": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Tsqaltubo",
+"parent": "Imereti",
+"lon": 42.619,
+"lat": 42.321,
+"area_km2": null
+},
+"GEO2_20": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Ambrolauri",
+"parent": "Racha-Lechkhumi and Kvemo Svaneti",
+"lon": 43.084,
+"lat": 42.565,
+"area_km2": null
+},
+"GEO2_21": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Tkibuli",
+"parent": "Imereti",
+"lon": 42.878,
+"lat": 42.366,
+"area_km2": null
+},
+"GEO2_22": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Ozurgeti",
+"parent": "Guria",
+"lon": 42.022,
+"lat": 41.966,
+"area_km2": null
+},
+"GEO2_23": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Chokhatauri",
+"parent": "Guria",
+"lon": 42.387,
+"lat": 41.97,
+"area_km2": null
+},
+"GEO2_24": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Vani",
+"parent": "Imereti",
+"lon": 42.601,
+"lat": 42.045,
+"area_km2": null
+},
+"GEO2_25": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Baghdati",
+"parent": "Imereti",
+"lon": 42.872,
+"lat": 41.998,
+"area_km2": null
+},
+"GEO2_26": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Zestaponi",
+"parent": "Imereti",
+"lon": 43.026,
+"lat": 42.153,
+"area_km2": null
+},
+"GEO2_27": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Terjola",
+"parent": "Imereti",
+"lon": 42.899,
+"lat": 42.248,
+"area_km2": null
+},
+"GEO2_28": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Kobuleti",
+"parent": "Adjara",
+"lon": 41.922,
+"lat": 41.799,
+"area_km2": null
+},
+"GEO2_29": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Khelvachauri",
+"parent": "Adjara",
+"lon": 41.717,
+"lat": 41.547,
+"area_km2": null
+},
+"GEO2_30": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Keda",
+"parent": "Adjara",
+"lon": 41.958,
+"lat": 41.61,
+"area_km2": null
+},
+"GEO2_31": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Oni",
+"parent": "Racha-Lechkhumi and Kvemo Svaneti",
+"lon": 43.519,
+"lat": 42.641,
+"area_km2": null
+},
+"GEO2_32": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Sachkhere",
+"parent": "Imereti",
+"lon": 43.485,
+"lat": 42.314,
+"area_km2": null
+},
+"GEO2_33": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Chiatura",
+"parent": "Imereti",
+"lon": 43.239,
+"lat": 42.28,
+"area_km2": null
+},
+"GEO2_34": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Kharagauli",
+"parent": "Imereti",
+"lon": 43.251,
+"lat": 42.024,
+"area_km2": null
+},
+"GEO2_35": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Adigeni",
+"parent": "Samtskhe–Javakheti",
+"lon": 42.712,
+"lat": 41.739,
+"area_km2": null
+},
+"GEO2_36": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Khulo",
+"parent": "Adjara",
+"lon": 42.422,
+"lat": 41.674,
+"area_km2": null
+},
+"GEO2_37": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Shuakhevi",
+"parent": "Adjara",
+"lon": 42.247,
+"lat": 41.619,
+"area_km2": null
+},
+"GEO2_38": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Akhaltsikhe",
+"parent": "Samtskhe–Javakheti",
+"lon": 43.018,
+"lat": 41.658,
+"area_km2": null
+},
+"GEO2_39": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Aspindza",
+"parent": "Samtskhe–Javakheti",
+"lon": 43.223,
+"lat": 41.51,
+"area_km2": null
+},
+"GEO2_40": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Borjomi",
+"parent": "Samtskhe–Javakheti",
+"lon": 43.494,
+"lat": 41.795,
+"area_km2": null
+},
+"GEO2_41": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Khashuri",
+"parent": "Shida Kartli",
+"lon": 43.602,
+"lat": 42.026,
+"area_km2": null
+},
+"GEO2_42": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Kareli",
+"parent": "Shida Kartli",
+"lon": 43.788,
+"lat": 42.077,
+"area_km2": null
+},
+"GEO2_43": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Java",
+"parent": "Shida Kartli",
+"lon": 43.972,
+"lat": 42.476,
+"area_km2": null
+},
+"GEO2_44": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Gori",
+"parent": "Shida Kartli",
+"lon": 44.084,
+"lat": 42.109,
+"area_km2": null
+},
+"GEO2_45": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Akhalkalaki",
+"parent": "Samtskhe–Javakheti",
+"lon": 43.471,
+"lat": 41.443,
+"area_km2": null
+},
+"GEO2_46": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Ninotsminda",
+"parent": "Samtskhe–Javakheti",
+"lon": 43.731,
+"lat": 41.303,
+"area_km2": null
+},
+"GEO2_47": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Dmanisi",
+"parent": "Kvemo Kartli",
+"lon": 44.158,
+"lat": 41.355,
+"area_km2": null
+},
+"GEO2_48": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Tsalka",
+"parent": "Kvemo Kartli",
+"lon": 43.983,
+"lat": 41.633,
+"area_km2": null
+},
+"GEO2_49": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Bolnisi",
+"parent": "Kvemo Kartli",
+"lon": 44.541,
+"lat": 41.384,
+"area_km2": null
+},
+"GEO2_50": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Tetri Sqaro",
+"parent": "Kvemo Kartli",
+"lon": 44.473,
+"lat": 41.617,
+"area_km2": null
+},
+"GEO2_51": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Kaspi",
+"parent": "Shida Kartli",
+"lon": 44.364,
+"lat": 41.892,
+"area_km2": null
+},
+"GEO2_52": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Akhalgori",
+"parent": "Mtskheta-Mtianeti",
+"lon": 44.42,
+"lat": 42.23,
+"area_km2": null
+},
+"GEO2_53": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Kazbegi",
+"parent": "Mtskheta-Mtianeti",
+"lon": 44.517,
+"lat": 42.597,
+"area_km2": null
+},
+"GEO2_54": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Dusheti",
+"parent": "Mtskheta-Mtianeti",
+"lon": 44.86,
+"lat": 42.378,
+"area_km2": null
+},
+"GEO2_55": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Tianeti",
+"parent": "Mtskheta-Mtianeti",
+"lon": 44.994,
+"lat": 42.117,
+"area_km2": null
+},
+"GEO2_56": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Mtskheta",
+"parent": "Mtskheta-Mtianeti",
+"lon": 44.709,
+"lat": 41.866,
+"area_km2": null
+},
+"GEO2_57": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Marneuli",
+"parent": "Kvemo Kartli",
+"lon": 44.849,
+"lat": 41.377,
+"area_km2": null
+},
+"GEO2_58": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Akhmeta",
+"parent": "Kakheti",
+"lon": 45.374,
+"lat": 42.266,
+"area_km2": null
+},
+"GEO2_59": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Telavi",
+"parent": "Kakheti",
+"lon": 45.502,
+"lat": 42.024,
+"area_km2": null
+},
+"GEO2_60": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Tbilisi",
+"parent": "Tbilisi",
+"lon": 44.863,
+"lat": 41.72,
+"area_km2": null
+},
+"GEO2_61": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Gardabani",
+"parent": "Kvemo Kartli",
+"lon": 45.042,
+"lat": 41.618,
+"area_km2": null
+},
+"GEO2_62": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Sagarejo",
+"parent": "Kakheti",
+"lon": 45.388,
+"lat": 41.668,
+"area_km2": null
+},
+"GEO2_63": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Qvareli",
+"parent": "Kakheti",
+"lon": 45.857,
+"lat": 41.976,
+"area_km2": null
+},
+"GEO2_64": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Gurjaani",
+"parent": "Kakheti",
+"lon": 45.748,
+"lat": 41.742,
+"area_km2": null
+},
+"GEO2_65": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Lagodekhi",
+"parent": "Kakheti",
+"lon": 46.173,
+"lat": 41.841,
+"area_km2": null
+},
+"GEO2_66": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Sighnaghi",
+"parent": "Kakheti",
+"lon": 45.912,
+"lat": 41.517,
+"area_km2": null
+},
+"GEO2_67": {
+"iso": "GEO",
+"level": "ADM2",
+"name": "Dedoplis Tskaro",
+"parent": "Kakheti",
+"lon": 46.252,
+"lat": 41.318,
+"area_km2": null
+},
+"RUS2_75": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Grozny",
+"parent": "Chechnya",
+"lon": 45.657,
+"lat": 43.321,
+"area_km2": null
+},
+"RUS2_109": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Charodinsky District",
+"parent": "Dagestan",
+"lon": 46.77,
+"lat": 42.117,
+"area_km2": null
+},
+"RUS2_318": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Untsukulsky District",
+"parent": "Dagestan",
+"lon": 46.857,
+"lat": 42.687,
+"area_km2": null
+},
+"RUS2_326": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Sunzhensky District",
+"parent": "Chechnya",
+"lon": 45.172,
+"lat": 43.302,
+"area_km2": null
+},
+"RUS2_369": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Tarumovsky District",
+"parent": "Dagestan",
+"lon": 46.587,
+"lat": 44.399,
+"area_km2": null
+},
+"RUS2_552": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Buynaksky District",
+"parent": "Dagestan",
+"lon": 47.084,
+"lat": 42.847,
+"area_km2": null
+},
+"RUS2_759": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Babayurtovsky District",
+"parent": "Dagestan",
+"lon": 47.05,
+"lat": 43.581,
+"area_km2": null
+},
+"RUS2_844": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Makhachkala Urban Okrug",
+"parent": "Dagestan",
+"lon": 47.483,
+"lat": 43.211,
+"area_km2": null
+},
+"RUS2_943": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Agulsky District",
+"parent": "Dagestan",
+"lon": 47.577,
+"lat": 41.812,
+"area_km2": null
+},
+"RUS2_962": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Gudermessky District",
+"parent": "Chechnya",
+"lon": 46.199,
+"lat": 43.337,
+"area_km2": null
+},
+"RUS2_969": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "городской округ Кизилюрт",
+"parent": "Dagestan",
+"lon": 46.856,
+"lat": 43.194,
+"area_km2": null
+},
+"RUS2_1073": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Tsuntinsky District",
+"parent": "Dagestan",
+"lon": 45.956,
+"lat": 42.186,
+"area_km2": null
+},
+"RUS2_1144": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Achkhoy-Martanovsky District",
+"parent": "Chechnya",
+"lon": 45.326,
+"lat": 43.078,
+"area_km2": null
+},
+"RUS2_1147": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Akhtynsky District",
+"parent": "Dagestan",
+"lon": 47.602,
+"lat": 41.375,
+"area_km2": null
+},
+"RUS2_1148": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Akhvakhsky District",
+"parent": "Dagestan",
+"lon": 46.344,
+"lat": 42.566,
+"area_km2": null
+},
+"RUS2_1183": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Botlikhsky District",
+"parent": "Dagestan",
+"lon": 46.248,
+"lat": 42.721,
+"area_km2": null
+},
+"RUS2_1203": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Dagestanskiye Ogni",
+"parent": "Dagestan",
+"lon": 48.197,
+"lat": 42.124,
+"area_km2": null
+},
+"RUS2_1204": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Dakhadayevsky District",
+"parent": "Dagestan",
+"lon": 47.552,
+"lat": 42.078,
+"area_km2": null
+},
+"RUS2_1208": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Derbentsky District",
+"parent": "Dagestan",
+"lon": 48.198,
+"lat": 42.048,
+"area_km2": null
+},
+"RUS2_1211": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Dokuzparinsky District",
+"parent": "Dagestan",
+"lon": 47.891,
+"lat": 41.365,
+"area_km2": null
+},
+"RUS2_1231": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Gumbetovsky District",
+"parent": "Dagestan",
+"lon": 46.565,
+"lat": 42.799,
+"area_km2": null
+},
+"RUS2_1236": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Itum-Kalinsky District",
+"parent": "Chechnya",
+"lon": 45.441,
+"lat": 42.699,
+"area_km2": null
+},
+"RUS2_1252": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Karabudakhkentsky District",
+"parent": "Dagestan",
+"lon": 47.542,
+"lat": 42.672,
+"area_km2": null
+},
+"RUS2_1258": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Kayakentsky District",
+"parent": "Dagestan",
+"lon": 47.881,
+"lat": 42.367,
+"area_km2": null
+},
+"RUS2_1260": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Kazbekovsky District",
+"parent": "Dagestan",
+"lon": 46.662,
+"lat": 43.016,
+"area_km2": null
+},
+"RUS2_1267": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Khivsky District",
+"parent": "Dagestan",
+"lon": 47.919,
+"lat": 41.783,
+"area_km2": null
+},
+"RUS2_1271": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Khunzakhsky District",
+"parent": "Dagestan",
+"lon": 46.664,
+"lat": 42.575,
+"area_km2": null
+},
+"RUS2_1278": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Kizilyurtovsky District",
+"parent": "Dagestan",
+"lon": 46.933,
+"lat": 43.218,
+"area_km2": null
+},
+"RUS2_1279": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Kizlyarsky District",
+"parent": "Dagestan",
+"lon": 47.063,
+"lat": 43.979,
+"area_km2": null
+},
+"RUS2_1311": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Kulinsky District",
+"parent": "Dagestan",
+"lon": 47.234,
+"lat": 41.973,
+"area_km2": null
+},
+"RUS2_1312": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Kumtorkalinsky District",
+"parent": "Dagestan",
+"lon": 47.217,
+"lat": 43.167,
+"area_km2": null
+},
+"RUS2_1316": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Kurakhsky District",
+"parent": "Dagestan",
+"lon": 47.771,
+"lat": 41.603,
+"area_km2": null
+},
+"RUS2_1317": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Kurchaloyevsky District",
+"parent": "Chechnya",
+"lon": 46.137,
+"lat": 43.192,
+"area_km2": null
+},
+"RUS2_1328": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Laksky District",
+"parent": "Dagestan",
+"lon": 47.071,
+"lat": 42.12,
+"area_km2": null
+},
+"RUS2_1334": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Levashinsky District",
+"parent": "Dagestan",
+"lon": 47.302,
+"lat": 42.441,
+"area_km2": null
+},
+"RUS2_1348": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Magaramkentsky District",
+"parent": "Dagestan",
+"lon": 48.365,
+"lat": 41.69,
+"area_km2": null
+},
+"RUS2_1381": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Nadterechny District",
+"parent": "Chechnya",
+"lon": 45.142,
+"lat": 43.589,
+"area_km2": null
+},
+"RUS2_1384": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Naursky District",
+"parent": "Chechnya",
+"lon": 45.473,
+"lat": 43.771,
+"area_km2": null
+},
+"RUS2_1396": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Nogaysky District",
+"parent": "Dagestan",
+"lon": 45.922,
+"lat": 44.439,
+"area_km2": null
+},
+"RUS2_1399": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Novolaksky District",
+"parent": "Dagestan",
+"lon": 46.758,
+"lat": 43.149,
+"area_km2": null
+},
+"RUS2_1404": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Nozhay-Yurtovsky District",
+"parent": "Chechnya",
+"lon": 46.358,
+"lat": 43.025,
+"area_km2": null
+},
+"RUS2_1470": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Rutulsky District",
+"parent": "Dagestan",
+"lon": 47.203,
+"lat": 41.662,
+"area_km2": null
+},
+"RUS2_1482": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Sergokalinsky District",
+"parent": "Dagestan",
+"lon": 47.661,
+"lat": 42.362,
+"area_km2": null
+},
+"RUS2_1486": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Shalinsky District",
+"parent": "Chechnya",
+"lon": 45.893,
+"lat": 43.121,
+"area_km2": null
+},
+"RUS2_1487": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Shamilsky District",
+"parent": "Dagestan",
+"lon": 46.522,
+"lat": 42.387,
+"area_km2": null
+},
+"RUS2_1489": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Sharoysky District",
+"parent": "Chechnya",
+"lon": 45.798,
+"lat": 42.595,
+"area_km2": null
+},
+"RUS2_1490": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Shatoysky District",
+"parent": "Chechnya",
+"lon": 45.759,
+"lat": 42.848,
+"area_km2": null
+},
+"RUS2_1536": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Tabasaransky District",
+"parent": "Dagestan",
+"lon": 48.029,
+"lat": 41.922,
+"area_km2": null
+},
+"RUS2_1553": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Tlyaratinsky District",
+"parent": "Dagestan",
+"lon": 46.43,
+"lat": 42.084,
+"area_km2": null
+},
+"RUS2_1564": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Tsumadinsky District",
+"parent": "Dagestan",
+"lon": 46.036,
+"lat": 42.449,
+"area_km2": null
+},
+"RUS2_1578": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "urban okrug of Derbent",
+"parent": "Dagestan",
+"lon": 48.291,
+"lat": 42.032,
+"area_km2": null
+},
+"RUS2_1580": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Urus-Martanovsky District",
+"parent": "Chechnya",
+"lon": 45.537,
+"lat": 43.088,
+"area_km2": null
+},
+"RUS2_1598": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Vedensky District",
+"parent": "Chechnya",
+"lon": 46.063,
+"lat": 42.907,
+"area_km2": null
+},
+"RUS2_1677": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "городской округ Аргун",
+"parent": "Chechnya",
+"lon": 45.903,
+"lat": 43.304,
+"area_km2": null
+},
+"RUS2_1686": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "городской округ Буйнакск",
+"parent": "Dagestan",
+"lon": 47.108,
+"lat": 42.823,
+"area_km2": null
+},
+"RUS2_1699": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "городской округ Избербаш",
+"parent": "Dagestan",
+"lon": 47.867,
+"lat": 42.564,
+"area_km2": null
+},
+"RUS2_1700": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Kaytagsky District",
+"parent": "Dagestan",
+"lon": 47.829,
+"lat": 42.095,
+"area_km2": null
+},
+"RUS2_1705": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "городской округ Каспийск",
+"parent": "Dagestan",
+"lon": 47.622,
+"lat": 42.883,
+"area_km2": null
+},
+"RUS2_1706": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "городской округ Кизляр",
+"parent": "Dagestan",
+"lon": 46.716,
+"lat": 43.854,
+"area_km2": null
+},
+"RUS2_1803": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Suleyman-Stalsky District",
+"parent": "Dagestan",
+"lon": 48.129,
+"lat": 41.681,
+"area_km2": null
+},
+"RUS2_1825": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Akushinsky District",
+"parent": "Dagestan",
+"lon": 47.359,
+"lat": 42.207,
+"area_km2": null
+},
+"RUS2_1853": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "городской округ Хасавюрт",
+"parent": "Dagestan",
+"lon": 46.595,
+"lat": 43.241,
+"area_km2": null
+},
+"RUS2_1902": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Shelkovskoy District",
+"parent": "Chechnya",
+"lon": 46.149,
+"lat": 43.706,
+"area_km2": null
+},
+"RUS2_1912": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Groznensky District",
+"parent": "Chechnya",
+"lon": 45.586,
+"lat": 43.383,
+"area_km2": null
+},
+"RUS2_1989": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Gunibsky District",
+"parent": "Dagestan",
+"lon": 46.928,
+"lat": 42.347,
+"area_km2": null
+},
+"RUS2_2157": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Gergebilsky District",
+"parent": "Dagestan",
+"lon": 47.016,
+"lat": 42.519,
+"area_km2": null
+},
+"RUS2_2207": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "городской округ Южно-Сухок",
+"parent": "Dagestan",
+"lon": 45.646,
+"lat": 44.661,
+"area_km2": null
+},
+"RUS2_2315": {
+"iso": "RUS",
+"level": "ADM2",
+"name": "Khasavyurtovsky District",
+"parent": "Dagestan",
+"lon": 46.645,
+"lat": 43.354,
+"area_km2": null
+},
+"TUR1_1": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Adıyaman",
+"parent": null,
+"lon": 38.288,
+"lat": 37.795,
+"area_km2": null
+},
+"TUR1_3": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Ağrı",
+"parent": null,
+"lon": 43.256,
+"lat": 39.554,
+"area_km2": null
+},
+"TUR1_6": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Artvin",
+"parent": null,
+"lon": 41.819,
+"lat": 41.126,
+"area_km2": null
+},
+"TUR1_11": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Ardahan",
+"parent": null,
+"lon": 42.804,
+"lat": 41.12,
+"area_km2": null
+},
+"TUR1_13": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Batman",
+"parent": null,
+"lon": 41.378,
+"lat": 37.957,
+"area_km2": null
+},
+"TUR1_14": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Bayburt",
+"parent": null,
+"lon": 40.186,
+"lat": 40.257,
+"area_km2": null
+},
+"TUR1_16": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Bingöl",
+"parent": null,
+"lon": 40.642,
+"lat": 39.039,
+"area_km2": null
+},
+"TUR1_17": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Bitlis",
+"parent": null,
+"lon": 42.378,
+"lat": 38.528,
+"area_km2": null
+},
+"TUR1_25": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Diyarbakır",
+"parent": null,
+"lon": 40.342,
+"lat": 38.097,
+"area_km2": null
+},
+"TUR1_28": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Elazığ",
+"parent": null,
+"lon": 39.389,
+"lat": 38.658,
+"area_km2": null
+},
+"TUR1_29": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Erzincan",
+"parent": null,
+"lon": 39.292,
+"lat": 39.664,
+"area_km2": null
+},
+"TUR1_30": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Erzurum",
+"parent": null,
+"lon": 41.548,
+"lat": 40.064,
+"area_km2": null
+},
+"TUR1_33": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Giresun",
+"parent": null,
+"lon": 38.568,
+"lat": 40.58,
+"area_km2": null
+},
+"TUR1_34": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Gümüşhane",
+"parent": null,
+"lon": 39.387,
+"lat": 40.335,
+"area_km2": null
+},
+"TUR1_35": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Hakkâri",
+"parent": null,
+"lon": 44.068,
+"lat": 37.459,
+"area_km2": null
+},
+"TUR1_37": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Iğdır",
+"parent": null,
+"lon": 43.985,
+"lat": 39.895,
+"area_km2": null
+},
+"TUR1_44": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Kars",
+"parent": null,
+"lon": 43.063,
+"lat": 40.453,
+"area_km2": null
+},
+"TUR1_54": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Malatya",
+"parent": null,
+"lon": 38.126,
+"lat": 38.517,
+"area_km2": null
+},
+"TUR1_56": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Mardin",
+"parent": null,
+"lon": 40.838,
+"lat": 37.338,
+"area_km2": null
+},
+"TUR1_59": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Muş",
+"parent": null,
+"lon": 41.845,
+"lat": 39.002,
+"area_km2": null
+},
+"TUR1_64": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Rize",
+"parent": null,
+"lon": 40.853,
+"lat": 40.926,
+"area_km2": null
+},
+"TUR1_67": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Siirt",
+"parent": null,
+"lon": 42.123,
+"lat": 37.912,
+"area_km2": null
+},
+"TUR1_72": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Trabzon",
+"parent": null,
+"lon": 39.81,
+"lat": 40.804,
+"area_km2": null
+},
+"TUR1_73": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Tunceli",
+"parent": null,
+"lon": 39.481,
+"lat": 39.191,
+"area_km2": null
+},
+"TUR1_75": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Van",
+"parent": null,
+"lon": 43.588,
+"lat": 38.464,
+"area_km2": null
+},
+"TUR1_79": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Şırnak",
+"parent": null,
+"lon": 42.52,
+"lat": 37.46,
+"area_km2": null
+},
+"TUR1_80": {
+"iso": "TUR",
+"level": "ADM1",
+"name": "Şanlıurfa",
+"parent": null,
+"lon": 39.1,
+"lat": 37.246,
+"area_km2": null
+},
+"TUR2_50": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Hamur",
+"parent": "Ağrı",
+"lon": 43.083,
+"lat": 39.474,
+"area_km2": null
+},
+"TUR2_64": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Muradiye",
+"parent": "Van",
+"lon": 43.723,
+"lat": 38.965,
+"area_km2": null
+},
+"TUR2_68": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Olur",
+"parent": "Erzurum",
+"lon": 42.09,
+"lat": 40.854,
+"area_km2": null
+},
+"TUR2_130": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Susuz",
+"parent": "Kars",
+"lon": 43.093,
+"lat": 40.813,
+"area_km2": null
+},
+"TUR2_183": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "İspir",
+"parent": "Erzurum",
+"lon": 41.022,
+"lat": 40.53,
+"area_km2": null
+},
+"TUR2_188": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Kars merkez",
+"parent": "Kars",
+"lon": 43.209,
+"lat": 40.574,
+"area_km2": null
+},
+"TUR2_190": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Tekman",
+"parent": "Erzurum",
+"lon": 41.433,
+"lat": 39.612,
+"area_km2": null
+},
+"TUR2_192": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Karayazı",
+"parent": "Erzurum",
+"lon": 42.129,
+"lat": 39.637,
+"area_km2": null
+},
+"TUR2_194": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Horasan",
+"parent": "Erzurum",
+"lon": 42.197,
+"lat": 40.045,
+"area_km2": null
+},
+"TUR2_196": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Sarıkamış",
+"parent": "Kars",
+"lon": 42.538,
+"lat": 40.221,
+"area_km2": null
+},
+"TUR2_197": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Erciş",
+"parent": "Van",
+"lon": 43.336,
+"lat": 39.117,
+"area_km2": null
+},
+"TUR2_199": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Çatak",
+"parent": "Van",
+"lon": 43.097,
+"lat": 37.982,
+"area_km2": null
+},
+"TUR2_205": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Tuşba",
+"parent": "Van",
+"lon": 43.313,
+"lat": 38.715,
+"area_km2": null
+},
+"TUR2_208": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Kağızman",
+"parent": "Kars",
+"lon": 43.088,
+"lat": 40.148,
+"area_km2": null
+},
+"TUR2_217": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Ağrı merkez",
+"parent": "Ağrı",
+"lon": 43.149,
+"lat": 39.808,
+"area_km2": null
+},
+"TUR2_223": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Aşkale",
+"parent": "Erzurum",
+"lon": 40.654,
+"lat": 39.913,
+"area_km2": null
+},
+"TUR2_231": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Tortum",
+"parent": "Erzurum",
+"lon": 41.424,
+"lat": 40.369,
+"area_km2": null
+},
+"TUR2_233": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Şenkaya",
+"parent": "Erzurum",
+"lon": 42.362,
+"lat": 40.601,
+"area_km2": null
+},
+"TUR2_236": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Patnos",
+"parent": "Ağrı",
+"lon": 42.886,
+"lat": 39.171,
+"area_km2": null
+},
+"TUR2_239": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Oltu",
+"parent": "Erzurum",
+"lon": 41.949,
+"lat": 40.564,
+"area_km2": null
+},
+"TUR2_241": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Çat",
+"parent": "Erzurum",
+"lon": 40.916,
+"lat": 39.591,
+"area_km2": null
+},
+"TUR2_243": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Tutak",
+"parent": "Ağrı",
+"lon": 42.7,
+"lat": 39.513,
+"area_km2": null
+},
+"TUR2_248": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Eleşkirt",
+"parent": "Ağrı",
+"lon": 42.643,
+"lat": 39.818,
+"area_km2": null
+},
+"TUR2_250": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Hınıs",
+"parent": "Erzurum",
+"lon": 41.688,
+"lat": 39.36,
+"area_km2": null
+},
+"TUR2_269": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Pasinler",
+"parent": "Erzurum",
+"lon": 41.638,
+"lat": 40.003,
+"area_km2": null
+},
+"TUR2_271": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Selim",
+"parent": "Kars",
+"lon": 42.752,
+"lat": 40.492,
+"area_km2": null
+},
+"TUR2_277": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Gevaş",
+"parent": "Van",
+"lon": 42.944,
+"lat": 38.331,
+"area_km2": null
+},
+"TUR2_430": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Derecik",
+"parent": "Hakkâri",
+"lon": 44.365,
+"lat": 37.11,
+"area_km2": null
+},
+"TUR2_431": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Yüksekova",
+"parent": "Hakkâri",
+"lon": 44.256,
+"lat": 37.549,
+"area_km2": null
+},
+"TUR2_432": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Şemdinli",
+"parent": "Hakkâri",
+"lon": 44.516,
+"lat": 37.3,
+"area_km2": null
+},
+"TUR2_433": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Başkale",
+"parent": "Van",
+"lon": 44.113,
+"lat": 38.03,
+"area_km2": null
+},
+"TUR2_434": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Çaldıran",
+"parent": "Van",
+"lon": 43.988,
+"lat": 39.127,
+"area_km2": null
+},
+"TUR2_462": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Aziziye",
+"parent": "Erzurum",
+"lon": 40.981,
+"lat": 40.099,
+"area_km2": null
+},
+"TUR2_467": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Digor",
+"parent": "Kars",
+"lon": 43.461,
+"lat": 40.323,
+"area_km2": null
+},
+"TUR2_468": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Doğubayazıt",
+"parent": "Ağrı",
+"lon": 44.047,
+"lat": 39.581,
+"area_km2": null
+},
+"TUR2_469": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Çıldır",
+"parent": "Ardahan",
+"lon": 43.171,
+"lat": 41.139,
+"area_km2": null
+},
+"TUR2_470": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Akyaka",
+"parent": "Kars",
+"lon": 43.623,
+"lat": 40.779,
+"area_km2": null
+},
+"TUR2_475": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Narman",
+"parent": "Erzurum",
+"lon": 41.878,
+"lat": 40.304,
+"area_km2": null
+},
+"TUR2_477": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Yakutiye",
+"parent": "Erzurum",
+"lon": 41.306,
+"lat": 40.075,
+"area_km2": null
+},
+"TUR2_478": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Gürpınar",
+"parent": "Van",
+"lon": 43.626,
+"lat": 38.138,
+"area_km2": null
+},
+"TUR2_487": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Edremit",
+"parent": "Van",
+"lon": 43.191,
+"lat": 38.441,
+"area_km2": null
+},
+"TUR2_505": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Taşlıçay",
+"parent": "Ağrı",
+"lon": 43.402,
+"lat": 39.597,
+"area_km2": null
+},
+"TUR2_511": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Köprüköy",
+"parent": "Erzurum",
+"lon": 41.878,
+"lat": 39.891,
+"area_km2": null
+},
+"TUR2_519": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Hakkari merkez",
+"parent": "Hakkâri",
+"lon": 43.72,
+"lat": 37.577,
+"area_km2": null
+},
+"TUR2_554": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Hanak",
+"parent": "Ardahan",
+"lon": 42.824,
+"lat": 41.259,
+"area_km2": null
+},
+"TUR2_560": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Diyadin",
+"parent": "Ağrı",
+"lon": 43.641,
+"lat": 39.442,
+"area_km2": null
+},
+"TUR2_566": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Pazaryolu",
+"parent": "Erzurum",
+"lon": 40.68,
+"lat": 40.424,
+"area_km2": null
+},
+"TUR2_569": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Özalp",
+"parent": "Van",
+"lon": 44.013,
+"lat": 38.725,
+"area_km2": null
+},
+"TUR2_593": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Göle",
+"parent": "Ardahan",
+"lon": 42.625,
+"lat": 40.856,
+"area_km2": null
+},
+"TUR2_594": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Tuzluca",
+"parent": "Iğdır",
+"lon": 43.573,
+"lat": 39.962,
+"area_km2": null
+},
+"TUR2_595": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Ardahan",
+"parent": "Ardahan",
+"lon": 42.717,
+"lat": 41.065,
+"area_km2": null
+},
+"TUR2_601": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Iğdır (merkez)",
+"parent": "Iğdır",
+"lon": 44.014,
+"lat": 39.863,
+"area_km2": null
+},
+"TUR2_609": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Arpaçay",
+"parent": "Kars",
+"lon": 43.373,
+"lat": 40.898,
+"area_km2": null
+},
+"TUR2_651": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Palandöken",
+"parent": "Erzurum",
+"lon": 41.179,
+"lat": 39.837,
+"area_km2": null
+},
+"TUR2_654": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Karaçoban",
+"parent": "Erzurum",
+"lon": 42.044,
+"lat": 39.349,
+"area_km2": null
+},
+"TUR2_673": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Posof",
+"parent": "Ardahan",
+"lon": 42.709,
+"lat": 41.484,
+"area_km2": null
+},
+"TUR2_711": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Bahçesaray",
+"parent": "Van",
+"lon": 42.8,
+"lat": 38.091,
+"area_km2": null
+},
+"TUR2_742": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Uzundere",
+"parent": "Erzurum",
+"lon": 41.598,
+"lat": 40.588,
+"area_km2": null
+},
+"TUR2_783": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Karakoyunlu",
+"parent": "Iğdır",
+"lon": 44.243,
+"lat": 39.94,
+"area_km2": null
+},
+"TUR2_857": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Çukurca",
+"parent": "Hakkâri",
+"lon": 43.608,
+"lat": 37.33,
+"area_km2": null
+},
+"TUR2_860": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Aralık",
+"parent": "Iğdır",
+"lon": 44.464,
+"lat": 39.82,
+"area_km2": null
+},
+"TUR2_863": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Damal",
+"parent": "Ardahan",
+"lon": 42.83,
+"lat": 41.372,
+"area_km2": null
+},
+"TUR2_931": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "Saray",
+"parent": "Van",
+"lon": 44.18,
+"lat": 38.516,
+"area_km2": null
+},
+"TUR2_965": {
+"iso": "TUR",
+"level": "ADM2",
+"name": "İpekyolu",
+"parent": "Van",
+"lon": 43.634,
+"lat": 38.597,
+"area_km2": null
+},
+"IRQ1_0": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Al-Anbar",
+"parent": null,
+"lon": 41.641,
+"lat": 32.966,
+"area_km2": null
+},
+"IRQ1_1": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Karbala",
+"parent": null,
+"lon": 43.822,
+"lat": 32.494,
+"area_km2": null
+},
+"IRQ1_2": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "An-Najaf",
+"parent": null,
+"lon": 43.823,
+"lat": 31.129,
+"area_km2": null
+},
+"IRQ1_3": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Babil",
+"parent": null,
+"lon": 44.524,
+"lat": 32.679,
+"area_km2": null
+},
+"IRQ1_4": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Baghdad",
+"parent": null,
+"lon": 44.386,
+"lat": 33.364,
+"area_km2": null
+},
+"IRQ1_5": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Al-Qadisiyah",
+"parent": null,
+"lon": 45.069,
+"lat": 31.903,
+"area_km2": null
+},
+"IRQ1_6": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Al-Muthanna",
+"parent": null,
+"lon": 45.381,
+"lat": 30.158,
+"area_km2": null
+},
+"IRQ1_7": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Dhi Qar",
+"parent": null,
+"lon": 46.328,
+"lat": 31.233,
+"area_km2": null
+},
+"IRQ1_8": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Al-Basrah",
+"parent": null,
+"lon": 47.401,
+"lat": 30.391,
+"area_km2": null
+},
+"IRQ1_9": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Maysan",
+"parent": null,
+"lon": 47.054,
+"lat": 31.94,
+"area_km2": null
+},
+"IRQ1_10": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Wasit",
+"parent": null,
+"lon": 45.714,
+"lat": 32.733,
+"area_km2": null
+},
+"IRQ1_11": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Ninawa",
+"parent": null,
+"lon": 42.457,
+"lat": 36.011,
+"area_km2": null
+},
+"IRQ1_12": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Dohuk",
+"parent": null,
+"lon": 43.137,
+"lat": 37.031,
+"area_km2": null
+},
+"IRQ1_13": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Salah al-Din",
+"parent": null,
+"lon": 43.591,
+"lat": 34.578,
+"area_km2": null
+},
+"IRQ1_14": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Diyala",
+"parent": null,
+"lon": 45.087,
+"lat": 33.98,
+"area_km2": null
+},
+"IRQ1_15": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Kirkuk",
+"parent": null,
+"lon": 44.11,
+"lat": 35.395,
+"area_km2": null
+},
+"IRQ1_16": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Erbil",
+"parent": null,
+"lon": 44.204,
+"lat": 36.355,
+"area_km2": null
+},
+"IRQ1_17": {
+"iso": "IRQ",
+"level": "ADM1",
+"name": "Al-Sulaimaniyah",
+"parent": null,
+"lon": 45.299,
+"lat": 35.579,
+"area_km2": null
+},
+"IRQ2_0": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Abu Al-Khaseeb",
+"parent": "Al-Basrah",
+"lon": 48.029,
+"lat": 30.32,
+"area_km2": null
+},
+"IRQ2_1": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Afaq",
+"parent": "Al-Qadisiyah",
+"lon": 45.374,
+"lat": 32.014,
+"area_km2": null
+},
+"IRQ2_2": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Ain Al-Tamur",
+"parent": "Karbala",
+"lon": 43.549,
+"lat": 32.52,
+"area_km2": null
+},
+"IRQ2_3": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Adhamiya",
+"parent": "Baghdad",
+"lon": 44.382,
+"lat": 33.489,
+"area_km2": null
+},
+"IRQ2_4": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Amadiya",
+"parent": "Dohuk",
+"lon": 43.554,
+"lat": 37.105,
+"area_km2": null
+},
+"IRQ2_5": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Amara",
+"parent": "Maysan",
+"lon": 47.022,
+"lat": 32.077,
+"area_km2": null
+},
+"IRQ2_6": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Baaj",
+"parent": "Ninawa",
+"lon": 41.668,
+"lat": 35.711,
+"area_km2": null
+},
+"IRQ2_7": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Basrah",
+"parent": "Al-Basrah",
+"lon": 47.628,
+"lat": 30.576,
+"area_km2": null
+},
+"IRQ2_8": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Chibayish",
+"parent": "Dhi Qar",
+"lon": 46.906,
+"lat": 30.87,
+"area_km2": null
+},
+"IRQ2_9": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Daur",
+"parent": "Salah al-Din",
+"lon": 44.173,
+"lat": 34.496,
+"area_km2": null
+},
+"IRQ2_10": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Diwaniya",
+"parent": "Al-Qadisiyah",
+"lon": 44.893,
+"lat": 31.996,
+"area_km2": null
+},
+"IRQ2_11": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Falluja",
+"parent": "Al-Anbar",
+"lon": 43.797,
+"lat": 33.197,
+"area_km2": null
+},
+"IRQ2_12": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Faw",
+"parent": "Al-Basrah",
+"lon": 48.263,
+"lat": 30.058,
+"area_km2": null
+},
+"IRQ2_13": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Hai",
+"parent": "Wasit",
+"lon": 45.975,
+"lat": 32.146,
+"area_km2": null
+},
+"IRQ2_14": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Hamdaniya",
+"parent": "Ninawa",
+"lon": 43.434,
+"lat": 36.218,
+"area_km2": null
+},
+"IRQ2_15": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Hamza",
+"parent": "Al-Qadisiyah",
+"lon": 44.88,
+"lat": 31.606,
+"area_km2": null
+},
+"IRQ2_16": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Hashimiya",
+"parent": "Babil",
+"lon": 44.818,
+"lat": 32.377,
+"area_km2": null
+},
+"IRQ2_17": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Hatra",
+"parent": "Ninawa",
+"lon": 42.46,
+"lat": 35.493,
+"area_km2": null
+},
+"IRQ2_18": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Hawiga",
+"parent": "Kirkuk",
+"lon": 43.763,
+"lat": 35.305,
+"area_km2": null
+},
+"IRQ2_19": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Hilla",
+"parent": "Babil",
+"lon": 44.434,
+"lat": 32.377,
+"area_km2": null
+},
+"IRQ2_20": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Hindiya",
+"parent": "Babil",
+"lon": 44.204,
+"lat": 32.475,
+"area_km2": null
+},
+"IRQ2_21": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Kadhmiyah",
+"parent": "Al-Anbar",
+"lon": 44.18,
+"lat": 33.45,
+"area_km2": null
+},
+"IRQ2_22": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Kahla",
+"parent": "Maysan",
+"lon": 47.444,
+"lat": 31.79,
+"area_km2": null
+},
+"IRQ2_23": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Kaim",
+"parent": "Al-Anbar",
+"lon": 41.045,
+"lat": 34.247,
+"area_km2": null
+},
+"IRQ2_24": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Karkh",
+"parent": "Babil",
+"lon": 44.398,
+"lat": 33.236,
+"area_km2": null
+},
+"IRQ2_25": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Khalis",
+"parent": "Diyala",
+"lon": 44.628,
+"lat": 34.122,
+"area_km2": null
+},
+"IRQ2_26": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Khidhir",
+"parent": "Al-Muthanna",
+"lon": 45.642,
+"lat": 31.215,
+"area_km2": null
+},
+"IRQ2_27": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Kufa",
+"parent": "An-Najaf",
+"lon": 44.475,
+"lat": 32.078,
+"area_km2": null
+},
+"IRQ2_28": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Kut",
+"parent": "Wasit",
+"lon": 46.151,
+"lat": 32.538,
+"area_km2": null
+},
+"IRQ2_29": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Mada'in",
+"parent": "Diyala",
+"lon": 44.704,
+"lat": 33.255,
+"area_km2": null
+},
+"IRQ2_30": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Mahaweel",
+"parent": "Babil",
+"lon": 44.634,
+"lat": 32.668,
+"area_km2": null
+},
+"IRQ2_31": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Mahmoudiya",
+"parent": "Babil",
+"lon": 44.307,
+"lat": 33.07,
+"area_km2": null
+},
+"IRQ2_32": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Maimouna",
+"parent": "Maysan",
+"lon": 46.814,
+"lat": 31.512,
+"area_km2": null
+},
+"IRQ2_33": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Manathera",
+"parent": "An-Najaf",
+"lon": 44.466,
+"lat": 31.766,
+"area_km2": null
+},
+"IRQ2_34": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Mejar Al-Kabir",
+"parent": "Maysan",
+"lon": 47.303,
+"lat": 31.397,
+"area_km2": null
+},
+"IRQ2_35": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Midaina",
+"parent": "Al-Basrah",
+"lon": 47.233,
+"lat": 30.952,
+"area_km2": null
+},
+"IRQ2_36": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Mosul",
+"parent": "Ninawa",
+"lon": 43.038,
+"lat": 36.133,
+"area_km2": null
+},
+"IRQ2_37": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Muqdadiya",
+"parent": "Diyala",
+"lon": 44.961,
+"lat": 33.902,
+"area_km2": null
+},
+"IRQ2_38": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Mussyab",
+"parent": "Babil",
+"lon": 44.269,
+"lat": 32.818,
+"area_km2": null
+},
+"IRQ2_39": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Najaf",
+"parent": "An-Najaf",
+"lon": 43.496,
+"lat": 31.194,
+"area_km2": null
+},
+"IRQ2_40": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Namaniya",
+"parent": "Wasit",
+"lon": 45.518,
+"lat": 32.432,
+"area_km2": null
+},
+"IRQ2_41": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Nasiriya",
+"parent": "Dhi Qar",
+"lon": 46.212,
+"lat": 31.086,
+"area_km2": null
+},
+"IRQ2_42": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Qurna",
+"parent": "Al-Basrah",
+"lon": 47.457,
+"lat": 30.983,
+"area_km2": null
+},
+"IRQ2_43": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Ramadi",
+"parent": "Al-Anbar",
+"lon": 43.169,
+"lat": 33.222,
+"area_km2": null
+},
+"IRQ2_44": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Rifai",
+"parent": "Dhi Qar",
+"lon": 46.073,
+"lat": 31.704,
+"area_km2": null
+},
+"IRQ2_45": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Risafa",
+"parent": "Baghdad",
+"lon": 44.484,
+"lat": 33.315,
+"area_km2": null
+},
+"IRQ2_46": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Rumaitha",
+"parent": "Al-Muthanna",
+"lon": 45.352,
+"lat": 31.524,
+"area_km2": null
+},
+"IRQ2_47": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Rutba",
+"parent": "Al-Anbar",
+"lon": 41.067,
+"lat": 32.676,
+"area_km2": null
+},
+"IRQ2_48": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Salman",
+"parent": "Al-Muthanna",
+"lon": 45.355,
+"lat": 30.073,
+"area_km2": null
+},
+"IRQ2_49": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Samawa",
+"parent": "Al-Muthanna",
+"lon": 45.333,
+"lat": 31.232,
+"area_km2": null
+},
+"IRQ2_50": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Shamiya",
+"parent": "Al-Qadisiyah",
+"lon": 44.642,
+"lat": 31.856,
+"area_km2": null
+},
+"IRQ2_51": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Shatra",
+"parent": "Dhi Qar",
+"lon": 46.299,
+"lat": 31.379,
+"area_km2": null
+},
+"IRQ2_52": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Shikhan",
+"parent": "Ninawa",
+"lon": 43.411,
+"lat": 36.708,
+"area_km2": null
+},
+"IRQ2_53": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Shirqat",
+"parent": "Salah al-Din",
+"lon": 43.167,
+"lat": 35.479,
+"area_km2": null
+},
+"IRQ2_54": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Sulaymaniyah",
+"parent": "Al-Sulaimaniyah",
+"lon": 45.385,
+"lat": 35.464,
+"area_km2": null
+},
+"IRQ2_55": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Suwaira",
+"parent": "Wasit",
+"lon": 45.071,
+"lat": 32.891,
+"area_km2": null
+},
+"IRQ2_56": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Thawra",
+"parent": "Baghdad",
+"lon": 44.462,
+"lat": 33.384,
+"area_km2": null
+},
+"IRQ2_57": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Zibar",
+"parent": "Erbil",
+"lon": 44.11,
+"lat": 37.074,
+"area_km2": null
+},
+"IRQ2_58": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Al-Zubair",
+"parent": "Al-Basrah",
+"lon": 47.046,
+"lat": 30.127,
+"area_km2": null
+},
+"IRQ2_59": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Ali Al-Gharbi",
+"parent": "Maysan",
+"lon": 46.734,
+"lat": 32.409,
+"area_km2": null
+},
+"IRQ2_60": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Ana",
+"parent": "Al-Anbar",
+"lon": 41.865,
+"lat": 34.374,
+"area_km2": null
+},
+"IRQ2_61": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Aqra",
+"parent": "Ninawa",
+"lon": 43.859,
+"lat": 36.675,
+"area_km2": null
+},
+"IRQ2_62": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Badra",
+"parent": "Wasit",
+"lon": 45.889,
+"lat": 33.033,
+"area_km2": null
+},
+"IRQ2_63": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Balad",
+"parent": "Salah al-Din",
+"lon": 43.905,
+"lat": 33.905,
+"area_km2": null
+},
+"IRQ2_64": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Baladruz",
+"parent": "Diyala",
+"lon": 45.38,
+"lat": 33.503,
+"area_km2": null
+},
+"IRQ2_65": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Baquba",
+"parent": "Diyala",
+"lon": 44.693,
+"lat": 33.615,
+"area_km2": null
+},
+"IRQ2_66": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Beygee",
+"parent": "Salah al-Din",
+"lon": 43.056,
+"lat": 34.882,
+"area_km2": null
+},
+"IRQ2_67": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Chamchamal",
+"parent": "Al-Sulaimaniyah",
+"lon": 44.981,
+"lat": 35.343,
+"area_km2": null
+},
+"IRQ2_68": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Daquq",
+"parent": "Kirkuk",
+"lon": 44.205,
+"lat": 35.029,
+"area_km2": null
+},
+"IRQ2_69": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Derbendikhan",
+"parent": "Al-Sulaimaniyah",
+"lon": 45.733,
+"lat": 35.196,
+"area_km2": null
+},
+"IRQ2_70": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Dibis",
+"parent": "Kirkuk",
+"lon": 44.114,
+"lat": 35.664,
+"area_km2": null
+},
+"IRQ2_71": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Dokan",
+"parent": "Al-Sulaimaniyah",
+"lon": 44.998,
+"lat": 35.92,
+"area_km2": null
+},
+"IRQ2_72": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Duhok",
+"parent": "Dohuk",
+"lon": 43.072,
+"lat": 36.956,
+"area_km2": null
+},
+"IRQ2_73": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Erbil",
+"parent": "Erbil",
+"lon": 44.001,
+"lat": 36.095,
+"area_km2": null
+},
+"IRQ2_74": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Haditha",
+"parent": "Al-Anbar",
+"lon": 42.368,
+"lat": 34.2,
+"area_km2": null
+},
+"IRQ2_75": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Halabcha",
+"parent": "Al-Sulaimaniyah",
+"lon": 45.945,
+"lat": 35.217,
+"area_km2": null
+},
+"IRQ2_76": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Heet",
+"parent": "Al-Anbar",
+"lon": 42.7,
+"lat": 33.775,
+"area_km2": null
+},
+"IRQ2_77": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Kalar",
+"parent": "Al-Sulaimaniyah",
+"lon": 45.331,
+"lat": 34.887,
+"area_km2": null
+},
+"IRQ2_78": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Kerbela",
+"parent": "Karbala",
+"lon": 43.943,
+"lat": 32.519,
+"area_km2": null
+},
+"IRQ2_79": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Khanaqin",
+"parent": "Diyala",
+"lon": 45.37,
+"lat": 34.403,
+"area_km2": null
+},
+"IRQ2_80": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Kifri",
+"parent": "Diyala",
+"lon": 44.96,
+"lat": 34.575,
+"area_km2": null
+},
+"IRQ2_81": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Kirkuk",
+"parent": "Kirkuk",
+"lon": 44.507,
+"lat": 35.478,
+"area_km2": null
+},
+"IRQ2_82": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Koysinjaq",
+"parent": "Erbil",
+"lon": 44.525,
+"lat": 36.029,
+"area_km2": null
+},
+"IRQ2_83": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Makhmour",
+"parent": "Erbil",
+"lon": 43.616,
+"lat": 35.802,
+"area_km2": null
+},
+"IRQ2_84": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Panjwin",
+"parent": "Al-Sulaimaniyah",
+"lon": 46.011,
+"lat": 35.7,
+"area_km2": null
+},
+"IRQ2_85": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Pshdar",
+"parent": "Al-Sulaimaniyah",
+"lon": 45.115,
+"lat": 36.28,
+"area_km2": null
+},
+"IRQ2_86": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Qalat Saleh",
+"parent": "Maysan",
+"lon": 47.328,
+"lat": 31.492,
+"area_km2": null
+},
+"IRQ2_87": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Rania",
+"parent": "Al-Sulaimaniyah",
+"lon": 44.922,
+"lat": 36.176,
+"area_km2": null
+},
+"IRQ2_88": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Rawanduz",
+"parent": "Erbil",
+"lon": 44.63,
+"lat": 36.775,
+"area_km2": null
+},
+"IRQ2_89": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Samarra",
+"parent": "Salah al-Din",
+"lon": 43.5,
+"lat": 34.269,
+"area_km2": null
+},
+"IRQ2_90": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Shaqlawa",
+"parent": "Erbil",
+"lon": 44.257,
+"lat": 36.428,
+"area_km2": null
+},
+"IRQ2_91": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Sharbazher",
+"parent": "Al-Sulaimaniyah",
+"lon": 45.586,
+"lat": 35.732,
+"area_km2": null
+},
+"IRQ2_92": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Shat Al-Arab",
+"parent": "Al-Basrah",
+"lon": 47.83,
+"lat": 30.784,
+"area_km2": null
+},
+"IRQ2_93": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Sinjar",
+"parent": "Ninawa",
+"lon": 41.853,
+"lat": 36.349,
+"area_km2": null
+},
+"IRQ2_94": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Sumail",
+"parent": "Dohuk",
+"lon": 42.737,
+"lat": 36.914,
+"area_km2": null
+},
+"IRQ2_95": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Suq Al-Shoyokh",
+"parent": "Dhi Qar",
+"lon": 46.495,
+"lat": 30.853,
+"area_km2": null
+},
+"IRQ2_96": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Telafar",
+"parent": "Ninawa",
+"lon": 42.4,
+"lat": 36.583,
+"area_km2": null
+},
+"IRQ2_97": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Tikrit",
+"parent": "Salah al-Din",
+"lon": 43.717,
+"lat": 34.721,
+"area_km2": null
+},
+"IRQ2_98": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Tilkaef",
+"parent": "Ninawa",
+"lon": 43.029,
+"lat": 36.578,
+"area_km2": null
+},
+"IRQ2_99": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Tooz Khurmato",
+"parent": "Salah al-Din",
+"lon": 44.645,
+"lat": 34.823,
+"area_km2": null
+},
+"IRQ2_100": {
+"iso": "IRQ",
+"level": "ADM2",
+"name": "Zakho",
+"parent": "Dohuk",
+"lon": 42.857,
+"lat": 37.204,
+"area_km2": null
+},
+"AFG1_0": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Kandahar",
+"parent": null,
+"lon": 65.72,
+"lat": 31.009,
+"area_km2": null
+},
+"AFG1_1": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Zabul",
+"parent": null,
+"lon": 67.113,
+"lat": 32.236,
+"area_km2": null
+},
+"AFG1_2": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Uruzgan",
+"parent": null,
+"lon": 66.035,
+"lat": 32.862,
+"area_km2": null
+},
+"AFG1_3": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Daykundi",
+"parent": null,
+"lon": 66.185,
+"lat": 33.744,
+"area_km2": null
+},
+"AFG1_4": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Ghanzi",
+"parent": null,
+"lon": 67.814,
+"lat": 33.288,
+"area_km2": null
+},
+"AFG1_5": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Paktika",
+"parent": null,
+"lon": 68.762,
+"lat": 32.472,
+"area_km2": null
+},
+"AFG1_6": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Khost",
+"parent": null,
+"lon": 69.846,
+"lat": 33.363,
+"area_km2": null
+},
+"AFG1_7": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Paktia",
+"parent": null,
+"lon": 69.374,
+"lat": 33.628,
+"area_km2": null
+},
+"AFG1_8": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Logar",
+"parent": null,
+"lon": 69.201,
+"lat": 34.038,
+"area_km2": null
+},
+"AFG1_9": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Wardak",
+"parent": null,
+"lon": 68.274,
+"lat": 34.323,
+"area_km2": null
+},
+"AFG1_10": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Kabul",
+"parent": null,
+"lon": 69.304,
+"lat": 34.582,
+"area_km2": null
+},
+"AFG1_11": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Nangarhar",
+"parent": null,
+"lon": 70.464,
+"lat": 34.298,
+"area_km2": null
+},
+"AFG1_12": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Laghman",
+"parent": null,
+"lon": 70.137,
+"lat": 34.774,
+"area_km2": null
+},
+"AFG1_13": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Kapisa",
+"parent": null,
+"lon": 69.622,
+"lat": 35.04,
+"area_km2": null
+},
+"AFG1_14": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Parwan",
+"parent": null,
+"lon": 68.888,
+"lat": 34.98,
+"area_km2": null
+},
+"AFG1_15": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Panjshir",
+"parent": null,
+"lon": 69.806,
+"lat": 35.508,
+"area_km2": null
+},
+"AFG1_16": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Kunar",
+"parent": null,
+"lon": 71.094,
+"lat": 35.004,
+"area_km2": null
+},
+"AFG1_17": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Nuristan",
+"parent": null,
+"lon": 70.733,
+"lat": 35.423,
+"area_km2": null
+},
+"AFG1_18": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Baghlan",
+"parent": null,
+"lon": 68.878,
+"lat": 35.809,
+"area_km2": null
+},
+"AFG1_19": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Bamyan",
+"parent": null,
+"lon": 67.271,
+"lat": 34.826,
+"area_km2": null
+},
+"AFG1_20": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Samangan",
+"parent": null,
+"lon": 67.714,
+"lat": 35.954,
+"area_km2": null
+},
+"AFG1_21": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Kunduz",
+"parent": null,
+"lon": 68.75,
+"lat": 36.837,
+"area_km2": null
+},
+"AFG1_22": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Takhar",
+"parent": null,
+"lon": 69.757,
+"lat": 36.715,
+"area_km2": null
+},
+"AFG1_23": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Balkh",
+"parent": null,
+"lon": 67.123,
+"lat": 36.649,
+"area_km2": null
+},
+"AFG1_24": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Sar-e Pol",
+"parent": null,
+"lon": 66.147,
+"lat": 35.717,
+"area_km2": null
+},
+"AFG1_25": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Jowzjan",
+"parent": null,
+"lon": 65.852,
+"lat": 36.814,
+"area_km2": null
+},
+"AFG1_26": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Faryab",
+"parent": null,
+"lon": 64.843,
+"lat": 36.066,
+"area_km2": null
+},
+"AFG1_27": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Badghis",
+"parent": null,
+"lon": 63.738,
+"lat": 35.135,
+"area_km2": null
+},
+"AFG1_28": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Ghor",
+"parent": null,
+"lon": 64.883,
+"lat": 34.183,
+"area_km2": null
+},
+"AFG1_29": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Herat",
+"parent": null,
+"lon": 62.141,
+"lat": 34.195,
+"area_km2": null
+},
+"AFG1_30": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Farah",
+"parent": null,
+"lon": 62.325,
+"lat": 32.605,
+"area_km2": null
+},
+"AFG1_31": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Nimruz",
+"parent": null,
+"lon": 62.314,
+"lat": 30.813,
+"area_km2": null
+},
+"AFG1_32": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Helmand",
+"parent": null,
+"lon": 64.015,
+"lat": 31.12,
+"area_km2": null
+},
+"AFG1_33": {
+"iso": "AFG",
+"level": "ADM1",
+"name": "Badakhshan",
+"parent": null,
+"lon": 71.484,
+"lat": 37.045,
+"area_km2": null
+},
+"AFG2_1": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Gulran",
+"parent": "Herat",
+"lon": 61.57,
+"lat": 35.133,
+"area_km2": null
+},
+"AFG2_2": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Koshk",
+"parent": "Herat",
+"lon": 62.236,
+"lat": 35.006,
+"area_km2": null
+},
+"AFG2_4": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Koshki Kohna",
+"parent": "Herat",
+"lon": 62.628,
+"lat": 34.888,
+"area_km2": null
+},
+"AFG2_6": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Kohsan",
+"parent": "Herat",
+"lon": 61.166,
+"lat": 34.613,
+"area_km2": null
+},
+"AFG2_9": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Ghoryan",
+"parent": "Herat",
+"lon": 61.156,
+"lat": 34.179,
+"area_km2": null
+},
+"AFG2_11": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Zanda  Jan\n",
+"parent": "Herat",
+"lon": 61.819,
+"lat": 34.369,
+"area_km2": null
+},
+"AFG2_13": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Guzara",
+"parent": "Herat",
+"lon": 62.044,
+"lat": 34.038,
+"area_km2": null
+},
+"AFG2_14": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Karukh",
+"parent": "Herat",
+"lon": 62.657,
+"lat": 34.505,
+"area_km2": null
+},
+"AFG2_17": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Pashtun Zarghun",
+"parent": "Herat",
+"lon": 62.756,
+"lat": 34.184,
+"area_km2": null
+},
+"AFG2_22": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Obe",
+"parent": "Herat",
+"lon": 63.25,
+"lat": 34.361,
+"area_km2": null
+},
+"AFG2_24": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Farsi",
+"parent": "Herat",
+"lon": 63.285,
+"lat": 33.846,
+"area_km2": null
+},
+"AFG2_27": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Anar Dara",
+"parent": "Farah",
+"lon": 61.251,
+"lat": 33.012,
+"area_km2": null
+},
+"AFG2_29": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Qala Ka",
+"parent": "Farah",
+"lon": 61.33,
+"lat": 32.397,
+"area_km2": null
+},
+"AFG2_30": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Khaki Safed",
+"parent": "Farah",
+"lon": 62.073,
+"lat": 32.755,
+"area_km2": null
+},
+"AFG2_31": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Shindand",
+"parent": "Herat",
+"lon": 62.36,
+"lat": 33.244,
+"area_km2": null
+},
+"AFG2_35": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Shib Koh",
+"parent": "Farah",
+"lon": 61.389,
+"lat": 32.112,
+"area_km2": null
+},
+"AFG2_37": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Lash Wa Juwayn",
+"parent": "Farah",
+"lon": 61.322,
+"lat": 31.724,
+"area_km2": null
+},
+"AFG2_39": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Pusht Rod",
+"parent": "Farah",
+"lon": 62.065,
+"lat": 32.489,
+"area_km2": null
+},
+"AFG2_41": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Farah",
+"parent": "Farah",
+"lon": 62.236,
+"lat": 32.248,
+"area_km2": null
+},
+"AFG2_43": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Bala Buluk",
+"parent": "Farah",
+"lon": 62.753,
+"lat": 32.772,
+"area_km2": null
+},
+"AFG2_45": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Gulistan",
+"parent": "Farah",
+"lon": 63.597,
+"lat": 32.642,
+"area_km2": null
+},
+"AFG2_48": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Pur Chaman",
+"parent": "Farah",
+"lon": 63.842,
+"lat": 33.152,
+"area_km2": null
+},
+"AFG2_52": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Bakwa",
+"parent": "Farah",
+"lon": 62.883,
+"lat": 32.217,
+"area_km2": null
+},
+"AFG2_73": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Kang",
+"parent": "Nimruz",
+"lon": 61.838,
+"lat": 31.308,
+"area_km2": null
+},
+"AFG2_76": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Zaranj",
+"parent": "Nimruz",
+"lon": 62.004,
+"lat": 30.932,
+"area_km2": null
+},
+"AFG2_80": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Chahar Burjak",
+"parent": "Nimruz",
+"lon": 62.104,
+"lat": 30.205,
+"area_km2": null
+},
+"AFG2_83": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Chakhansur",
+"parent": "Nimruz",
+"lon": 62.456,
+"lat": 31.343,
+"area_km2": null
+},
+"AFG2_87": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Khash Rod",
+"parent": "Nimruz",
+"lon": 62.94,
+"lat": 31.75,
+"area_km2": null
+},
+"AFG2_90": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Dishu",
+"parent": "Helmand",
+"lon": 63.129,
+"lat": 29.889,
+"area_km2": null
+},
+"AFG2_93": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Reg(Khanshin)",
+"parent": "Helmand",
+"lon": 63.879,
+"lat": 30.151,
+"area_km2": null
+},
+"AFG2_96": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Garmser",
+"parent": "Helmand",
+"lon": 64.132,
+"lat": 30.853,
+"area_km2": null
+},
+"AFG2_99": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Nawa-I- Barak Zayi",
+"parent": "Helmand",
+"lon": 64.099,
+"lat": 31.344,
+"area_km2": null
+},
+"AFG2_102": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Nad Ali",
+"parent": "Helmand",
+"lon": 63.861,
+"lat": 31.626,
+"area_km2": null
+},
+"AFG2_105": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Nahri Sarraj",
+"parent": "Helmand",
+"lon": 64.609,
+"lat": 31.829,
+"area_km2": null
+},
+"AFG2_107": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Lashkar Gah",
+"parent": "Helmand",
+"lon": 64.558,
+"lat": 31.564,
+"area_km2": null
+},
+"AFG2_110": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Sangin",
+"parent": "Helmand",
+"lon": 64.994,
+"lat": 32.12,
+"area_km2": null
+},
+"AFG2_113": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Kajaki",
+"parent": "Helmand",
+"lon": 65.039,
+"lat": 32.484,
+"area_km2": null
+},
+"AFG2_116": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Naw Zad",
+"parent": "Helmand",
+"lon": 64.476,
+"lat": 32.469,
+"area_km2": null
+},
+"AFG2_119": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Musa Qala",
+"parent": "Helmand",
+"lon": 64.738,
+"lat": 32.466,
+"area_km2": null
+},
+"AFG2_123": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Baghran",
+"parent": "Helmand",
+"lon": 65.044,
+"lat": 33.016,
+"area_km2": null
+},
+"AFG2_126": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Registan",
+"parent": "Kandahar",
+"lon": 65.181,
+"lat": 30.122,
+"area_km2": null
+},
+"AFG2_129": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Shorabak",
+"parent": "Kandahar",
+"lon": 66.051,
+"lat": 30.179,
+"area_km2": null
+},
+"AFG2_133": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Spin Boldak",
+"parent": "Kandahar",
+"lon": 66.17,
+"lat": 30.988,
+"area_km2": null
+},
+"AFG2_136": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Arghistan",
+"parent": "Kandahar",
+"lon": 66.553,
+"lat": 31.52,
+"area_km2": null
+},
+"AFG2_138": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Panjwayi",
+"parent": "Kandahar",
+"lon": 65.158,
+"lat": 31.073,
+"area_km2": null
+},
+"AFG2_140": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Kandahar",
+"parent": "Kandahar",
+"lon": 65.715,
+"lat": 31.502,
+"area_km2": null
+},
+"AFG2_143": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Daman",
+"parent": "Kandahar",
+"lon": 65.783,
+"lat": 31.211,
+"area_km2": null
+},
+"AFG2_146": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Shah Wali Kot",
+"parent": "Kandahar",
+"lon": 66.007,
+"lat": 32.08,
+"area_km2": null
+},
+"AFG2_150": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Arghandab",
+"parent": "Kandahar",
+"lon": 65.648,
+"lat": 31.757,
+"area_km2": null
+},
+"AFG2_152": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Maywand",
+"parent": "Kandahar",
+"lon": 64.993,
+"lat": 31.582,
+"area_km2": null
+},
+"AFG2_154": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Ghorak",
+"parent": "Kandahar",
+"lon": 65.196,
+"lat": 32.044,
+"area_km2": null
+},
+"AFG2_157": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Zhari",
+"parent": "Kandahar",
+"lon": 65.398,
+"lat": 31.641,
+"area_km2": null
+},
+"AFG2_160": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Khakrez",
+"parent": "Kandahar",
+"lon": 65.501,
+"lat": 32.005,
+"area_km2": null
+},
+"AFG2_163": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Ab Kamari",
+"parent": "Badghis",
+"lon": 62.903,
+"lat": 34.925,
+"area_km2": null
+},
+"AFG2_166": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Muqur",
+"parent": "Badghis",
+"lon": 63.091,
+"lat": 35.179,
+"area_km2": null
+},
+"AFG2_170": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Qala-I- Naw",
+"parent": "Badghis",
+"lon": 63.139,
+"lat": 34.821,
+"area_km2": null
+},
+"AFG2_178": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Nesh",
+"parent": "Kandahar",
+"lon": 65.704,
+"lat": 32.382,
+"area_km2": null
+},
+"AFG2_181": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Qadis",
+"parent": "Badghis",
+"lon": 63.587,
+"lat": 34.818,
+"area_km2": null
+},
+"AFG2_185": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Tulak",
+"parent": "Ghor",
+"lon": 63.716,
+"lat": 34.008,
+"area_km2": null
+},
+"AFG2_188": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Saghar",
+"parent": "Ghor",
+"lon": 63.675,
+"lat": 33.582,
+"area_km2": null
+},
+"AFG2_270": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Lal Wa Sarjangal",
+"parent": "Ghor",
+"lon": 66.277,
+"lat": 34.603,
+"area_km2": null
+},
+"AFG2_274": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Dawlat Yar",
+"parent": "Ghor",
+"lon": 65.748,
+"lat": 34.571,
+"area_km2": null
+},
+"AFG2_278": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Chaghcharan",
+"parent": "Ghor",
+"lon": 65.347,
+"lat": 34.728,
+"area_km2": null
+},
+"AFG2_282": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Charsada",
+"parent": "Ghor",
+"lon": 65.101,
+"lat": 35.127,
+"area_km2": null
+},
+"AFG2_285": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Du Layna",
+"parent": "Ghor",
+"lon": 64.996,
+"lat": 34.135,
+"area_km2": null
+},
+"AFG2_288": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Ghormach",
+"parent": "Badghis",
+"lon": 63.786,
+"lat": 35.734,
+"area_km2": null
+},
+"AFG2_291": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Bala Murghab",
+"parent": "Badghis",
+"lon": 63.47,
+"lat": 35.462,
+"area_km2": null
+},
+"AFG2_295": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Jawand",
+"parent": "Badghis",
+"lon": 64.336,
+"lat": 35.002,
+"area_km2": null
+},
+"AFG2_298": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Chishti Sharif",
+"parent": "Herat",
+"lon": 63.962,
+"lat": 34.447,
+"area_km2": null
+},
+"AFG2_302": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Shahrak",
+"parent": "Ghor",
+"lon": 64.339,
+"lat": 34.093,
+"area_km2": null
+},
+"AFG2_305": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Taywara",
+"parent": "Ghor",
+"lon": 64.39,
+"lat": 33.481,
+"area_km2": null
+},
+"AFG2_307": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Washer",
+"parent": "Helmand",
+"lon": 63.973,
+"lat": 32.109,
+"area_km2": null
+},
+"AFG2_310": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Pasaband",
+"parent": "Ghor",
+"lon": 65.089,
+"lat": 33.591,
+"area_km2": null
+},
+"AFG2_324": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Hirat",
+"parent": "Herat",
+"lon": 62.155,
+"lat": 34.484,
+"area_km2": null
+},
+"AFG2_327": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Injil",
+"parent": "Herat",
+"lon": 62.311,
+"lat": 34.309,
+"area_km2": null
+},
+"AFG2_343": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Adraskan",
+"parent": "Herat",
+"lon": 62.001,
+"lat": 33.704,
+"area_km2": null
+},
+"AFG2_397": {
+"iso": "AFG",
+"level": "ADM2",
+"name": "Maruf",
+"parent": "Kandahar",
+"lon": 67.253,
+"lat": 31.448,
+"area_km2": null
+},
+"PAK2_0": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Khuzdar",
+"parent": null,
+"lon": 66.696,
+"lat": 27.418,
+"area_km2": null
+},
+"PAK2_7": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Chagai",
+"parent": null,
+"lon": 63.325,
+"lat": 28.995,
+"area_km2": null
+},
+"PAK2_8": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Nushki",
+"parent": null,
+"lon": 65.854,
+"lat": 29.469,
+"area_km2": null
+},
+"PAK2_9": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Qilla Abdullah",
+"parent": null,
+"lon": 66.745,
+"lat": 30.719,
+"area_km2": null
+},
+"PAK2_10": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Quetta",
+"parent": null,
+"lon": 66.819,
+"lat": 30.111,
+"area_km2": null
+},
+"PAK2_11": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Pishin",
+"parent": null,
+"lon": 67.339,
+"lat": 30.778,
+"area_km2": null
+},
+"PAK2_12": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Kharan",
+"parent": null,
+"lon": 64.668,
+"lat": 27.943,
+"area_km2": null
+},
+"PAK2_13": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Mastung",
+"parent": null,
+"lon": 66.902,
+"lat": 29.736,
+"area_km2": null
+},
+"PAK2_16": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Gwadar",
+"parent": null,
+"lon": 63.152,
+"lat": 25.413,
+"area_km2": null
+},
+"PAK2_17": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Kech",
+"parent": null,
+"lon": 63.073,
+"lat": 26.022,
+"area_km2": null
+},
+"PAK2_18": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Panjgur",
+"parent": null,
+"lon": 64.199,
+"lat": 26.754,
+"area_km2": null
+},
+"PAK2_26": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Kalat",
+"parent": null,
+"lon": 66.659,
+"lat": 28.844,
+"area_km2": null
+},
+"PAK2_31": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Awaran",
+"parent": null,
+"lon": 65.44,
+"lat": 26.193,
+"area_km2": null
+},
+"PAK2_32": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Lasbela",
+"parent": null,
+"lon": 66.683,
+"lat": 25.847,
+"area_km2": null
+},
+"PAK2_33": {
+"iso": "PAK",
+"level": "ADM2",
+"name": "Karachi",
+"parent": null,
+"lon": 67.207,
+"lat": 25.031,
+"area_km2": null
+},
+"PAK3_18": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Awaran",
+"parent": "Awaran",
+"lon": 64.91,
+"lat": 26.139,
+"area_km2": null
+},
+"PAK3_19": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Gishkore Sub",
+"parent": "Awaran",
+"lon": 64.786,
+"lat": 25.78,
+"area_km2": null
+},
+"PAK3_20": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Jhal Jhao",
+"parent": "Awaran",
+"lon": 65.785,
+"lat": 26.613,
+"area_km2": null
+},
+"PAK3_21": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Jhal Jhao Sub",
+"parent": "Awaran",
+"lon": 65.766,
+"lat": 26.074,
+"area_km2": null
+},
+"PAK3_22": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Mashkai",
+"parent": "Awaran",
+"lon": 65.574,
+"lat": 26.973,
+"area_km2": null
+},
+"PAK3_24": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Chagai Sub",
+"parent": "Chagai",
+"lon": 64.655,
+"lat": 29.332,
+"area_km2": null
+},
+"PAK3_25": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Dalbadin",
+"parent": "Chagai",
+"lon": 64.15,
+"lat": 28.952,
+"area_km2": null
+},
+"PAK3_26": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Naukandi",
+"parent": "Chagai",
+"lon": 62.887,
+"lat": 28.785,
+"area_km2": null
+},
+"PAK3_27": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Taftan",
+"parent": "Chagai",
+"lon": 61.818,
+"lat": 29.126,
+"area_km2": null
+},
+"PAK3_36": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Gwadar",
+"parent": "Gwadar",
+"lon": 62.31,
+"lat": 25.347,
+"area_km2": null
+},
+"PAK3_37": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Jiwani",
+"parent": null,
+"lon": 61.806,
+"lat": 25.147,
+"area_km2": null
+},
+"PAK3_38": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Ormara",
+"parent": "Gwadar",
+"lon": 64.717,
+"lat": 25.404,
+"area_km2": null
+},
+"PAK3_39": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Pasni",
+"parent": "Gwadar",
+"lon": 63.276,
+"lat": 25.414,
+"area_km2": null
+},
+"PAK3_40": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Sunstar Sub",
+"parent": "Gwadar",
+"lon": 61.856,
+"lat": 25.468,
+"area_km2": null
+},
+"PAK3_59": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Kalat",
+"parent": "Kalat",
+"lon": 66.492,
+"lat": 28.975,
+"area_km2": null
+},
+"PAK3_61": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Surab",
+"parent": "Kalat",
+"lon": 66.178,
+"lat": 28.319,
+"area_km2": null
+},
+"PAK3_62": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Balnigor",
+"parent": "Kech",
+"lon": 62.343,
+"lat": 25.833,
+"area_km2": null
+},
+"PAK3_63": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Buleda",
+"parent": "Kech",
+"lon": 63.221,
+"lat": 26.324,
+"area_km2": null
+},
+"PAK3_64": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Dasht",
+"parent": "Kech",
+"lon": 62.573,
+"lat": 25.687,
+"area_km2": null
+},
+"PAK3_65": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Hoshab",
+"parent": "Kech",
+"lon": 64.197,
+"lat": 25.988,
+"area_km2": null
+},
+"PAK3_66": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Kech",
+"parent": "Kech",
+"lon": 63.434,
+"lat": 25.882,
+"area_km2": null
+},
+"PAK3_67": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Mand",
+"parent": "Kech",
+"lon": 61.993,
+"lat": 26.005,
+"area_km2": null
+},
+"PAK3_68": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Tump",
+"parent": "Kech",
+"lon": 62.412,
+"lat": 26.218,
+"area_km2": null
+},
+"PAK3_69": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Zamuran",
+"parent": "Kech",
+"lon": 62.834,
+"lat": 26.475,
+"area_km2": null
+},
+"PAK3_70": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Kharan",
+"parent": "Kharan",
+"lon": 65.466,
+"lat": 28.613,
+"area_km2": null
+},
+"PAK3_75": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Nal Sub",
+"parent": "Khuzdar",
+"lon": 66.01,
+"lat": 27.554,
+"area_km2": null
+},
+"PAK3_76": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Ornach Sub",
+"parent": "Khuzdar",
+"lon": 66.168,
+"lat": 26.852,
+"area_km2": null
+},
+"PAK3_78": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "Wadh Sub",
+"parent": "Khuzdar",
+"lon": 66.481,
+"lat": 27.07,
+"area_km2": null
+},
+"PAK3_94": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "BELA",
+"parent": "Lasbela",
+"lon": 66.401,
+"lat": 26.263,
+"area_km2": null
+},
+"PAK3_99": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "LAKHRA",
+"parent": "Lasbela",
+"lon": 66.382,
+"lat": 25.884,
+"area_km2": null
+},
+"PAK3_100": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "LIARI",
+"parent": "Lasbela",
+"lon": 65.847,
+"lat": 25.523,
+"area_km2": null
+},
+"PAK3_108": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "KIRDGAP SUB-",
+"parent": "Mastung",
+"lon": 66.394,
+"lat": 29.619,
+"area_km2": null
+},
+"PAK3_117": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "DAK_",
+"parent": "Nushki",
+"lon": 65.6,
+"lat": 29.524,
+"area_km2": null
+},
+"PAK3_118": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "NUSHKI_",
+"parent": "Nushki",
+"lon": 65.902,
+"lat": 29.404,
+"area_km2": null
+},
+"PAK3_119": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "GICHK",
+"parent": "Panjgur",
+"lon": 64.434,
+"lat": 26.746,
+"area_km2": null
+},
+"PAK3_120": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "GOWARGO",
+"parent": "Panjgur",
+"lon": 64.079,
+"lat": 26.392,
+"area_km2": null
+},
+"PAK3_121": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "PANJGUR",
+"parent": "Panjgur",
+"lon": 64.162,
+"lat": 27.019,
+"area_km2": null
+},
+"PAK3_122": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "PAROME",
+"parent": "Panjgur",
+"lon": 63.525,
+"lat": 26.593,
+"area_km2": null
+},
+"PAK3_128": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "PANJ PAI SUB-",
+"parent": "Quetta",
+"lon": 66.471,
+"lat": 30.023,
+"area_km2": null
+},
+"PAK3_136": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "BESIMA",
+"parent": "Kharan",
+"lon": 65.159,
+"lat": 27.384,
+"area_km2": null
+},
+"PAK3_137": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "MASHKHEL",
+"parent": "Kharan",
+"lon": 63.526,
+"lat": 27.66,
+"area_km2": null
+},
+"PAK3_138": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "NAG",
+"parent": "Kharan",
+"lon": 64.472,
+"lat": 28.287,
+"area_km2": null
+},
+"PAK3_139": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "SHAHDO GARHI SUB",
+"parent": "Kharan",
+"lon": 65.609,
+"lat": 27.972,
+"area_km2": null
+},
+"PAK3_140": {
+"iso": "PAK",
+"level": "ADM3",
+"name": "WASHUK",
+"parent": "Kharan",
+"lon": 64.514,
+"lat": 27.758,
+"area_km2": null
+},
+"TKM1_0": {
+"iso": "TKM",
+"level": "ADM1",
+"name": "Balkan",
+"parent": null,
+"lon": 54.843,
+"lat": 39.989,
+"area_km2": null
+},
+"TKM1_1": {
+"iso": "TKM",
+"level": "ADM1",
+"name": "Ahai",
+"parent": null,
+"lon": 59.128,
+"lat": 38.48,
+"area_km2": null
+},
+"TKM1_2": {
+"iso": "TKM",
+"level": "ADM1",
+"name": "Dasoguz",
+"parent": null,
+"lon": 58.726,
+"lat": 41.125,
+"area_km2": null
+},
+"TKM1_3": {
+"iso": "TKM",
+"level": "ADM1",
+"name": "Lebap",
+"parent": null,
+"lon": 63.168,
+"lat": 38.934,
+"area_km2": null
+},
+"TKM1_4": {
+"iso": "TKM",
+"level": "ADM1",
+"name": "Mary",
+"parent": null,
+"lon": 62.31,
+"lat": 37.206,
+"area_km2": null
+},
+"TKM2_0": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Koneurgenc",
+"parent": "Dasoguz",
+"lon": 58.754,
+"lat": 42.093,
+"area_km2": null
+},
+"TKM2_1": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Saparmyrat Turkmenbasy",
+"parent": "Dasoguz",
+"lon": 58.293,
+"lat": 42.267,
+"area_km2": null
+},
+"TKM2_2": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Boldumsaz",
+"parent": "Dasoguz",
+"lon": 59.805,
+"lat": 42.021,
+"area_km2": null
+},
+"TKM2_3": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "S.A. Nyyazow",
+"parent": "Dasoguz",
+"lon": 58.869,
+"lat": 40.647,
+"area_km2": null
+},
+"TKM2_4": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Gorogly",
+"parent": "Dasoguz",
+"lon": 59.949,
+"lat": 40.518,
+"area_km2": null
+},
+"TKM2_5": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Ak Bugday",
+"parent": "Ahai",
+"lon": 58.71,
+"lat": 38.967,
+"area_km2": null
+},
+"TKM2_6": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Gokdepe",
+"parent": "Ahai",
+"lon": 58.001,
+"lat": 38.586,
+"area_km2": null
+},
+"TKM2_7": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Darganata",
+"parent": "Lebap",
+"lon": 61.2,
+"lat": 40.562,
+"area_km2": null
+},
+"TKM2_8": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Kaka",
+"parent": "Ahai",
+"lon": 59.733,
+"lat": 37.589,
+"area_km2": null
+},
+"TKM2_9": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Babadayhan",
+"parent": "Ahai",
+"lon": 60.071,
+"lat": 38.393,
+"area_km2": null
+},
+"TKM2_10": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Tejen",
+"parent": "Ahai",
+"lon": 60.219,
+"lat": 38.333,
+"area_km2": null
+},
+"TKM2_11": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Avaza",
+"parent": "Balkan",
+"lon": 52.926,
+"lat": 39.954,
+"area_km2": null
+},
+"TKM2_12": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Hazar",
+"parent": "Balkan",
+"lon": 53.335,
+"lat": 39.501,
+"area_km2": null
+},
+"TKM2_13": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Etrek",
+"parent": "Balkan",
+"lon": 54.604,
+"lat": 38.21,
+"area_km2": null
+},
+"TKM2_14": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Turkmenbasy",
+"parent": "Balkan",
+"lon": 54.416,
+"lat": 40.933,
+"area_km2": null
+},
+"TKM2_15": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Gubadag",
+"parent": "Dasoguz",
+"lon": 57.578,
+"lat": 41.309,
+"area_km2": null
+},
+"TKM2_16": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Baherden",
+"parent": "Ahai",
+"lon": 57.374,
+"lat": 38.991,
+"area_km2": null
+},
+"TKM2_17": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Akdepe",
+"parent": "Dasoguz",
+"lon": 58.238,
+"lat": 40.997,
+"area_km2": null
+},
+"TKM2_18": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Lebap",
+"lon": 61.685,
+"lat": 39.685,
+"area_km2": null
+},
+"TKM2_19": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Sakarcage",
+"parent": "Mary",
+"lon": 60.935,
+"lat": 38.284,
+"area_km2": null
+},
+"TKM2_20": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Oguzhan",
+"parent": "Mary",
+"lon": 61.306,
+"lat": 37.403,
+"area_km2": null
+},
+"TKM2_21": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Tedzhen Sovkhoz",
+"parent": "Mary",
+"lon": 61.258,
+"lat": 37.163,
+"area_km2": null
+},
+"TKM2_22": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 61.208,
+"lat": 37.093,
+"area_km2": null
+},
+"TKM2_23": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Serakhs",
+"parent": "Ahai",
+"lon": 61.349,
+"lat": 36.236,
+"area_km2": null
+},
+"TKM2_24": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Murgap",
+"parent": "Mary",
+"lon": 61.688,
+"lat": 36.896,
+"area_km2": null
+},
+"TKM2_25": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 63.12,
+"lat": 36.339,
+"area_km2": null
+},
+"TKM2_26": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Serhetabat",
+"parent": "Mary",
+"lon": 62.613,
+"lat": 35.931,
+"area_km2": null
+},
+"TKM2_27": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Turkmengala",
+"parent": "Mary",
+"lon": 62.244,
+"lat": 36.69,
+"area_km2": null
+},
+"TKM2_28": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Ferap",
+"parent": "Lebap",
+"lon": 63.397,
+"lat": 39.303,
+"area_km2": null
+},
+"TKM2_29": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Danew",
+"parent": "Lebap",
+"lon": 63.164,
+"lat": 39.221,
+"area_km2": null
+},
+"TKM2_30": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Dowletli",
+"parent": "Lebap",
+"lon": 63.506,
+"lat": 39.068,
+"area_km2": null
+},
+"TKM2_31": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Carjew",
+"parent": "Lebap",
+"lon": 62.675,
+"lat": 38.841,
+"area_km2": null
+},
+"TKM2_32": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 61.586,
+"lat": 38.44,
+"area_km2": null
+},
+"TKM2_33": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 61.637,
+"lat": 38.121,
+"area_km2": null
+},
+"TKM2_34": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Magtymguly",
+"parent": "Balkan",
+"lon": 56.522,
+"lat": 39.167,
+"area_km2": null
+},
+"TKM2_35": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Wekilbazar",
+"parent": "Mary",
+"lon": 61.446,
+"lat": 38.478,
+"area_km2": null
+},
+"TKM2_36": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Mary",
+"parent": "Mary",
+"lon": 61.694,
+"lat": 37.777,
+"area_km2": null
+},
+"TKM2_37": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Mary",
+"parent": "Mary",
+"lon": 61.766,
+"lat": 37.503,
+"area_km2": null
+},
+"TKM2_38": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 61.048,
+"lat": 38.942,
+"area_km2": null
+},
+"TKM2_39": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Garagum",
+"parent": "Mary",
+"lon": 61.279,
+"lat": 38.097,
+"area_km2": null
+},
+"TKM2_40": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Bayramaly",
+"parent": "Mary",
+"lon": 62.2,
+"lat": 37.592,
+"area_km2": null
+},
+"TKM2_41": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Bayramaly",
+"parent": "Mary",
+"lon": 62.327,
+"lat": 38.155,
+"area_km2": null
+},
+"TKM2_42": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Yoloten",
+"parent": "Mary",
+"lon": 63.097,
+"lat": 37.28,
+"area_km2": null
+},
+"TKM2_43": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 63.691,
+"lat": 36.56,
+"area_km2": null
+},
+"TKM2_44": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 63.542,
+"lat": 36.356,
+"area_km2": null
+},
+"TKM2_45": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Sayat",
+"parent": "Lebap",
+"lon": 63.658,
+"lat": 38.037,
+"area_km2": null
+},
+"TKM2_46": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Hojambaz",
+"parent": "Lebap",
+"lon": 64.132,
+"lat": 37.891,
+"area_km2": null
+},
+"TKM2_47": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Kerki",
+"parent": "Lebap",
+"lon": 64.829,
+"lat": 38.429,
+"area_km2": null
+},
+"TKM2_48": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Halac",
+"parent": "Lebap",
+"lon": 64.452,
+"lat": 37.604,
+"area_km2": null
+},
+"TKM2_49": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Sayat",
+"parent": "Lebap",
+"lon": 65.629,
+"lat": 38.096,
+"area_km2": null
+},
+"TKM2_50": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Koytendag",
+"parent": "Lebap",
+"lon": 66.081,
+"lat": 37.779,
+"area_km2": null
+},
+"TKM2_51": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Dostluk",
+"parent": "Lebap",
+"lon": 64.992,
+"lat": 37.453,
+"area_km2": null
+},
+"TKM2_52": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 64.297,
+"lat": 36.731,
+"area_km2": null
+},
+"TKM2_53": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 64.081,
+"lat": 36.574,
+"area_km2": null
+},
+"TKM2_54": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 64.525,
+"lat": 36.596,
+"area_km2": null
+},
+"TKM2_55": {
+"iso": "TKM",
+"level": "ADM2",
+"name": null,
+"parent": "Mary",
+"lon": 64.092,
+"lat": 36.249,
+"area_km2": null
+},
+"TKM2_56": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Balkanabat",
+"parent": "Balkan",
+"lon": 54.166,
+"lat": 39.352,
+"area_km2": null
+},
+"TKM2_57": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Bereket",
+"parent": "Balkan",
+"lon": 55.569,
+"lat": 39.456,
+"area_km2": null
+},
+"TKM2_58": {
+"iso": "TKM",
+"level": "ADM2",
+"name": "Gurbansoltan Eye",
+"parent": "Dasoguz",
+"lon": 58.918,
+"lat": 41.161,
+"area_km2": null
+},
+"BHR1_0": {
+"iso": "BHR",
+"level": "ADM1",
+"name": "Northern Governorate",
+"parent": null,
+"lon": 50.476,
+"lat": 26.166,
+"area_km2": null
+},
+"BHR1_1": {
+"iso": "BHR",
+"level": "ADM1",
+"name": "Southern Governorate",
+"parent": null,
+"lon": 50.578,
+"lat": 25.967,
+"area_km2": null
+},
+"BHR1_2": {
+"iso": "BHR",
+"level": "ADM1",
+"name": "Capital Governorate",
+"parent": null,
+"lon": 50.578,
+"lat": 26.199,
+"area_km2": null
+},
+"BHR1_3": {
+"iso": "BHR",
+"level": "ADM1",
+"name": "Muharraq Governorate",
+"parent": null,
+"lon": 50.643,
+"lat": 26.26,
+"area_km2": null
+},
+"ARE1_0": {
+"iso": "ARE",
+"level": "ADM1",
+"name": "Abu Dhabi",
+"parent": null,
+"lon": 54.049,
+"lat": 23.661,
+"area_km2": null
+},
+"ARE1_1": {
+"iso": "ARE",
+"level": "ADM1",
+"name": "Ajman",
+"parent": null,
+"lon": 55.743,
+"lat": 25.191,
+"area_km2": null
+},
+"ARE1_2": {
+"iso": "ARE",
+"level": "ADM1",
+"name": "Dubai",
+"parent": null,
+"lon": 55.388,
+"lat": 24.944,
+"area_km2": null
+},
+"ARE1_3": {
+"iso": "ARE",
+"level": "ADM1",
+"name": "Fujairah",
+"parent": null,
+"lon": 56.196,
+"lat": 25.358,
+"area_km2": null
+},
+"ARE1_4": {
+"iso": "ARE",
+"level": "ADM1",
+"name": "Ras al-Khaimah",
+"parent": null,
+"lon": 56.031,
+"lat": 25.452,
+"area_km2": null
+},
+"ARE1_5": {
+"iso": "ARE",
+"level": "ADM1",
+"name": "Sharjah",
+"parent": null,
+"lon": 55.816,
+"lat": 25.16,
+"area_km2": null
+},
+"ARE1_6": {
+"iso": "ARE",
+"level": "ADM1",
+"name": "Umm al-Quwain",
+"parent": null,
+"lon": 55.746,
+"lat": 25.467,
+"area_km2": null
+},
+"OMN1_1": {
+"iso": "OMN",
+"level": "ADM1",
+"name": "Al Batinah",
+"parent": null,
+"lon": 57.057,
+"lat": 23.847,
+"area_km2": null
+},
+"OMN1_2": {
+"iso": "OMN",
+"level": "ADM1",
+"name": "Az Zahirah",
+"parent": null,
+"lon": 56.14,
+"lat": 22.961,
+"area_km2": null
+},
+"OMN1_3": {
+"iso": "OMN",
+"level": "ADM1",
+"name": "Muscat",
+"parent": null,
+"lon": 58.596,
+"lat": 23.334,
+"area_km2": null
+},
+"OMN1_4": {
+"iso": "OMN",
+"level": "ADM1",
+"name": "Ash Sharqiyah",
+"parent": null,
+"lon": 58.69,
+"lat": 21.98,
+"area_km2": null
+},
+"OMN1_5": {
+"iso": "OMN",
+"level": "ADM1",
+"name": "Ad Dakhiliyah",
+"parent": null,
+"lon": 57.414,
+"lat": 22.166,
+"area_km2": null
+}
+}

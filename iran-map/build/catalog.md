@@ -1,0 +1,1205 @@
+# Modern admin-unit catalog (geoBoundaries gbOpen, simplified)
+Key format: <ISO3><ADM level>_<index>. Use keys to define historical extents.
+
+## IRN ADM1
+- IRN1_0: Mazandaran @ 52.384,36.38
+- IRN1_1: North Khorasan @ 57.136,37.409
+- IRN1_2: Kerman @ 57.297,29.616
+- IRN1_3: Ilam @ 46.937,33.117
+- IRN1_4: Lorestan @ 48.436,33.464
+- IRN1_5: Markazi @ 49.958,34.491
+- IRN1_6: Chaharmahal and Bakhtiari @ 50.645,32.042
+- IRN1_7: Kermanshah @ 46.687,34.434
+- IRN1_8: Hamadan @ 48.61,34.886
+- IRN1_9: Qazvin @ 49.766,36.089
+- IRN1_10: Gilan @ 49.492,37.253
+- IRN1_11: Zanjan @ 48.383,36.499
+- IRN1_12: Semnan @ 54.673,35.427
+- IRN1_13: Isfahan @ 52.501,33.126
+- IRN1_14: Kohgiluyeh and Boyer-Ahmad @ 50.841,30.768
+- IRN1_15: Kurdistan @ 46.983,35.683
+- IRN1_16: West Azerbaijan @ 45.343,37.657
+- IRN1_17: Fars @ 53.26,29.165
+- IRN1_18: Bushehr @ 51.387,28.828
+- IRN1_19: Ardabil @ 48.079,38.443
+- IRN1_20: Golestan @ 55.105,37.324
+- IRN1_21: Razavi Khorasan @ 59.052,35.677
+- IRN1_22: South Khorasan @ 58.33,32.915
+- IRN1_23: Sistan and Baluchestan @ 60.729,27.919
+- IRN1_24: Qom @ 51.024,34.697
+- IRN1_25: Alborz @ 50.801,35.964
+- IRN1_26: East Azerbaijan @ 46.659,38.002
+- IRN1_27: Yazd @ 54.61,31.806
+- IRN1_28: Hormozgan @ 56.482,27.015
+- IRN1_29: Khuzestan @ 49.022,31.455
+- IRN1_30: Tehran @ 51.733,35.554
+- IRN1_31: Mazandaran @ 53.965,36.731
+
+## IRN ADM2
+- IRN2_0: Shirwan (in North Khorasan) @ 57.891,37.543
+- IRN2_1: Esfarayen County (in North Khorasan) @ 57.556,36.954
+- IRN2_2: Eyvan County (in Ilam) @ 46.174,33.882
+- IRN2_3: Abdanan County (in Ilam) @ 47.546,32.848
+- IRN2_4: Dehloran County (in Ilam) @ 47.284,32.661
+- IRN2_5: Darreh Shahr County (in Ilam) @ 47.574,33.023
+- IRN2_6: Mehran County (in Ilam) @ 46.295,33.238
+- IRN2_7: Chaldoran County (in West Azerbaijan) @ 44.373,39.098
+- IRN2_8: Saqqez (in Kurdistan) @ 46.378,36.158
+- IRN2_9: Baneh (in Kurdistan) @ 45.85,35.997
+- IRN2_10: Abadan (in Khuzestan) @ 48.607,30.197
+- IRN2_11: Abadeh (in Fars) @ 52.512,31.259
+- IRN2_12: Abyek (in Qazvin) @ 50.344,36.089
+- IRN2_13: Azarshahr (in East Azerbaijan) @ 45.903,37.73
+- IRN2_14: Aradan (in Semnan) @ 52.635,34.903
+- IRN2_15: Aran and Bidgol (in Isfahan) @ 51.874,34.174
+- IRN2_16: Azadshahr (in Golestan) @ 55.34,36.989
+- IRN2_17: Astara (in Gilan) @ 48.742,38.351
+- IRN2_18: Astan-e-Ashrafieh (in Gilan) @ 49.986,37.334
+- IRN2_19: Ashtian (in Markazi) @ 50.051,34.434
+- IRN2_20: Aghajari (in Khuzestan) @ 49.904,30.748
+- IRN2_21: Aqqala (in Golestan) @ 54.529,37.164
+- IRN2_22: Amol (in Mazandaran) @ 52.244,36.113
+- IRN2_23: Avaj (in Qazvin) @ 49.226,35.673
+- IRN2_24: Abarkuh (in Yazd) @ 53.385,31.091
+- IRN2_25: Abhar (in Zanjan) @ 49.141,36.172
+- IRN2_26: Abumusa (in Hormozgan) @ 54.751,26.114
+- IRN2_27: Arak (in Markazi) @ 49.805,34.142
+- IRN2_28: Ardebil (in Ardabil) @ 48.272,38.264
+- IRN2_29: Ardestan (in Isfahan) @ 52.614,33.593
+- IRN2_30: Ardekan (in Yazd) @ 54.768,32.606
+- IRN2_31: Ardal (in Chaharmahal and Bakhtiari) @ 50.463,31.921
+- IRN2_32: Arzuiyeh (in Kerman) @ 56.532,28.431
+- IRN2_33: Arsanjan (in Fars) @ 53.385,29.832
+- IRN2_34: Urumia (in West Azerbaijan) @ 44.926,37.617
+- IRN2_35: Azna (in Lorestan) @ 49.442,33.508
+- IRN2_36: Estahban (in Fars) @ 54.004,29.146
+- IRN2_37: Asadabad (in Hamadan) @ 48.029,34.781
+- IRN2_38: Osku (in East Azerbaijan) @ 45.871,37.87
+- IRN2_39: Eslamabad-e Gharb (in Kermanshah) @ 46.679,34.024
+- IRN2_40: Islamshahr (in Tehran) @ 51.249,35.581
+- IRN2_41: Eshtehard (in Alborz) @ 50.426,35.704
+- IRN2_42: Ashkezar (in Yazd) @ 54.043,31.992
+- IRN2_43: Ashnavieh (in West Azerbaijan) @ 45.056,37.072
+- IRN2_44: Isfahan County (in Isfahan) @ 52.453,32.24
+- IRN2_45: Eqlid (in Fars) @ 52.397,30.722
+- IRN2_46: Alborz (in Qazvin) @ 50.18,36.223
+- IRN2_47: Aligudarz (in Lorestan) @ 49.416,33.126
+- IRN2_48: Amlash (in Gilan) @ 50.138,36.965
+- IRN2_49: Omidieh (in Khuzestan) @ 49.702,30.772
+- IRN2_50: Anar (in Kerman) @ 55.291,30.834
+- IRN2_51: Andika (in Khuzestan) @ 49.538,32.306
+- IRN2_52: Andimeshk (in Khuzestan) @ 48.327,32.699
+- IRN2_53: Ahar (in East Azerbaijan) @ 47.208,38.623
+- IRN2_54: Ahvaz (in Khuzestan) @ 48.703,31.232
+- IRN2_55: Ijrud (in Zanjan) @ 48.198,36.344
+- IRN2_56: Izeh (in Khuzestan) @ 49.981,31.87
+- IRN2_57: Iranshahr (in Sistan and Baluchestan) @ 60.141,27.732
+- IRN2_58: Ilam (in Ilam) @ 46.213,33.647
+- IRN2_59: Babol (in Mazandaran) @ 52.624,36.305
+- IRN2_60: Babolsar (in Mazandaran) @ 52.702,36.668
+- IRN2_61: Bakharz (in Razavi Khorasan) @ 60.298,35.039
+- IRN2_62: Basht (in Kohgiluyeh and Boyer-Ahmad) @ 51.07,30.458
+- IRN2_63: Baghmalek (in Khuzestan) @ 49.913,31.478
+- IRN2_64: Baft (in Kerman) @ 56.492,29.012
+- IRN2_65: Bafq (in Yazd) @ 55.398,31.668
+- IRN2_66: Bavi (in Khuzestan) @ 48.971,31.518
+- IRN2_67: Bajestan (in Razavi Khorasan) @ 58.089,34.605
+- IRN2_68: Bojnurd (in North Khorasan) @ 57.343,37.554
+- IRN2_69: Badreh (in Ilam) @ 47.026,33.313
+- IRN2_70: Barkhar (in Isfahan) @ 51.753,33.023
+- IRN2_71: Bardaskan (in Razavi Khorasan) @ 57.361,35.176
+- IRN2_72: Bardsir (in Kerman) @ 56.693,29.774
+- IRN2_73: Borujerd (in Lorestan) @ 48.757,33.892
+- IRN2_74: Borujen (in Chaharmahal and Bakhtiari) @ 51.154,31.867
+- IRN2_75: Bostanabad (in East Azerbaijan) @ 46.814,37.804
+- IRN2_76: Bastak (in Hormozgan) @ 54.487,27.195
+- IRN2_77: Bashagard (in Hormozgan) @ 58.183,26.442
+- IRN2_78: Boshruyeh (in South Khorasan) @ 57.406,34.013
+- IRN2_79: Bam (in Kerman) @ 58.199,29.114
+- IRN2_80: Ben (in Chaharmahal and Bakhtiari) @ 50.648,32.582
+- IRN2_81: Bonab (in East Azerbaijan) @ 46.017,37.329
+- IRN2_82: Bandar-e-Lengeh (in Hormozgan) @ 54.607,26.837
+- IRN2_83: Bandar-e-Anzali (in Gilan) @ 49.412,37.461
+- IRN2_84: Bandar-e-Abbas (in Hormozgan) @ 56.242,27.527
+- IRN2_85: Bandar-e-Mahshahr (in Khuzestan) @ 49.232,30.543
+- IRN2_86: Bahabad (in Yazd) @ 56.143,32.01
+- IRN2_87: Bahar (in Hamadan) @ 48.363,34.986
+- IRN2_88: Baharestan (in Tehran) @ 51.171,35.53
+- IRN2_89: Behbahan (in Khuzestan) @ 50.224,30.525
+- IRN2_90: Behshahr (in Mazandaran) @ 53.697,36.665
+- IRN2_91: Bahmai (in Kohgiluyeh and Boyer-Ahmad) @ 50.127,31.01
+- IRN2_92: Buin Zahra (in Qazvin) @ 49.952,35.791
+- IRN2_93: Buin and Miandasht (in Isfahan) @ 50.09,33.158
+- IRN2_94: Bavanat (in Fars) @ 53.666,30.303
+- IRN2_95: Bushehr (in Bushehr) @ 50.939,29.076
+- IRN2_96: Bukan (in West Azerbaijan) @ 46.139,36.557
+- IRN2_97: Buyerahmad (in Kohgiluyeh and Boyer-Ahmad) @ 51.237,30.833
+- IRN2_98: Bijar (in Kurdistan) @ 47.646,35.945
+- IRN2_99: Birjand (in South Khorasan) @ 59.266,33.058
+- IRN2_100: Bilehsavar (in Ardabil) @ 47.974,39.344
+- IRN2_101: Binalud (in Razavi Khorasan) @ 59.319,36.288
+- IRN2_102: Takestan (in Qazvin) @ 49.543,36.015
+- IRN2_103: Taybad (in Razavi Khorasan) @ 60.703,34.762
+- IRN2_104: Tabriz (in East Azerbaijan) @ 46.289,38.066
+- IRN2_105: Torbat-e-jam (in Razavi Khorasan) @ 60.748,35.478
+- IRN2_106: Torbat-e-Heydarieh (in Razavi Khorasan) @ 59.119,35.469
+- IRN2_107: Turkman (in Golestan) @ 54.168,36.915
+- IRN2_108: Taft (in Yazd) @ 53.814,31.454
+- IRN2_109: Tafresh (in Markazi) @ 49.857,34.815
+- IRN2_110: Takab (in West Azerbaijan) @ 47.124,36.505
+- IRN2_111: Tonekabon (in Mazandaran) @ 50.832,36.604
+- IRN2_112: Tangestan (in Bushehr) @ 51.252,28.811
+- IRN2_113: Tehran (in Tehran) @ 51.428,35.739
+- IRN2_114: Tuyserkan (in Hamadan) @ 48.331,34.544
+- IRN2_115: Tiran and Karvan (in Isfahan) @ 50.957,32.787
+- IRN2_116: Salas-e Babajani (in Kermanshah) @ 46.051,34.789
+- IRN2_117: Jajrom (in North Khorasan) @ 56.669,37.033
+- IRN2_118: Jask (in Hormozgan) @ 58.281,25.869
+- IRN2_119: Joghatai (in Razavi Khorasan) @ 56.99,36.684
+- IRN2_120: Jolfa (in East Azerbaijan) @ 45.869,38.838
+- IRN2_121: Jam (in Bushehr) @ 52.237,27.936
+- IRN2_122: Jahrom (in Fars) @ 53.352,28.695
+- IRN2_123: Javanrud (in Kermanshah) @ 46.296,34.847
+- IRN2_124: Juybar (in Mazandaran) @ 52.913,36.675
+- IRN2_125: Jowayin (in Razavi Khorasan) @ 57.477,36.602
+- IRN2_126: Jiroft (in Kerman) @ 57.495,28.777
+- IRN2_127: Hajiabad (in Hormozgan) @ 56.009,28.24
+- IRN2_128: Hamidieh (in Khuzestan) @ 48.449,31.492
+- IRN2_129: Khatam (in Yazd) @ 54.238,30.364
+- IRN2_130: Khash (in Sistan and Baluchestan) @ 61.262,28.183
+- IRN2_131: Khoda Afarin (in East Azerbaijan) @ 46.946,39.064
+- IRN2_132: Khodabandeh (in Zanjan) @ 48.483,35.99
+- IRN2_133: Kharameh (in Fars) @ 53.264,29.502
+- IRN2_134: Khoramabad (in Lorestan) @ 48.57,33.392
+- IRN2_135: Khorambid (in Fars) @ 53.136,30.566
+- IRN2_136: Khoramdareh (in Zanjan) @ 49.151,36.27
+- IRN2_137: Khoramshahr (in Khuzestan) @ 48.207,30.71
+- IRN2_138: Kahlkhal (in Ardabil) @ 48.542,37.429
+- IRN2_139: Khalilabad (in Razavi Khorasan) @ 58.187,35.174
+- IRN2_140: Khomein (in Markazi) @ 49.997,33.668
+- IRN2_141: Khomeini Shahr (in Isfahan) @ 51.518,32.683
+- IRN2_142: Khamir (in Hormozgan) @ 55.497,27.281
+- IRN2_143: Khonj (in Fars) @ 53.068,27.964
+- IRN2_144: Khondab (in Markazi) @ 49.22,34.348
+- IRN2_145: Khaf (in Razavi Khorasan) @ 60.036,34.411
+- IRN2_146: Khansar (in Isfahan) @ 50.381,33.252
+- IRN2_147: Khur and Biabanak (in Isfahan) @ 54.916,33.795
+- IRN2_148: Khusf (in South Khorasan) @ 58.69,32.303
+- IRN2_149: Khoshab (in Razavi Khorasan) @ 58.006,36.492
+- IRN2_150: Khoy (in West Azerbaijan) @ 44.763,38.604
+- IRN2_151: Darab (in Fars) @ 54.897,28.532
+- IRN2_152: Dalahu (in Kermanshah) @ 46.243,34.405
+- IRN2_153: Damghan (in Semnan) @ 54.35,35.56
+- IRN2_154: Davarzan (in Razavi Khorasan) @ 57.071,36.29
+- IRN2_155: Darmian (in South Khorasan) @ 60.127,32.951
+- IRN2_156: Dargaz (in Razavi Khorasan) @ 59.017,37.363
+- IRN2_157: Dezful (in Khuzestan) @ 48.839,32.576
+- IRN2_158: Dasht-e-Azadegan (in Khuzestan) @ 48.066,31.728
+- IRN2_159: Dashtestan (in Bushehr) @ 51.35,29.242
+- IRN2_160: Dashti (in Bushehr) @ 51.629,28.437
+- IRN2_161: Delfan (in Lorestan) @ 47.823,34.061
+- IRN2_162: Delijan (in Markazi) @ 50.747,34.02
+- IRN2_163: Dalagan (in Sistan and Baluchestan) @ 59.306,27.416
+- IRN2_164: Damavand (in Tehran) @ 52.172,35.624
+- IRN2_165: Dena (in Kohgiluyeh and Boyer-Ahmad) @ 51.263,31.017
+- IRN2_166: Dehaqan (in Isfahan) @ 51.615,31.981
+- IRN2_167: Dehgolan (in Kurdistan) @ 47.356,35.337
+- IRN2_168: Doreh (in Lorestan) @ 47.952,33.591
+- IRN2_169: Dorud (in Lorestan) @ 49.074,33.527
+- IRN2_170: Deylam (in Bushehr) @ 50.343,30.019
+- IRN2_171: Divandareh (in Kurdistan) @ 46.962,35.948
+- IRN2_172: Deyr (in Bushehr) @ 51.685,28.019
+- IRN2_173: Rabor (in Kerman) @ 56.988,29.235
+- IRN2_174: Raz and Jargalan (in North Khorasan) @ 56.909,38.097
+- IRN2_175: Ramsar (in Mazandaran) @ 50.553,36.781
+- IRN2_176: Ramshir (in Khuzestan) @ 49.393,30.944
+- IRN2_177: Ramhormoz (in Khuzestan) @ 49.658,31.219
+- IRN2_178: Ramian (in Golestan) @ 55.098,36.956
+- IRN2_179: Ravar (in Kerman) @ 57.154,31.323
+- IRN2_180: Robatkarim (in Tehran) @ 51.051,35.498
+- IRN2_181: Razan (in Hamadan) @ 48.972,35.434
+- IRN2_182: Rostam (in Fars) @ 51.368,30.399
+- IRN2_183: Rasht (in Gilan) @ 49.682,37.274
+- IRN2_184: Roshtkhar (in Razavi Khorasan) @ 59.393,34.831
+- IRN2_185: Rezvanshahr (in Gilan) @ 48.951,37.53
+- IRN2_186: Rafsanjan (in Kerman) @ 55.898,30.54
+- IRN2_187: Ravansar (in Kermanshah) @ 46.589,34.737
+- IRN2_188: Rudan (in Hormozgan) @ 57.154,27.608
+- IRN2_189: Rudbar (in Gilan) @ 49.626,36.797
+- IRN2_190: Rudbar-e-Jonub (in Kerman) @ 58.454,27.893
+- IRN2_191: Rudsar (in Gilan) @ 50.319,36.878
+- IRN2_192: Rumeshkhan (in Lorestan) @ 47.412,33.272
+- IRN2_193: Rigan (in Kerman) @ 58.946,28.504
+- IRN2_194: Rey (in Tehran) @ 51.27,35.34
+- IRN2_195: Zabol (in Sistan and Baluchestan) @ 61.586,31.027
+- IRN2_196: Zahedan (in Sistan and Baluchestan) @ 60.192,29.631
+- IRN2_197: Zaveh (in Razavi Khorasan) @ 59.72,35.295
+- IRN2_198: Zarand (in Kerman) @ 56.289,30.94
+- IRN2_199: Zarandieh (in Markazi) @ 50.332,35.364
+- IRN2_200: Zarindasht (in Fars) @ 54.476,28.289
+- IRN2_201: Zanjan (in Zanjan) @ 48.218,36.846
+- IRN2_202: Zahak (in Sistan and Baluchestan) @ 61.635,30.822
+- IRN2_203: Zirkuh (in South Khorasan) @ 60.158,33.557
+- IRN2_204: Sari (in Mazandaran) @ 53.356,36.323
+- IRN2_205: Saman (in Chaharmahal and Bakhtiari) @ 50.889,32.551
+- IRN2_206: Savojbolagh (in Alborz) @ 50.811,35.967
+- IRN2_207: Saveh (in Markazi) @ 50.026,35.077
+- IRN2_208: Sabzevar (in Razavi Khorasan) @ 57.561,35.91
+- IRN2_209: Sarab (in East Azerbaijan) @ 47.467,37.98
+- IRN2_210: Saravan (in Sistan and Baluchestan) @ 62.568,27.349
+- IRN2_211: Sarayan (in South Khorasan) @ 58.243,33.364
+- IRN2_212: Sarbaz (in Sistan and Baluchestan) @ 61.404,26.454
+- IRN2_213: Sarbisheh (in South Khorasan) @ 60.071,32.442
+- IRN2_214: Sarakhs (in Razavi Khorasan) @ 60.786,36.299
+- IRN2_215: Sorkheh (in Semnan) @ 53.147,34.929
+- IRN2_216: Sardasht (in West Azerbaijan) @ 45.461,36.232
+- IRN2_217: Sareyn (in Ardabil) @ 48.016,38.196
+- IRN2_218: Sarvabad (in Kurdistan) @ 46.4,35.232
+- IRN2_219: Sarvestan (in Fars) @ 53.112,29.234
+- IRN2_220: Sarpol-e-Zahab (in Kermanshah) @ 45.886,34.54
+- IRN2_221: Selseleh (in Lorestan) @ 48.169,33.831
+- IRN2_222: Soltanieh (in Zanjan) @ 48.823,36.48
+- IRN2_223: Salmas (in West Azerbaijan) @ 44.653,38.138
+- IRN2_224: Semnan (in Semnan) @ 53.802,35.048
+- IRN2_225: Semirom (in Isfahan) @ 51.6,31.28
+- IRN2_226: Sonqor (in Kermanshah) @ 47.544,34.864
+- IRN2_227: Sanandaj (in Kurdistan) @ 46.902,35.373
+- IRN2_228: Savadkuh-e-Shomali (in Mazandaran) @ 52.839,36.267
+- IRN2_229: Savdkuh (in Mazandaran) @ 52.946,36.054
+- IRN2_230: Siahkal (in Gilan) @ 49.9,36.949
+- IRN2_231: Sib and Suran (in Sistan and Baluchestan) @ 61.88,27.302
+- IRN2_232: Sirjan (in Kerman) @ 55.717,29.371
+- IRN2_233: Sirvan (in Ilam) @ 46.676,33.606
+- IRN2_234: Sirik (in Hormozgan) @ 57.226,26.482
+- IRN2_235: Simorgh (in Mazandaran) @ 52.819,36.579
+- IRN2_236: Sepidan (in Fars) @ 52.125,30.171
+- IRN2_237: Shadegan (in Khuzestan) @ 48.68,30.649
+- IRN2_238: Shazand (in Markazi) @ 49.304,33.896
+- IRN2_239: Shahrud (in Semnan) @ 55.609,35.44
+- IRN2_240: Shahin Shahr and Meymeh (in Isfahan) @ 51.154,33.303
+- IRN2_241: Shahindezh (in West Azerbaijan) @ 46.643,36.677
+- IRN2_242: Shabestar (in East Azerbaijan) @ 45.747,38.245
+- IRN2_243: Shaft (in Gilan) @ 49.372,37.087
+- IRN2_244: Shemiranat (in Tehran) @ 51.612,35.922
+- IRN2_245: Shahr-e-Babak (in Kerman) @ 54.991,30.238
+- IRN2_246: Sahreza (in Isfahan) @ 51.88,31.862
+- IRN2_247: Sharekurd (in Chaharmahal and Bakhtiari) @ 50.8,32.305
+- IRN2_248: Shahriar (in Tehran) @ 51.031,35.606
+- IRN2_249: Shahmirzad (in Semnan) @ 53.427,35.946
+- IRN2_250: Shush (in Khuzestan) @ 48.225,32.034
+- IRN2_251: Shushtar (in Khuzestan) @ 48.877,31.887
+- IRN2_252: Showt (in West Azerbaijan) @ 44.838,39.138
+- IRN2_253: Shiraz (in Fars) @ 52.434,29.599
+- IRN2_254: Sahneh (in Kermanshah) @ 47.507,34.572
+- IRN2_255: Sowme'eh Sara (in Gilan) @ 49.299,37.357
+- IRN2_256: Tarom (in Zanjan) @ 48.878,36.947
+- IRN2_257: Taleghan (in Alborz) @ 50.774,36.215
+- IRN2_258: Tabas (in South Khorasan) @ 56.823,33.308
+- IRN2_259: Talesh (in Gilan) @ 48.786,37.889
+- IRN2_260: Abbasabad (in Mazandaran) @ 51.157,36.648
+- IRN2_261: Ajabshir (in East Azerbaijan) @ 46.029,37.55
+- IRN2_262: Asaluyeh (in Bushehr) @ 52.708,27.437
+- IRN2_263: Aliabad (in Golestan) @ 54.854,36.84
+- IRN2_264: Anbarabad (in Kerman) @ 58.145,28.402
+- IRN2_265: Farsan (in Chaharmahal and Bakhtiari) @ 50.562,32.229
+- IRN2_266: Faruj (in North Khorasan) @ 58.171,37.2
+- IRN2_267: Faryab (in Kerman) @ 57.251,28.159
+- IRN2_268: Famenin (in Hamadan) @ 49.191,35.092
+- IRN2_269: Farashband (in Fars) @ 52.21,28.622
+- IRN2_270: Farahan (in Markazi) @ 49.63,34.609
+- IRN2_271: Ferdows (in South Khorasan) @ 57.979,34.016
+- IRN2_272: Fereydan (in Isfahan) @ 50.402,32.977
+- IRN2_273: Fereydunshahr (in Isfahan) @ 50.001,32.854
+- IRN2_274: Fereydunkenar (in Mazandaran) @ 52.532,36.646
+- IRN2_275: Fariman (in Razavi Khorasan) @ 59.879,35.696
+- IRN2_276: Fasa (in Fars) @ 53.784,28.949
+- IRN2_277: Falaverjan (in Isfahan) @ 51.538,32.521
+- IRN2_278: Fanuj (in Sistan and Baluchestan) @ 59.543,26.713
+- IRN2_279: Fahraj (in Kerman) @ 59.18,29.096
+- IRN2_280: Fuman (in Gilan) @ 49.133,37.183
+- IRN2_281: Firuzabad (in Fars) @ 52.562,28.896
+- IRN2_282: Firuzkuh (in Tehran) @ 52.659,35.706
+- IRN2_283: Firuzeh (in Razavi Khorasan) @ 58.423,36.32
+- IRN2_284: Ghaemshahr (in Mazandaran) @ 52.879,36.457
+- IRN2_285: Ghaenat (in South Khorasan) @ 59.153,33.728
+- IRN2_286: Qods (in Tehran) @ 51.096,35.706
+- IRN2_287: Ghorveh (in Kurdistan) @ 47.827,35.231
+- IRN2_288: Gharchak (in Tehran) @ 51.57,35.415
+- IRN2_289: Qazvin (in Qazvin) @ 49.859,36.472
+- IRN2_290: Qeshm (in Hormozgan) @ 55.842,26.789
+- IRN2_291: Qasr-e-Shirin (in Kermanshah) @ 45.612,34.204
+- IRN2_292: Qasr-e-Ghand (in Sistan and Baluchestan) @ 60.83,26.076
+- IRN2_293: Ghalehganj (in Kerman) @ 58.4,27.17
+- IRN2_294: Qom (in Qom) @ 51.024,34.697
+- IRN2_295: Quchan (in Razavi Khorasan) @ 58.589,37.118
+- IRN2_296: Qir and Karzin (in Fars) @ 52.911,28.341
+- IRN2_297: Karun (in Khuzestan) @ 48.628,31.074
+- IRN2_298: Kazerun (in Fars) @ 51.714,29.519
+- IRN2_299: Kashan (in Isfahan) @ 51.278,33.924
+- IRN2_300: Kashmar (in Razavi Khorasan) @ 58.493,35.418
+- IRN2_301: Kamyaran (in Kurdistan) @ 46.921,34.951
+- IRN2_302: Kabutarahang (in Hamadan) @ 48.383,35.368
+- IRN2_303: Karaj (in Alborz) @ 51.15,35.958
+- IRN2_304: Kordkuy (in Golestan) @ 54.198,36.68
+- IRN2_305: Kerman (in Kerman) @ 58.13,30.348
+- IRN2_306: Kermanshah (in Kermanshah) @ 47.009,34.3
+- IRN2_307: Kalat (in Razavi Khorasan) @ 59.922,36.832
+- IRN2_308: Kelardasht (in Mazandaran) @ 51.083,36.432
+- IRN2_309: Kalaleh (in Golestan) @ 55.583,37.557
+- IRN2_310: Kaleybar (in East Azerbaijan) @ 47.138,38.939
+- IRN2_311: Komijan (in Markazi) @ 49.306,34.725
+- IRN2_312: Konarak (in Sistan and Baluchestan) @ 59.903,25.668
+- IRN2_313: Kangan (in Bushehr) @ 52.237,27.761
+- IRN2_314: kangavar (in Kermanshah) @ 47.916,34.477
+- IRN2_315: Kahnuj (in Kerman) @ 57.635,27.845
+- IRN2_316: Kohkiluyeh (in Kohgiluyeh and Boyer-Ahmad) @ 50.493,31.057
+- IRN2_317: Kavar (in Fars) @ 52.715,29.22
+- IRN2_318: Kosar (in Ardabil) @ 48.275,37.718
+- IRN2_319: Kuhbanan (in Kerman) @ 56.284,31.382
+- IRN2_320: Kuhdasht (in Lorestan) @ 47.39,33.544
+- IRN2_321: Kuhrang (in Chaharmahal and Bakhtiari) @ 50.035,32.421
+- IRN2_322: Kiar (in Chaharmahal and Bakhtiari) @ 50.77,31.927
+- IRN2_323: Larestan (in Fars) @ 54.376,27.815
+- IRN2_324: Lali (in Khuzestan) @ 49.175,32.429
+- IRN2_325: Lamerd (in Fars) @ 53.349,27.404
+- IRN2_326: Lahijan (in Gilan) @ 50.036,37.223
+- IRN2_327: Lordegan (in Chaharmahal and Bakhtiari) @ 50.887,31.461
+- IRN2_328: Lenjan (in Isfahan) @ 51.224,32.398
+- IRN2_329: Landeh (in Kohgiluyeh and Boyer-Ahmad) @ 50.359,30.992
+- IRN2_330: Langerud (in Gilan) @ 50.112,37.125
+- IRN2_331: Masal (in Gilan) @ 49.031,37.401
+- IRN2_332: Maku (in West Azerbaijan) @ 44.592,39.45
+- IRN2_333: Maneh and Samalqan (in North Khorasan) @ 56.59,37.68
+- IRN2_334: Mahneshan (in Zanjan) @ 47.581,36.645
+- IRN2_335: Mobarakeh (in Isfahan) @ 51.512,32.281
+- IRN2_336: Mahallat (in Markazi) @ 50.449,33.885
+- IRN2_337: Mahmudabad (in Mazandaran) @ 52.334,36.607
+- IRN2_338: Maragheh (in East Azerbaijan) @ 46.421,37.363
+- IRN2_339: Maraveh Tapeh (in Golestan) @ 55.917,37.857
+- IRN2_340: Marand (in East Azerbaijan) @ 45.657,38.56
+- IRN2_341: Marvdasht (in Fars) @ 52.644,30.1
+- IRN2_342: Marivan (in Kurdistan) @ 46.352,35.573
+- IRN2_343: Masjedsoleyman (in Khuzestan) @ 49.311,31.951
+- IRN2_344: Mashhad (in Razavi Khorasan) @ 59.814,36.253
+- IRN2_345: Meshkinshahr (in Ardabil) @ 47.761,38.562
+- IRN2_346: Malard (in Tehran) @ 50.71,35.61
+- IRN2_347: Malayer (in Hamadan) @ 48.794,34.324
+- IRN2_348: Malekan (in East Azerbaijan) @ 46.203,37.128
+- IRN2_349: Malekshahi (in Ilam) @ 46.59,33.302
+- IRN2_350: Mamasani (in Fars) @ 51.377,30.011
+- IRN2_351: Manujan (in Kerman) @ 57.673,27.324
+- IRN2_352: Mahvelat (in Razavi Khorasan) @ 58.73,35.019
+- IRN2_353: Mahabad (in West Azerbaijan) @ 45.736,36.665
+- IRN2_354: Mehdishahr (in Semnan) @ 53.33,35.743
+- IRN2_355: Mehr (in Fars) @ 52.761,27.633
+- IRN2_356: Mehrestan (in Sistan and Baluchestan) @ 61.658,26.969
+- IRN2_357: Mehriz (in Yazd) @ 54.644,31.346
+- IRN2_358: Miami (in Semnan) @ 56.057,36.625
+- IRN2_359: Miandoab (in West Azerbaijan) @ 46.236,36.998
+- IRN2_360: Miandorud (in Mazandaran) @ 53.26,36.599
+- IRN2_361: Mianeh (in East Azerbaijan) @ 47.724,37.468
+- IRN2_362: Meybod (in Yazd) @ 53.525,32.009
+- IRN2_363: Mirjaveh (in Sistan and Baluchestan) @ 61.332,28.846
+- IRN2_364: Minab (in Hormozgan) @ 57.324,26.942
+- IRN2_365: Minudasht (in Golestan) @ 55.461,37.138
+- IRN2_366: Nain (in Isfahan) @ 53.688,33.406
+- IRN2_367: Najafabad (in Isfahan) @ 51.056,32.962
+- IRN2_368: Narmashir (in Kerman) @ 58.755,29.258
+- IRN2_369: Natanz (in Isfahan) @ 51.876,33.549
+- IRN2_370: Nazarabad (in Alborz) @ 50.518,35.897
+- IRN2_371: Naghadeh (in West Azerbaijan) @ 45.443,36.977
+- IRN2_372: Neka (in Mazandaran) @ 53.56,36.515
+- IRN2_373: Namin (in Ardabil) @ 48.467,38.392
+- IRN2_374: Nahavand (in Hamadan) @ 48.244,34.222
+- IRN2_375: Nehbandan (in South Khorasan) @ 59.747,31.495
+- IRN2_376: Nur (in Mazandaran) @ 51.896,36.276
+- IRN2_377: Noshahr (in Mazandaran) @ 51.605,36.435
+- IRN2_378: Neyriz (in Fars) @ 54.43,29.338
+- IRN2_379: Nir (in Ardabil) @ 48.104,37.993
+- IRN2_380: Neyshabur (in Razavi Khorasan) @ 58.678,36.171
+- IRN2_381: Nikshahr (in Sistan and Baluchestan) @ 59.913,26.393
+- IRN2_382: Nimruz (in Sistan and Baluchestan) @ 60.792,30.985
+- IRN2_383: Hamun (in Sistan and Baluchestan) @ 61.131,30.532
+- IRN2_384: Harsin (in Kermanshah) @ 47.454,34.348
+- IRN2_385: Heris (in East Azerbaijan) @ 46.823,38.229
+- IRN2_386: Hashtrud (in East Azerbaijan) @ 46.904,37.425
+- IRN2_387: Haftgol (in Khuzestan) @ 49.404,31.538
+- IRN2_388: Hamedan (in Hamadan) @ 48.801,34.827
+- IRN2_389: Hendijan (in Khuzestan) @ 49.738,30.31
+- IRN2_390: Hoveyzeh (in Khuzestan) @ 47.917,31.323
+- IRN2_391: Hirmand (in Sistan and Baluchestan) @ 61.666,31.207
+- IRN2_392: Varamin (in Tehran) @ 51.757,35.133
+- IRN2_393: Varzaqan (in East Azerbaijan) @ 46.452,38.601
+- IRN2_394: Yazd (in Yazd) @ 54.517,31.934
+- IRN2_395: Parsabad (in Ardabil) @ 47.735,39.477
+- IRN2_396: Parsian (in Hormozgan) @ 53.265,27.134
+- IRN2_397: Pasargad (in Fars) @ 53.159,30.137
+- IRN2_398: Pakdasht (in Tehran) @ 51.779,35.452
+- IRN2_399: Paveh (in Kermanshah) @ 46.252,35.064
+- IRN2_400: Paveh (in Tehran) @ 51.788,35.695
+- IRN2_401: Pol-e-Dokhtar (in Lorestan) @ 47.975,33.129
+- IRN2_402: Poldasht (in West Azerbaijan) @ 45.096,39.198
+- IRN2_403: Piranshahr (in West Azerbaijan) @ 45.224,36.685
+- IRN2_404: Pishva (in Tehran) @ 51.751,35.324
+- IRN2_405: Chadegan (in Isfahan) @ 50.532,32.75
+- IRN2_406: Charuymaq (in East Azerbaijan) @ 47.113,37.061
+- IRN2_407: Chalus (in Mazandaran) @ 51.259,36.404
+- IRN2_408: Chabahar (in Sistan and Baluchestan) @ 61.191,25.521
+- IRN2_409: Chaypareh (in West Azerbaijan) @ 45.022,38.881
+- IRN2_410: Charam (in Kohgiluyeh and Boyer-Ahmad) @ 50.872,30.771
+- IRN2_411: Chardavol (in Ilam) @ 46.934,33.771
+- IRN2_412: Chenaran (in Razavi Khorasan) @ 59.052,36.695
+- IRN2_413: Galikash (in Golestan) @ 55.674,37.329
+- IRN2_414: Gotvand (in Khuzestan) @ 48.82,32.24
+- IRN2_415: Gerash (in Fars) @ 53.709,27.65
+- IRN2_416: Garmsar (in Semnan) @ 52.173,34.949
+- IRN2_417: Garmeh (in North Khorasan) @ 56.239,37.156
+- IRN2_418: Garmi (in Ardabil) @ 47.879,39.036
+- IRN2_419: Gorgan (in Golestan) @ 54.506,36.75
+- IRN2_420: Galugah (in Mazandaran) @ 53.801,36.695
+- IRN2_421: Golpayegan (in Isfahan) @ 50.388,33.45
+- IRN2_422: Gomishan (in Golestan) @ 54.17,37.135
+- IRN2_423: Gonabad (in Razavi Khorasan) @ 58.854,34.378
+- IRN2_424: Genaveh (in Bushehr) @ 50.631,29.61
+- IRN2_425: Gonbad-e-Kavus (in Golestan) @ 55.105,37.563
+- IRN2_426: Gilan-e-Gharb (in Kermanshah) @ 45.977,34.07
+- IRN2_427: Gachsaran (in Kohgiluyeh and Boyer-Ahmad) @ 50.747,30.293
+- IRN2_428: City of Tehran (in Tehran) @ 51.378,35.715
+- IRN2_429: Shahariar (in Alborz) @ 50.975,35.74
+- IRN2_430: Bandar-e-Gaz (in Mazandaran) @ 53.965,36.731
+- IRN2_431: Isfahan (in Isfahan) @ 51.661,32.667
+
+## AZE ADM2
+- AZE2_0: Khachmaz District (in Contiguous Azerbaijan) @ 48.767,41.551
+- AZE2_1: Shabran District (in Contiguous Azerbaijan) @ 48.9,41.16
+- AZE2_2: Siazan District (in Contiguous Azerbaijan) @ 49.095,41.013
+- AZE2_3: Khizi District (in Contiguous Azerbaijan) @ 49.21,40.745
+- AZE2_4: Qusar District (in Contiguous Azerbaijan) @ 48.277,41.449
+- AZE2_5: Quba District (in Contiguous Azerbaijan) @ 48.458,41.19
+- AZE2_6: Absheron District (in Contiguous Azerbaijan) @ 49.336,40.345
+- AZE2_7: Sumqayit City (in Contiguous Azerbaijan) @ 49.632,40.583
+- AZE2_8: Baku City (in Contiguous Azerbaijan) @ 49.778,40.317
+- AZE2_9: Gobustan District (in Contiguous Azerbaijan) @ 48.95,40.532
+- AZE2_10: Shamakhi District (in Contiguous Azerbaijan) @ 48.649,40.652
+- AZE2_11: Qabala District (in Contiguous Azerbaijan) @ 47.811,40.939
+- AZE2_12: Ismailli District (in Contiguous Azerbaijan) @ 48.187,40.812
+- AZE2_13: Agsu District (in Contiguous Azerbaijan) @ 48.403,40.537
+- AZE2_14: Hajigabul District (in Contiguous Azerbaijan) @ 48.905,40.124
+- AZE2_15: Shirvan City (in Contiguous Azerbaijan) @ 48.92,39.972
+- AZE2_16: Oghuz District (in Contiguous Azerbaijan) @ 47.529,41.063
+- AZE2_17: Ganja City (in Contiguous Azerbaijan) @ 46.354,40.691
+- AZE2_18: Shusha City (in Contiguous Azerbaijan) @ 46.747,39.738
+- AZE2_19: Khankendi City (in Contiguous Azerbaijan) @ 46.797,39.842
+- AZE2_20: Yevlakh City (in Contiguous Azerbaijan) @ 47.167,40.614
+- AZE2_21: Naftalan City (in Contiguous Azerbaijan) @ 46.801,40.447
+- AZE2_22: Shaki City (in Contiguous Azerbaijan) @ 47.189,41.208
+- AZE2_23: Salyan District (in Contiguous Azerbaijan) @ 49.064,39.682
+- AZE2_24: Sabirabad District (in Contiguous Azerbaijan) @ 48.689,39.913
+- AZE2_25: Lankaran City (in Contiguous Azerbaijan) @ 48.843,38.742
+- AZE2_26: Neftchala District (in Contiguous Azerbaijan) @ 49.063,39.353
+- AZE2_27: Lankaran District (in Contiguous Azerbaijan) @ 48.997,39.126
+- AZE2_28: Shaki District (in Contiguous Azerbaijan) @ 47.173,41.096
+- AZE2_29: Mingachevir City (in Contiguous Azerbaijan) @ 47.023,40.77
+- AZE2_30: Yevlakh District (in Contiguous Azerbaijan) @ 47.047,40.695
+- AZE2_31: Qakh District (in Contiguous Azerbaijan) @ 46.883,41.315
+- AZE2_32: Zaqatala District (in Contiguous Azerbaijan) @ 46.684,41.588
+- AZE2_33: Balakan District (in Contiguous Azerbaijan) @ 46.429,41.737
+- AZE2_34: Masally District (in Contiguous Azerbaijan) @ 48.696,39.023
+- AZE2_35: Lankaran District (in Contiguous Azerbaijan) @ 48.736,38.772
+- AZE2_36: Astara District (in Contiguous Azerbaijan) @ 48.71,38.517
+- AZE2_37: Lerik District (in Contiguous Azerbaijan) @ 48.453,38.746
+- AZE2_38: Yardymli District (in Contiguous Azerbaijan) @ 48.244,38.904
+- AZE2_39: Jalilabad District (in Contiguous Azerbaijan) @ 48.456,39.236
+- AZE2_40: Bilasuvar District (in Contiguous Azerbaijan) @ 48.459,39.541
+- AZE2_41: Saatly District (in Contiguous Azerbaijan) @ 48.475,39.842
+- AZE2_42: Agdash District (in Contiguous Azerbaijan) @ 47.429,40.582
+- AZE2_43: Goychay District (in Contiguous Azerbaijan) @ 47.863,40.58
+- AZE2_44: Ujar District (in Contiguous Azerbaijan) @ 47.76,40.431
+- AZE2_45: Kurdamir District (in Contiguous Azerbaijan) @ 48.207,40.261
+- AZE2_46: Zardab District (in Contiguous Azerbaijan) @ 47.729,40.25
+- AZE2_47: Imishli District (in Contiguous Azerbaijan) @ 48.067,39.874
+- AZE2_48: Barda District (in Contiguous Azerbaijan) @ 47.233,40.342
+- AZE2_49: Aghjabadi District (in Contiguous Azerbaijan) @ 47.438,40.026
+- AZE2_50: Beylagan District (in Contiguous Azerbaijan) @ 47.693,39.814
+- AZE2_51: Samukh District (in Contiguous Azerbaijan) @ 46.457,40.946
+- AZE2_52: Goranboy District (in Contiguous Azerbaijan) @ 46.659,40.557
+- AZE2_53: Tartar District (in Contiguous Azerbaijan) @ 46.822,40.282
+- AZE2_54: Kalbajar District (in Contiguous Azerbaijan) @ 46.21,40.074
+- AZE2_55: Agdam District (in Contiguous Azerbaijan) @ 47.021,40.04
+- AZE2_56: Goygol District (in Contiguous Azerbaijan) @ 46.326,40.545
+- AZE2_57: Shamkir District (in Contiguous Azerbaijan) @ 46.058,40.841
+- AZE2_58: Dashkasan District (in Contiguous Azerbaijan) @ 46.045,40.457
+- AZE2_59: Gadabay District (in Contiguous Azerbaijan) @ 45.68,40.549
+- AZE2_60: Tovuz District (in Contiguous Azerbaijan) @ 45.773,40.982
+- AZE2_61: Agstafa District (in Contiguous Azerbaijan) @ 45.454,41.263
+- AZE2_62: Qazakh District (in Contiguous Azerbaijan) @ 45.212,41.168
+- AZE2_63: Lachin District (in Contiguous Azerbaijan) @ 46.354,39.734
+- AZE2_64: Khojaly District (in Contiguous Azerbaijan) @ 46.735,39.872
+- AZE2_65: Shusha District (in Contiguous Azerbaijan) @ 46.672,39.697
+- AZE2_66: Khojavend District (in Contiguous Azerbaijan) @ 47.018,39.666
+- AZE2_67: Fuzuli District (in Contiguous Azerbaijan) @ 47.354,39.584
+- AZE2_68: Jabrayil District (in Contiguous Azerbaijan) @ 46.993,39.33
+- AZE2_69: Qubadli District (in Contiguous Azerbaijan) @ 46.617,39.351
+- AZE2_70: Zangilan District (in Contiguous Azerbaijan) @ 46.649,39.091
+- AZE2_71: Ordubad District (in Nakhchivan Autonomous Republic) @ 45.936,39.051
+- AZE2_72: Julfa District (in Nakhchivan Autonomous Republic) @ 45.701,39.156
+- AZE2_73: Shahbuz District (in Nakhchivan Autonomous Republic) @ 45.637,39.447
+- AZE2_74: Nakhchivan City (in Nakhchivan Autonomous Republic) @ 45.412,39.213
+- AZE2_75: Babek District (in Nakhchivan Autonomous Republic) @ 45.385,39.255
+- AZE2_76: Kangarli District (in Nakhchivan Autonomous Republic) @ 45.206,39.425
+- AZE2_77: Sharur District (in Nakhchivan Autonomous Republic) @ 45.061,39.575
+- AZE2_78: Sadarak District (in Nakhchivan Autonomous Republic) @ 44.883,39.681
+
+## ARM ADM1
+- ARM1_0: Gegharkunik @ 45.312,40.297
+- ARM1_1: Syunik @ 46.159,39.352
+- ARM1_2: Tavush @ 45.109,40.901
+- ARM1_3: Shirak @ 43.855,40.806
+- ARM1_4: Lori @ 44.452,40.97
+- ARM1_5: Kotayk @ 44.679,40.381
+- ARM1_6: Vayots Dzor @ 45.434,39.767
+- ARM1_7: Armavir @ 44.032,40.137
+- ARM1_8: Aragatsotn @ 44.132,40.425
+- ARM1_9: Yerevan @ 44.53,40.148
+- ARM1_10: Ararat @ 44.777,39.948
+
+## GEO ADM1
+- GEO1_0: Abkhazia @ 41.16,43.112
+- GEO1_1: Kakheti @ 45.766,41.772
+- GEO1_2: Kvemo Kartli @ 44.49,41.502
+- GEO1_3: Tbilisi @ 44.819,41.717
+- GEO1_4: Mtskheta-Mtianeti @ 44.737,42.3
+- GEO1_5: Samtskhe–Javakheti @ 43.324,41.543
+- GEO1_6: Adjara @ 42.09,41.653
+- GEO1_7: Guria @ 42.151,41.976
+- GEO1_8: Shida Kartli @ 43.992,42.127
+- GEO1_9: Imereti @ 42.952,42.186
+- GEO1_10: Racha-Lechkhumi and Kvemo Svaneti @ 43.133,42.679
+- GEO1_11: Samegrelo-Zemo Svaneti @ 42.243,42.702
+
+## GEO ADM2
+- GEO2_0: Gagra (in Abkhazia) @ 40.275,43.418
+- GEO2_1: Gudauta (in Abkhazia) @ 40.644,43.288
+- GEO2_2: Sokhumi (in Abkhazia) @ 41.014,43.256
+- GEO2_3: Gulripshi (in Abkhazia) @ 41.505,43.129
+- GEO2_4: Ochamchire (in Abkhazia) @ 41.579,42.92
+- GEO2_5: Mestia (in Samegrelo-Zemo Svaneti) @ 42.486,43.018
+- GEO2_6: Gali (in Abkhazia) @ 41.693,42.671
+- GEO2_7: Tsalenjikha (in Samegrelo-Zemo Svaneti) @ 42.038,42.733
+- GEO2_8: Zugdidi (in Samegrelo-Zemo Svaneti) @ 41.787,42.504
+- GEO2_9: Lentekhi (in Racha-Lechkhumi and Kvemo Svaneti) @ 42.842,42.809
+- GEO2_10: Chkhorotsku (in Samegrelo-Zemo Svaneti) @ 42.202,42.644
+- GEO2_11: Khobi (in Samegrelo-Zemo Svaneti) @ 41.8,42.323
+- GEO2_12: Senaki (in Samegrelo-Zemo Svaneti) @ 42.076,42.345
+- GEO2_13: Martvili (in Samegrelo-Zemo Svaneti) @ 42.372,42.555
+- GEO2_14: Tsageri (in Racha-Lechkhumi and Kvemo Svaneti) @ 42.758,42.626
+- GEO2_15: Khoni (in Imereti) @ 42.471,42.417
+- GEO2_16: Abasha (in Samegrelo-Zemo Svaneti) @ 42.195,42.241
+- GEO2_17: Lanchkhuti (in Guria) @ 41.927,42.131
+- GEO2_18: Samtredia (in Imereti) @ 42.361,42.192
+- GEO2_19: Tsqaltubo (in Imereti) @ 42.619,42.321
+- GEO2_20: Ambrolauri (in Racha-Lechkhumi and Kvemo Svaneti) @ 43.084,42.565
+- GEO2_21: Tkibuli (in Imereti) @ 42.878,42.366
+- GEO2_22: Ozurgeti (in Guria) @ 42.022,41.966
+- GEO2_23: Chokhatauri (in Guria) @ 42.387,41.97
+- GEO2_24: Vani (in Imereti) @ 42.601,42.045
+- GEO2_25: Baghdati (in Imereti) @ 42.872,41.998
+- GEO2_26: Zestaponi (in Imereti) @ 43.026,42.153
+- GEO2_27: Terjola (in Imereti) @ 42.899,42.248
+- GEO2_28: Kobuleti (in Adjara) @ 41.922,41.799
+- GEO2_29: Khelvachauri (in Adjara) @ 41.717,41.547
+- GEO2_30: Keda (in Adjara) @ 41.958,41.61
+- GEO2_31: Oni (in Racha-Lechkhumi and Kvemo Svaneti) @ 43.519,42.641
+- GEO2_32: Sachkhere (in Imereti) @ 43.485,42.314
+- GEO2_33: Chiatura (in Imereti) @ 43.239,42.28
+- GEO2_34: Kharagauli (in Imereti) @ 43.251,42.024
+- GEO2_35: Adigeni (in Samtskhe–Javakheti) @ 42.712,41.739
+- GEO2_36: Khulo (in Adjara) @ 42.422,41.674
+- GEO2_37: Shuakhevi (in Adjara) @ 42.247,41.619
+- GEO2_38: Akhaltsikhe (in Samtskhe–Javakheti) @ 43.018,41.658
+- GEO2_39: Aspindza (in Samtskhe–Javakheti) @ 43.223,41.51
+- GEO2_40: Borjomi (in Samtskhe–Javakheti) @ 43.494,41.795
+- GEO2_41: Khashuri (in Shida Kartli) @ 43.602,42.026
+- GEO2_42: Kareli (in Shida Kartli) @ 43.788,42.077
+- GEO2_43: Java (in Shida Kartli) @ 43.972,42.476
+- GEO2_44: Gori (in Shida Kartli) @ 44.084,42.109
+- GEO2_45: Akhalkalaki (in Samtskhe–Javakheti) @ 43.471,41.443
+- GEO2_46: Ninotsminda (in Samtskhe–Javakheti) @ 43.731,41.303
+- GEO2_47: Dmanisi (in Kvemo Kartli) @ 44.158,41.355
+- GEO2_48: Tsalka (in Kvemo Kartli) @ 43.983,41.633
+- GEO2_49: Bolnisi (in Kvemo Kartli) @ 44.541,41.384
+- GEO2_50: Tetri Sqaro (in Kvemo Kartli) @ 44.473,41.617
+- GEO2_51: Kaspi (in Shida Kartli) @ 44.364,41.892
+- GEO2_52: Akhalgori (in Mtskheta-Mtianeti) @ 44.42,42.23
+- GEO2_53: Kazbegi (in Mtskheta-Mtianeti) @ 44.517,42.597
+- GEO2_54: Dusheti (in Mtskheta-Mtianeti) @ 44.86,42.378
+- GEO2_55: Tianeti (in Mtskheta-Mtianeti) @ 44.994,42.117
+- GEO2_56: Mtskheta (in Mtskheta-Mtianeti) @ 44.709,41.866
+- GEO2_57: Marneuli (in Kvemo Kartli) @ 44.849,41.377
+- GEO2_58: Akhmeta (in Kakheti) @ 45.374,42.266
+- GEO2_59: Telavi (in Kakheti) @ 45.502,42.024
+- GEO2_60: Tbilisi (in Tbilisi) @ 44.863,41.72
+- GEO2_61: Gardabani (in Kvemo Kartli) @ 45.042,41.618
+- GEO2_62: Sagarejo (in Kakheti) @ 45.388,41.668
+- GEO2_63: Qvareli (in Kakheti) @ 45.857,41.976
+- GEO2_64: Gurjaani (in Kakheti) @ 45.748,41.742
+- GEO2_65: Lagodekhi (in Kakheti) @ 46.173,41.841
+- GEO2_66: Sighnaghi (in Kakheti) @ 45.912,41.517
+- GEO2_67: Dedoplis Tskaro (in Kakheti) @ 46.252,41.318
+
+## RUS ADM2
+- RUS2_75: Grozny (in Chechnya) @ 45.657,43.321
+- RUS2_109: Charodinsky District (in Dagestan) @ 46.77,42.117
+- RUS2_318: Untsukulsky District (in Dagestan) @ 46.857,42.687
+- RUS2_326: Sunzhensky District (in Chechnya) @ 45.172,43.302
+- RUS2_369: Tarumovsky District (in Dagestan) @ 46.587,44.399
+- RUS2_552: Buynaksky District (in Dagestan) @ 47.084,42.847
+- RUS2_759: Babayurtovsky District (in Dagestan) @ 47.05,43.581
+- RUS2_844: Makhachkala Urban Okrug (in Dagestan) @ 47.483,43.211
+- RUS2_943: Agulsky District (in Dagestan) @ 47.577,41.812
+- RUS2_962: Gudermessky District (in Chechnya) @ 46.199,43.337
+- RUS2_969: городской округ Кизилюрт (in Dagestan) @ 46.856,43.194
+- RUS2_1073: Tsuntinsky District (in Dagestan) @ 45.956,42.186
+- RUS2_1144: Achkhoy-Martanovsky District (in Chechnya) @ 45.326,43.078
+- RUS2_1147: Akhtynsky District (in Dagestan) @ 47.602,41.375
+- RUS2_1148: Akhvakhsky District (in Dagestan) @ 46.344,42.566
+- RUS2_1183: Botlikhsky District (in Dagestan) @ 46.248,42.721
+- RUS2_1203: Dagestanskiye Ogni (in Dagestan) @ 48.197,42.124
+- RUS2_1204: Dakhadayevsky District (in Dagestan) @ 47.552,42.078
+- RUS2_1208: Derbentsky District (in Dagestan) @ 48.198,42.048
+- RUS2_1211: Dokuzparinsky District (in Dagestan) @ 47.891,41.365
+- RUS2_1231: Gumbetovsky District (in Dagestan) @ 46.565,42.799
+- RUS2_1236: Itum-Kalinsky District (in Chechnya) @ 45.441,42.699
+- RUS2_1252: Karabudakhkentsky District (in Dagestan) @ 47.542,42.672
+- RUS2_1258: Kayakentsky District (in Dagestan) @ 47.881,42.367
+- RUS2_1260: Kazbekovsky District (in Dagestan) @ 46.662,43.016
+- RUS2_1267: Khivsky District (in Dagestan) @ 47.919,41.783
+- RUS2_1271: Khunzakhsky District (in Dagestan) @ 46.664,42.575
+- RUS2_1278: Kizilyurtovsky District (in Dagestan) @ 46.933,43.218
+- RUS2_1279: Kizlyarsky District (in Dagestan) @ 47.063,43.979
+- RUS2_1311: Kulinsky District (in Dagestan) @ 47.234,41.973
+- RUS2_1312: Kumtorkalinsky District (in Dagestan) @ 47.217,43.167
+- RUS2_1316: Kurakhsky District (in Dagestan) @ 47.771,41.603
+- RUS2_1317: Kurchaloyevsky District (in Chechnya) @ 46.137,43.192
+- RUS2_1328: Laksky District (in Dagestan) @ 47.071,42.12
+- RUS2_1334: Levashinsky District (in Dagestan) @ 47.302,42.441
+- RUS2_1348: Magaramkentsky District (in Dagestan) @ 48.365,41.69
+- RUS2_1381: Nadterechny District (in Chechnya) @ 45.142,43.589
+- RUS2_1384: Naursky District (in Chechnya) @ 45.473,43.771
+- RUS2_1396: Nogaysky District (in Dagestan) @ 45.922,44.439
+- RUS2_1399: Novolaksky District (in Dagestan) @ 46.758,43.149
+- RUS2_1404: Nozhay-Yurtovsky District (in Chechnya) @ 46.358,43.025
+- RUS2_1470: Rutulsky District (in Dagestan) @ 47.203,41.662
+- RUS2_1482: Sergokalinsky District (in Dagestan) @ 47.661,42.362
+- RUS2_1486: Shalinsky District (in Chechnya) @ 45.893,43.121
+- RUS2_1487: Shamilsky District (in Dagestan) @ 46.522,42.387
+- RUS2_1489: Sharoysky District (in Chechnya) @ 45.798,42.595
+- RUS2_1490: Shatoysky District (in Chechnya) @ 45.759,42.848
+- RUS2_1536: Tabasaransky District (in Dagestan) @ 48.029,41.922
+- RUS2_1553: Tlyaratinsky District (in Dagestan) @ 46.43,42.084
+- RUS2_1564: Tsumadinsky District (in Dagestan) @ 46.036,42.449
+- RUS2_1578: urban okrug of Derbent (in Dagestan) @ 48.291,42.032
+- RUS2_1580: Urus-Martanovsky District (in Chechnya) @ 45.537,43.088
+- RUS2_1598: Vedensky District (in Chechnya) @ 46.063,42.907
+- RUS2_1677: городской округ Аргун (in Chechnya) @ 45.903,43.304
+- RUS2_1686: городской округ Буйнакск (in Dagestan) @ 47.108,42.823
+- RUS2_1699: городской округ Избербаш (in Dagestan) @ 47.867,42.564
+- RUS2_1700: Kaytagsky District (in Dagestan) @ 47.829,42.095
+- RUS2_1705: городской округ Каспийск (in Dagestan) @ 47.622,42.883
+- RUS2_1706: городской округ Кизляр (in Dagestan) @ 46.716,43.854
+- RUS2_1803: Suleyman-Stalsky District (in Dagestan) @ 48.129,41.681
+- RUS2_1825: Akushinsky District (in Dagestan) @ 47.359,42.207
+- RUS2_1853: городской округ Хасавюрт (in Dagestan) @ 46.595,43.241
+- RUS2_1902: Shelkovskoy District (in Chechnya) @ 46.149,43.706
+- RUS2_1912: Groznensky District (in Chechnya) @ 45.586,43.383
+- RUS2_1989: Gunibsky District (in Dagestan) @ 46.928,42.347
+- RUS2_2157: Gergebilsky District (in Dagestan) @ 47.016,42.519
+- RUS2_2207: городской округ Южно-Сухок (in Dagestan) @ 45.646,44.661
+- RUS2_2315: Khasavyurtovsky District (in Dagestan) @ 46.645,43.354
+
+## TUR ADM1
+- TUR1_1: Adıyaman @ 38.288,37.795
+- TUR1_3: Ağrı @ 43.256,39.554
+- TUR1_6: Artvin @ 41.819,41.126
+- TUR1_11: Ardahan @ 42.804,41.12
+- TUR1_13: Batman @ 41.378,37.957
+- TUR1_14: Bayburt @ 40.186,40.257
+- TUR1_16: Bingöl @ 40.642,39.039
+- TUR1_17: Bitlis @ 42.378,38.528
+- TUR1_25: Diyarbakır @ 40.342,38.097
+- TUR1_28: Elazığ @ 39.389,38.658
+- TUR1_29: Erzincan @ 39.292,39.664
+- TUR1_30: Erzurum @ 41.548,40.064
+- TUR1_33: Giresun @ 38.568,40.58
+- TUR1_34: Gümüşhane @ 39.387,40.335
+- TUR1_35: Hakkâri @ 44.068,37.459
+- TUR1_37: Iğdır @ 43.985,39.895
+- TUR1_44: Kars @ 43.063,40.453
+- TUR1_54: Malatya @ 38.126,38.517
+- TUR1_56: Mardin @ 40.838,37.338
+- TUR1_59: Muş @ 41.845,39.002
+- TUR1_64: Rize @ 40.853,40.926
+- TUR1_67: Siirt @ 42.123,37.912
+- TUR1_72: Trabzon @ 39.81,40.804
+- TUR1_73: Tunceli @ 39.481,39.191
+- TUR1_75: Van @ 43.588,38.464
+- TUR1_79: Şırnak @ 42.52,37.46
+- TUR1_80: Şanlıurfa @ 39.1,37.246
+
+## TUR ADM2
+- TUR2_50: Hamur (in Ağrı) @ 43.083,39.474
+- TUR2_64: Muradiye (in Van) @ 43.723,38.965
+- TUR2_68: Olur (in Erzurum) @ 42.09,40.854
+- TUR2_130: Susuz (in Kars) @ 43.093,40.813
+- TUR2_183: İspir (in Erzurum) @ 41.022,40.53
+- TUR2_188: Kars merkez (in Kars) @ 43.209,40.574
+- TUR2_190: Tekman (in Erzurum) @ 41.433,39.612
+- TUR2_192: Karayazı (in Erzurum) @ 42.129,39.637
+- TUR2_194: Horasan (in Erzurum) @ 42.197,40.045
+- TUR2_196: Sarıkamış (in Kars) @ 42.538,40.221
+- TUR2_197: Erciş (in Van) @ 43.336,39.117
+- TUR2_199: Çatak (in Van) @ 43.097,37.982
+- TUR2_205: Tuşba (in Van) @ 43.313,38.715
+- TUR2_208: Kağızman (in Kars) @ 43.088,40.148
+- TUR2_217: Ağrı merkez (in Ağrı) @ 43.149,39.808
+- TUR2_223: Aşkale (in Erzurum) @ 40.654,39.913
+- TUR2_231: Tortum (in Erzurum) @ 41.424,40.369
+- TUR2_233: Şenkaya (in Erzurum) @ 42.362,40.601
+- TUR2_236: Patnos (in Ağrı) @ 42.886,39.171
+- TUR2_239: Oltu (in Erzurum) @ 41.949,40.564
+- TUR2_241: Çat (in Erzurum) @ 40.916,39.591
+- TUR2_243: Tutak (in Ağrı) @ 42.7,39.513
+- TUR2_248: Eleşkirt (in Ağrı) @ 42.643,39.818
+- TUR2_250: Hınıs (in Erzurum) @ 41.688,39.36
+- TUR2_269: Pasinler (in Erzurum) @ 41.638,40.003
+- TUR2_271: Selim (in Kars) @ 42.752,40.492
+- TUR2_277: Gevaş (in Van) @ 42.944,38.331
+- TUR2_430: Derecik (in Hakkâri) @ 44.365,37.11
+- TUR2_431: Yüksekova (in Hakkâri) @ 44.256,37.549
+- TUR2_432: Şemdinli (in Hakkâri) @ 44.516,37.3
+- TUR2_433: Başkale (in Van) @ 44.113,38.03
+- TUR2_434: Çaldıran (in Van) @ 43.988,39.127
+- TUR2_462: Aziziye (in Erzurum) @ 40.981,40.099
+- TUR2_467: Digor (in Kars) @ 43.461,40.323
+- TUR2_468: Doğubayazıt (in Ağrı) @ 44.047,39.581
+- TUR2_469: Çıldır (in Ardahan) @ 43.171,41.139
+- TUR2_470: Akyaka (in Kars) @ 43.623,40.779
+- TUR2_475: Narman (in Erzurum) @ 41.878,40.304
+- TUR2_477: Yakutiye (in Erzurum) @ 41.306,40.075
+- TUR2_478: Gürpınar (in Van) @ 43.626,38.138
+- TUR2_487: Edremit (in Van) @ 43.191,38.441
+- TUR2_505: Taşlıçay (in Ağrı) @ 43.402,39.597
+- TUR2_511: Köprüköy (in Erzurum) @ 41.878,39.891
+- TUR2_519: Hakkari merkez (in Hakkâri) @ 43.72,37.577
+- TUR2_554: Hanak (in Ardahan) @ 42.824,41.259
+- TUR2_560: Diyadin (in Ağrı) @ 43.641,39.442
+- TUR2_566: Pazaryolu (in Erzurum) @ 40.68,40.424
+- TUR2_569: Özalp (in Van) @ 44.013,38.725
+- TUR2_593: Göle (in Ardahan) @ 42.625,40.856
+- TUR2_594: Tuzluca (in Iğdır) @ 43.573,39.962
+- TUR2_595: Ardahan (in Ardahan) @ 42.717,41.065
+- TUR2_601: Iğdır (merkez) (in Iğdır) @ 44.014,39.863
+- TUR2_609: Arpaçay (in Kars) @ 43.373,40.898
+- TUR2_651: Palandöken (in Erzurum) @ 41.179,39.837
+- TUR2_654: Karaçoban (in Erzurum) @ 42.044,39.349
+- TUR2_673: Posof (in Ardahan) @ 42.709,41.484
+- TUR2_711: Bahçesaray (in Van) @ 42.8,38.091
+- TUR2_742: Uzundere (in Erzurum) @ 41.598,40.588
+- TUR2_783: Karakoyunlu (in Iğdır) @ 44.243,39.94
+- TUR2_857: Çukurca (in Hakkâri) @ 43.608,37.33
+- TUR2_860: Aralık (in Iğdır) @ 44.464,39.82
+- TUR2_863: Damal (in Ardahan) @ 42.83,41.372
+- TUR2_931: Saray (in Van) @ 44.18,38.516
+- TUR2_965: İpekyolu (in Van) @ 43.634,38.597
+
+## IRQ ADM1
+- IRQ1_0: Al-Anbar @ 41.641,32.966
+- IRQ1_1: Karbala @ 43.822,32.494
+- IRQ1_2: An-Najaf @ 43.823,31.129
+- IRQ1_3: Babil @ 44.524,32.679
+- IRQ1_4: Baghdad @ 44.386,33.364
+- IRQ1_5: Al-Qadisiyah @ 45.069,31.903
+- IRQ1_6: Al-Muthanna @ 45.381,30.158
+- IRQ1_7: Dhi Qar @ 46.328,31.233
+- IRQ1_8: Al-Basrah @ 47.401,30.391
+- IRQ1_9: Maysan @ 47.054,31.94
+- IRQ1_10: Wasit @ 45.714,32.733
+- IRQ1_11: Ninawa @ 42.457,36.011
+- IRQ1_12: Dohuk @ 43.137,37.031
+- IRQ1_13: Salah al-Din @ 43.591,34.578
+- IRQ1_14: Diyala @ 45.087,33.98
+- IRQ1_15: Kirkuk @ 44.11,35.395
+- IRQ1_16: Erbil @ 44.204,36.355
+- IRQ1_17: Al-Sulaimaniyah @ 45.299,35.579
+
+## IRQ ADM2
+- IRQ2_0: Abu Al-Khaseeb (in Al-Basrah) @ 48.029,30.32
+- IRQ2_1: Afaq (in Al-Qadisiyah) @ 45.374,32.014
+- IRQ2_2: Ain Al-Tamur (in Karbala) @ 43.549,32.52
+- IRQ2_3: Al-Adhamiya (in Baghdad) @ 44.382,33.489
+- IRQ2_4: Al-Amadiya (in Dohuk) @ 43.554,37.105
+- IRQ2_5: Al-Amara (in Maysan) @ 47.022,32.077
+- IRQ2_6: Al-Baaj (in Ninawa) @ 41.668,35.711
+- IRQ2_7: Al-Basrah (in Al-Basrah) @ 47.628,30.576
+- IRQ2_8: Al-Chibayish (in Dhi Qar) @ 46.906,30.87
+- IRQ2_9: Al-Daur (in Salah al-Din) @ 44.173,34.496
+- IRQ2_10: Al-Diwaniya (in Al-Qadisiyah) @ 44.893,31.996
+- IRQ2_11: Al-Falluja (in Al-Anbar) @ 43.797,33.197
+- IRQ2_12: Al-Faw (in Al-Basrah) @ 48.263,30.058
+- IRQ2_13: Al-Hai (in Wasit) @ 45.975,32.146
+- IRQ2_14: Al-Hamdaniya (in Ninawa) @ 43.434,36.218
+- IRQ2_15: Al-Hamza (in Al-Qadisiyah) @ 44.88,31.606
+- IRQ2_16: Al-Hashimiya (in Babil) @ 44.818,32.377
+- IRQ2_17: Al-Hatra (in Ninawa) @ 42.46,35.493
+- IRQ2_18: Al-Hawiga (in Kirkuk) @ 43.763,35.305
+- IRQ2_19: Al-Hilla (in Babil) @ 44.434,32.377
+- IRQ2_20: Al-Hindiya (in Babil) @ 44.204,32.475
+- IRQ2_21: Al-Kadhmiyah (in Al-Anbar) @ 44.18,33.45
+- IRQ2_22: Al-Kahla (in Maysan) @ 47.444,31.79
+- IRQ2_23: Al-Kaim (in Al-Anbar) @ 41.045,34.247
+- IRQ2_24: Al-Karkh (in Babil) @ 44.398,33.236
+- IRQ2_25: Al-Khalis (in Diyala) @ 44.628,34.122
+- IRQ2_26: Al-Khidhir (in Al-Muthanna) @ 45.642,31.215
+- IRQ2_27: Al-Kufa (in An-Najaf) @ 44.475,32.078
+- IRQ2_28: Al-Kut (in Wasit) @ 46.151,32.538
+- IRQ2_29: Al-Mada'in (in Diyala) @ 44.704,33.255
+- IRQ2_30: Al-Mahaweel (in Babil) @ 44.634,32.668
+- IRQ2_31: Al-Mahmoudiya (in Babil) @ 44.307,33.07
+- IRQ2_32: Al-Maimouna (in Maysan) @ 46.814,31.512
+- IRQ2_33: Al-Manathera (in An-Najaf) @ 44.466,31.766
+- IRQ2_34: Al-Mejar Al-Kabir (in Maysan) @ 47.303,31.397
+- IRQ2_35: Al-Midaina (in Al-Basrah) @ 47.233,30.952
+- IRQ2_36: Al-Mosul (in Ninawa) @ 43.038,36.133
+- IRQ2_37: Al-Muqdadiya (in Diyala) @ 44.961,33.902
+- IRQ2_38: Al-Mussyab (in Babil) @ 44.269,32.818
+- IRQ2_39: Al-Najaf (in An-Najaf) @ 43.496,31.194
+- IRQ2_40: Al-Namaniya (in Wasit) @ 45.518,32.432
+- IRQ2_41: Al-Nasiriya (in Dhi Qar) @ 46.212,31.086
+- IRQ2_42: Al-Qurna (in Al-Basrah) @ 47.457,30.983
+- IRQ2_43: Al-Ramadi (in Al-Anbar) @ 43.169,33.222
+- IRQ2_44: Al-Rifai (in Dhi Qar) @ 46.073,31.704
+- IRQ2_45: Al-Risafa (in Baghdad) @ 44.484,33.315
+- IRQ2_46: Al-Rumaitha (in Al-Muthanna) @ 45.352,31.524
+- IRQ2_47: Al-Rutba (in Al-Anbar) @ 41.067,32.676
+- IRQ2_48: Al-Salman (in Al-Muthanna) @ 45.355,30.073
+- IRQ2_49: Al-Samawa (in Al-Muthanna) @ 45.333,31.232
+- IRQ2_50: Al-Shamiya (in Al-Qadisiyah) @ 44.642,31.856
+- IRQ2_51: Al-Shatra (in Dhi Qar) @ 46.299,31.379
+- IRQ2_52: Al-Shikhan (in Ninawa) @ 43.411,36.708
+- IRQ2_53: Al-Shirqat (in Salah al-Din) @ 43.167,35.479
+- IRQ2_54: Al-Sulaymaniyah (in Al-Sulaimaniyah) @ 45.385,35.464
+- IRQ2_55: Al-Suwaira (in Wasit) @ 45.071,32.891
+- IRQ2_56: Al-Thawra (in Baghdad) @ 44.462,33.384
+- IRQ2_57: Al-Zibar (in Erbil) @ 44.11,37.074
+- IRQ2_58: Al-Zubair (in Al-Basrah) @ 47.046,30.127
+- IRQ2_59: Ali Al-Gharbi (in Maysan) @ 46.734,32.409
+- IRQ2_60: Ana (in Al-Anbar) @ 41.865,34.374
+- IRQ2_61: Aqra (in Ninawa) @ 43.859,36.675
+- IRQ2_62: Badra (in Wasit) @ 45.889,33.033
+- IRQ2_63: Balad (in Salah al-Din) @ 43.905,33.905
+- IRQ2_64: Baladruz (in Diyala) @ 45.38,33.503
+- IRQ2_65: Baquba (in Diyala) @ 44.693,33.615
+- IRQ2_66: Beygee (in Salah al-Din) @ 43.056,34.882
+- IRQ2_67: Chamchamal (in Al-Sulaimaniyah) @ 44.981,35.343
+- IRQ2_68: Daquq (in Kirkuk) @ 44.205,35.029
+- IRQ2_69: Derbendikhan (in Al-Sulaimaniyah) @ 45.733,35.196
+- IRQ2_70: Dibis (in Kirkuk) @ 44.114,35.664
+- IRQ2_71: Dokan (in Al-Sulaimaniyah) @ 44.998,35.92
+- IRQ2_72: Duhok (in Dohuk) @ 43.072,36.956
+- IRQ2_73: Erbil (in Erbil) @ 44.001,36.095
+- IRQ2_74: Haditha (in Al-Anbar) @ 42.368,34.2
+- IRQ2_75: Halabcha (in Al-Sulaimaniyah) @ 45.945,35.217
+- IRQ2_76: Heet (in Al-Anbar) @ 42.7,33.775
+- IRQ2_77: Kalar (in Al-Sulaimaniyah) @ 45.331,34.887
+- IRQ2_78: Kerbela (in Karbala) @ 43.943,32.519
+- IRQ2_79: Khanaqin (in Diyala) @ 45.37,34.403
+- IRQ2_80: Kifri (in Diyala) @ 44.96,34.575
+- IRQ2_81: Kirkuk (in Kirkuk) @ 44.507,35.478
+- IRQ2_82: Koysinjaq (in Erbil) @ 44.525,36.029
+- IRQ2_83: Makhmour (in Erbil) @ 43.616,35.802
+- IRQ2_84: Panjwin (in Al-Sulaimaniyah) @ 46.011,35.7
+- IRQ2_85: Pshdar (in Al-Sulaimaniyah) @ 45.115,36.28
+- IRQ2_86: Qalat Saleh (in Maysan) @ 47.328,31.492
+- IRQ2_87: Rania (in Al-Sulaimaniyah) @ 44.922,36.176
+- IRQ2_88: Rawanduz (in Erbil) @ 44.63,36.775
+- IRQ2_89: Samarra (in Salah al-Din) @ 43.5,34.269
+- IRQ2_90: Shaqlawa (in Erbil) @ 44.257,36.428
+- IRQ2_91: Sharbazher (in Al-Sulaimaniyah) @ 45.586,35.732
+- IRQ2_92: Shat Al-Arab (in Al-Basrah) @ 47.83,30.784
+- IRQ2_93: Sinjar (in Ninawa) @ 41.853,36.349
+- IRQ2_94: Sumail (in Dohuk) @ 42.737,36.914
+- IRQ2_95: Suq Al-Shoyokh (in Dhi Qar) @ 46.495,30.853
+- IRQ2_96: Telafar (in Ninawa) @ 42.4,36.583
+- IRQ2_97: Tikrit (in Salah al-Din) @ 43.717,34.721
+- IRQ2_98: Tilkaef (in Ninawa) @ 43.029,36.578
+- IRQ2_99: Tooz Khurmato (in Salah al-Din) @ 44.645,34.823
+- IRQ2_100: Zakho (in Dohuk) @ 42.857,37.204
+
+## AFG ADM1
+- AFG1_0: Kandahar @ 65.72,31.009
+- AFG1_1: Zabul @ 67.113,32.236
+- AFG1_2: Uruzgan @ 66.035,32.862
+- AFG1_3: Daykundi @ 66.185,33.744
+- AFG1_4: Ghanzi @ 67.814,33.288
+- AFG1_5: Paktika @ 68.762,32.472
+- AFG1_6: Khost @ 69.846,33.363
+- AFG1_7: Paktia @ 69.374,33.628
+- AFG1_8: Logar @ 69.201,34.038
+- AFG1_9: Wardak @ 68.274,34.323
+- AFG1_10: Kabul @ 69.304,34.582
+- AFG1_11: Nangarhar @ 70.464,34.298
+- AFG1_12: Laghman @ 70.137,34.774
+- AFG1_13: Kapisa @ 69.622,35.04
+- AFG1_14: Parwan @ 68.888,34.98
+- AFG1_15: Panjshir @ 69.806,35.508
+- AFG1_16: Kunar @ 71.094,35.004
+- AFG1_17: Nuristan @ 70.733,35.423
+- AFG1_18: Baghlan @ 68.878,35.809
+- AFG1_19: Bamyan @ 67.271,34.826
+- AFG1_20: Samangan @ 67.714,35.954
+- AFG1_21: Kunduz @ 68.75,36.837
+- AFG1_22: Takhar @ 69.757,36.715
+- AFG1_23: Balkh @ 67.123,36.649
+- AFG1_24: Sar-e Pol @ 66.147,35.717
+- AFG1_25: Jowzjan @ 65.852,36.814
+- AFG1_26: Faryab @ 64.843,36.066
+- AFG1_27: Badghis @ 63.738,35.135
+- AFG1_28: Ghor @ 64.883,34.183
+- AFG1_29: Herat @ 62.141,34.195
+- AFG1_30: Farah @ 62.325,32.605
+- AFG1_31: Nimruz @ 62.314,30.813
+- AFG1_32: Helmand @ 64.015,31.12
+- AFG1_33: Badakhshan @ 71.484,37.045
+
+## AFG ADM2
+- AFG2_1: Gulran (in Herat) @ 61.57,35.133
+- AFG2_2: Koshk (in Herat) @ 62.236,35.006
+- AFG2_4: Koshki Kohna (in Herat) @ 62.628,34.888
+- AFG2_6: Kohsan (in Herat) @ 61.166,34.613
+- AFG2_9: Ghoryan (in Herat) @ 61.156,34.179
+- AFG2_11: Zanda  Jan
+ (in Herat) @ 61.819,34.369
+- AFG2_13: Guzara (in Herat) @ 62.044,34.038
+- AFG2_14: Karukh (in Herat) @ 62.657,34.505
+- AFG2_17: Pashtun Zarghun (in Herat) @ 62.756,34.184
+- AFG2_22: Obe (in Herat) @ 63.25,34.361
+- AFG2_24: Farsi (in Herat) @ 63.285,33.846
+- AFG2_27: Anar Dara (in Farah) @ 61.251,33.012
+- AFG2_29: Qala Ka (in Farah) @ 61.33,32.397
+- AFG2_30: Khaki Safed (in Farah) @ 62.073,32.755
+- AFG2_31: Shindand (in Herat) @ 62.36,33.244
+- AFG2_35: Shib Koh (in Farah) @ 61.389,32.112
+- AFG2_37: Lash Wa Juwayn (in Farah) @ 61.322,31.724
+- AFG2_39: Pusht Rod (in Farah) @ 62.065,32.489
+- AFG2_41: Farah (in Farah) @ 62.236,32.248
+- AFG2_43: Bala Buluk (in Farah) @ 62.753,32.772
+- AFG2_45: Gulistan (in Farah) @ 63.597,32.642
+- AFG2_48: Pur Chaman (in Farah) @ 63.842,33.152
+- AFG2_52: Bakwa (in Farah) @ 62.883,32.217
+- AFG2_73: Kang (in Nimruz) @ 61.838,31.308
+- AFG2_76: Zaranj (in Nimruz) @ 62.004,30.932
+- AFG2_80: Chahar Burjak (in Nimruz) @ 62.104,30.205
+- AFG2_83: Chakhansur (in Nimruz) @ 62.456,31.343
+- AFG2_87: Khash Rod (in Nimruz) @ 62.94,31.75
+- AFG2_90: Dishu (in Helmand) @ 63.129,29.889
+- AFG2_93: Reg(Khanshin) (in Helmand) @ 63.879,30.151
+- AFG2_96: Garmser (in Helmand) @ 64.132,30.853
+- AFG2_99: Nawa-I- Barak Zayi (in Helmand) @ 64.099,31.344
+- AFG2_102: Nad Ali (in Helmand) @ 63.861,31.626
+- AFG2_105: Nahri Sarraj (in Helmand) @ 64.609,31.829
+- AFG2_107: Lashkar Gah (in Helmand) @ 64.558,31.564
+- AFG2_110: Sangin (in Helmand) @ 64.994,32.12
+- AFG2_113: Kajaki (in Helmand) @ 65.039,32.484
+- AFG2_116: Naw Zad (in Helmand) @ 64.476,32.469
+- AFG2_119: Musa Qala (in Helmand) @ 64.738,32.466
+- AFG2_123: Baghran (in Helmand) @ 65.044,33.016
+- AFG2_126: Registan (in Kandahar) @ 65.181,30.122
+- AFG2_129: Shorabak (in Kandahar) @ 66.051,30.179
+- AFG2_133: Spin Boldak (in Kandahar) @ 66.17,30.988
+- AFG2_136: Arghistan (in Kandahar) @ 66.553,31.52
+- AFG2_138: Panjwayi (in Kandahar) @ 65.158,31.073
+- AFG2_140: Kandahar (in Kandahar) @ 65.715,31.502
+- AFG2_143: Daman (in Kandahar) @ 65.783,31.211
+- AFG2_146: Shah Wali Kot (in Kandahar) @ 66.007,32.08
+- AFG2_150: Arghandab (in Kandahar) @ 65.648,31.757
+- AFG2_152: Maywand (in Kandahar) @ 64.993,31.582
+- AFG2_154: Ghorak (in Kandahar) @ 65.196,32.044
+- AFG2_157: Zhari (in Kandahar) @ 65.398,31.641
+- AFG2_160: Khakrez (in Kandahar) @ 65.501,32.005
+- AFG2_163: Ab Kamari (in Badghis) @ 62.903,34.925
+- AFG2_166: Muqur (in Badghis) @ 63.091,35.179
+- AFG2_170: Qala-I- Naw (in Badghis) @ 63.139,34.821
+- AFG2_178: Nesh (in Kandahar) @ 65.704,32.382
+- AFG2_181: Qadis (in Badghis) @ 63.587,34.818
+- AFG2_185: Tulak (in Ghor) @ 63.716,34.008
+- AFG2_188: Saghar (in Ghor) @ 63.675,33.582
+- AFG2_270: Lal Wa Sarjangal (in Ghor) @ 66.277,34.603
+- AFG2_274: Dawlat Yar (in Ghor) @ 65.748,34.571
+- AFG2_278: Chaghcharan (in Ghor) @ 65.347,34.728
+- AFG2_282: Charsada (in Ghor) @ 65.101,35.127
+- AFG2_285: Du Layna (in Ghor) @ 64.996,34.135
+- AFG2_288: Ghormach (in Badghis) @ 63.786,35.734
+- AFG2_291: Bala Murghab (in Badghis) @ 63.47,35.462
+- AFG2_295: Jawand (in Badghis) @ 64.336,35.002
+- AFG2_298: Chishti Sharif (in Herat) @ 63.962,34.447
+- AFG2_302: Shahrak (in Ghor) @ 64.339,34.093
+- AFG2_305: Taywara (in Ghor) @ 64.39,33.481
+- AFG2_307: Washer (in Helmand) @ 63.973,32.109
+- AFG2_310: Pasaband (in Ghor) @ 65.089,33.591
+- AFG2_324: Hirat (in Herat) @ 62.155,34.484
+- AFG2_327: Injil (in Herat) @ 62.311,34.309
+- AFG2_343: Adraskan (in Herat) @ 62.001,33.704
+- AFG2_397: Maruf (in Kandahar) @ 67.253,31.448
+
+## PAK ADM2
+- PAK2_0: Khuzdar @ 66.696,27.418
+- PAK2_7: Chagai @ 63.325,28.995
+- PAK2_8: Nushki @ 65.854,29.469
+- PAK2_9: Qilla Abdullah @ 66.745,30.719
+- PAK2_10: Quetta @ 66.819,30.111
+- PAK2_11: Pishin @ 67.339,30.778
+- PAK2_12: Kharan @ 64.668,27.943
+- PAK2_13: Mastung @ 66.902,29.736
+- PAK2_16: Gwadar @ 63.152,25.413
+- PAK2_17: Kech @ 63.073,26.022
+- PAK2_18: Panjgur @ 64.199,26.754
+- PAK2_26: Kalat @ 66.659,28.844
+- PAK2_31: Awaran @ 65.44,26.193
+- PAK2_32: Lasbela @ 66.683,25.847
+- PAK2_33: Karachi @ 67.207,25.031
+
+## PAK ADM3
+- PAK3_18: Awaran (in Awaran) @ 64.91,26.139
+- PAK3_19: Gishkore Sub (in Awaran) @ 64.786,25.78
+- PAK3_20: Jhal Jhao (in Awaran) @ 65.785,26.613
+- PAK3_21: Jhal Jhao Sub (in Awaran) @ 65.766,26.074
+- PAK3_22: Mashkai (in Awaran) @ 65.574,26.973
+- PAK3_24: Chagai Sub (in Chagai) @ 64.655,29.332
+- PAK3_25: Dalbadin (in Chagai) @ 64.15,28.952
+- PAK3_26: Naukandi (in Chagai) @ 62.887,28.785
+- PAK3_27: Taftan (in Chagai) @ 61.818,29.126
+- PAK3_36: Gwadar (in Gwadar) @ 62.31,25.347
+- PAK3_37: Jiwani @ 61.806,25.147
+- PAK3_38: Ormara (in Gwadar) @ 64.717,25.404
+- PAK3_39: Pasni (in Gwadar) @ 63.276,25.414
+- PAK3_40: Sunstar Sub (in Gwadar) @ 61.856,25.468
+- PAK3_59: Kalat (in Kalat) @ 66.492,28.975
+- PAK3_61: Surab (in Kalat) @ 66.178,28.319
+- PAK3_62: Balnigor (in Kech) @ 62.343,25.833
+- PAK3_63: Buleda (in Kech) @ 63.221,26.324
+- PAK3_64: Dasht (in Kech) @ 62.573,25.687
+- PAK3_65: Hoshab (in Kech) @ 64.197,25.988
+- PAK3_66: Kech (in Kech) @ 63.434,25.882
+- PAK3_67: Mand (in Kech) @ 61.993,26.005
+- PAK3_68: Tump (in Kech) @ 62.412,26.218
+- PAK3_69: Zamuran (in Kech) @ 62.834,26.475
+- PAK3_70: Kharan (in Kharan) @ 65.466,28.613
+- PAK3_75: Nal Sub (in Khuzdar) @ 66.01,27.554
+- PAK3_76: Ornach Sub (in Khuzdar) @ 66.168,26.852
+- PAK3_78: Wadh Sub (in Khuzdar) @ 66.481,27.07
+- PAK3_94: BELA (in Lasbela) @ 66.401,26.263
+- PAK3_99: LAKHRA (in Lasbela) @ 66.382,25.884
+- PAK3_100: LIARI (in Lasbela) @ 65.847,25.523
+- PAK3_108: KIRDGAP SUB- (in Mastung) @ 66.394,29.619
+- PAK3_117: DAK_ (in Nushki) @ 65.6,29.524
+- PAK3_118: NUSHKI_ (in Nushki) @ 65.902,29.404
+- PAK3_119: GICHK (in Panjgur) @ 64.434,26.746
+- PAK3_120: GOWARGO (in Panjgur) @ 64.079,26.392
+- PAK3_121: PANJGUR (in Panjgur) @ 64.162,27.019
+- PAK3_122: PAROME (in Panjgur) @ 63.525,26.593
+- PAK3_128: PANJ PAI SUB- (in Quetta) @ 66.471,30.023
+- PAK3_136: BESIMA (in Kharan) @ 65.159,27.384
+- PAK3_137: MASHKHEL (in Kharan) @ 63.526,27.66
+- PAK3_138: NAG (in Kharan) @ 64.472,28.287
+- PAK3_139: SHAHDO GARHI SUB (in Kharan) @ 65.609,27.972
+- PAK3_140: WASHUK (in Kharan) @ 64.514,27.758
+
+## TKM ADM1
+- TKM1_0: Balkan @ 54.843,39.989
+- TKM1_1: Ahai @ 59.128,38.48
+- TKM1_2: Dasoguz @ 58.726,41.125
+- TKM1_3: Lebap @ 63.168,38.934
+- TKM1_4: Mary @ 62.31,37.206
+
+## TKM ADM2
+- TKM2_0: Koneurgenc (in Dasoguz) @ 58.754,42.093
+- TKM2_1: Saparmyrat Turkmenbasy (in Dasoguz) @ 58.293,42.267
+- TKM2_2: Boldumsaz (in Dasoguz) @ 59.805,42.021
+- TKM2_3: S.A. Nyyazow (in Dasoguz) @ 58.869,40.647
+- TKM2_4: Gorogly (in Dasoguz) @ 59.949,40.518
+- TKM2_5: Ak Bugday (in Ahai) @ 58.71,38.967
+- TKM2_6: Gokdepe (in Ahai) @ 58.001,38.586
+- TKM2_7: Darganata (in Lebap) @ 61.2,40.562
+- TKM2_8: Kaka (in Ahai) @ 59.733,37.589
+- TKM2_9: Babadayhan (in Ahai) @ 60.071,38.393
+- TKM2_10: Tejen (in Ahai) @ 60.219,38.333
+- TKM2_11: Avaza (in Balkan) @ 52.926,39.954
+- TKM2_12: Hazar (in Balkan) @ 53.335,39.501
+- TKM2_13: Etrek (in Balkan) @ 54.604,38.21
+- TKM2_14: Turkmenbasy (in Balkan) @ 54.416,40.933
+- TKM2_15: Gubadag (in Dasoguz) @ 57.578,41.309
+- TKM2_16: Baherden (in Ahai) @ 57.374,38.991
+- TKM2_17: Akdepe (in Dasoguz) @ 58.238,40.997
+- TKM2_18: None (in Lebap) @ 61.685,39.685
+- TKM2_19: Sakarcage (in Mary) @ 60.935,38.284
+- TKM2_20: Oguzhan (in Mary) @ 61.306,37.403
+- TKM2_21: Tedzhen Sovkhoz (in Mary) @ 61.258,37.163
+- TKM2_22: None (in Mary) @ 61.208,37.093
+- TKM2_23: Serakhs (in Ahai) @ 61.349,36.236
+- TKM2_24: Murgap (in Mary) @ 61.688,36.896
+- TKM2_25: None (in Mary) @ 63.12,36.339
+- TKM2_26: Serhetabat (in Mary) @ 62.613,35.931
+- TKM2_27: Turkmengala (in Mary) @ 62.244,36.69
+- TKM2_28: Ferap (in Lebap) @ 63.397,39.303
+- TKM2_29: Danew (in Lebap) @ 63.164,39.221
+- TKM2_30: Dowletli (in Lebap) @ 63.506,39.068
+- TKM2_31: Carjew (in Lebap) @ 62.675,38.841
+- TKM2_32: None (in Mary) @ 61.586,38.44
+- TKM2_33: None (in Mary) @ 61.637,38.121
+- TKM2_34: Magtymguly (in Balkan) @ 56.522,39.167
+- TKM2_35: Wekilbazar (in Mary) @ 61.446,38.478
+- TKM2_36: Mary (in Mary) @ 61.694,37.777
+- TKM2_37: Mary (in Mary) @ 61.766,37.503
+- TKM2_38: None (in Mary) @ 61.048,38.942
+- TKM2_39: Garagum (in Mary) @ 61.279,38.097
+- TKM2_40: Bayramaly (in Mary) @ 62.2,37.592
+- TKM2_41: Bayramaly (in Mary) @ 62.327,38.155
+- TKM2_42: Yoloten (in Mary) @ 63.097,37.28
+- TKM2_43: None (in Mary) @ 63.691,36.56
+- TKM2_44: None (in Mary) @ 63.542,36.356
+- TKM2_45: Sayat (in Lebap) @ 63.658,38.037
+- TKM2_46: Hojambaz (in Lebap) @ 64.132,37.891
+- TKM2_47: Kerki (in Lebap) @ 64.829,38.429
+- TKM2_48: Halac (in Lebap) @ 64.452,37.604
+- TKM2_49: Sayat (in Lebap) @ 65.629,38.096
+- TKM2_50: Koytendag (in Lebap) @ 66.081,37.779
+- TKM2_51: Dostluk (in Lebap) @ 64.992,37.453
+- TKM2_52: None (in Mary) @ 64.297,36.731
+- TKM2_53: None (in Mary) @ 64.081,36.574
+- TKM2_54: None (in Mary) @ 64.525,36.596
+- TKM2_55: None (in Mary) @ 64.092,36.249
+- TKM2_56: Balkanabat (in Balkan) @ 54.166,39.352
+- TKM2_57: Bereket (in Balkan) @ 55.569,39.456
+- TKM2_58: Gurbansoltan Eye (in Dasoguz) @ 58.918,41.161
+
+## BHR ADM1
+- BHR1_0: Northern Governorate @ 50.476,26.166
+- BHR1_1: Southern Governorate @ 50.578,25.967
+- BHR1_2: Capital Governorate @ 50.578,26.199
+- BHR1_3: Muharraq Governorate @ 50.643,26.26
+
+## ARE ADM1
+- ARE1_0: Abu Dhabi @ 54.049,23.661
+- ARE1_1: Ajman @ 55.743,25.191
+- ARE1_2: Dubai @ 55.388,24.944
+- ARE1_3: Fujairah @ 56.196,25.358
+- ARE1_4: Ras al-Khaimah @ 56.031,25.452
+- ARE1_5: Sharjah @ 55.816,25.16
+- ARE1_6: Umm al-Quwain @ 55.746,25.467
+
+## OMN ADM1
+- OMN1_1: Al Batinah @ 57.057,23.847
+- OMN1_2: Az Zahirah @ 56.14,22.961
+- OMN1_3: Muscat @ 58.596,23.334
+- OMN1_4: Ash Sharqiyah @ 58.69,21.98
+- OMN1_5: Ad Dakhiliyah @ 57.414,22.166

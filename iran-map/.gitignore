@@ -1,0 +1,5 @@
+# downloaded source geometry (re-fetch with build/catalog.py inputs; ~80 MB)
+raw/
+build/tmp/
+vendor
+preview.html

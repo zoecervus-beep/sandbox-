@@ -1,0 +1,944 @@
+<title>Iran's Frontiers since 1800</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: a surveyor's plate. The map fills the frame, a ledger rail sits on the right,
+   and the strip along the bottom is both the timeline and the area chart. */
+:root {
+  --paper: #eef0ec;
+  --sea: #cfdbe0;
+  --land: #e2e1d9;
+  --land-edge: #b9bbb3;
+  --ink: #1b2129;
+  --muted: #5a6470;
+  --rule: #cdd2cc;
+  --panel: #f6f7f4;
+  --claim: #2a4b9e;          /* de jure: lapis ink of the treaty texts */
+  --claim-soft: #2a4b9e33;
+  --held: #12867b;           /* de facto: firuzeh turquoise */
+  --held-soft: #12867b8c;
+  --held-pale: #7cc2b6;
+  --occupied: #b4313b;       /* foreign occupation: pomegranate */
+  --breakaway: #c4840e;      /* breakaway government: saffron */
+  --stateless: #7d838b;      /* outside any state's control */
+  --contested: #7b4fa8;
+  --focus: #e07a1f;
+  --shadow: 0 1px 2px rgba(20,30,40,.08), 0 8px 24px rgba(20,30,40,.08);
+
+  --f-display: "Gloock", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --f-body: "IBM Plex Sans", "IBM Plex Sans Arabic", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-fa: "IBM Plex Sans Arabic", "Vazirmatn", Tahoma, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --s-xs: .75rem; --s-sm: .8125rem; --s-md: .9375rem; --s-lg: 1.25rem; --s-xl: 2rem; --s-xxl: 3.25rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #10151b; --sea: #0b1a22; --land: #1d242c; --land-edge: #343d47; --ink: #e5e9ec; --muted: #9aa5af;
+    --rule: #2a323b; --panel: #151b22; --claim: #8aa5f2; --claim-soft: #8aa5f233; --held: #38bfae; --held-soft: #38bfae80;
+    --held-pale: #2c7d73; --occupied: #ec6a70; --breakaway: #e7a83a; --stateless: #8d949c; --contested: #b58ae0; --focus: #f29a45;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #10151b; --sea: #0b1a22; --land: #1d242c; --land-edge: #343d47; --ink: #e5e9ec; --muted: #9aa5af;
+  --rule: #2a323b; --panel: #151b22; --claim: #8aa5f2; --claim-soft: #8aa5f233; --held: #38bfae; --held-soft: #38bfae80;
+  --held-pale: #2c7d73; --occupied: #ec6a70; --breakaway: #e7a83a; --stateless: #8d949c; --contested: #b58ae0; --focus: #f29a45;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+
+html, body { height: 100%; }
+body { background: var(--paper); color: var(--ink); font: 400 var(--s-md)/1.5 var(--f-body); }
+* { box-sizing: border-box; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.fa { font-family: var(--f-fa); direction: rtl; unicode-bidi: isolate; }
+.mono, .num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 390px;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-areas: "head head" "map side" "time side";
+}
+header.top {
+  grid-area: head; display: flex; align-items: baseline; gap: 1rem 1.5rem; flex-wrap: wrap;
+  padding: .7rem 16px .6rem; border-bottom: 1px solid var(--rule);
+}
+header.top h1 { font: 400 var(--s-lg)/1.1 var(--f-display); margin: 0; letter-spacing: .005em; text-wrap: balance; }
+header.top p { margin: 0; color: var(--muted); font-size: var(--s-sm); max-width: 70ch; }
+
+/* ---------- map ---------- */
+.map { grid-area: map; position: relative; min-height: 0; overflow: hidden; background: var(--sea); }
+.map svg { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+.map svg:active { cursor: grabbing; }
+.readout {
+  position: absolute; left: 16px; top: 12px; pointer-events: none;
+  display: grid; gap: .15rem;
+}
+.readout .year { font: 400 var(--s-xxl)/1 var(--f-display); letter-spacing: -.01em; font-variant-numeric: tabular-nums; }
+.readout .month { font: 500 var(--s-xs)/1 var(--f-mono); color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
+.readout .stats { display: grid; grid-template-columns: auto auto; gap: .05rem .6rem; font-size: var(--s-xs); margin-top: .35rem; }
+.readout .stats dt { color: var(--muted); }
+.readout .stats dd { margin: 0; font-family: var(--f-mono); font-variant-numeric: tabular-nums; text-align: right; }
+.readout .stats .k-claim { color: var(--claim); } .readout .stats .k-held { color: var(--held); }
+.readout .now-event {
+  margin-top: .45rem; max-width: 30ch; font-size: var(--s-sm); line-height: 1.35; color: var(--ink);
+  background: color-mix(in srgb, var(--paper) 82%, transparent); padding: .35rem .5rem; border-left: 2px solid var(--claim);
+}
+.readout .now-event:empty { display: none; }
+.readout .now-event.df { border-left-color: var(--held); }
+.readout .now-event small { display: block; color: var(--muted); font: 500 var(--s-xs)/1.3 var(--f-mono); }
+.zoomctl { position: absolute; right: 12px; top: 12px; display: grid; gap: 4px; }
+.zoomctl button {
+  width: 34px; height: 34px; border: 1px solid var(--rule); background: var(--panel); border-radius: 6px; cursor: pointer;
+  font: 500 1rem/1 var(--f-mono); box-shadow: var(--shadow);
+}
+.zoomctl button:hover { border-color: var(--muted); }
+.tip {
+  position: absolute; pointer-events: none; z-index: 5; max-width: 300px;
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; box-shadow: var(--shadow);
+  padding: .45rem .6rem; font-size: var(--s-sm); line-height: 1.35;
+}
+.tip b { font-weight: 600; } .tip .fa { color: var(--muted); margin-inline-start: .35rem; }
+.tip .row { display: flex; gap: .4rem; align-items: baseline; margin-top: .2rem; }
+.tip .row .k { font: 500 var(--s-xs)/1 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); min-width: 4.6em; }
+
+/* svg styling */
+.land { fill: var(--land); stroke: var(--land-edge); stroke-width: .6; vector-effect: non-scaling-stroke; }
+.lake { fill: var(--sea); stroke: none; }
+.river { fill: none; stroke: color-mix(in srgb, var(--sea) 55%, var(--land-edge)); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.modern { fill: none; stroke: var(--ink); stroke-opacity: .55; stroke-width: 1; stroke-dasharray: 3 3; vector-effect: non-scaling-stroke; }
+.reg { vector-effect: non-scaling-stroke; }
+.L-dj .reg { fill: none; stroke: none; }
+.L-dj .reg.integral { fill: var(--claim-soft); stroke: var(--claim); stroke-opacity: .35; stroke-width: .7; }
+.L-dj .reg.suzerainty { fill: url(#p-suz); stroke: var(--claim); stroke-opacity: .5; stroke-width: .7; }
+.L-dj .reg.ghost { fill: none; stroke: var(--claim); stroke-opacity: .55; stroke-width: 1; stroke-dasharray: 1 3; stroke-linecap: round; }
+.L-dj.lines-only .reg.integral { fill: none; }
+.L-dj.lines-only .reg.suzerainty { fill: url(#p-suz-light); }
+.L-dj .extent { fill: none; stroke: var(--claim); stroke-width: 2.2; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.L-df .reg { fill: none; stroke: none; }
+.L-df .reg.direct { fill: var(--held-soft); }
+.L-df .reg.indirect { fill: url(#p-indirect); }
+.L-df .reg.iranian_held { fill: url(#p-held); stroke: var(--held); stroke-width: 1.2; }
+.L-df .reg.foreign_occupation { fill: url(#p-occ); stroke: var(--occupied); stroke-width: .9; }
+.L-df .reg.breakaway { fill: url(#p-brk); stroke: var(--breakaway); stroke-width: 1; }
+.L-df .reg.none { fill: url(#p-none); stroke: var(--stateless); stroke-width: .6; stroke-opacity: .7; }
+.L-df .reg.contested { fill: url(#p-con); stroke: var(--contested); stroke-width: .9; }
+.L-df .extent { fill: none; stroke: var(--held); stroke-width: 1.4; stroke-dasharray: 6 2; vector-effect: non-scaling-stroke; }
+.L-dv .reg { fill: none; stroke: none; }
+.L-dv .reg.claimed_not_held { fill: url(#p-dv-cnh); stroke: var(--occupied); stroke-width: 1.1; }
+.L-dv .reg.nominal { fill: url(#p-dv-nom); stroke: var(--breakaway); stroke-width: .8; }
+.L-dv .reg.held_not_claimed { fill: url(#p-dv-hnc); stroke: var(--held); stroke-width: 1.2; }
+.mk { stroke-width: 1.2; vector-effect: non-scaling-stroke; }
+.reg.sel, .mk.sel { stroke: var(--focus) !important; stroke-width: 2.5 !important; stroke-opacity: 1 !important; stroke-dasharray: none !important; }
+.reg.flash { animation: flash 1.2s ease-out 2; }
+@keyframes flash { 0% { stroke: var(--focus); stroke-width: 4; } 100% { stroke-width: 1; } }
+@media (prefers-reduced-motion: reduce) { .reg.flash { animation: none; stroke: var(--focus); stroke-width: 3; } }
+.hit { fill: transparent; stroke: none; cursor: pointer; }
+.city circle { fill: var(--ink); stroke: var(--paper); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.city text, .water, .rlabel {
+  font-family: var(--f-body); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round;
+  fill: var(--ink); pointer-events: none;
+}
+.city text { font-size: 11px; }
+.water { font-style: italic; fill: color-mix(in srgb, var(--ink) 55%, var(--sea)); stroke: var(--sea); font-size: 12px; letter-spacing: .12em; }
+.rlabel { font-size: 11px; font-weight: 500; }
+.rlabel tspan.sub { font: 400 10px var(--f-mono); fill: var(--muted); }
+.rlabel.ghost { fill: var(--claim); }
+
+/* ---------- timeline ---------- */
+.time { grid-area: time; border-top: 1px solid var(--rule); padding: .5rem 16px .6rem; background: var(--paper); display: grid; gap: .35rem; }
+.time .ctl { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.time .ctl button {
+  border: 1px solid var(--rule); background: var(--panel); border-radius: 5px; padding: .25rem .6rem; cursor: pointer;
+  font-size: var(--s-sm); display: inline-flex; align-items: center; gap: .35rem;
+}
+.time .ctl button:hover { border-color: var(--muted); }
+.time .ctl button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.time .ctl .legend { margin-left: auto; display: flex; gap: .9rem; font-size: var(--s-xs); color: var(--muted); flex-wrap: wrap; }
+.time .ctl .legend i { display: inline-block; width: 14px; height: 3px; vertical-align: middle; margin-right: .35rem; }
+.chart { position: relative; height: 128px; }
+.chart svg { width: 100%; height: 100%; display: block; overflow: visible; cursor: ew-resize; touch-action: pan-y; }
+.chart svg:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.chart .grid line { stroke: var(--rule); }
+.chart .axis text { font: 400 10px var(--f-mono); fill: var(--muted); font-variant-numeric: tabular-nums; }
+.chart .a-claim { fill: none; stroke: var(--claim); stroke-width: 1.8; }
+.chart .a-held { fill: var(--held-soft); stroke: var(--held); stroke-width: 1; }
+.chart .a-direct { fill: var(--held); opacity: .55; }
+.chart .era rect { fill: var(--ink); opacity: .045; }
+.chart .era text { font: 500 9.5px var(--f-mono); fill: var(--muted); letter-spacing: .1em; text-transform: uppercase; }
+.chart .tick-ev { stroke-width: 1.4; }
+.chart .tick-ev.dejure { stroke: var(--claim); } .chart .tick-ev.defacto { stroke: var(--held); } .chart .tick-ev.both { stroke: var(--ink); }
+.chart .cursor line { stroke: var(--focus); stroke-width: 1.5; }
+.chart .cursor circle { fill: var(--focus); }
+
+/* ---------- side panel ---------- */
+aside.side { grid-area: side; border-left: 1px solid var(--rule); background: var(--panel); display: grid; grid-template-rows: auto minmax(0, 1fr); min-height: 0; }
+.tabs { display: flex; border-bottom: 1px solid var(--rule); }
+.tabs button {
+  flex: 1; border: 0; background: none; padding: .65rem .4rem .55rem; cursor: pointer; font-size: var(--s-sm); color: var(--muted);
+  border-bottom: 2px solid transparent; letter-spacing: .02em;
+}
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); font-weight: 500; }
+.pane { overflow: auto; padding: .9rem 16px 1.2rem; min-height: 0; }
+.pane h2 { font: 400 var(--s-lg)/1.2 var(--f-display); margin: 0 0 .2rem; text-wrap: balance; }
+.pane h3 { font: 500 var(--s-xs)/1.2 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 1.1rem 0 .5rem; }
+.pane p { margin: .3rem 0; max-width: 65ch; }
+.small { font-size: var(--s-sm); color: var(--muted); }
+
+.lyr { display: grid; gap: .55rem; }
+.lyr label.switch { display: grid; grid-template-columns: auto 1fr; gap: .1rem .6rem; align-items: start; cursor: pointer; padding: .55rem .6rem; border: 1px solid var(--rule); border-radius: 7px; background: var(--paper); }
+.lyr label.switch input { margin: .2rem 0 0; accent-color: var(--ink); width: 16px; height: 16px; }
+.lyr label.switch b { font-weight: 600; }
+.lyr label.switch span.d { grid-column: 2; font-size: var(--s-sm); color: var(--muted); line-height: 1.4; }
+.lyr .sub { display: flex; flex-wrap: wrap; gap: .3rem .9rem; padding: 0 .6rem; font-size: var(--s-sm); }
+.lyr .sub label { display: inline-flex; gap: .35rem; align-items: center; cursor: pointer; }
+.legend-list { display: grid; gap: .3rem; margin: .4rem 0 0; padding: 0; list-style: none; font-size: var(--s-sm); }
+.legend-list li { display: grid; grid-template-columns: 26px 1fr; gap: .55rem; align-items: center; }
+.legend-list svg { width: 26px; height: 16px; display: block; }
+.legend-list li.off { opacity: .4; }
+
+.evfilter { display: flex; gap: .35rem; flex-wrap: wrap; margin-bottom: .6rem; }
+.chip { border: 1px solid var(--rule); background: var(--paper); border-radius: 999px; padding: .15rem .65rem; font-size: var(--s-xs); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.evlist { list-style: none; margin: 0; padding: 0; display: grid; }
+.evlist li { border-top: 1px solid var(--rule); }
+.evlist button { all: unset; box-sizing: border-box; display: grid; grid-template-columns: 5.6em 1fr; gap: .1rem .7rem; padding: .5rem .25rem; cursor: pointer; width: 100%; }
+.evlist button:focus-visible { outline: 2px solid var(--focus); }
+.evlist .d { font: 500 var(--s-xs)/1.5 var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.evlist .t { font-weight: 500; line-height: 1.35; }
+.evlist .s { grid-column: 2; font-size: var(--s-sm); color: var(--muted); line-height: 1.4; display: none; }
+.evlist li.cur { background: color-mix(in srgb, var(--focus) 10%, transparent); }
+.evlist li.cur .s, .evlist li.open .s { display: block; }
+.evlist li.past .t { color: var(--muted); font-weight: 400; }
+.evlist .tag { display: inline-block; font: 500 9.5px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; padding: .18rem .3rem; border-radius: 3px; margin-right: .35rem; vertical-align: 1px; }
+.tag.dejure { color: var(--claim); border: 1px solid var(--claim); }
+.tag.defacto { color: var(--held); border: 1px solid var(--held); }
+
+.rg-head { display: grid; gap: .1rem; }
+.rg-head .fa { font-size: var(--s-md); color: var(--muted); }
+.meta { display: grid; grid-template-columns: auto 1fr; gap: .15rem .8rem; font-size: var(--s-sm); margin: .6rem 0; }
+.meta dt { color: var(--muted); } .meta dd { margin: 0; }
+.bars { display: grid; gap: .3rem; margin: .5rem 0 .2rem; }
+.bars .row { display: grid; grid-template-columns: 4.4em 1fr; gap: .5rem; align-items: center; }
+.bars .row .k { font: 500 var(--s-xs)/1 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.bar { position: relative; height: 14px; background: color-mix(in srgb, var(--rule) 45%, transparent); border-radius: 2px; overflow: hidden; }
+.bar span { position: absolute; top: 0; bottom: 0; }
+.bar .cur { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--focus); }
+.bars .scale { display: flex; justify-content: space-between; font: 400 10px var(--f-mono); color: var(--muted); margin-left: 4.9em; }
+.recs { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
+.recs li { border-left: 3px solid var(--rule); padding: .1rem 0 .1rem .6rem; font-size: var(--s-sm); }
+.recs li.on { border-left-color: var(--focus); }
+.recs .when { font: 500 var(--s-xs)/1.4 var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.recs .st { font-weight: 600; }
+.recs .src { color: var(--muted); font-size: var(--s-xs); margin-top: .15rem; overflow-wrap: anywhere; }
+.recs .src a { color: inherit; }
+.conf { font: 500 9.5px/1 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; padding: .15rem .3rem; border: 1px solid var(--rule); border-radius: 3px; color: var(--muted); }
+
+.ledger-tools { display: flex; gap: .5rem; margin-bottom: .5rem; }
+.ledger-tools input { flex: 1; min-width: 0; padding: .35rem .55rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper); }
+.ledger { list-style: none; margin: 0; padding: 0; }
+.ledger li button { all: unset; box-sizing: border-box; display: grid; gap: .2rem; width: 100%; padding: .45rem .2rem; border-top: 1px solid var(--rule); cursor: pointer; }
+.ledger li button:focus-visible { outline: 2px solid var(--focus); }
+.ledger .nm { font-size: var(--s-sm); font-weight: 500; display: flex; justify-content: space-between; gap: .5rem; }
+.ledger .nm .k { font: 400 var(--s-xs) var(--f-mono); color: var(--muted); white-space: nowrap; }
+.ledger .bar { height: 7px; }
+.ledger h3:first-child { margin-top: 0; }
+.empty { color: var(--muted); font-size: var(--s-sm); padding: 1rem 0; }
+.about p { font-size: var(--s-sm); }
+
+@media (max-width: 860px) {
+  html, body { height: auto; }
+  .app { height: auto; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 62vh auto auto; grid-template-areas: "head" "map" "time" "side"; }
+  .map { min-height: 340px; }
+  aside.side { border-left: 0; border-top: 1px solid var(--rule); }
+  .pane { max-height: none; overflow: visible; }
+  .readout .year { font-size: 2.4rem; }
+  .readout .now-event { display: none; }
+  .time .ctl .legend { margin-left: 0; }
+}
+</style>
+
+<div class="app" id="app">
+  <header class="top">
+    <h1>Iran's Frontiers since 1800</h1>
+    <p>What Tehran claimed and what it actually controlled, from the early Qajar state to today. The layers are separate and can be compared.</p>
+  </header>
+
+  <section class="map" id="map" aria-label="Map">
+    <svg id="svg" role="img" aria-label="Map of Iran and neighbouring regions showing territorial status at the selected date">
+      <defs id="defs"></defs>
+      <g id="world"></g>
+    </svg>
+    <div class="readout" aria-live="polite">
+      <div class="year" id="ro-year">1800</div>
+      <div class="month" id="ro-month">January</div>
+      <dl class="stats" id="ro-stats"></dl>
+      <div class="now-event" id="ro-event"></div>
+    </div>
+    <div class="zoomctl">
+      <button id="zin" aria-label="Zoom in">+</button>
+      <button id="zout" aria-label="Zoom out">−</button>
+      <button id="zreset" aria-label="Reset view">⤢</button>
+    </div>
+    <div class="tip" id="tip" hidden></div>
+  </section>
+
+  <section class="time" aria-label="Timeline">
+    <div class="ctl">
+      <button id="play" aria-pressed="false" aria-label="Play through time"><span id="play-ico">▶</span><span id="play-txt">Play</span></button>
+      <button id="prev" aria-label="Previous change">◀ Change</button>
+      <button id="next" aria-label="Next change">Change ▶</button>
+      <div class="legend" aria-hidden="true">
+        <span><i style="background:var(--claim)"></i>Area claimed (de jure)</span>
+        <span><i style="background:var(--held-soft);height:8px"></i>Area controlled (de facto)</span>
+        <span><i style="background:var(--held);opacity:.55;height:8px"></i>of which under direct rule</span>
+      </div>
+    </div>
+    <div class="chart" id="chart"></div>
+  </section>
+
+  <aside class="side">
+    <div class="tabs" role="tablist">
+      <button role="tab" id="tab-layers" aria-selected="true" aria-controls="pane-layers">Layers</button>
+      <button role="tab" id="tab-events" aria-selected="false" aria-controls="pane-events">Events</button>
+      <button role="tab" id="tab-region" aria-selected="false" aria-controls="pane-region">Region</button>
+      <button role="tab" id="tab-ledger" aria-selected="false" aria-controls="pane-ledger">Ledger</button>
+    </div>
+    <div class="pane" id="pane-layers" role="tabpanel" aria-labelledby="tab-layers">
+      <div class="lyr">
+        <label class="switch"><input type="checkbox" id="chk-dj" checked><b>De jure · Tehran's claim</b>
+          <span class="d">What the Iranian government asserted as its territory at the time, whether or not others recognized it. A claim ends when Tehran renounced it by treaty or accepted an award.</span></label>
+        <div class="sub"><label><input type="checkbox" id="chk-ghost" checked> Show renounced claims</label></div>
+        <ul class="legend-list" id="lg-dj"></ul>
+        <label class="switch"><input type="checkbox" id="chk-df" checked><b>De facto · Control on the ground</b>
+          <span class="d">Who actually held the land. Inside Iran it marks every area where the centre did not rule directly: tribal confederations, autonomous valis and sheikhs, occupations, breakaway governments.</span></label>
+        <ul class="legend-list" id="lg-df"></ul>
+        <label class="switch"><input type="checkbox" id="chk-dv"><b>Divergence</b>
+          <span class="d">Computed from both layers. Shows only where the claim and the control disagree.</span></label>
+        <ul class="legend-list" id="lg-dv"></ul>
+        <h3>Reference</h3>
+        <div class="sub">
+          <label><input type="checkbox" id="chk-modern" checked> Iran's modern border</label>
+          <label><input type="checkbox" id="chk-labels" checked> Labels</label>
+          <label><input type="checkbox" id="chk-cities" checked> Cities</label>
+        </div>
+      </div>
+      <div class="about">
+        <h3>How to read it</h3>
+        <p>Drag across the chart below the map to move through time, or use the arrow keys when the chart has focus. Shift with an arrow jumps to the next change. Click any area for its history in both layers.</p>
+        <p>Before about 1880 most of these frontiers were zones, not surveyed lines. Areas are built from modern administrative units and carry a confidence rating, so treat their edges as approximate. Areas in km² are computed on an equal-area projection.</p>
+        <p class="small" id="build-info"></p>
+      </div>
+    </div>
+    <div class="pane" id="pane-events" role="tabpanel" aria-labelledby="tab-events" hidden>
+      <div class="evfilter">
+        <button class="chip" id="evf-dejure" aria-pressed="true">De jure</button>
+        <button class="chip" id="evf-defacto" aria-pressed="true">De facto</button>
+      </div>
+      <ul class="evlist" id="evlist"></ul>
+    </div>
+    <div class="pane" id="pane-region" role="tabpanel" aria-labelledby="tab-region" hidden>
+      <div id="region-body"><p class="empty">Click an area on the map, or pick one from the Ledger.</p></div>
+    </div>
+    <div class="pane" id="pane-ledger" role="tabpanel" aria-labelledby="tab-ledger" hidden>
+      <div class="ledger-tools"><input id="ledger-q" type="search" placeholder="Filter regions" aria-label="Filter regions"></div>
+      <div id="ledger"></div>
+    </div>
+  </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+(() => {
+"use strict";
+
+const DJ_LABEL = { integral: "Claimed as Iranian territory", suzerainty: "Claimed as a vassal under Iranian suzerainty" };
+const DF_LABEL = {
+  direct: "Direct rule from the centre",
+  indirect: "Autonomous, acknowledging the shah",
+  contested: "Contested / front line",
+  none: "Outside any state's control",
+  foreign_occupation: "Held by a foreign power",
+  breakaway: "Breakaway or rival government",
+  iranian_held: "Held by Iran beyond its claim",
+};
+const DF_COLOR = { direct: "--held", indirect: "--held-pale", contested: "--contested", none: "--stateless",
+  foreign_occupation: "--occupied", breakaway: "--breakaway", iranian_held: "--held" };
+const DJ_COLOR = { integral: "--claim", suzerainty: "--claim" };
+const DV_LABEL = { claimed_not_held: "Claimed, not controlled", nominal: "Claimed, only nominal control", held_not_claimed: "Controlled, not claimed" };
+const IRANIAN = new Set(["direct", "indirect", "iranian_held"]);
+const DF_ORDER = ["indirect", "none", "contested", "breakaway", "foreign_occupation", "iranian_held", "direct"];
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const CITIES = [
+  ["Tehran",51.39,35.69,1],["Tabriz",46.29,38.08,1],["Tiflis",44.79,41.72,1],["Erivan",44.51,40.18,1],["Baku",49.87,40.41,1],
+  ["Ganja",46.36,40.68,2],["Shusha",46.75,39.76,2],["Nakhchivan",45.41,39.21,2],["Lankaran",48.85,38.75,2],["Derbent",48.29,42.06,2],
+  ["Herat",62.2,34.35,1],["Mashhad",59.6,36.3,1],["Merv",61.83,37.6,2],["Ashgabat",58.38,37.95,2],["Kandahar",65.71,31.61,2],
+  ["Basra",47.78,30.51,2],["Baghdad",44.36,33.31,1],["Sulaymaniyah",45.43,35.56,2],["Muhammerah",48.18,30.44,2],["Manama",50.58,26.22,2],
+  ["Bandar Abbas",56.27,27.18,2],["Shiraz",52.54,29.6,1],["Isfahan",51.67,32.65,1],["Kermanshah",47.06,34.31,2],["Zabol",61.49,31.03,2],
+  ["Kabul",69.17,34.53,1],["Erzurum",41.27,39.9,2],["Muscat",58.41,23.59,2],["Bushehr",50.84,28.97,2],["Rasht",49.58,37.28,2],
+];
+const WATERS = [["Caspian Sea",50.6,41.6,14],["Persian Gulf",51.6,27.1,13],["Gulf of Oman",58.8,24.6,12],["Black Sea",38.6,42.9,12],["Arabian Sea",62.5,22.6,12]];
+
+const $ = (s) => document.querySelector(s);
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const fmtArea = (k) => k >= 1e6 ? (k / 1e6).toFixed(2) + "M km²" : Math.round(k / 1000) + "k km²";
+const yearOf = (t) => Math.floor(t + 1e-9);
+function fmtT(t, d) {
+  if (d) {
+    const m = String(d).match(/^(\d{4})(?:-(\d{1,2}))?(?:-(\d{1,2}))?/);
+    if (m) return m[3] ? `${+m[3]} ${MONTHS[+m[2]-1].slice(0,3)} ${m[1]}` : m[2] ? `${MONTHS[+m[2]-1].slice(0,3)} ${m[1]}` : m[1];
+  }
+  return String(yearOf(t));
+}
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function linkify(s) {
+  return esc(s).replace(/https?:\/\/[^\s)\]]+/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 48)}${u.length > 60 ? "…" : ""}</a>`);
+}
+
+let H, topo, regionFeat = new Map(), smallIds = new Set();
+const state = { t: 1800.0, sel: null, layers: { dj: true, df: true, dv: false, ghost: true, modern: true, labels: true, cities: true }, evf: { dejure: true, defacto: true }, playing: false };
+
+Promise.all([fetch("data/geo.json").then((r) => r.json()), fetch("data/history.json").then((r) => r.json())]).then(([g, h]) => { topo = g; H = h; init(); })
+  .catch((e) => { $("#map").insertAdjacentHTML("beforeend", `<p style="position:absolute;inset:auto 16px 16px">The map data did not load (${esc(e.message)}). Reload the page to try again.</p>`); });
+
+// ---------- record indexes ----------
+let djBy, dfBy, evById, changePoints, evRegions;
+function index() {
+  djBy = d3.group(H.dejure, (r) => r.region);
+  dfBy = d3.group(H.defacto, (r) => r.region);
+  evById = new Map(H.events.map((e) => [e.id, e]));
+  const cps = new Set([H.range[0]]);
+  for (const r of [...H.dejure, ...H.defacto]) { cps.add(r.t0); if (r.t1 != null) cps.add(r.t1); }
+  for (const e of H.events) if (e.t != null) cps.add(e.t);
+  changePoints = [...cps].filter((t) => t >= H.range[0] && t <= H.range[1]).sort((a, b) => a - b);
+  evRegions = new Map();
+  for (const r of [...H.dejure, ...H.defacto]) for (const k of ["start_event", "end_event"]) if (r[k]) {
+    if (!evRegions.has(r[k])) evRegions.set(r[k], new Set()); evRegions.get(r[k]).add(r.region);
+  }
+}
+const at = (list, t) => list ? list.find((r) => r.t0 <= t && (r.t1 == null || t < r.t1)) : undefined;
+const djAt = (id, t) => id === "core" ? { status: "integral", core: true } : at(djBy.get(id), t);
+const dfAt = (id, t) => {
+  const r = at(dfBy.get(id), t);
+  if (r) return r;
+  return id === "core" ? { status: "direct", core: true } : undefined;
+};
+const everClaimedBefore = (id, t) => (djBy.get(id) || []).some((r) => r.t1 != null && r.t1 <= t);
+function divergence(id, t) {
+  const kind = H.regions[id]?.kind;
+  const dj = djAt(id, t);
+  const claimed = !!dj || kind === "internal";
+  const df = dfAt(id, t);
+  if (claimed) {
+    if (kind === "internal" && !df) return null;
+    if (!df) return "claimed_not_held";
+    if (df.status === "indirect") return "nominal";
+    if (!IRANIAN.has(df.status)) return "claimed_not_held";
+    return null;
+  }
+  if (df && IRANIAN.has(df.status)) return "held_not_claimed";
+  return null;
+}
+
+// ---------- map ----------
+let svg, gWorld, path, projection, zoom, W = 800, Hh = 600, gDJ, gDF, gDV, gLabels;
+function init() {
+  index();
+  $("#build-info").textContent = `${Object.keys(H.regions).length} regions · ${H.dejure.length} de jure and ${H.defacto.length} de facto records · ${H.events.length} events. Data built ${H.generated.slice(0, 10)}.`;
+  svg = d3.select("#svg"); gWorld = d3.select("#world");
+  const box = $("#map").getBoundingClientRect(); W = box.width; Hh = box.height;
+  projection = d3.geoConicEqualArea().parallels([28, 40]).rotate([-54, 0]).center([0, 33]);
+  const feats = (o) => topojson.feature(topo, topo.objects[o]).features;
+  const countries = feats("countries"), lakes = feats("lakes"), rivers = feats("rivers"), regions = feats("regions");
+  const core = feats("core")[0], modern = feats("modern")[0];
+  regionFeat.set("core", core);
+  for (const f of regions) regionFeat.set(f.properties.id, f);
+  for (const [id, m] of Object.entries(H.regions)) if (m.area_km2 < 600) smallIds.add(id);
+  const fitTo = { type: "FeatureCollection", features: [core, ...regions.filter((f) => H.regions[f.properties.id]?.kind === "frontier" && H.regions[f.properties.id].area_km2 > 2000)] };
+  projection.fitExtent([[W < 600 ? 16 : 150, 36], [W - 56, Hh - 16]], fitTo);
+  path = d3.geoPath(projection);
+
+  defsPatterns();
+  gWorld.append("g").selectAll("path").data(countries).join("path").attr("class", "land").attr("d", path);
+  gWorld.append("g").selectAll("path").data(lakes).join("path").attr("class", "lake").attr("d", path);
+  gWorld.append("g").selectAll("path").data(rivers).join("path").attr("class", "river").attr("d", path);
+
+  const dfFeats = [core, ...regions];
+  // Each layer is its own group with its own data join over the shared geometry; records never mix.
+  gDF = gWorld.append("g").attr("class", "L-df");
+  gDF.append("g").attr("class", "ext").selectAll("path").data(feats("df_extent")).join("path").attr("class", "extent").attr("d", path);
+  gDF.insert("g", ".ext").attr("class", "regs").selectAll("path").data(sortForDF(dfFeats)).join("path").attr("class", "reg").attr("d", path).attr("data-id", (d) => d.properties.id);
+  gDJ = gWorld.append("g").attr("class", "L-dj");
+  gDJ.append("g").attr("class", "regs").selectAll("path").data(regions.filter((f) => f.properties.id.startsWith("f_"))).join("path").attr("class", "reg").attr("d", path).attr("data-id", (d) => d.properties.id);
+  gDJ.append("g").attr("class", "ext").selectAll("path").data(feats("dj_extent")).join("path").attr("class", "extent").attr("d", path);
+  gDV = gWorld.append("g").attr("class", "L-dv");
+  gDV.append("g").attr("class", "regs").selectAll("path").data(dfFeats).join("path").attr("class", "reg").attr("d", path).attr("data-id", (d) => d.properties.id);
+  for (const [g, cls] of [[gDF, "df"], [gDJ, "dj"], [gDV, "dv"]]) {
+    g.append("g").attr("class", "mks").selectAll("circle").data([...smallIds].filter((id) => cls !== "dj" || id.startsWith("f_")))
+      .join("circle").attr("class", "mk").attr("data-id", (d) => d).attr("r", 5)
+      .attr("cx", (d) => projection(H.regions[d].label)[0]).attr("cy", (d) => projection(H.regions[d].label)[1]);
+  }
+  gWorld.append("path").datum(modern).attr("class", "modern").attr("id", "modern-line").attr("d", path);
+
+  // hit layer: frontier regions + internal regions above core; selection outline
+  const gHit = gWorld.append("g").attr("class", "hits");
+  gHit.selectAll("path").data(sortForHit([core, ...regions])).join("path").attr("class", "hit").attr("d", path).attr("data-id", (d) => d.properties.id);
+  gHit.selectAll("circle").data([...smallIds]).join("circle").attr("class", "hit").attr("r", 9)
+    .attr("cx", (d) => projection(H.regions[d].label)[0]).attr("cy", (d) => projection(H.regions[d].label)[1]).attr("data-id", (d) => d);
+  gHit.selectAll(".hit").on("pointermove", onHover).on("pointerleave", () => { $("#tip").hidden = true; })
+    .on("click", (ev) => selectRegion(ev.currentTarget.getAttribute("data-id"), { tab: true }));
+  gWorld.append("path").attr("id", "selpath").attr("class", "reg sel").attr("fill", "none").attr("pointer-events", "none");
+
+  gLabels = gWorld.append("g").attr("class", "labels");
+  gWorld.append("g").attr("class", "waters").selectAll("text").data(WATERS).join("text").attr("class", "water")
+    .attr("x", (d) => projection([d[1], d[2]])[0]).attr("y", (d) => projection([d[1], d[2]])[1]).attr("text-anchor", "middle").text((d) => d[0]);
+  const gc = gWorld.append("g").attr("class", "cities").selectAll("g").data(CITIES).join("g").attr("class", (d) => "city r" + d[3])
+    .attr("transform", (d) => `translate(${projection([d[1], d[2]])})`);
+  gc.append("circle").attr("r", 2.2); gc.append("text").attr("x", 4).attr("y", -4).text((d) => d[0]);
+
+  zoom = d3.zoom().scaleExtent([1, 14]).translateExtent([[-W * .3, -Hh * .3], [W * 1.3, Hh * 1.3]]).on("zoom", (ev) => {
+    gWorld.attr("transform", ev.transform);
+    const k = ev.transform.k;
+    gWorld.selectAll(".city circle").attr("r", 2.2 / k);
+    gWorld.selectAll(".city text, .water, .rlabel").attr("transform", function () {
+      return this.dataset.base ? `${this.dataset.base} scale(${1 / k})` : `scale(${1 / k})`;
+    });
+    gWorld.selectAll(".city text").attr("x", 4).attr("y", -4);
+    gWorld.selectAll(".mk").attr("r", 5 / k); gWorld.selectAll("circle.hit").attr("r", 9 / k);
+    gWorld.selectAll(".city.r2").style("display", k > 1.6 ? null : "none");
+    state.k = k; drawLabels();
+  });
+  svg.call(zoom).on("dblclick.zoom", null);
+  fixTextScaling();
+  $("#zin").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1.6);
+  $("#zout").onclick = () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.6);
+  $("#zreset").onclick = () => svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity);
+  state.k = 1; gWorld.selectAll(".city.r2").style("display", "none");
+
+  buildLegends(); buildChart(); buildEvents(); buildLedger(); wireUI();
+  const hash = location.hash.replace("#", "");
+  const ht = /^\d{4}$/.test(hash) ? Math.min(Math.max(+hash, H.range[0]), H.range[1]) : 1800.0;
+  setTime(ht);
+  new ResizeObserver(() => { const b = $("#map").getBoundingClientRect(); if (Math.abs(b.width - W) > 4 || Math.abs(b.height - Hh) > 4) { W = b.width; Hh = b.height; } chartResize(); }).observe($("#app"));
+}
+function fixTextScaling() {
+  // text keeps constant screen size: store the translate on the element, apply inverse zoom scale
+  gWorld.selectAll(".water").each(function (d) { const [x, y] = projection([d[1], d[2]]); this.removeAttribute("x"); this.removeAttribute("y"); this.dataset.base = `translate(${x},${y})`; this.setAttribute("transform", this.dataset.base); });
+}
+function sortForDF(fs) { return fs.slice().sort((a, b) => (a.properties.id === "core" ? -1 : b.properties.id === "core" ? 1 : (H.regions[b.properties.id]?.area_km2 || 0) - (H.regions[a.properties.id]?.area_km2 || 0))); }
+function sortForHit(fs) { return fs.slice().sort((a, b) => (a.properties.id === "core" ? -1 : b.properties.id === "core" ? 1 : (H.regions[b.properties.id]?.area_km2 || 0) - (H.regions[a.properties.id]?.area_km2 || 0))); }
+
+function pattern(id, color, angle, gap, width, bg, dots) {
+  const defs = d3.select("#defs");
+  const p = defs.append("pattern").attr("id", id).attr("patternUnits", "userSpaceOnUse").attr("width", gap).attr("height", gap)
+    .attr("patternTransform", `rotate(${angle})`);
+  if (bg) p.append("rect").attr("width", gap).attr("height", gap).style("fill", `var(${bg})`).style("opacity", .35);
+  if (dots) p.append("circle").attr("cx", gap / 2).attr("cy", gap / 2).attr("r", width).style("fill", `var(${color})`);
+  else p.append("line").attr("x1", 0).attr("y1", 0).attr("x2", 0).attr("y2", gap).style("stroke", `var(${color})`).style("stroke-width", width);
+  return p;
+}
+function defsPatterns() {
+  pattern("p-suz", "--claim", 45, 6, 1.1, "--claim-soft");
+  pattern("p-suz-light", "--claim", 45, 7, .8);
+  pattern("p-indirect", "--held", 0, 4, .9, "--held-pale", true);
+  pattern("p-held", "--held", -45, 5, 1.6, "--held-pale");
+  pattern("p-occ", "--occupied", 45, 5, 1.3);
+  pattern("p-brk", "--breakaway", -45, 5, 1.5);
+  pattern("p-none", "--stateless", 45, 7, .8);
+  const pc = pattern("p-con", "--contested", 45, 5, 1); pc.append("line").attr("x1", 0).attr("y1", 2.5).attr("x2", 5).attr("y2", 2.5).style("stroke", "var(--contested)").style("stroke-width", 1);
+  pattern("p-dv-cnh", "--occupied", 45, 6, 2.2);
+  pattern("p-dv-nom", "--breakaway", 45, 6, 1.1);
+  pattern("p-dv-hnc", "--held", -45, 6, 2.2);
+}
+
+function swatch(kind, cls) {
+  const s = { dj: { integral: `<rect width="26" height="16" fill="var(--claim-soft)" stroke="var(--claim)"/>`, suzerainty: `<rect width="26" height="16" fill="url(#p-suz)" stroke="var(--claim)"/>`,
+      ghost: `<rect x="1" y="1" width="24" height="14" fill="none" stroke="var(--claim)" stroke-dasharray="1 3" stroke-linecap="round"/>`, extent: `<line x1="0" y1="8" x2="26" y2="8" stroke="var(--claim)" stroke-width="2.4"/>` },
+    df: { direct: `<rect width="26" height="16" fill="var(--held-soft)"/>`, indirect: `<rect width="26" height="16" fill="url(#p-indirect)"/>`, iranian_held: `<rect width="26" height="16" fill="url(#p-held)" stroke="var(--held)"/>`,
+      foreign_occupation: `<rect width="26" height="16" fill="url(#p-occ)" stroke="var(--occupied)"/>`, breakaway: `<rect width="26" height="16" fill="url(#p-brk)" stroke="var(--breakaway)"/>`,
+      none: `<rect width="26" height="16" fill="url(#p-none)" stroke="var(--stateless)"/>`, contested: `<rect width="26" height="16" fill="url(#p-con)" stroke="var(--contested)"/>`,
+      extent: `<line x1="0" y1="8" x2="26" y2="8" stroke="var(--held)" stroke-width="1.6" stroke-dasharray="6 2"/>` },
+    dv: { claimed_not_held: `<rect width="26" height="16" fill="url(#p-dv-cnh)" stroke="var(--occupied)"/>`, nominal: `<rect width="26" height="16" fill="url(#p-dv-nom)" stroke="var(--breakaway)"/>`,
+      held_not_claimed: `<rect width="26" height="16" fill="url(#p-dv-hnc)" stroke="var(--held)"/>` } };
+  return `<svg viewBox="0 0 26 16" aria-hidden="true">${s[kind][cls]}</svg>`;
+}
+function buildLegends() {
+  const li = (k, c, t) => `<li data-k="${c}">${swatch(k, c)}<span>${esc(t)}</span></li>`;
+  $("#lg-dj").innerHTML = li("dj", "integral", DJ_LABEL.integral) + li("dj", "suzerainty", DJ_LABEL.suzerainty) + li("dj", "extent", "Edge of the claim") + li("dj", "ghost", "Renounced claim");
+  $("#lg-df").innerHTML = ["direct", "indirect", "contested", "none", "foreign_occupation", "breakaway", "iranian_held"].map((c) => li("df", c, DF_LABEL[c])).join("") + li("df", "extent", "Edge of Iranian control");
+  $("#lg-dv").innerHTML = Object.entries(DV_LABEL).map(([c, t]) => li("dv", c, t)).join("");
+}
+
+// ---------- time ----------
+function setTime(t, opts = {}) {
+  t = Math.min(Math.max(t, H.range[0]), H.range[1]);
+  state.t = t;
+  render();
+  updateChartCursor();
+  updateReadout();
+  updateEvents(opts.fromEvent);
+  if (state.sel) renderRegion(state.sel, false);
+}
+function render() {
+  const t = state.t, L = state.layers;
+  gDF.style("display", L.df ? null : "none");
+  gDJ.style("display", L.dj ? null : "none").classed("lines-only", L.df);
+  gDV.style("display", L.dv ? null : "none");
+  d3.select("#modern-line").style("display", L.modern ? null : "none");
+  d3.selectAll(".cities").style("display", L.cities ? null : "none");
+  if (L.df) {
+    gDF.selectAll(".reg").attr("class", (d) => { const r = dfAt(d.properties.id, t); return "reg" + (r ? " " + r.status : ""); });
+    gDF.selectAll(".mk").attr("class", (id) => { const r = dfAt(id, t); return "mk" + (r ? " " : ""); })
+      .style("display", (id) => dfAt(id, t) ? null : "none").style("fill", (id) => { const r = dfAt(id, t); return r ? `var(${DF_COLOR[r.status]})` : "none"; })
+      .style("stroke", "var(--paper)");
+    gDF.selectAll(".extent").style("display", (d) => d.properties.t0 <= t + 1e-6 && (d.properties.t1 == null || t < d.properties.t1 - 1e-6) ? null : "none");
+  }
+  if (L.dj) {
+    gDJ.selectAll(".reg").attr("class", (d) => {
+      const id = d.properties.id, r = djAt(id, t);
+      if (r) return "reg " + r.status;
+      return "reg" + (L.ghost && everClaimedBefore(id, t) ? " ghost" : "");
+    });
+    gDJ.selectAll(".mk").style("display", (id) => djAt(id, t) || (L.ghost && everClaimedBefore(id, t)) ? null : "none")
+      .style("fill", (id) => djAt(id, t) ? "var(--claim)" : "var(--paper)").style("stroke", "var(--claim)");
+    gDJ.selectAll(".extent").style("display", (d) => d.properties.t0 <= t + 1e-6 && (d.properties.t1 == null || t < d.properties.t1 - 1e-6) ? null : "none");
+  }
+  if (L.dv) {
+    gDV.selectAll(".reg").attr("class", (d) => { const c = d.properties.id === "core" ? null : divergence(d.properties.id, t); return "reg" + (c ? " " + c : ""); });
+    gDV.selectAll(".mk").style("display", (id) => divergence(id, t) ? null : "none")
+      .style("fill", (id) => ({ claimed_not_held: "var(--occupied)", nominal: "var(--breakaway)", held_not_claimed: "var(--held)" }[divergence(id, t)] || "none")).style("stroke", "var(--paper)");
+  }
+  drawLabels();
+  if (state.sel) d3.select("#selpath").attr("d", state.sel === "core" || !smallIds.has(state.sel) ? path(regionFeat.get(state.sel)) : null);
+}
+
+function drawLabels() {
+  if (!gLabels) return;
+  const t = state.t, k = state.k || 1;
+  const items = [];
+  if (state.layers.labels) {
+    for (const [id, m] of Object.entries(H.regions)) {
+      if (!m.label) continue;
+      const big = m.area_km2 * k * k > 9000 || (k > 3 && m.area_km2 > 300) || (smallIds.has(id) && k > 1.5);
+      if (!big && !(state.sel === id)) continue;
+      let sub = null, cls = "rlabel";
+      const dj = djAt(id, t), df = dfAt(id, t);
+      if (m.kind === "frontier") {
+        if (state.layers.dj && dj) sub = dj.status === "suzerainty" ? "vassal claim" : "claimed";
+        else if (state.layers.dj && state.layers.ghost && everClaimedBefore(id, t)) {
+          const last = (djBy.get(id) || []).filter((r) => r.t1 != null && r.t1 <= t).sort((a, b) => b.t1 - a.t1)[0];
+          sub = "renounced " + fmtT(last.t1, last.to).replace(/^\d+ /, "").replace(/^[A-Z][a-z]{2} /, ""); cls += " ghost";
+        }
+        if (!sub && !(state.layers.df && df)) continue;
+        if (state.layers.df && df && !(state.layers.dj && dj && IRANIAN.has(df.status))) sub = (sub ? sub + " · " : "") + shortDF(df);
+      } else {
+        if (!(state.layers.df && df)) continue;
+        sub = shortDF(df);
+      }
+      items.push({ id, name: m.name, sub, cls, xy: projection(m.label), area: m.area_km2 });
+    }
+  }
+  items.sort((a, b) => b.area - a.area);
+  // greedy collision avoidance in screen space
+  const tr = d3.zoomTransform(svg.node()), placed = [], keep = [];
+  for (const it of items) {
+    const [sx, sy] = tr.apply(it.xy), w = Math.max(it.name.length, (it.sub || "").length) * 6.2 + 6, h = it.sub ? 26 : 14;
+    const bb = [sx - w / 2, sy - h / 2, sx + w / 2, sy + h / 2];
+    if (placed.some((p) => !(bb[2] < p[0] || bb[0] > p[2] || bb[3] < p[1] || bb[1] > p[3]))) continue;
+    placed.push(bb); keep.push(it); if (keep.length > 40) break;
+  }
+  // hide city names that collide with a region label
+  gWorld.selectAll(".city").each(function (d) {
+    const [sx, sy] = tr.apply(projection([d[1], d[2]]));
+    const bb = [sx, sy - 14, sx + d[0].length * 6.4 + 6, sy];
+    const hit = placed.some((p) => !(bb[2] < p[0] || bb[0] > p[2] || bb[3] < p[1] || bb[1] > p[3]));
+    d3.select(this).select("text").style("display", hit ? "none" : null);
+  });
+  gLabels.selectAll("text").data(keep, (d) => d.id).join("text")
+    .attr("class", (d) => d.cls).attr("text-anchor", "middle")
+    .each(function (d) { this.dataset.base = `translate(${d.xy[0]},${d.xy[1]})`; })
+    .attr("transform", function () { return `${this.dataset.base} scale(${1 / k})`; })
+    .html((d) => `<tspan x="0" dy="${d.sub ? -2 : 4}">${esc(d.name)}</tspan>${d.sub ? `<tspan class="sub" x="0" dy="12">${esc(d.sub)}</tspan>` : ""}`);
+}
+function shortDF(r) {
+  const c = r.controller ? r.controller.split(/[;(,]/)[0].trim() : "";
+  const s = { direct: "direct rule", indirect: "autonomous", contested: "contested", none: "no state control", foreign_occupation: "held by " + (c || "foreign power"), breakaway: c || "breakaway", iranian_held: "held by Iran" }[r.status];
+  return s.length > 38 ? s.slice(0, 36) + "…" : s;
+}
+
+function updateReadout() {
+  const t = state.t, y = yearOf(t), mo = Math.min(11, Math.floor((t - y) * 12 + 1e-6));
+  $("#ro-year").textContent = y; $("#ro-month").textContent = MONTHS[mo];
+  const s = seriesAt(t);
+  $("#ro-stats").innerHTML = `<dt class="k-claim">Claimed</dt><dd>${fmtArea(s.claim)}</dd><dt class="k-held">Controlled</dt><dd>${fmtArea(s.held)}</dd><dt>Direct rule</dt><dd>${fmtArea(s.direct)}</dd>`;
+  const ev = currentEvent();
+  const box = $("#ro-event");
+  if (ev && t - ev.t < 1.5) {
+    box.innerHTML = `<small>${esc(fmtT(ev.t, ev.date))}</small>${esc(ev.title)}`;
+    box.classList.toggle("df", !(ev.layers || []).includes("dejure"));
+  } else box.innerHTML = "";
+  try { $("#chart svg").setAttribute("aria-valuenow", y); $("#chart svg").setAttribute("aria-valuetext", `${MONTHS[mo]} ${y}`); } catch (e) {}
+}
+function seriesAt(t) {
+  const S = H.series; let lo = 0;
+  for (let i = 0; i < S.length; i++) { if (S[i].t <= t + 1e-6) lo = i; else break; }
+  return S[lo];
+}
+function visibleEvents() { return H.events.filter((e) => e.t != null && evVisible(e)); }
+function evVisible(e) {
+  const ls = e.layers && e.layers.length ? e.layers : ["dejure", "defacto"];
+  return ls.some((l) => state.evf[l]);
+}
+function currentEvent() { let c = null; for (const e of visibleEvents()) { if (e.t <= state.t + 1e-6) c = e; else break; } return c; }
+
+// ---------- chart ----------
+let cx, cy, cSvg, cW = 600, cH = 128;
+const M = { l: 44, r: 10, t: 14, b: 18 };
+function buildChart() {
+  cSvg = d3.select("#chart").append("svg").attr("tabindex", 0).attr("role", "slider").attr("aria-label", "Date")
+    .attr("aria-valuemin", H.range[0]).attr("aria-valuemax", Math.floor(H.range[1]));
+  cSvg.append("g").attr("class", "era"); cSvg.append("g").attr("class", "grid"); cSvg.append("g").attr("class", "axis ax-y"); cSvg.append("g").attr("class", "axis ax-x");
+  cSvg.append("path").attr("class", "a-held"); cSvg.append("path").attr("class", "a-direct"); cSvg.append("path").attr("class", "a-claim");
+  cSvg.append("g").attr("class", "ticks");
+  const cur = cSvg.append("g").attr("class", "cursor"); cur.append("line"); cur.append("circle").attr("r", 4);
+  const scrub = (ev) => { const [mx] = d3.pointer(ev, cSvg.node()); setTime(cx.invert(mx)); };
+  let dragging = false;
+  cSvg.on("pointerdown", (ev) => { dragging = true; cSvg.node().setPointerCapture(ev.pointerId); stopPlay(); scrub(ev); })
+    .on("pointermove", (ev) => { if (dragging) scrub(ev); })
+    .on("pointerup pointercancel", () => { dragging = false; })
+    .on("keydown", (ev) => {
+      const k = ev.key; let t = state.t;
+      if (k === "ArrowRight" || k === "ArrowLeft") { ev.preventDefault(); stopPlay(); if (ev.shiftKey) stepChange(k === "ArrowRight" ? 1 : -1); else setTime(Math.floor(t + 1e-6) + (k === "ArrowRight" ? 1 : -1)); }
+      else if (k === "PageUp" || k === "PageDown") { ev.preventDefault(); setTime(t + (k === "PageUp" ? 10 : -10)); }
+      else if (k === "Home") { ev.preventDefault(); setTime(H.range[0]); } else if (k === "End") { ev.preventDefault(); setTime(H.range[1]); }
+    });
+  chartResize();
+}
+function chartResize() {
+  if (!cSvg) return;
+  const b = $("#chart").getBoundingClientRect(); cW = Math.max(280, b.width); cH = b.height;
+  cSvg.attr("viewBox", `0 0 ${cW} ${cH}`);
+  const S = H.series, maxA = d3.max(S, (d) => Math.max(d.claim, d.held)) * 1.06;
+  cx = d3.scaleLinear().domain(H.range).range([M.l, cW - M.r]);
+  cy = d3.scaleLinear().domain([0, maxA]).range([cH - M.b, M.t]).nice();
+  const pts = S.map((d, i) => ({ ...d, t1: i + 1 < S.length ? S[i + 1].t : H.range[1] }));
+  const stepArea = (key) => d3.area().curve(d3.curveStepAfter).x((d) => cx(d.t)).y0(cy(0)).y1((d) => cy(d[key]))([...pts, { ...pts[pts.length - 1], t: H.range[1] }]);
+  const stepLine = (key) => d3.line().curve(d3.curveStepAfter).x((d) => cx(d.t)).y((d) => cy(d[key]))([...pts, { ...pts[pts.length - 1], t: H.range[1] }]);
+  cSvg.select(".a-held").attr("d", stepArea("held"));
+  cSvg.select(".a-direct").attr("d", stepArea("direct"));
+  cSvg.select(".a-claim").attr("d", stepLine("claim"));
+  const yt = cy.ticks(3);
+  cSvg.select(".grid").selectAll("line").data(yt).join("line").attr("x1", M.l).attr("x2", cW - M.r).attr("y1", (d) => cy(d)).attr("y2", (d) => cy(d));
+  cSvg.select(".ax-y").selectAll("text").data(yt).join("text").attr("x", M.l - 6).attr("y", (d) => cy(d) + 3).attr("text-anchor", "end").text((d) => d === 0 ? "0" : (d / 1e6).toFixed(1) + "M km²");
+  const xt = d3.range(1800, 2027, cW < 520 ? 50 : 25);
+  cSvg.select(".ax-x").selectAll("text").data(xt).join("text").attr("x", (d) => cx(d)).attr("y", cH - 4).attr("text-anchor", "middle").text((d) => d);
+  const eras = [["Qajar", 1800, 1925.96], ["Pahlavi", 1925.96, 1979.11], ["Islamic Republic", 1979.11, H.range[1]]];
+  const eg = cSvg.select(".era").selectAll("g").data(eras).join((e) => { const g = e.append("g"); g.append("rect"); g.append("text"); return g; });
+  eg.select("rect").attr("x", (d) => cx(d[1])).attr("width", (d) => cx(d[2]) - cx(d[1]) - 1).attr("y", M.t - 12).attr("height", 10).style("opacity", (d, i) => i % 2 ? .08 : .04);
+  eg.select("text").attr("x", (d) => cx(d[1]) + 4).attr("y", M.t - 4).text((d) => cx(d[2]) - cx(d[1]) > d[0].length * 7 ? d[0] : "");
+  drawTicks();
+  updateChartCursor();
+}
+function drawTicks() {
+  const evs = visibleEvents();
+  cSvg.select(".ticks").selectAll("line").data(evs, (d) => d.id).join("line")
+    .attr("class", (d) => "tick-ev " + ((d.layers || []).length === 1 ? d.layers[0] : "both"))
+    .attr("x1", (d) => cx(d.t)).attr("x2", (d) => cx(d.t)).attr("y1", cH - M.b + 1).attr("y2", cH - M.b + 6);
+}
+function updateChartCursor() {
+  if (!cx) return;
+  const x = cx(state.t), s = seriesAt(state.t);
+  cSvg.select(".cursor line").attr("x1", x).attr("x2", x).attr("y1", M.t - 2).attr("y2", cH - M.b);
+  cSvg.select(".cursor circle").attr("cx", x).attr("cy", cy(s.claim));
+}
+function stepChange(dir) {
+  const t = state.t;
+  const nxt = dir > 0 ? changePoints.find((c) => c > t + 1e-4) : [...changePoints].reverse().find((c) => c < t - 1e-4);
+  if (nxt != null) setTime(nxt + 1e-4);
+}
+
+// ---------- play ----------
+let raf = null, last = 0;
+function startPlay() {
+  if (state.t >= H.range[1] - .01) setTime(H.range[0]);
+  state.playing = true; $("#play").setAttribute("aria-pressed", "true"); $("#play-ico").textContent = "❚❚"; $("#play-txt").textContent = "Pause";
+  last = performance.now();
+  const step = (now) => {
+    if (!state.playing) return;
+    const dt = Math.min(.1, (now - last) / 1000); last = now;
+    const nt = state.t + dt * 5;
+    if (nt >= H.range[1]) { setTime(H.range[1]); stopPlay(); return; }
+    setTime(nt); raf = requestAnimationFrame(step);
+  };
+  raf = requestAnimationFrame(step);
+}
+function stopPlay() {
+  state.playing = false; if (raf) cancelAnimationFrame(raf);
+  $("#play").setAttribute("aria-pressed", "false"); $("#play-ico").textContent = "▶"; $("#play-txt").textContent = "Play";
+}
+
+// ---------- tooltip ----------
+function onHover(ev) {
+  const id = ev.currentTarget.getAttribute("data-id"), m = H.regions[id], t = state.t;
+  const tip = $("#tip");
+  const name = id === "core" ? "Iran (within modern borders)" : m.name;
+  const dj = djAt(id, t), df = dfAt(id, t);
+  let rows = "";
+  if (state.layers.dj) rows += `<div class="row"><span class="k">De jure</span><span>${dj ? esc(DJ_LABEL[dj.status]) : (m && m.kind === "internal") ? "Claimed (within Iran)" : everClaimedBefore(id, t) ? "Claim renounced" : "Not claimed"}</span></div>`;
+  if (state.layers.df) rows += `<div class="row"><span class="k">De facto</span><span>${df ? esc(DF_LABEL[df.status]) + (df.controller ? `<br><span class="small">${esc(df.controller)}</span>` : "") : "No record"}</span></div>`;
+  tip.innerHTML = `<b>${esc(name)}</b>${m && m.name_fa ? `<span class="fa">${esc(m.name_fa)}</span>` : ""}${rows}`;
+  tip.hidden = false;
+  const box = $("#map").getBoundingClientRect();
+  let x = ev.clientX - box.left + 14, y = ev.clientY - box.top + 14;
+  if (x + 300 > box.width) x = ev.clientX - box.left - 310;
+  if (y + tip.offsetHeight > box.height) y = box.height - tip.offsetHeight - 8;
+  tip.style.left = Math.max(4, x) + "px"; tip.style.top = Math.max(4, y) + "px";
+}
+
+// ---------- events pane ----------
+function buildEvents() {
+  const ul = $("#evlist");
+  ul.innerHTML = H.events.filter((e) => e.t != null).map((e) => {
+    const ls = e.layers && e.layers.length ? e.layers : [];
+    return `<li data-id="${esc(e.id)}"><button><span class="d">${esc(fmtT(e.t, e.date))}</span><span class="t">${ls.map((l) => `<span class="tag ${l}">${l === "dejure" ? "jure" : "facto"}</span>`).join("")}${esc(e.title)}</span><span class="s">${esc(e.summary)}</span></button></li>`;
+  }).join("");
+  ul.querySelectorAll("li").forEach((li) => li.querySelector("button").addEventListener("click", () => {
+    const e = evById.get(li.dataset.id); stopPlay(); setTime(e.t + 1e-4, { fromEvent: true });
+    const regs = evRegions.get(e.id);
+    ul.querySelectorAll("li.open").forEach((x) => x.classList.remove("open")); li.classList.add("open");
+    if (regs) flash([...regs]);
+  }));
+  applyEvFilter();
+}
+function applyEvFilter() {
+  $("#evlist").querySelectorAll("li").forEach((li) => { li.hidden = !evVisible(evById.get(li.dataset.id)); });
+  if (cSvg) drawTicks();
+}
+let lastCur = null;
+function updateEvents(fromEvent) {
+  const cur = currentEvent();
+  const id = cur ? cur.id : null;
+  $("#evlist").querySelectorAll("li").forEach((li) => {
+    const e = evById.get(li.dataset.id);
+    li.classList.toggle("cur", li.dataset.id === id); li.classList.toggle("past", e.t < state.t - 1e-6 && li.dataset.id !== id);
+  });
+  if (id !== lastCur && !$("#pane-events").hidden && !fromEvent) {
+    const li = $("#evlist").querySelector(`li[data-id="${CSS.escape(id || "")}"]`);
+    if (li) li.scrollIntoView({ block: "nearest" });
+  }
+  lastCur = id;
+}
+function flash(ids) {
+  for (const g of [gDF, gDJ, gDV]) g.selectAll(".reg").filter((d) => ids.includes(d.properties.id)).classed("flash", false).each(function () { void this.getBBox(); }).classed("flash", true);
+}
+
+// ---------- region pane ----------
+function selectRegion(id, { tab = false, zoomTo = false } = {}) {
+  state.sel = id;
+  d3.select("#selpath").attr("d", smallIds.has(id) ? null : path(regionFeat.get(id)));
+  gWorld.selectAll(".mk").classed("sel", (d) => d === id);
+  renderRegion(id, true);
+  if (tab) showTab("region");
+  if (zoomTo) {
+    const f = regionFeat.get(id); const [[x0, y0], [x1, y1]] = path.bounds(f);
+    const k = Math.min(10, .7 / Math.max((x1 - x0) / W, (y1 - y0) / Hh), 8);
+    svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(W / 2, Hh / 2).scale(Math.max(1, k)).translate(-(x0 + x1) / 2, -(y0 + y1) / 2));
+  }
+  drawLabels();
+}
+function barHTML(recs, colorOf, t) {
+  const [a, b] = H.range, w = (x) => ((x - a) / (b - a)) * 100;
+  return `<div class="bar">${(recs || []).map((r) => `<span title="${esc(r.status)}" style="left:${w(r.t0)}%;width:${Math.max(.4, w(r.t1 ?? b) - w(r.t0))}%;background:${colorOf(r)}"></span>`).join("")}${t != null ? `<i class="cur" style="left:calc(${w(t)}% - 1px)"></i>` : ""}</div>`;
+}
+const djColor = (r) => r.status === "suzerainty" ? "color-mix(in srgb, var(--claim) 55%, transparent)" : "var(--claim)";
+const dfColor = (r) => `var(${DF_COLOR[r.status]})`;
+function recHTML(r, labels) {
+  const on = r.t0 <= state.t && (r.t1 == null || state.t < r.t1);
+  const ev = (k) => r[k] && evById.get(r[k]) ? esc(evById.get(r[k]).title) : "";
+  return `<li class="${on ? "on" : ""}"><div class="when">${esc(fmtT(r.t0, r.from))} – ${r.t1 == null ? "present" : esc(fmtT(r.t1, r.to))}${r.date_confidence && r.date_confidence !== "high" ? ` <span class="conf">dates ${esc(r.date_confidence)}</span>` : ""}</div>
+    <div><span class="st">${esc(labels[r.status] || r.status)}</span>${r.controller ? ` · ${esc(r.controller)}` : ""}</div>
+    ${r.note ? `<div>${esc(r.note)}</div>` : ""}
+    ${ev("start_event") || ev("end_event") ? `<div class="small">${ev("start_event") ? "Began: " + ev("start_event") : ""}${ev("start_event") && ev("end_event") ? " · " : ""}${ev("end_event") ? "Ended: " + ev("end_event") : ""}</div>` : ""}
+    ${r.sources && r.sources.length ? `<div class="src">${r.sources.map(linkify).join("; ")}</div>` : ""}</li>`;
+}
+function renderRegion(id, scroll) {
+  const body = $("#region-body");
+  const t = state.t;
+  if (id === "core") {
+    body.innerHTML = `<div class="rg-head"><h2>Iran within its modern borders</h2></div>
+      <p class="small">The de jure layer treats this area as claimed throughout. The de facto layer assumes direct rule here except where an internal record says otherwise; click a hatched or dotted area to see that record.</p>
+      <dl class="meta"><dt>Area</dt><dd class="num">${fmtArea(H.core_area_km2)}</dd></dl>`;
+    return;
+  }
+  const m = H.regions[id];
+  const dj = djBy.get(id) || [], df = dfBy.get(id) || [];
+  const scale = `<div class="scale"><span>1800</span><span>1900</span><span>2000</span></div>`;
+  body.innerHTML = `<div class="rg-head"><h2>${esc(m.name)}</h2>${m.name_fa ? `<div class="fa">${esc(m.name_fa)}</div>` : ""}</div>
+    <dl class="meta"><dt>Type</dt><dd>${m.kind === "frontier" ? "Frontier region" : "Area inside modern Iran"}</dd>
+      <dt>Area</dt><dd class="num">${m.area_km2.toLocaleString("en")} km²</dd>
+      <dt>Boundary</dt><dd>${esc(m.geometry_confidence || "unrated")} confidence</dd></dl>
+    <div class="bars">
+      ${m.kind === "frontier" ? `<div class="row"><span class="k">De jure</span>${barHTML(dj, djColor, t)}</div>` : ""}
+      <div class="row"><span class="k">De facto</span>${barHTML(df, dfColor, t)}</div>${scale}</div>
+    ${m.geometry_note ? `<p class="small">${esc(m.geometry_note)}</p>` : ""}
+    ${m.kind === "frontier" ? `<h3>De jure · Tehran's position</h3>${dj.length ? `<ul class="recs">${dj.map((r) => recHTML(r, DJ_LABEL)).join("")}</ul>` : `<p class="empty">Never claimed by Tehran in this period.</p>`}` : ""}
+    <h3>De facto · control</h3>${df.length ? `<ul class="recs">${df.map((r) => recHTML(r, DF_LABEL)).join("")}</ul>` : `<p class="empty">No de facto record.</p>`}
+    <p><button class="chip" id="zoom-to">Zoom to this area</button></p>`;
+  $("#zoom-to").onclick = () => selectRegion(id, { zoomTo: true });
+  if (scroll) $("#pane-region").scrollTop = 0;
+}
+
+// ---------- ledger ----------
+function buildLedger() {
+  const firstChange = (id) => { const rs = [...(djBy.get(id) || []), ...(dfBy.get(id) || [])]; return d3.min(rs, (r) => r.t1 ?? r.t0) ?? 9999; };
+  const ids = Object.keys(H.regions);
+  const fr = ids.filter((i) => H.regions[i].kind === "frontier").sort((a, b) => firstChange(a) - firstChange(b));
+  const ir = ids.filter((i) => H.regions[i].kind === "internal").sort((a, b) => d3.min(dfBy.get(a) || [], (r) => r.t0) - d3.min(dfBy.get(b) || [], (r) => r.t0));
+  const item = (id) => { const m = H.regions[id];
+    return `<li data-id="${esc(id)}" data-q="${esc((m.name + " " + (m.name_fa || "")).toLowerCase())}"><button><span class="nm"><span>${esc(m.name)}</span><span class="k">${m.area_km2.toLocaleString("en")} km²</span></span>
+      ${m.kind === "frontier" ? barHTML(djBy.get(id), djColor) : ""}${barHTML(dfBy.get(id), dfColor)}</button></li>`; };
+  $("#ledger").innerHTML = `<h3>Frontier regions · claim and control</h3><ul class="ledger">${fr.map(item).join("")}</ul>
+    <h3>Inside modern Iran · control</h3><ul class="ledger">${ir.map(item).join("")}</ul>`;
+  $("#ledger").querySelectorAll("li").forEach((li) => li.querySelector("button").addEventListener("click", () => {
+    const id = li.dataset.id; const recs = [...(djBy.get(id) || []), ...(dfBy.get(id) || [])];
+    if (recs.length && !recs.some((r) => r.t0 <= state.t && (r.t1 == null || state.t < r.t1))) setTime(d3.min(recs, (r) => r.t0) + 1e-4);
+    selectRegion(id, { tab: true, zoomTo: true });
+  }));
+  $("#ledger-q").addEventListener("input", (e) => { const q = e.target.value.trim().toLowerCase();
+    $("#ledger").querySelectorAll("li").forEach((li) => { li.hidden = q && !li.dataset.q.includes(q); }); });
+}
+
+// ---------- ui ----------
+function showTab(name) {
+  for (const n of ["layers", "events", "region", "ledger"]) {
+    $(`#tab-${n}`).setAttribute("aria-selected", String(n === name)); $(`#pane-${n}`).hidden = n !== name;
+  }
+  if (name === "events") updateEvents();
+}
+function wireUI() {
+  for (const n of ["layers", "events", "region", "ledger"]) $(`#tab-${n}`).addEventListener("click", () => showTab(n));
+  const bind = (id, key) => $(id).addEventListener("change", (e) => { state.layers[key] = e.target.checked; render(); legendState(); });
+  bind("#chk-dj", "dj"); bind("#chk-df", "df"); bind("#chk-dv", "dv"); bind("#chk-ghost", "ghost"); bind("#chk-modern", "modern"); bind("#chk-labels", "labels"); bind("#chk-cities", "cities");
+  $("#play").addEventListener("click", () => state.playing ? stopPlay() : startPlay());
+  $("#prev").addEventListener("click", () => { stopPlay(); stepChange(-1); });
+  $("#next").addEventListener("click", () => { stopPlay(); stepChange(1); });
+  for (const l of ["dejure", "defacto"]) $(`#evf-${l}`).addEventListener("click", (e) => {
+    state.evf[l] = !state.evf[l]; e.currentTarget.setAttribute("aria-pressed", String(state.evf[l])); applyEvFilter(); updateEvents(); updateReadout();
+  });
+  legendState();
+}
+function legendState() {
+  $("#lg-dj").classList.toggle("off", !state.layers.dj);
+  document.querySelectorAll("#lg-dj li, #lg-df li, #lg-dv li").forEach((li) => {
+    const p = li.parentElement.id; li.classList.toggle("off", !state.layers[{ "lg-dj": "dj", "lg-df": "df", "lg-dv": "dv" }[p]]);
+  });
+}
+})();
+</script>

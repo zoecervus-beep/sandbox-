@@ -1,0 +1,20 @@
+{"regions":[
+ {"id":"f_erivan","name":"Erivan Khanate","name_fa":"خانات ایروان","units":["ARM1_7","ARM1_9","ARM1_10","TUR1_37"],"geometry_confidence":"medium","geometry_note":"test"},
+ {"id":"f_nakh","name":"Nakhchivan Khanate","name_fa":"خانات نخجوان","units":["AZE2_71","AZE2_72","AZE2_73","AZE2_74","AZE2_75","AZE2_76","AZE2_77","AZE2_78"],"geometry_confidence":"medium"},
+ {"id":"f_herat","name":"Herat","units":["AFG1_29"],"geometry_confidence":"low"},
+ {"id":"f_abumusa","name":"Abu Musa","custom":{"point":[55.03,25.87],"radius_km":3},"geometry_confidence":"high"},
+ {"id":"i_soviet","name":"Soviet zone","units":["IRN1_0","IRN1_10","IRN1_16","IRN1_19","IRN1_26"],"geometry_confidence":"medium"}
+],
+"dejure":[
+ {"region":"f_erivan","from":"1800","to":"1828-02-21","status":"integral","end_event":"f_ev_tc"},
+ {"region":"f_nakh","from":"1800","to":"1828-02-21","status":"integral","end_event":"f_ev_tc"},
+ {"region":"f_herat","from":"1800","to":"1857-03-04","status":"suzerainty"},
+ {"region":"f_abumusa","from":"1904","to":null,"status":"integral"}],
+"defacto":[
+ {"region":"f_erivan","from":"1800","to":"1827-10-01","status":"direct"},
+ {"region":"f_nakh","from":"1800","to":"1827-07-01","status":"indirect"},
+ {"region":"f_herat","from":"1800","to":"1856-10-25","status":"none"},
+ {"region":"f_herat","from":"1856-10-25","to":"1857-07-27","status":"direct"},
+ {"region":"f_abumusa","from":"1971-11-30","to":null,"status":"direct"},
+ {"region":"i_soviet","from":"1941-08-25","to":"1946-05-09","status":"foreign_occupation","controller":"USSR"}],
+"events":[{"id":"f_ev_tc","date":"1828-02-21","title":"Treaty of Turkmenchay","type":"treaty","summary":"x","layers":["dejure"]}]}
