@@ -49,6 +49,13 @@ def unit(key):
 
 modern_iran = clean(unary_union([shape(f["geometry"]) for f in gb("IRN", "ADM1")]))
 
+@lru_cache(None)
+def neighbour(iso):
+    for f in json.load(open(ROOT + "raw/ne_10m_admin_0_countries.geojson"))["features"]:
+        if f["properties"]["ADM0_A3"] == iso:
+            return clean(shape(f["geometry"]))
+    raise KeyError(iso)
+
 # ---------- custom geometry helpers ----------
 def side_of(line, pt, side):
     """True if pt lies on `side` of polyline (north/south/east/west) at pt's x (or y)."""
@@ -125,6 +132,22 @@ def resolve_custom(c, base):
         # degrees -> approx km at this latitude
         w = c.get("width_km", 1) / 111.0
         g = ln.buffer(w / 2, cap_style=2)
+    if g is None and op == "circle":
+        lon, lat = c.get("center") or c.get("point")
+        g = km_circle(lon, lat, c.get("radius_km", 3))
+    if g is None and op == "circles":
+        g = unary_union([km_circle(*cc["center"], cc.get("radius_km", 3)) for cc in c["circles"]])
+    if g is None and op == "clip_to_polygon":
+        poly = clean(Polygon(c["polygon"]))
+        src = within if within is not None else (base if base is not None and not base.is_empty else modern_iran)
+        g = src.intersection(poly)
+    if g is None and op == "border_strip":
+        other = {"Iran-Iraq": "IRQ", "Iran-Turkey": "TUR", "Iran-Afghanistan": "AFG", "Iran-Pakistan": "PAK",
+                 "Iran-Turkmenistan": "TKM", "Iran-Azerbaijan": "AZE", "Iran-Armenia": "ARM"}[c["border"]]
+        nb = neighbour(other)
+        line = modern_iran.boundary.intersection(nb.buffer(0.02))
+        g = line.buffer(c.get("width_km", 10) / 111.0)
+        g = g.intersection(within if within is not None else modern_iran)
     if g is None:
         warn(f"custom spec not understood: {json.dumps(c)[:200]}")
         return base
@@ -196,14 +219,19 @@ for rid, r in regions.items():
     if r.get("minus_units"):
         base = base.difference(unary_union([unit(k) for k in r["minus_units"] if k in cat]))
     c = r.get("custom")
-    if c and isinstance(c, dict) and (c.get("polygon") or c.get("op") or c.get("point") or c.get("buffer_line") or c.get("coords")):
+    if c and isinstance(c, dict) and (c.get("polygon") or c.get("op") or c.get("point") or c.get("buffer_line") or c.get("coords") or c.get("circles")):
         g = resolve_custom(c, base)
     else:
         g = base
     if g is None or g.is_empty:
         warn(f"{rid}: empty geometry")
         continue
-    geoms[rid] = clean(g)
+    g = clean(g)
+    if rid.startswith("i_"):
+        gi = g.intersection(modern_iran)
+        if gi.area > 0.3 * g.area:
+            g = clean(gi)
+    geoms[rid] = g
 
 # ---------- projection for areas ----------
 albers = pyproj.Transformer.from_crs("EPSG:4326",
@@ -303,11 +331,11 @@ for i, t in enumerate(cps):
     df_key = (tuple(sorted((r["region"], r["status"]) for r in active(defacto, probe))))
     if dj_key != prev_dj_key:
         if dj_extents: dj_extents[-1]["t1"] = t
-        dj_extents.append({"t0": t, "t1": None, "geom": closing(claim_g)})
+        dj_extents.append({"t0": t, "t1": None, "geom": claim_g})
         prev_dj_key = dj_key
     if df_key != prev_df_key:
         if df_extents: df_extents[-1]["t1"] = t
-        df_extents.append({"t0": t, "t1": None, "geom": closing(held, 0.02)})
+        df_extents.append({"t0": t, "t1": None, "geom": held})
         prev_df_key = df_key
 
 # ---------- basemap ----------
@@ -348,7 +376,7 @@ for name, feats in layers.items():
     json.dump(fc(feats), open(tmp + name + ".geojson", "w"))
 files = [tmp + n + ".geojson" for n in layers]
 cmd = ["mapshaper", "-i", *files, "combine-files", "snap", "snap-interval=0.002",
-       "-simplify", "weighted", "keep-shapes", "interval=600",
+       "-simplify", "weighted", "keep-shapes", "interval=900", "-filter-slivers", "min-area=4km2",
        "-o", ROOT + "data/geo.json", "format=topojson", "quantization=100000", "force"]
 r = subprocess.run(cmd, capture_output=True, text=True)
 if r.returncode: print(r.stderr); sys.exit(1)

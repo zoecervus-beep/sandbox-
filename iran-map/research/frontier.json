@@ -1,0 +1,4551 @@
+{
+ "regions": [
+  {
+   "id": "f_kartli_kakheti",
+   "name": "Kartli-Kakheti (eastern Georgia, incl. Borchali, Kazakh-Shamshadil, Lori)",
+   "name_fa": "گرجستان شرقی (کارتلی-کاختی)",
+   "units": [
+    "GEO1_1",
+    "GEO1_2",
+    "GEO1_3",
+    "GEO1_4",
+    "GEO1_8",
+    "AZE2_62",
+    "AZE2_61",
+    "AZE2_60",
+    "ARM1_4",
+    "ARM1_2"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Modern Kakheti, Kvemo Kartli, Tbilisi, Shida Kartli, Mtskheta-Mtianeti, plus the Muslim-ruled marches that were in the Georgian king's orbit in 1800 (Qazakh/Agstafa/Tovuz = Kazakh-Shamshadil sultanates; Armenian Tavush and Lori). Samtskhe-Javakheti (Ottoman Akhaltsikhe pashalik), Imereti, Guria, Samegrelo and Abkhazia are excluded: no Tehran claim found, although Gulistan Art. 3 names them. Frontier zone: borders of the marches are approximate."
+  },
+  {
+   "id": "f_shuragel_shirak",
+   "name": "Shuragel (Shirak plain, Gyumri area)",
+   "name_fa": "شوره‌گل (شیراک)",
+   "units": [
+    "ARM1_3"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Modern Shirak province. Shuragel/Shoragol was a Muslim sultanate on the Georgian-Erivan frontier; its exact extent is uncertain."
+  },
+  {
+   "id": "f_ganja_khanate",
+   "name": "Ganja Khanate",
+   "name_fa": "خانات گنجه",
+   "units": [
+    "AZE2_17",
+    "AZE2_52",
+    "AZE2_56",
+    "AZE2_57",
+    "AZE2_58",
+    "AZE2_59",
+    "AZE2_51",
+    "AZE2_21"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Ganja city and surrounding districts (Goranboy, Goygol, Shamkir, Dashkasan, Gadabay, Samukh, Naftalan). Pre-1880 frontier zone: khanate limits fluid; Qazakh/Shamshadil are in f_kartli_kakheti."
+  },
+  {
+   "id": "f_karabakh_khanate",
+   "name": "Karabakh Khanate (excluding Shusha), incl. Zangezur",
+   "name_fa": "خانات قره‌باغ (بدون شوشی)",
+   "units": [
+    "AZE2_55",
+    "AZE2_53",
+    "AZE2_48",
+    "AZE2_49",
+    "AZE2_50",
+    "AZE2_67",
+    "AZE2_68",
+    "AZE2_66",
+    "AZE2_64",
+    "AZE2_19",
+    "AZE2_54",
+    "AZE2_63",
+    "AZE2_69",
+    "AZE2_70",
+    "AZE2_20",
+    "AZE2_30",
+    "ARM1_1"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Lowland and highland Karabakh plus Zangezur (Syunik); Shusha is a separate region so that the 1826 hold-out can be shown. Frontier zone; khanate edges (esp. Zangezur/Meghri and the Kura lowlands) are approximate."
+  },
+  {
+   "id": "f_shusha",
+   "name": "Shusha (fortress and district)",
+   "name_fa": "قلعهٔ شوشی",
+   "units": [
+    "AZE2_18",
+    "AZE2_65"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Shusha city + Shusha district: Karabakh's capital, held by a Russian garrison and Armenian defenders through the 1826 Persian siege."
+  },
+  {
+   "id": "f_shaki_khanate",
+   "name": "Shaki Khanate",
+   "name_fa": "خانات شکی",
+   "units": [
+    "AZE2_22",
+    "AZE2_28",
+    "AZE2_11",
+    "AZE2_16"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Shaki city and district, Qabala and Oghuz. Qakh/Zaqatala/Balakan (Elisu sultanate, Jar-Belokan) are NOT mapped: only nominal Safavid-era overlordship found, no distinct Qajar claim."
+  },
+  {
+   "id": "f_shirvan_khanate",
+   "name": "Shirvan Khanate (incl. Salyan lowlands)",
+   "name_fa": "خانات شیروان",
+   "units": [
+    "AZE2_10",
+    "AZE2_12",
+    "AZE2_13",
+    "AZE2_9",
+    "AZE2_14",
+    "AZE2_15",
+    "AZE2_43",
+    "AZE2_44",
+    "AZE2_45",
+    "AZE2_46",
+    "AZE2_42",
+    "AZE2_47",
+    "AZE2_24",
+    "AZE2_41",
+    "AZE2_23",
+    "AZE2_26"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Shamakhi, Agsu, Ismailli, Gobustan and the Kura-Aras lowlands (Hajigabul to Salyan/Neftchala). Khanate had 17 mahals; boundaries with Quba, Baku and Mughan are approximate."
+  },
+  {
+   "id": "f_baku_khanate",
+   "name": "Baku Khanate",
+   "name_fa": "خانات باکو (بادکوبه)",
+   "units": [
+    "AZE2_8",
+    "AZE2_6",
+    "AZE2_7"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Baku city, Absheron peninsula and Sumqayit."
+  },
+  {
+   "id": "f_quba_khanate",
+   "name": "Quba Khanate",
+   "name_fa": "خانات قبه",
+   "units": [
+    "AZE2_0",
+    "AZE2_1",
+    "AZE2_2",
+    "AZE2_3",
+    "AZE2_4",
+    "AZE2_5"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Quba, Qusar, Khachmaz, Khizi, Shabran, Siazan. Quba and Derbent were united under Shaykh Ali Khan 1802-06."
+  },
+  {
+   "id": "f_derbent_khanate",
+   "name": "Derbent Khanate (Derbent coast, southern Dagestan)",
+   "name_fa": "خانات دربند",
+   "units": [
+    "RUS2_1578",
+    "RUS2_1208",
+    "RUS2_1348",
+    "RUS2_1803",
+    "RUS2_1203"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Derbent city and district plus Magaramkent and Suleyman-Stalsky; the khanate was a narrow coastal strip."
+  },
+  {
+   "id": "f_south_dagestan",
+   "name": "Southern Dagestan (Tabasaran, Kaytag, Kura, Akhty, Rutul)",
+   "name_fa": "داغستان جنوبی",
+   "units": [
+    "RUS2_1536",
+    "RUS2_1700",
+    "RUS2_1258",
+    "RUS2_1316",
+    "RUS2_1147",
+    "RUS2_1470",
+    "RUS2_1211",
+    "RUS2_1267"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Highland districts south of the Shamkhal/Avar lands. Extent of Tehran's nominal claim is poorly defined; Chechnya and northern Dagestan were never claimed."
+  },
+  {
+   "id": "f_talysh_lankaran",
+   "name": "Talysh Khanate, northern part ceded at Gulistan (Lankaran, Astara-north, Masally, Mughan lowlands)",
+   "name_fa": "خانات تالش (لنکران و مغان)",
+   "units": [
+    "AZE2_25",
+    "AZE2_27",
+    "AZE2_35",
+    "AZE2_34",
+    "AZE2_36",
+    "AZE2_39",
+    "AZE2_40"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Split of the Talysh khanate: Gulistan gave Russia 'the greater part of Talysh north of the Astara river' and 'the better part of Moghan'; the remainder (Zuvand highlands) went in 1828. Districts allocated to each cession are approximate; the 1813-18 delimitation commission fixed the real line."
+  },
+  {
+   "id": "f_talysh_zuvand",
+   "name": "Talysh Khanate remainder (Zuvand highlands) ceded at Turkmenchay",
+   "name_fa": "تالش کوهستانی (زووند)",
+   "units": [
+    "AZE2_37",
+    "AZE2_38"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Lerik and Yardymli (Zuvand). Turkmenchay Art. 4 draws the line 'along the mountain chain separating Zuvand and Arsh'. Which districts were Persian between 1813 and 1828 is approximate."
+  },
+  {
+   "id": "f_erivan_khanate",
+   "name": "Erivan Khanate (incl. Surmali/Igdir, Sharur-Daralayaz)",
+   "name_fa": "خانات ایروان",
+   "units": [
+    "ARM1_9",
+    "ARM1_10",
+    "ARM1_7",
+    "ARM1_5",
+    "ARM1_8",
+    "TUR1_37",
+    "AZE2_77",
+    "AZE2_78"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Yerevan, Ararat, Armavir, Kotayk and Aragatsotn plains plus Igdir (Surmali) and the Sharur-Sadarak lowlands. Gokcha/Sevan (Gegharkunik) is a separate region; Vayots Dzor is with Nakhchivan; Lori/Shirak with Georgia. Approximate mahal limits."
+  },
+  {
+   "id": "f_gokcha_sevan",
+   "name": "Gokcha / Lake Sevan zone (Gegharkunik)",
+   "name_fa": "گوگچه (دریاچهٔ سوان)",
+   "units": [
+    "ARM1_0"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Modern Gegharkunik. The northern shore was seized by Russia in 1825 on the argument that Gulistan's vague frontier gave it the district."
+  },
+  {
+   "id": "f_nakhchivan_khanate",
+   "name": "Nakhchivan Khanate (Nakhchivan, Julfa, Vayots Dzor)",
+   "name_fa": "خانات نخجوان",
+   "units": [
+    "AZE2_72",
+    "AZE2_73",
+    "AZE2_74",
+    "AZE2_75",
+    "AZE2_76",
+    "ARM1_6"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Modern Nakhchivan districts except Ordubad (separate) and Sharur/Sadarak (Erivan), plus Vayots Dzor, which Wikipedia attributes to the khanate."
+  },
+  {
+   "id": "f_ordubad",
+   "name": "Ordubad",
+   "name_fa": "اردوباد",
+   "units": [
+    "AZE2_71"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Ordubad district, on the Aras; part of the Nakhchivan khanate but occupied separately."
+  },
+  {
+   "id": "f_abbasabad_bridgehead",
+   "name": "Abbasabad bridgehead (right bank of the Aras)",
+   "name_fa": "سرپل عباس‌آباد (کرانهٔ جنوبی ارس)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     45.403,
+     39.073
+    ],
+    "radius_km": 1.6,
+    "note": "semicircle of ~1.5 versts (1.6 km) radius round Abbasabad fortress on the Iranian (right) bank of the Aras; fortress later drowned by the Aras reservoir"
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "Tiny parcel inside modern Iran. Centre taken at the Aras border near the Aras dam/reservoir (~39.07N 45.40E); true fortress position uncertain by several km."
+  },
+  {
+   "id": "f_firuzeh_firyuza",
+   "name": "Firuzeh (Firyuza oasis and district, Kopet Dag)",
+   "name_fa": "فیروزه (فیریوزا)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     58.06,
+     37.86
+    ],
+    "radius_km": 8,
+    "note": "Firyuza, ~38 km west of Ashgabat in the Kopet Dag"
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "Oasis and adjacent district ceded in 1893. Centre approximate; radius is illustrative (district area not found). NOT the Firuzeh county of Razavi Khorasan."
+  },
+  {
+   "id": "f_turkmen_akhal_tejen",
+   "name": "Akhal-Atek oases and Tejen (Turkmen lands under the Kopet Dag)",
+   "name_fa": "آخال و تجن",
+   "units": [
+    "TKM2_6",
+    "TKM2_5",
+    "TKM2_16",
+    "TKM2_8",
+    "TKM2_9",
+    "TKM2_10"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Gokdepe, Ak Bugday, Baherden, Kaka (Abivard), Babadayhan and Tejen: the Tekke oases whose overlordship Tehran claimed until 1881. The Iranica phrase is 'lands beyond the Tejen... Meyhana, Abivard, Nesa and Marv'."
+  },
+  {
+   "id": "f_merv_oasis",
+   "name": "Merv oasis (Mary)",
+   "name_fa": "واحهٔ مرو",
+   "units": [
+    "TKM2_36",
+    "TKM2_37",
+    "TKM2_40",
+    "TKM2_41",
+    "TKM2_35",
+    "TKM2_24"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Mary-Bayramaly-Murgap oasis; approximate."
+  },
+  {
+   "id": "f_old_sarakhs_north",
+   "name": "Old Sarakhs (Serakhs, north/east bank)",
+   "name_fa": "سرخس کهنه",
+   "units": [
+    "TKM2_23"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Serakhs district across the Hari Rud from Iranian Sarakhs."
+  },
+  {
+   "id": "f_bayezid",
+   "name": "Bayezid / Toprakkale district (Ottoman, held by Iran 1821-23)",
+   "name_fa": "بایزید",
+   "units": [
+    "TUR2_468",
+    "TUR2_560",
+    "TUR2_434",
+    "TUR2_248"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Dogubayazit (Bayezid), Diyadin, Caldiran, Eleskirt (Toprakkale); the extent of Abbas Mirza's occupation is approximate."
+  },
+  {
+   "id": "f_baban_sulaymaniyah",
+   "name": "Baban emirate / Shahrizor (Sulaymaniyah)",
+   "name_fa": "بابان (سلیمانیه)",
+   "units": [
+    "IRQ1_17"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Modern Sulaymaniyah governorate as proxy for the Baban principality (Sulaymaniyah, Shahrizor, Qara Dagh); real extent shifted."
+  },
+  {
+   "id": "f_zohab_lowlands",
+   "name": "Zohab lowlands (west), around Khanaqin",
+   "name_fa": "زهاب (جلگه‌های باختری)",
+   "units": [
+    "IRQ2_79"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "low",
+   "geometry_note": "Khanaqin district as proxy for the 'lowlands in the western part of the province of Zohab' ceded in 1847. The 1847 text gives no coordinates; the line was fixed by the 1913-14 commission."
+  },
+  {
+   "id": "f_zohab_transferred",
+   "name": "Zohab 'Transferred Territory' (1913)",
+   "name_fa": "قلمرو واگذارشدهٔ زهاب (۱۹۱۳)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "polygon": [
+     [
+      45.34,
+      34.3
+     ],
+     [
+      45.47,
+      34.3
+     ],
+     [
+      45.47,
+      34.56
+     ],
+     [
+      45.34,
+      34.56
+     ]
+    ],
+    "note": "rectangle approximating the Persian-held area west of Qasr-e Shirin evacuated in 1914; coordinates are a guess within Khanaqin district"
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "Location and extent are NOT verified: sources say Persia evacuated a 'Transferred Territory' in the Zohab sector under the 1913 Protocol (Anglo-Persian Oil Co. rights safeguarded), the area around Qasr-e Shirin/Naft Khaneh east of the Sirwan; Qasr-e Shirin town stayed Persian."
+  },
+  {
+   "id": "f_kotur_zone",
+   "name": "Kotur-neighbourhood strip ceded to Turkey in 1932",
+   "name_fa": "نوار نزدیک قطور (واگذارشده، ۱۳۱۰)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "polygon": [
+     [
+      44.31,
+      38.42
+     ],
+     [
+      44.31,
+      38.5
+     ],
+     [
+      44.32,
+      38.6
+     ],
+     [
+      44.27,
+      38.66
+     ],
+     [
+      44.29,
+      38.76
+     ],
+     [
+      44.22,
+      38.76
+     ],
+     [
+      44.2,
+      38.66
+     ],
+     [
+      44.25,
+      38.6
+     ],
+     [
+      44.24,
+      38.5
+     ],
+     [
+      44.24,
+      38.42
+     ]
+    ],
+    "note": "strip ~6-7 km wide on the Turkish side of the present border west of Qotur; ~90 sq mi (233 km2) per Iranica; position approximate"
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "Iranica: the 1932 line left Turkey 'ninety square miles in the neighbourhood of Kotur' (between Guirberan and Kuch Dagh). Exact location not verified."
+  },
+  {
+   "id": "f_little_ararat_zone",
+   "name": "Little Ararat zone ceded to Turkey in 1932",
+   "name_fa": "منطقهٔ آرارات کوچک (واگذارشده، ۱۳۱۰)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "polygon": [
+     [
+      44.433,
+      39.45
+     ],
+     [
+      44.434,
+      39.5
+     ],
+     [
+      44.43,
+      39.54
+     ],
+     [
+      44.48,
+      39.61
+     ],
+     [
+      44.53,
+      39.68
+     ],
+     [
+      44.577,
+      39.757
+     ],
+     [
+      44.522,
+      39.757
+     ],
+     [
+      44.475,
+      39.68
+     ],
+     [
+      44.425,
+      39.61
+     ],
+     [
+      44.375,
+      39.54
+     ],
+     [
+      44.379,
+      39.5
+     ],
+     [
+      44.378,
+      39.45
+     ]
+    ],
+    "note": "~60 sq mi (155 km2) strip west of the present Iran-Turkey border east of Little Ararat; position approximate"
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "A British diplomat's cable put the northern zone at about 60 square miles, giving Turkey control of all Lesser Ararat; exact line not verified."
+  },
+  {
+   "id": "f_muhammarah_khizr",
+   "name": "Muhammarah (Khorramshahr) and Khizr island (Abadan)",
+   "name_fa": "محمره و جزیرهٔ خضر (آبادان)",
+   "units": [
+    "IRN2_137",
+    "IRN2_10"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Inside modern Iran. Included only because its sovereignty was disputed with the Ottomans before 1847; the internal agent may overlay the Ka'b/Muhaisin sheikhdom (indirect) for 1812-1925."
+  },
+  {
+   "id": "f_shatt_east_half",
+   "name": "Shatt al-Arab (Arvand Rud), eastern half-channel, Khaiin canal to the sea",
+   "name_fa": "اروندرود (نیمهٔ شرقی)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "polygon": [
+     [
+      48.106,
+      30.448
+     ],
+     [
+      48.176,
+      30.409
+     ],
+     [
+      48.187,
+      30.371
+     ],
+     [
+      48.243,
+      30.336
+     ],
+     [
+      48.2704,
+      30.3357
+     ],
+     [
+      48.3244,
+      30.2904
+     ],
+     [
+      48.375,
+      30.236
+     ],
+     [
+      48.391,
+      30.14
+     ],
+     [
+      48.443,
+      30.062
+     ],
+     [
+      48.445,
+      30.053
+     ],
+     [
+      48.559,
+      29.95
+     ],
+     [
+      48.745,
+      29.853
+     ],
+     [
+      48.7478,
+      29.8583
+     ],
+     [
+      48.5625,
+      29.955
+     ],
+     [
+      48.4504,
+      30.0562
+     ],
+     [
+      48.4489,
+      30.0633
+     ],
+     [
+      48.4487,
+      30.0638
+     ],
+     [
+      48.4485,
+      30.0644
+     ],
+     [
+      48.4483,
+      30.0649
+     ],
+     [
+      48.448,
+      30.0653
+     ],
+     [
+      48.3967,
+      30.1423
+     ],
+     [
+      48.3809,
+      30.237
+     ],
+     [
+      48.3808,
+      30.2376
+     ],
+     [
+      48.3806,
+      30.2381
+     ],
+     [
+      48.3804,
+      30.2386
+     ],
+     [
+      48.3801,
+      30.2392
+     ],
+     [
+      48.3798,
+      30.2396
+     ],
+     [
+      48.3794,
+      30.2401
+     ],
+     [
+      48.3288,
+      30.2945
+     ],
+     [
+      48.3283,
+      30.295
+     ],
+     [
+      48.2743,
+      30.3403
+     ],
+     [
+      48.2738,
+      30.3407
+     ],
+     [
+      48.2733,
+      30.341
+     ],
+     [
+      48.2728,
+      30.3412
+     ],
+     [
+      48.2722,
+      30.3414
+     ],
+     [
+      48.2716,
+      30.3416
+     ],
+     [
+      48.2711,
+      30.3417
+     ],
+     [
+      48.2705,
+      30.3417
+     ],
+     [
+      48.2448,
+      30.342
+     ],
+     [
+      48.1921,
+      30.3749
+     ],
+     [
+      48.1818,
+      30.4107
+     ],
+     [
+      48.1816,
+      30.4112
+     ],
+     [
+      48.1813,
+      30.4118
+     ],
+     [
+      48.181,
+      30.4123
+     ],
+     [
+      48.1807,
+      30.4127
+     ],
+     [
+      48.1803,
+      30.4132
+     ],
+     [
+      48.1799,
+      30.4136
+     ],
+     [
+      48.1794,
+      30.4139
+     ],
+     [
+      48.1789,
+      30.4142
+     ],
+     [
+      48.1089,
+      30.4532
+     ]
+    ],
+    "note": "schematic strip along the Iranian side of the 1975 thalweg line (points from IBS 164: Nahr Khaiin junction 30.448N 48.106E to the mouth 29.853N 48.745E); real half-channel is only ~0.3-0.8 km wide, so render as a stroked line"
+   },
+   "geometry_confidence": "medium",
+   "geometry_note": "The river is an international boundary river; the thalweg (median line of the main navigable channel) was agreed in 1975. Strip is schematic."
+  },
+  {
+   "id": "f_shatt_muhammara_anchorage",
+   "name": "Muhammarah anchorage reach (Khaiin canal to the Karun mouth)",
+   "name_fa": "لنگرگاه محمره (اروندرود)",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "polygon": [
+     [
+      48.106,
+      30.448
+     ],
+     [
+      48.176,
+      30.409
+     ],
+     [
+      48.187,
+      30.371
+     ],
+     [
+      48.1928,
+      30.3727
+     ],
+     [
+      48.1818,
+      30.4107
+     ],
+     [
+      48.1816,
+      30.4112
+     ],
+     [
+      48.1813,
+      30.4118
+     ],
+     [
+      48.181,
+      30.4123
+     ],
+     [
+      48.1807,
+      30.4127
+     ],
+     [
+      48.1803,
+      30.4132
+     ],
+     [
+      48.1799,
+      30.4136
+     ],
+     [
+      48.1794,
+      30.4139
+     ],
+     [
+      48.1789,
+      30.4142
+     ],
+     [
+      48.1089,
+      30.4532
+     ]
+    ],
+    "note": "short reach round the Karun/Shatt junction; Persian jurisdiction recognised in 1847 and 1913"
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "'The modern port and anchorage of Muhammara, above and below the junction of the river Karun with the Shatt al-Arab' (1913 Protocol); extent of the reach is approximate."
+  },
+  {
+   "id": "f_shatt_abadan_thalweg",
+   "name": "Shatt al-Arab opposite Abadan (thalweg segment of 1937)",
+   "name_fa": "اروندرود برابر آبادان",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "polygon": [
+     [
+      48.2704,
+      30.3357
+     ],
+     [
+      48.3244,
+      30.2904
+     ],
+     [
+      48.3283,
+      30.295
+     ],
+     [
+      48.2743,
+      30.3403
+     ]
+    ],
+    "note": "~4 miles from the end of Choteit island (30.29N 48.32E) to opposite Jetty No. 1 at Abadan (30.336N 48.270E)"
+   },
+   "geometry_confidence": "medium",
+   "geometry_note": "Segment where the 1937 treaty moved the boundary from the Iranian low-water mark to the thalweg."
+  },
+  {
+   "id": "f_irq_faw",
+   "name": "Al-Faw peninsula",
+   "name_fa": "شبه‌جزیرهٔ فاو",
+   "units": [
+    "IRQ2_12"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "high",
+   "geometry_note": "Al-Faw district."
+  },
+  {
+   "id": "f_irq_majnoon",
+   "name": "Majnoon Islands (Hawizeh marshes)",
+   "name_fa": "جزایر مجنون",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     47.5,
+     31.1
+    ],
+    "radius_km": 7,
+    "note": "~160 km2 around the Majnoon oilfield (31.084N 47.454E)"
+   },
+   "geometry_confidence": "medium",
+   "geometry_note": "Operation Kheibar captured ~160 km2 with ~50 oil wells."
+  },
+  {
+   "id": "f_irq_haj_omran",
+   "name": "Haj Omran highlands (Iraqi Kurdistan)",
+   "name_fa": "حاجی‌عمران",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     45.04,
+     36.66
+    ],
+    "radius_km": 11,
+    "note": "~390 km2 around Haji Omeran town (36.658N 45.040E)"
+   },
+   "geometry_confidence": "medium",
+   "geometry_note": "Operation Dawn 2 seized ~390 km2."
+  },
+  {
+   "id": "f_irq_penjwin",
+   "name": "Penjwin valley (Iraqi Kurdistan)",
+   "name_fa": "پنجوین",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     46.0,
+     35.62
+    ],
+    "radius_km": 12,
+    "note": "~466 km2 captured in Operation Dawn 4, centred on Penjwin"
+   },
+   "geometry_confidence": "medium",
+   "geometry_note": "Penjwin valley and villages."
+  },
+  {
+   "id": "f_irq_halabja",
+   "name": "Halabja district (Iraqi Kurdistan)",
+   "name_fa": "حلبچه",
+   "units": [
+    "IRQ2_75"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Halabcha district; Operation Dawn 10 also took Dojileh and Khurmal."
+  },
+  {
+   "id": "f_herat_state",
+   "name": "Herat and Farah (Herat principality)",
+   "name_fa": "هرات و فراه",
+   "units": [
+    "AFG1_29",
+    "AFG1_30"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Modern Herat and Farah provinces as the Sadozai principality and its dependencies (Ghurian, Sabzawar/Shindand, Lash-Juwayn). Ghurian was not split out: no reliable separate chronology found."
+  },
+  {
+   "id": "f_kandahar",
+   "name": "Kandahar (Barakzai principality)",
+   "name_fa": "قندهار",
+   "units": [
+    "AFG1_0"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Kandahar province."
+  },
+  {
+   "id": "f_sistan_afghan",
+   "name": "Afghan Sistan (Nimruz: Chakhansur, Kang, Zaranj)",
+   "name_fa": "سیستان افغان (نیمروز)",
+   "units": [
+    "AFG1_31"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Modern Nimruz province (Goldsmid's 'Outer Seistan', the right/east bank of the Helmand and lands beyond)."
+  },
+  {
+   "id": "f_makran_kech_panjgur",
+   "name": "Kech and Panjgur (Makran)",
+   "name_fa": "کیچ و پنجگور (مکران)",
+   "units": [
+    "PAK2_17",
+    "PAK2_18"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "medium",
+   "geometry_note": "Modern Kech and Panjgur districts: the Gichki/Kalat lands assigned to Kalat by the 1871 Goldsmid line (Panjgur, Parum, Buleda, Mand, Tump, Kech, Dasht). Gwadar (Omani) not mapped."
+  },
+  {
+   "id": "f_kuhak",
+   "name": "Kuhak district",
+   "name_fa": "کوهک",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     63.24,
+     27.13
+    ],
+    "radius_km": 15,
+    "note": "Kuhak village 27.132N 63.240E; Iran's easternmost point area"
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "Small district awarded to Kalat in 1871, reclaimed by Iran, occupied May 1874, formally Iranian in 1896. Radius illustrative."
+  },
+  {
+   "id": "f_mirjaveh",
+   "name": "Mirjaveh frontier parcel",
+   "name_fa": "میرجاوه",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     61.45,
+     29.015
+    ],
+    "radius_km": 10,
+    "note": "Mirjaveh town 29.015N 61.450E; the disputed strip along the Mirjawa river/Kila Safaid"
+   },
+   "geometry_confidence": "low",
+   "geometry_note": "Disputed 1896-1905 between the Holdich line's 'blue' reading and Persian possession; radius illustrative."
+  },
+  {
+   "id": "f_chabahar",
+   "name": "Chabahar (Omani appanage)",
+   "name_fa": "چابهار",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     60.64,
+     25.29
+    ],
+    "radius_km": 12,
+    "note": "Chabahar town and bay"
+   },
+   "geometry_confidence": "medium",
+   "geometry_note": "Inside modern Iran; included because it was a Muscat/Omani possession."
+  },
+  {
+   "id": "f_bahrain",
+   "name": "Bahrain",
+   "name_fa": "بحرین",
+   "units": [
+    "BHR1_0",
+    "BHR1_1",
+    "BHR1_2",
+    "BHR1_3"
+   ],
+   "minus_units": [],
+   "custom": null,
+   "geometry_confidence": "high",
+   "geometry_note": "Archipelago (four governorates)."
+  },
+  {
+   "id": "f_abu_musa",
+   "name": "Abu Musa",
+   "name_fa": "ابوموسی",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     55.03,
+     25.87
+    ],
+    "radius_km": 4,
+    "note": "island ~13 km2, drawn larger"
+   },
+   "geometry_confidence": "high",
+   "geometry_note": "Island at 25.87N 55.03E."
+  },
+  {
+   "id": "f_greater_tunb",
+   "name": "Greater Tunb",
+   "name_fa": "تنب بزرگ",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     55.307,
+     26.264
+    ],
+    "radius_km": 3,
+    "note": "island ~4 km across"
+   },
+   "geometry_confidence": "high",
+   "geometry_note": "Island at 26.264N 55.307E."
+  },
+  {
+   "id": "f_lesser_tunb",
+   "name": "Lesser Tunb",
+   "name_fa": "تنب کوچک",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     55.147,
+     26.244
+    ],
+    "radius_km": 2,
+    "note": "island 1.6 x 1.2 km"
+   },
+   "geometry_confidence": "high",
+   "geometry_note": "Island at 26.244N 55.147E."
+  },
+  {
+   "id": "f_sirri",
+   "name": "Sirri island",
+   "name_fa": "سیری",
+   "units": [],
+   "minus_units": [],
+   "custom": {
+    "point": [
+     54.545,
+     25.905
+    ],
+    "radius_km": 3,
+    "note": "island at 25.9N 54.54E"
+   },
+   "geometry_confidence": "high",
+   "geometry_note": "Inside modern Iran; parcel because the Qasimi deputy-governors of Lengeh held it."
+  }
+ ],
+ "dejure": [
+  {
+   "region": "f_kartli_kakheti",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Tehran treated the Georgian king as a vassal (vali) since Nader Shah/Karim Khan Zand; Agha Mohammad Khan sacked Tbilisi in Sept 1795 to enforce this. Fath-Ali Shah never recognised the Russian annexation (Dec 1800/Sept 1801), which was a casus belli in 1804. Renounced in Gulistan Art. 3 (Georgia 'with the province of Shuragel'). Claim long predates 1800; 1800 is the map baseline.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Erekle II' and 'Georgia ii. History of Iranian-Georgian relations' (iranicaonline.org)",
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)",
+    "Wikipedia, 'Kingdom of Kartli-Kakheti' (cross-check)"
+   ]
+  },
+  {
+   "region": "f_shuragel_shirak",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Erivan khanate/Georgian march; named in Gulistan Art. 3 ('Georgia together with the province of Shuragel') as ceded. Tehran's pre-1813 claim is inferred from this and from the 1826 Iranian recapture of 'Pambak and Shuregol' (not mapped).",
+   "date_confidence": "low",
+   "sources": [
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)",
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_ganja_khanate",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Khan Javad (Ziyadoghlu-Qajar) submitted to Agha Mohammad Khan in 1795. Ceded in Gulistan Art. 3.",
+   "date_confidence": "high",
+   "sources": [
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)",
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_karabakh_khanate",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Javanshir khans under Qajar suzerainty (Agha Mohammad Khan's 1795 and 1797 campaigns enforced Qajar overlordship; he was assassinated at Shusha in June 1797). Ceded in Gulistan Art. 3.",
+   "date_confidence": "high",
+   "sources": [
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)",
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "region": "f_shusha",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "As Karabakh Khanate (Shusha was the khan's seat).",
+   "date_confidence": "high",
+   "sources": [
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)",
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shaki_khanate",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Under Iranian suzerainty (1743-1813); 'Shakki' named in Gulistan Art. 3.",
+   "date_confidence": "high",
+   "sources": [
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)",
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shirvan_khanate",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Mostafa Khan of Shirvan under Iranian suzerainty; ceded in Gulistan Art. 3.",
+   "date_confidence": "high",
+   "sources": [
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)",
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_baku_khanate",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Hosein Qoli Khan of Baku under Iranian suzerainty; ceded in Gulistan Art. 3.",
+   "date_confidence": "high",
+   "sources": [
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)",
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_quba_khanate",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Shaykh Ali Khan of Quba and Derbent; 'Qobba' named in Gulistan Art. 3.",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)",
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_derbent_khanate",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Under Iranian suzerainty; Persian-speaking Shi'i city; 'Darband' and 'Daghestan' named in Gulistan Art. 3. Tehran's claim further north in Dagestan was nominal at best and is not mapped.",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)",
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_south_dagestan",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Fath-Ali Shah asserted overlordship over southern Dagestan; Gulistan Art. 3 names 'Daghestan' among lands Persia recognised as Russian. Nominal only.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)",
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)"
+   ]
+  },
+  {
+   "region": "f_talysh_lankaran",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Mir Mostafa Khan of Talysh under Iranian suzerainty; 'Talish' named in Gulistan Art. 3 (boundary left to commissioners, Art. 2).",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)",
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)"
+   ]
+  },
+  {
+   "region": "f_talysh_zuvand",
+   "from": "1800",
+   "to": "1828-02-22",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_turkmenchay",
+   "note": "Persian-held remainder of the Talysh khanate (Mir Hasan Khan, Khamsa of Talish nearby) ceded under Turkmenchay Arts. 3-4.",
+   "date_confidence": "medium",
+   "sources": [
+    "Treaty of Turkmenchay (1828), Arts. 3-4, text at karabakh.org/treaties/turkmenchay-treaty/ (BFSP vol. 15)",
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)"
+   ]
+  },
+  {
+   "region": "f_erivan_khanate",
+   "from": "1800",
+   "to": "1828-02-22",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_turkmenchay",
+   "note": "Governed by Qajar sardars (Hosein Khan Sardar 1807-28). Not named in Gulistan; ceded in Turkmenchay Art. 3.",
+   "date_confidence": "high",
+   "sources": [
+    "Treaty of Turkmenchay (1828), Arts. 3-4, text at karabakh.org/treaties/turkmenchay-treaty/ (BFSP vol. 15)",
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "region": "f_gokcha_sevan",
+   "from": "1800",
+   "to": "1828-02-22",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_turkmenchay",
+   "note": "Part of the Erivan khanate (Gokcha mahal). Iranians held it to be theirs, and even the Russian war manifesto did not dispute Persia's right to it. Ceded in Turkmenchay.",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "region": "f_nakhchivan_khanate",
+   "from": "1800",
+   "to": "1828-02-22",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_turkmenchay",
+   "note": "Kangarlu khans under Iranian suzerainty; Abbasabad fortress (built 1810 by Abbas Mirza). Ceded in Turkmenchay Art. 3.",
+   "date_confidence": "high",
+   "sources": [
+    "Treaty of Turkmenchay (1828), Arts. 3-4, text at karabakh.org/treaties/turkmenchay-treaty/ (BFSP vol. 15)",
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_ordubad",
+   "from": "1800",
+   "to": "1828-02-22",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_turkmenchay",
+   "note": "Persian-ruled Aras town; named with Nakhchivan in Turkmenchay cessions.",
+   "date_confidence": "medium",
+   "sources": [
+    "Treaty of Turkmenchay (1828), Arts. 3-4, text at karabakh.org/treaties/turkmenchay-treaty/ (BFSP vol. 15)"
+   ]
+  },
+  {
+   "region": "f_abbasabad_bridgehead",
+   "from": "1800",
+   "to": "1828-02-22",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_turkmenchay",
+   "note": "Persian territory; Turkmenchay Art. 4 ceded a semicircle round Abbasabad fort on the right bank.",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)",
+    "Treaty of Turkmenchay (1828), Arts. 3-4, text at karabakh.org/treaties/turkmenchay-treaty/ (BFSP vol. 15)"
+   ]
+  },
+  {
+   "region": "f_abbasabad_bridgehead",
+   "from": "1893-06-08",
+   "to": null,
+   "status": "integral",
+   "start_event": "f_ev_firuzeh_1893",
+   "end_event": null,
+   "note": "Returned to Persia in the 1893 convention (in exchange for Firuzeh).",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "region": "f_firuzeh_firyuza",
+   "from": "1881-12-21",
+   "to": "1893-06-08",
+   "status": "integral",
+   "start_event": "f_ev_akhal_1881",
+   "end_event": "f_ev_firuzeh_1893",
+   "note": "Left to Persia by the Akhal-Khorasan Convention (21 Dec 1881); ceded to Russia in the 1893 convention. Persia probably claimed it earlier (not documented).",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "region": "f_firuzeh_firyuza",
+   "from": "1921-02-26",
+   "to": "1954-12-02",
+   "status": "integral",
+   "start_event": "f_ev_moscow_1921",
+   "end_event": "f_ev_ussr_1954",
+   "note": "Moscow Treaty Art. 3 provided for return to Iran (never carried out); Iran dropped the claim in the 2 Dec 1954 frontier settlement.",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "region": "f_turkmen_akhal_tejen",
+   "from": "1800",
+   "to": "1881-12-21",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_akhal_1881",
+   "note": "Nominal Persian claim to the Tekke/Atek Turkmen; ended by the Akhal-Khorasan Convention, which fixed the Kopet Dag/Atrek line and ended Iran's claims beyond the Tejen.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)",
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)",
+    "Encyclopaedia Iranica, 'Central Asia viii. Relations with Persia in the 19th Century' (iranicaonline.org/articles/central-asia-viii/)"
+   ]
+  },
+  {
+   "region": "f_merv_oasis",
+   "from": "1800",
+   "to": "1881-12-21",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_akhal_1881",
+   "note": "Qajar claim to Merv asserted in expeditions (1832, 1837, 1860); the 1860 Merv disaster began 'the end of Iran's claims'; 1881 convention 'effectively ended Iran's historical claims to ... Marv'. Claim was nominal.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Central Asia viii. Relations with Persia in the 19th Century' (iranicaonline.org/articles/central-asia-viii/)",
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
+   ]
+  },
+  {
+   "region": "f_old_sarakhs_north",
+   "from": "1800",
+   "to": "1893-06-08",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_firuzeh_1893",
+   "note": "Sarakhs was regarded as indisputably Persian; Russians took the north bank 1884-85; the frontier east of Babadurmaz was fixed in the 1893 convention.",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)",
+    "Wikipedia, 'Sarakhs' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_baban_sulaymaniyah",
+   "from": "1800",
+   "to": "1847-05-31",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_erzurum_1847",
+   "note": "Tehran asserted overlordship over the Baban emirs when they sought Persian backing (Fath-Ali Shah restored Abdurrahman Pasha in 1806; Persian forces took Shahrizor/Sulaymaniyah in 1822). Renounced in the Second Treaty of Erzurum ('all claim to the town and province of As Sulaymaniyah').",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Wikipedia, 'Ottoman-Persian War (1821-1823)' (cross-check only)",
+    "Wikipedia, 'Baban' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_zohab_lowlands",
+   "from": "1800",
+   "to": "1847-05-31",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_erzurum_1847",
+   "note": "Persia claimed the whole Zohab province; the Second Erzurum Treaty (Art. 2) gave the western lowlands to the Ottomans and the eastern mountains plus Kirind valley to Persia.",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Wikipedia, 'Treaties of Erzurum' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_zohab_transferred",
+   "from": "1847-05-31",
+   "to": "1913-11-17",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_protocol_1913",
+   "note": "Inferred: Persia held and claimed this lowland strip despite the 1847 cession of the Zohab lowlands, since the 1913 Protocol obliged it to evacuate it and assigned it to the Ottomans. Persia later disputed the Protocol's validity (League of Nations 1934) until the 1937 treaty reaffirmed it.",
+   "date_confidence": "low",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Qatar Digital Library, India Office file 'Turco-Persian Frontier Commission: protocol of 1913' (qdl.qa)"
+   ]
+  },
+  {
+   "region": "f_kotur_zone",
+   "from": "1849",
+   "to": "1932-01-23",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_turkey_1932",
+   "note": "Kotur dispute opened in the 1849-52 commission; Berlin 1878 Art. LX had Turkey cede 'Khotour' to Persia; Sary Kamish protocol (1880) assigned villages; the 1932 Tehran agreement gave Turkey 90 sq mi near Kotur.",
+   "date_confidence": "low",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 28 (1964), Iran-Turkey Boundary (library.law.fsu.edu/.../ibs028.pdf)",
+    "Encyclopaedia Iranica, 'Boundaries v. With Turkey' (iranicaonline.org/articles/boundaries-v/)"
+   ]
+  },
+  {
+   "region": "f_little_ararat_zone",
+   "from": "1800",
+   "to": "1932-01-23",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_turkey_1932",
+   "note": "Eastern flank of the Ararat massif was Persian under the Erivan/Maku frontier; ceded to Turkey after the Ararat rebellion, Tehran agreement of 23 Jan 1932. No source consulted links Bazargan (only the border crossing) to the 1932 exchange.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Boundaries v. With Turkey' (iranicaonline.org/articles/boundaries-v/)",
+    "US Dept of State, International Boundary Study No. 28 (1964), Iran-Turkey Boundary (library.law.fsu.edu/.../ibs028.pdf)"
+   ]
+  },
+  {
+   "region": "f_shatt_east_half",
+   "from": "1969-04-19",
+   "to": null,
+   "status": "integral",
+   "start_event": "f_ev_abrogation_1969",
+   "end_event": null,
+   "note": "Iran abrogated the 1937 treaty and claimed the thalweg along the whole river; the Algiers Accord (6 Mar 1975) and the Baghdad treaty (13 June 1975) conceded it. Iraq abrogated it on 17 Sept 1980 and re-accepted it in Aug 1990; Tehran has never wavered. From 1914 to 1969 Tehran accepted the low-water line on the Iranian bank except at Muhammarah/Abadan (it contested the 1847/1913 regime before the League in 1934).",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Wikipedia, 'Shatt al-Arab dispute' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shatt_muhammara_anchorage",
+   "from": "1847-05-31",
+   "to": null,
+   "status": "integral",
+   "start_event": "f_ev_erzurum_1847",
+   "end_event": null,
+   "note": "Persian jurisdiction over the Muhammarah anchorage recognised by the Second Erzurum Treaty and confirmed in the 1913 Protocol (the river itself stayed Ottoman); boundary at the thalweg here from 1914.",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "region": "f_shatt_abadan_thalweg",
+   "from": "1937-07-04",
+   "to": null,
+   "status": "integral",
+   "start_event": "f_ev_iraq_1937",
+   "end_event": null,
+   "note": "Tehran treaty of 4 July 1937 shifted the line to the thalweg off Abadan (Iran's main grievance: jetties in Iraqi waters).",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "region": "f_herat_state",
+   "from": "1800",
+   "to": "1857-03-04",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_paris_1857",
+   "note": "Qajars regarded Herat as a dependency of Khorasan; Treaty of Paris (4 March 1857, ratified 2 May at Baghdad) made Persia renounce 'all claims to sovereignty over the territory and the city of Herat or the countries of Afghanistan' and any coinage, khutba or tribute.",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "US Dept of State, Office of the Geographer, International Boundary Study No. 6 (1961), Afghanistan-Iran Boundary (library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs006.pdf)"
+   ]
+  },
+  {
+   "region": "f_kandahar",
+   "from": "1837",
+   "to": "1842",
+   "status": "suzerainty",
+   "start_event": "f_ev_kandahar_treaty_1837",
+   "end_event": "f_ev_kandahar_1842",
+   "note": "Nominal: the Kandahar sardars (Kohandil Khan) accepted Persian suzerainty by a treaty in the Herat campaign, and by 1842 a treaty with the Kandahar chief is reported (India Office Military Report on Persia) to have relinquished Persian claims. Evidence thin; Treaty of Paris Art. VI covers 'the countries of Afghanistan'.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'First Herat War' (cross-check only)",
+    "India Office/General Staff, 'Military Report on Persia' (Qatar Digital Library, qdl.qa/en/archive/81055/vdc_100066221357.0x00001d): 'In 1842 a treaty was concluded between the Shah and the Chief of Kandahar, by which Persia relinquished all claim to Afghan territory'"
+   ]
+  },
+  {
+   "region": "f_sistan_afghan",
+   "from": "1800",
+   "to": "1873-04",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_goldsmid_sistan_1872",
+   "note": "Tehran claimed all Sistan (Persia 'gradually reclaiming Sistan' since 1772). Goldsmid's 1872 award gave Persia Sistan proper (west of the Helmand) and Afghanistan the right bank; accepted by both in spring 1873 (neither satisfied). McMahon 1903-05 re-fixed the line after the Helmand shifted.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Helmand River iv. In the late 19th and 20th centuries' (iranicaonline.org/articles/helmand-river-iv/)",
+    "US Dept of State, Office of the Geographer, International Boundary Study No. 6 (1961), Afghanistan-Iran Boundary (library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs006.pdf)",
+    "Encyclopaedia Iranica, 'Sistan ii. In the Islamic period' (iranicaonline.org/articles/sistan-ii-islamic-period/)"
+   ]
+  },
+  {
+   "region": "f_makran_kech_panjgur",
+   "from": "1864",
+   "to": "1871-09-04",
+   "status": "integral",
+   "start_event": "f_ev_makran_claim_1864",
+   "end_event": "f_ev_goldsmid_makran_1871",
+   "note": "In 1864 (1281 AH) Tehran officially claimed the whole of Makran and Baluchistan, on the basis of Nader Shah's 1736 conquest; Persia's envoy to Kalat had disclaimed designs on Kech in 1862. Goldsmid's line (notes of 1 and 4 Sept 1871) left Kech and Panjgur to Kalat.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Cah-bahar' (iranicaonline.org/articles/cah-bahar-...)",
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "region": "f_kuhak",
+   "from": "1800",
+   "to": "1871-09-04",
+   "status": "integral",
+   "start_event": null,
+   "end_event": "f_ev_goldsmid_makran_1871",
+   "note": "Treated as inside Tehran's general Baluchistan/Makran claim; a specific pre-1864 Persian claim to Kuhak is not documented (the 1871 line put it on the Kalat side).",
+   "date_confidence": "low",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "region": "f_kuhak",
+   "from": "1872",
+   "to": null,
+   "status": "integral",
+   "start_event": "f_ev_goldsmid_makran_1871",
+   "end_event": null,
+   "note": "Iran reclaimed Kuhak after the 1871 line; British agreed the line should lie east of it; formally included by the Holdich agreement of 26 March 1896.",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "region": "f_bahrain",
+   "from": "1800",
+   "to": "1957-11-12",
+   "status": "suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_bahrain_14th_1957",
+   "note": "Tehran treated Bahrain as a dependency of Fars: Persian rule 1753-83 (Shaykh Nasr al-Madhkur) ended with the Al Khalifa conquest of 1783, but claims were renewed repeatedly (1820s, 1861, 1871, 1927). Firmest early document: the 1822 Bruce-Farmanfarma agreement ('always subordinate to the province of Fars'), which London repudiated. Claim from 1800 is inferred.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Bahrain iii. History of political relations with Iran' (iranicaonline.org/articles/bahrain-all/bahrain-iii-history-of-political-relations-with-iran/)",
+    "Qatar Digital Library (India Office Records), file 'Persian pretentions to Bahrain' (qdl.qa/en/archive/81055/vdc_100023043274.0x000070)"
+   ]
+  },
+  {
+   "region": "f_bahrain",
+   "from": "1957-11-12",
+   "to": "1970-05-14",
+   "status": "integral",
+   "start_event": "f_ev_bahrain_14th_1957",
+   "end_event": "f_ev_bahrain_majlis_1970",
+   "note": "Majlis law of 11-12 Nov 1957 declared Bahrain the 14th province. Tehran accepted the UN finding (Guicciardi mission 29 Mar-18 Apr 1970; UNSC Res. 278 of 11 May) when the Majlis approved on 14 May 1970 (184-4; Senate unanimous 18 May).",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Bahrain iii. History of political relations with Iran' (iranicaonline.org/articles/bahrain-all/bahrain-iii-history-of-political-relations-with-iran/)",
+    "Wikipedia, 'Bahrain-Iran relations' and 'United Nations Security Council Resolution 278' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_abu_musa",
+   "from": "1888",
+   "to": null,
+   "status": "integral",
+   "start_event": "f_ev_abumusa_1888",
+   "end_event": null,
+   "note": "Tehran's position is that the Qasimi sheikhs were Persian subjects and the island always Iranian (cf. Persian governor mediating over 'Greater Farur, Serri and Abu Musa' in 1788-89). First documented explicit claim: a Persian military report of 1888, not contested by Britain; flag-raising incidents 1903-04. Sharjah disputes this.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)",
+    "Encyclopaedia Iranica, 'Tonb Islands' (iranicaonline.org/articles/tonb/)"
+   ]
+  },
+  {
+   "region": "f_greater_tunb",
+   "from": "1903",
+   "to": null,
+   "status": "integral",
+   "start_event": "f_ev_tunb_flags_1903",
+   "end_event": null,
+   "note": "Documented Persian assertion from the 1903-04 flag-hoisting incidents (the Belgian customs official's flag, April 1904); Iran holds that the Qasimi sheikhs were Persian subjects and that it never lost the islands. Earlier Persian claim not documented.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Tonb Islands' (iranicaonline.org/articles/tonb/)",
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)"
+   ]
+  },
+  {
+   "region": "f_lesser_tunb",
+   "from": "1903",
+   "to": null,
+   "status": "integral",
+   "start_event": "f_ev_tunb_flags_1903",
+   "end_event": null,
+   "note": "As Greater Tunb.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Tonb Islands' (iranicaonline.org/articles/tonb/)"
+   ]
+  },
+  {
+   "region": "f_sirri",
+   "from": "1800",
+   "to": null,
+   "status": "integral",
+   "start_event": null,
+   "end_event": null,
+   "note": "Tehran's position: always Persian (Persian governor of Jahangira delegated authority to a Qasimi shaykh in 1788-89). Persia planted its flag and abolished the Qasimi deputy-governorship of Lengeh in 1887; Britain acquiesced Aug 1888.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)"
+   ]
+  }
+ ],
+ "defacto": [
+  {
+   "region": "f_kartli_kakheti",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (garrison in Tbilisi from Nov 1799; kingdom annexed by Paul I's decree of Dec 1800, confirmed by Alexander I Sept 1801)",
+   "start_event": "f_ev_russians_tbilisi_1799",
+   "end_event": "f_ev_gulistan",
+   "note": "Kartli-Kakheti was a Russian protectorate under the 1783 Georgievsk treaty; Russian troops entered Tbilisi Nov 1799 and the kingdom was annexed 1800-01. No Iranian authority after the 1795 sack.",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, 'Kingdom of Kartli-Kakheti' (cross-check)",
+    "Encyclopaedia Iranica, 'Erekle II' and 'Georgia ii. History of Iranian-Georgian relations' (iranicaonline.org)"
+   ]
+  },
+  {
+   "region": "f_shuragel_shirak",
+   "from": "1800",
+   "to": "1805",
+   "status": "indirect",
+   "controller": "Shuragel sultan, in the orbit of Erivan/Georgia",
+   "start_event": null,
+   "end_event": "f_ev_shaki_shirvan_shuragel_1805",
+   "note": "Local sultan acknowledging Erivan and Georgia; low confidence.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Pavel Tsitsianov' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shuragel_shirak",
+   "from": "1805",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Shoragel sultanate submitted to Tsitsianov in 1805)",
+   "start_event": "f_ev_shaki_shirvan_shuragel_1805",
+   "end_event": "f_ev_gulistan",
+   "note": "Russian vassal then annexed territory.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Pavel Tsitsianov' (cross-check only)",
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)"
+   ]
+  },
+  {
+   "region": "f_ganja_khanate",
+   "from": "1800",
+   "to": "1804-01-15",
+   "status": "indirect",
+   "controller": "Javad Khan Ziyadoghlu-Qajar (hereditary khan under Persian suzerainty)",
+   "start_event": null,
+   "end_event": "f_ev_ganja_stormed_1804",
+   "note": "Khan killed in the Russian storm of 3 Jan 1804 (OS).",
+   "date_confidence": "high",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Wikipedia, 'Pavel Tsitsianov' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_ganja_khanate",
+   "from": "1804-01-15",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Elisavetpol; khanate abolished 1805)",
+   "start_event": "f_ev_ganja_stormed_1804",
+   "end_event": "f_ev_gulistan",
+   "note": "Persian counter-offensives 1804-13 did not retake the city.",
+   "date_confidence": "high",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_ganja_khanate",
+   "from": "1826-08",
+   "to": "1826-09-17",
+   "status": "iranian_held",
+   "controller": "Qajar army under Abbas Mirza/Mohammad Mirza after Yermolov ordered Elisavetpol evacuated",
+   "start_event": "f_ev_war_1826",
+   "end_event": "f_ev_shamkhor_1826",
+   "note": "Outside Tehran's claim (renounced 1813); Persian forces re-entered Ganja in the summer 1826 offensive; Madatov won at Shamkhor (15-16 Sept) and re-entered Ganja ~17 Sept. Start date approximate.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Wikipedia, 'Battle of Ganja (1826)' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_karabakh_khanate",
+   "from": "1800",
+   "to": "1805-05-26",
+   "status": "indirect",
+   "controller": "Ibrahim Khalil Khan Javanshir (khan)",
+   "start_event": null,
+   "end_event": "f_ev_kurakchay_1805",
+   "note": "Hereditary khan acknowledging the shah.",
+   "date_confidence": "high",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_karabakh_khanate",
+   "from": "1805-05-26",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Russian protectorate under Kurakchay; Russian garrison at Shusha; khan Mehdi Qoli from 1806)",
+   "start_event": "f_ev_kurakchay_1805",
+   "end_event": "f_ev_gulistan",
+   "note": "Persian armies invaded Karabakh in 1806-12 without durable gains; Wikipedia calls 1805-13 a 'disputed' period. Khanate abolished 1822 (Mehdi Qoli fled to Iran).",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "region": "f_karabakh_khanate",
+   "from": "1826-07",
+   "to": "1826-09-26",
+   "status": "iranian_held",
+   "controller": "Qajar army under Abbas Mirza (with Mehdi Qoli Khan)",
+   "start_event": "f_ev_war_1826",
+   "end_event": "f_ev_ganja_battle_1826",
+   "note": "Outside Tehran's claim (renounced 1813). The main Persian army crossed the Aras in July 1826 and held Karabakh outside Shusha until defeat at Shamkhor/Ganja; retreated across the Aras by late Sept.",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "region": "f_shusha",
+   "from": "1800",
+   "to": "1805-05-26",
+   "status": "indirect",
+   "controller": "Ibrahim Khalil Khan Javanshir",
+   "start_event": null,
+   "end_event": "f_ev_kurakchay_1805",
+   "note": "As Karabakh.",
+   "date_confidence": "high",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shusha",
+   "from": "1805-05-26",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (garrison)",
+   "start_event": "f_ev_kurakchay_1805",
+   "end_event": "f_ev_gulistan",
+   "note": "Russian garrison; the 1826 Persian siege (from ~6 Aug, about 48 days) failed, so there is deliberately no Iranian-held record for Shusha.",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shaki_khanate",
+   "from": "1800",
+   "to": "1805",
+   "status": "indirect",
+   "controller": "Salim Khan of Shaki",
+   "start_event": null,
+   "end_event": "f_ev_shaki_shirvan_shuragel_1805",
+   "note": "Hereditary khan acknowledging the shah.",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shaki_khanate",
+   "from": "1805",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (vassal khan Jafar Qoli under Russian suzerainty; treaty 12 Jan 1807; khanate abolished 1819)",
+   "start_event": "f_ev_shaki_shirvan_shuragel_1805",
+   "end_event": "f_ev_gulistan",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shirvan_khanate",
+   "from": "1800",
+   "to": "1806-01-06",
+   "status": "indirect",
+   "controller": "Mostafa Khan (khan of Shirvan)",
+   "start_event": null,
+   "end_event": "f_ev_shaki_shirvan_shuragel_1805",
+   "note": "",
+   "date_confidence": "high",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shirvan_khanate",
+   "from": "1806-01-06",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Mostafa Khan a Russian vassal; khanate abolished 1820, khan fled to Iran)",
+   "start_event": "f_ev_shaki_shirvan_shuragel_1805",
+   "end_event": "f_ev_gulistan",
+   "note": "Mostafa Khan renounced Persian vassalage to Tsitsianov, 6 Jan 1806 (calendar of source uncertain).",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shirvan_khanate",
+   "from": "1826-08-04",
+   "to": "1826-10-26",
+   "status": "iranian_held",
+   "controller": "Mostafa Khan with Persian regular infantry",
+   "start_event": "f_ev_war_1826",
+   "end_event": "f_ev_javad_1826",
+   "note": "Outside Tehran's claim (renounced 1813). Shirvan went over to Mostafa Khan c. 4 Aug 1826 (23 July OS); Battle of Javad, 26 Oct 1826, ended it.",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Wikipedia, 'Battle of Javad' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_baku_khanate",
+   "from": "1800",
+   "to": "1806-10",
+   "status": "indirect",
+   "controller": "Hosein Qoli Khan (Badkubeh)",
+   "start_event": null,
+   "end_event": "f_ev_baku_taken_1806",
+   "note": "Tsitsianov killed by Baku men outside the city on 20 Feb 1806 (8 Feb OS).",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Wikipedia, 'Hosein Qoli Khan Badkubeh' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_baku_khanate",
+   "from": "1806-10",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire",
+   "start_event": "f_ev_baku_taken_1806",
+   "end_event": "f_ev_gulistan",
+   "note": "Persian attempt to retake Baku in 1826 failed per Wikipedia; some narratives claim a short Persian-friendly revolt: not recorded.",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_quba_khanate",
+   "from": "1800",
+   "to": "1806",
+   "status": "indirect",
+   "controller": "Shaykh Ali Khan",
+   "start_event": null,
+   "end_event": "f_ev_quba_taken_1806",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_quba_khanate",
+   "from": "1806",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (occupied by Bulgakov 1806; Shaykh Ali fled to Iran)",
+   "start_event": "f_ev_quba_taken_1806",
+   "end_event": "f_ev_gulistan",
+   "note": "Shaykh Ali Khan's later revolt (1810-12) not recorded.",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_derbent_khanate",
+   "from": "1800",
+   "to": "1806-06",
+   "status": "indirect",
+   "controller": "Shaykh Ali Khan of Quba (Derbent khan from 1802/03)",
+   "start_event": null,
+   "end_event": "f_ev_derbent_taken_1806",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_derbent_khanate",
+   "from": "1806-06",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Glazenap/Bulgakov, 21-22 June 1806, calendar uncertain)",
+   "start_event": "f_ev_derbent_taken_1806",
+   "end_event": "f_ev_gulistan",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_south_dagestan",
+   "from": "1800",
+   "to": "1813-10-24",
+   "status": "none",
+   "controller": "Dagestani khans/utsmis and free societies (Kura, Kaytag, Tabasaran); Russian conquest 1806-13",
+   "start_event": null,
+   "end_event": "f_ev_gulistan",
+   "note": "Local rulers sometimes acknowledged Persian suzerainty; no Iranian administration.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_talysh_lankaran",
+   "from": "1800",
+   "to": "1802",
+   "status": "indirect",
+   "controller": "Mir Mostafa Khan",
+   "start_event": null,
+   "end_event": "f_ev_talysh_protectorate_1802",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_talysh_lankaran",
+   "from": "1802",
+   "to": "1813-01-13",
+   "status": "contested",
+   "controller": "Mir Mostafa Khan (Russian protectorate from 1802, oscillating) vs Qajar army",
+   "start_event": "f_ev_talysh_protectorate_1802",
+   "end_event": "f_ev_lankaran_stormed_1813",
+   "note": "Khan swung between Russian protection and Persia; Abbas Mirza campaigned in Talysh 1810-12.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_talysh_lankaran",
+   "from": "1813-01-13",
+   "to": "1813-10-24",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Lankaran stormed by Kotlyarevsky, 1 Jan 1813 OS)",
+   "start_event": "f_ev_lankaran_stormed_1813",
+   "end_event": "f_ev_gulistan",
+   "note": "Gulistan Art. 2 froze possession as of signing.",
+   "date_confidence": "high",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)"
+   ]
+  },
+  {
+   "region": "f_talysh_lankaran",
+   "from": "1826-08-12",
+   "to": "1826-12",
+   "status": "iranian_held",
+   "controller": "Mir Hasan Khan of Talysh with Qajar troops",
+   "start_event": "f_ev_talysh_uprising_1826",
+   "end_event": null,
+   "note": "Outside Tehran's claim (renounced 1813). Russian garrison driven out of Lankaran after six days of fighting from 25 July 1826 OS (fall ~12 Aug NS). Wikipedia says the khanate was 'again captured by Russia' in 1826 (a Caspian flotilla landing forced Mir Hasan to flee), so end 1826-12 is a placeholder; Wikipedia's Lankaran article instead says Persia held the city until Turkmenchay (unresolved).",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Wikipedia, 'Mir-Hasan Khan' and 'Talysh Khanate' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_talysh_zuvand",
+   "from": "1800",
+   "to": "1802",
+   "status": "indirect",
+   "controller": "Mir Mostafa Khan",
+   "start_event": null,
+   "end_event": "f_ev_talysh_protectorate_1802",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_talysh_zuvand",
+   "from": "1802",
+   "to": "1813-10-24",
+   "status": "contested",
+   "controller": "Talysh khan vs Russian protectorate",
+   "start_event": "f_ev_talysh_protectorate_1802",
+   "end_event": "f_ev_gulistan",
+   "note": "",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_talysh_zuvand",
+   "from": "1813-10-24",
+   "to": "1828-02-22",
+   "status": "indirect",
+   "controller": "Mir Hasan Khan of Talysh / Persian governors of Ardabil",
+   "start_event": "f_ev_gulistan",
+   "end_event": "f_ev_turkmenchay",
+   "note": "Persian-held after Gulistan; Russian reoccupation date 1827 uncertain.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_erivan_khanate",
+   "from": "1800",
+   "to": "1827-10-13",
+   "status": "direct",
+   "controller": "Qajar governor (sardar) of Erivan, Hosein Khan Qajar",
+   "start_event": null,
+   "end_event": "f_ev_erivan_1827",
+   "note": "Russian sieges of 1804 and 1808 failed. Echmiadzin fell April 1827; Sardarabad and the Erivan citadel fell Oct 1827 (1 Oct OS; some sources 14 Oct).",
+   "date_confidence": "high",
+   "sources": [
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)",
+    "Wikipedia, 'Capture of Erivan' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_erivan_khanate",
+   "from": "1827-10-13",
+   "to": "1828-02-22",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Paskevich)",
+   "start_event": "f_ev_erivan_1827",
+   "end_event": "f_ev_turkmenchay",
+   "note": "Armenian Oblast created 21 Mar 1828 after the treaty.",
+   "date_confidence": "high",
+   "sources": [
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "region": "f_gokcha_sevan",
+   "from": "1800",
+   "to": "1825",
+   "status": "direct",
+   "controller": "Qajar governor of Erivan",
+   "start_event": null,
+   "end_event": "f_ev_gokcha_1825",
+   "note": "",
+   "date_confidence": "high",
+   "sources": [
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "region": "f_gokcha_sevan",
+   "from": "1825",
+   "to": "1827-10-13",
+   "status": "contested",
+   "controller": "Russian posts on the northern shore vs Erivan khanate",
+   "start_event": "f_ev_gokcha_1825",
+   "end_event": "f_ev_erivan_1827",
+   "note": "Yermolov occupied the north bank in early 1825; the occupation was the key grievance leading to the 1826 war. Extent of effective Russian control uncertain.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "region": "f_gokcha_sevan",
+   "from": "1827-10-13",
+   "to": "1828-02-22",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire",
+   "start_event": "f_ev_erivan_1827",
+   "end_event": "f_ev_turkmenchay",
+   "note": "",
+   "date_confidence": "high",
+   "sources": [
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "region": "f_nakhchivan_khanate",
+   "from": "1800",
+   "to": "1827-07",
+   "status": "indirect",
+   "controller": "Kangarlu khans (Kalbali Khan, Ehsan Khan) with Persian garrison",
+   "start_event": null,
+   "end_event": "f_ev_nakhchivan_1827",
+   "note": "Russians entered Nakhchivan without a fight in early July 1827; Abbasabad fortress surrendered 19 July (7 July OS).",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Wikipedia, 'Capture of Abbasabad' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_nakhchivan_khanate",
+   "from": "1827-07",
+   "to": "1828-02-22",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Paskevich)",
+   "start_event": "f_ev_nakhchivan_1827",
+   "end_event": "f_ev_turkmenchay",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_ordubad",
+   "from": "1800",
+   "to": "1827-08",
+   "status": "indirect",
+   "controller": "Kangarlu khans / Persian garrison",
+   "start_event": null,
+   "end_event": "f_ev_ordubad_1827",
+   "note": "Russians approached Ordubad 1 Aug 1827 (OS; ~13 Aug NS); Karim Khan withdrew behind the Aras.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_ordubad",
+   "from": "1827-08",
+   "to": "1828-02-22",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire",
+   "start_event": "f_ev_ordubad_1827",
+   "end_event": "f_ev_turkmenchay",
+   "note": "",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_abbasabad_bridgehead",
+   "from": "1800",
+   "to": "1828-02-22",
+   "status": "direct",
+   "controller": "Qajar governor of Nakhchivan/Azerbaijan",
+   "start_event": null,
+   "end_event": "f_ev_turkmenchay",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "region": "f_abbasabad_bridgehead",
+   "from": "1828-02-22",
+   "to": "1893-06-08",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire",
+   "start_event": "f_ev_turkmenchay",
+   "end_event": "f_ev_firuzeh_1893",
+   "note": "Russian bridgehead 'a concession the Russians held until 1893'.",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "region": "f_abbasabad_bridgehead",
+   "from": "1893-06-08",
+   "to": null,
+   "status": "direct",
+   "controller": "Iran",
+   "start_event": "f_ev_firuzeh_1893",
+   "end_event": null,
+   "note": "",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "region": "f_firuzeh_firyuza",
+   "from": "1881-12-21",
+   "to": "1893-06-08",
+   "status": "direct",
+   "controller": "Qajar governor of Khorasan",
+   "start_event": "f_ev_akhal_1881",
+   "end_event": "f_ev_firuzeh_1893",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "region": "f_firuzeh_firyuza",
+   "from": "1921-02-26",
+   "to": "1954-12-02",
+   "status": "foreign_occupation",
+   "controller": "Soviet Union (Turkmen SSR)",
+   "start_event": "f_ev_moscow_1921",
+   "end_event": "f_ev_ussr_1954",
+   "note": "Held by Russia since 1893 and never returned despite the 1921 treaty. No record for 1893-1921 because Tehran had ceded the oasis and made no claim in that period.",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "region": "f_turkmen_akhal_tejen",
+   "from": "1800",
+   "to": "1881-01-24",
+   "status": "none",
+   "controller": "Independent Tekke Turkmen",
+   "start_event": null,
+   "end_event": "f_ev_geok_tepe_1881",
+   "note": "Persian punitive expeditions (1830s, 1860) did not establish administration.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Central Asia viii. Relations with Persia in the 19th Century' (iranicaonline.org/articles/central-asia-viii/)"
+   ]
+  },
+  {
+   "region": "f_turkmen_akhal_tejen",
+   "from": "1881-01-24",
+   "to": "1881-12-21",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Skobelev; Geok Tepe stormed 24 Jan 1881 NS = 12 Jan OS)",
+   "start_event": "f_ev_geok_tepe_1881",
+   "end_event": "f_ev_akhal_1881",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "region": "f_merv_oasis",
+   "from": "1800",
+   "to": "1881-12-21",
+   "status": "none",
+   "controller": "Turkmen tribes (Saryk, Tekke), with Bukharan and Khivan influence",
+   "start_event": null,
+   "end_event": "f_ev_akhal_1881",
+   "note": "No Iranian authority after the 1808 deportation of Merv families to Mashhad; Russia annexed Merv in 1884.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)",
+    "Encyclopaedia Iranica, 'Central Asia viii. Relations with Persia in the 19th Century' (iranicaonline.org/articles/central-asia-viii/)"
+   ]
+  },
+  {
+   "region": "f_old_sarakhs_north",
+   "from": "1800",
+   "to": "1832",
+   "status": "none",
+   "controller": "Turkmen tribes",
+   "start_event": null,
+   "end_event": "f_ev_sarakhs_expeditions_1832",
+   "note": "Pre-1832 position uncertain.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Central Asia viii. Relations with Persia in the 19th Century' (iranicaonline.org/articles/central-asia-viii/)"
+   ]
+  },
+  {
+   "region": "f_old_sarakhs_north",
+   "from": "1832",
+   "to": "1885",
+   "status": "direct",
+   "controller": "Qajar governor of Sarakhs (Persian garrison at Old Sarakhs)",
+   "start_event": "f_ev_sarakhs_expeditions_1832",
+   "end_event": "f_ev_old_sarakhs_1885",
+   "note": "Qajar garrison after Abbas Mirza's 1832 expedition; town rebuilt by Naser al-Din Shah in mid-century. Russia expelled the garrison in 1884-85.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Central Asia viii. Relations with Persia in the 19th Century' (iranicaonline.org/articles/central-asia-viii/)",
+    "Wikipedia, 'Sarakhs' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_old_sarakhs_north",
+   "from": "1885",
+   "to": "1893-06-08",
+   "status": "foreign_occupation",
+   "controller": "Russian Empire (Komarov)",
+   "start_event": "f_ev_old_sarakhs_1885",
+   "end_event": "f_ev_firuzeh_1893",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, 'Sarakhs' and 'Treaty of Akhal' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_bayezid",
+   "from": "1821-11",
+   "to": "1823-07-28",
+   "status": "iranian_held",
+   "controller": "Qajar army under Abbas Mirza",
+   "start_event": "f_ev_ottoman_war_1821",
+   "end_event": "f_ev_erzurum_1823",
+   "note": "Bayezid fortress stormed Nov 1821; garrisons left when winter campaign ended; returned under the status quo ante of the Treaty of Erzurum, 28 July 1823.",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, 'Ottoman-Persian War (1821-1823)' (cross-check only)",
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "region": "f_baban_sulaymaniyah",
+   "from": "1800",
+   "to": "1847-05-31",
+   "status": "contested",
+   "controller": "Baban emirs alternating between Ottoman (Baghdad) and Qajar overlordship",
+   "start_event": null,
+   "end_event": "f_ev_erzurum_1847",
+   "note": "Mahmud/Abdurrahman Pashas switched sides repeatedly; Baban emirate abolished by the Ottomans 1850-51. Persian forces held Shahrizor/Sulaymaniyah in 1822 (Mohammad Ali Mirza).",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Ottoman-Persian War (1821-1823)' (cross-check only)",
+    "Wikipedia, 'Baban' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_zohab_lowlands",
+   "from": "1800",
+   "to": "1847-05-31",
+   "status": "contested",
+   "controller": "Ottoman Baghdad vs Persian Kermanshah (frontier zone)",
+   "start_event": null,
+   "end_event": "f_ev_erzurum_1847",
+   "note": "Frontier mountain/lowland zone disputed since 1639.",
+   "date_confidence": "low",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "region": "f_zohab_transferred",
+   "from": "1847-05-31",
+   "to": "1913-11-17",
+   "status": "direct",
+   "controller": "Qajar governor of Kermanshah",
+   "start_event": null,
+   "end_event": "f_ev_protocol_1913",
+   "note": "",
+   "date_confidence": "low",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "region": "f_zohab_transferred",
+   "from": "1913-11-17",
+   "to": "1914-05-15",
+   "status": "iranian_held",
+   "controller": "Persian garrison pending evacuation",
+   "start_event": "f_ev_protocol_1913",
+   "end_event": "f_ev_transferred_1914",
+   "note": "Outside Tehran's claim after protocol signature; area handed to Ottoman authorities 15 May 1914.",
+   "date_confidence": "low",
+   "sources": [
+    "Qatar Digital Library, India Office files on the 1913 Protocol (qdl.qa)"
+   ]
+  },
+  {
+   "region": "f_kotur_zone",
+   "from": "1849",
+   "to": "1932-01-23",
+   "status": "contested",
+   "controller": "Ottoman Empire/Turkey vs Persia (Shakak Kurdish tribes)",
+   "start_event": null,
+   "end_event": "f_ev_turkey_1932",
+   "note": "Ottomans did not carry out the 1878 cession for decades; 40 miles near Kotur remained undemarcated in 1914.",
+   "date_confidence": "low",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 28 (1964), Iran-Turkey Boundary (library.law.fsu.edu/.../ibs028.pdf)",
+    "Encyclopaedia Iranica, 'Boundaries v. With Turkey' (iranicaonline.org/articles/boundaries-v/)"
+   ]
+  },
+  {
+   "region": "f_little_ararat_zone",
+   "from": "1800",
+   "to": "1932-01-23",
+   "status": "indirect",
+   "controller": "Kurdish tribal chiefs (Jalali, Haydaranlu) under Persian/Ottoman overlordship",
+   "start_event": null,
+   "end_event": "f_ev_turkey_1932",
+   "note": "1927-30 Ararat rebellion (Xoybun) used the area as a base; Turkish troops operated near the frontier in 1930 with Persian consent.",
+   "date_confidence": "low",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 28 (1964), Iran-Turkey Boundary (library.law.fsu.edu/.../ibs028.pdf)",
+    "Wikipedia, 'Ararat rebellion' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_muhammarah_khizr",
+   "from": "1800",
+   "to": "1847-05-31",
+   "status": "contested",
+   "controller": "Ka'b/Al Bu Kasib sheikhs of Muhammarah (emirate from 1812) vs Ottoman and Persian claims",
+   "start_event": null,
+   "end_event": "f_ev_erzurum_1847",
+   "note": "Ottoman governor Ali Rida Pasha sacked Muhammarah in 1837; Second Erzurum Treaty (31 May 1847) gave Persia Muhammarah, Khizr island, the anchorage and the east bank.",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia, 'Emirate of Muhammara' (cross-check only)",
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "region": "f_shatt_east_half",
+   "from": "1969-04-19",
+   "to": "1975-06-13",
+   "status": "contested",
+   "controller": "Iraq (river administration) vs Iran (escorted shipping, Joint Operation Arvand 22-25 Apr 1969)",
+   "start_event": "f_ev_abrogation_1969",
+   "end_event": "f_ev_baghdad_treaty_1975",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "region": "f_shatt_east_half",
+   "from": "1975-06-13",
+   "to": "1980-09-17",
+   "status": "direct",
+   "controller": "Iran (eastern half-channel under the 1975 thalweg regime)",
+   "start_event": "f_ev_baghdad_treaty_1975",
+   "end_event": "f_ev_iraq_abrogates_1980",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "region": "f_shatt_east_half",
+   "from": "1980-09-17",
+   "to": "1988-08-20",
+   "status": "contested",
+   "controller": "Iran and Iraq (river a front line; Iran held Faw 1986-88)",
+   "start_event": "f_ev_iraq_abrogates_1980",
+   "end_event": "f_ev_ceasefire_1988",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_shatt_east_half",
+   "from": "1988-08-20",
+   "to": null,
+   "status": "direct",
+   "controller": "Iran (eastern half-channel)",
+   "start_event": "f_ev_ceasefire_1988",
+   "end_event": null,
+   "note": "Iraq restored the thalweg in Aug 1990.",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "region": "f_irq_faw",
+   "from": "1986-02-11",
+   "to": "1988-04-18",
+   "status": "iranian_held",
+   "controller": "IRGC and Army (Operation Dawn 8)",
+   "start_event": "f_ev_faw_1986",
+   "end_event": "f_ev_faw_recaptured_1988",
+   "note": "Captured 10-11 Feb 1986; Iraqi Operation Ramadan Mubarak retook it in 35 hours, 17-18 Apr 1988. Iran never claimed it.",
+   "date_confidence": "high",
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Wikipedia, 'First Battle of al-Faw' and 'Second Battle of al-Faw' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_irq_majnoon",
+   "from": "1984-02",
+   "to": "1988-06-25",
+   "status": "iranian_held",
+   "controller": "IRGC (Operation Kheibar)",
+   "start_event": "f_ev_majnoon_1984",
+   "end_event": "f_ev_majnoon_recaptured_1988",
+   "note": "Operation Kheibar ran 22 Feb-12 Mar (or 14 Feb-19 Mar) 1984; Iraq recaptured the field 25 June 1988 (Tawakalna ala Allah).",
+   "date_confidence": "high",
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Wikipedia, 'Majnoon Island' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_irq_haj_omran",
+   "from": "1983-07-22",
+   "to": "1988",
+   "status": "iranian_held",
+   "controller": "IRGC with KDP peshmerga (Operation Dawn 2)",
+   "start_event": "f_ev_haj_omran_1983",
+   "end_event": null,
+   "note": "Taken 22 July 1983; later control (Iranian/KDP) until 1988 is unverified; end date is a placeholder (Anfal operations, ceasefire Aug 1988).",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Human Rights Watch, Genocide in Iraq: The Anfal Campaign Against the Kurds (1993), ch. 1"
+   ]
+  },
+  {
+   "region": "f_irq_penjwin",
+   "from": "1983-10-19",
+   "to": "1983-11-21",
+   "status": "iranian_held",
+   "controller": "IRGC and PUK peshmerga (Operation Dawn 4)",
+   "start_event": "f_ev_penjwin_1983",
+   "end_event": null,
+   "note": "HRW says Iran held Penjwin only 'briefly'; actual end of Iranian control not found, 21 Nov (end of operation) used as placeholder.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Human Rights Watch, Genocide in Iraq: The Anfal Campaign Against the Kurds (1993), ch. 1"
+   ]
+  },
+  {
+   "region": "f_irq_halabja",
+   "from": "1988-03-15",
+   "to": "1988-07-12",
+   "status": "iranian_held",
+   "controller": "IRGC and peshmerga (Operation Dawn 10/Zafar 7)",
+   "start_event": "f_ev_halabja_1988",
+   "end_event": "f_ev_halabja_abandoned_1988",
+   "note": "Captured ~15 March 1988; chemical attack 16-17 March; Iranians abandoned Halabja without a fight on 12 July 1988.",
+   "date_confidence": "high",
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Christian Science Monitor, 'Iraq adds to string of victories. Iran's faltering forces', 13 July 1988 (csmonitor.com/1988/0713/ohala.html)"
+   ]
+  },
+  {
+   "region": "f_herat_state",
+   "from": "1800",
+   "to": "1801",
+   "status": "foreign_occupation",
+   "controller": "Sadozai Durrani Herat (Mahmud Shah's governor Firuz al-Din Mirza), independent of Tehran",
+   "start_event": null,
+   "end_event": "f_ev_herat_1807",
+   "note": "Controller is an Afghan state acting independently.",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Herat (1793-1863)' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_herat_state",
+   "from": "1801",
+   "to": "1818-04",
+   "status": "indirect",
+   "controller": "Firuz al-Din Mirza (Sadozai) under Persian suzerainty",
+   "start_event": "f_ev_herat_1807",
+   "end_event": "f_ev_herat_barakzai_1818",
+   "note": "Iranica: Fath-Ali Shah established suzerainty c.1801; Persian forces crushed Firuz al-Din's rebellion in 1807 (battle of Shahdih; tribute), authority re-imposed 1814. Wikipedia instead calls Herat 'effectively independent' from 1801.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
+   ]
+  },
+  {
+   "region": "f_herat_state",
+   "from": "1818-04",
+   "to": "1833-11",
+   "status": "foreign_occupation",
+   "controller": "Sadozai rulers Mahmud Shah and Kamran, independent of Tehran (Fath Khan Barakzai deposed Firuz al-Din Apr 1818)",
+   "start_event": "f_ev_herat_barakzai_1818",
+   "end_event": "f_ev_herat_siege_1833",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "Wikipedia, 'Herat (1793-1863)' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_herat_state",
+   "from": "1833-11",
+   "to": "1837-11-23",
+   "status": "indirect",
+   "controller": "Kamran Mirza Sadozai (nominal Persian vassal)",
+   "start_event": "f_ev_herat_siege_1833",
+   "end_event": "f_ev_herat_siege_1837",
+   "note": "After Abbas Mirza's death (Oct-Nov 1833) Kamran reportedly accepted: a son as hostage, the shah's name on coin and in Friday prayer, 15,000 tomans tribute (Wikipedia; Iranica says the siege was simply abandoned).",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Siege of Herat (1833)' (cross-check only)",
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)"
+   ]
+  },
+  {
+   "region": "f_herat_state",
+   "from": "1837-11-23",
+   "to": "1838-09-09",
+   "status": "contested",
+   "controller": "Kamran/Yar Mohammad (Herat) vs Mohammad Shah's besieging army",
+   "start_event": "f_ev_herat_siege_1837",
+   "end_event": "f_ev_herat_lifted_1838",
+   "note": "Siege of Herat 23/24 Nov 1837-9 Sept 1838, lifted after British occupation of Kharg and McNeill's ultimatum.",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "Wikipedia, 'First Herat War' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_herat_state",
+   "from": "1838-09-09",
+   "to": "1856-10",
+   "status": "foreign_occupation",
+   "controller": "Sadozai/Alakozai rulers (Kamran, Yar Mohammad Khan, Sa'id Mohammad Khan), independent of Tehran",
+   "start_event": "f_ev_herat_lifted_1838",
+   "end_event": "f_ev_herat_1856",
+   "note": "Episodes of Persian pressure: late 1851 and March 1852 expedition (Farah, Lash-Juwayn, Sabzawar), recognition of Persian suzerainty by Sa'id Mohammad Khan; Sheil-Nuri Agreement Jan 1853 limited Persian intervention.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)"
+   ]
+  },
+  {
+   "region": "f_herat_state",
+   "from": "1856-10",
+   "to": "1857-03-04",
+   "status": "direct",
+   "controller": "Persian army (Hesam o-Saltaneh, Sultan Morad Mirza) occupying Herat",
+   "start_event": "f_ev_herat_1856",
+   "end_event": "f_ev_paris_1857",
+   "note": "City fell mid/late Oct 1856 (11 Oct per Wikipedia's Persian date, 25 Oct in many English sources); ceremonial entry 30 Oct. British declared war 1 Nov 1856.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "Wikipedia, 'Second Herat War' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_herat_state",
+   "from": "1857-03-04",
+   "to": "1857-09",
+   "status": "iranian_held",
+   "controller": "Persian garrison until evacuation (Sultan Ahmad Khan installed April 1857)",
+   "start_event": "f_ev_paris_1857",
+   "end_event": "f_ev_herat_evacuated_1857",
+   "note": "Persian claim renounced 4 March 1857; troops withdrew within the three months allowed after ratification, finishing by about Sept 1857.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "Wikipedia, 'Herat (1793-1863)' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_kandahar",
+   "from": "1837",
+   "to": "1839-04-25",
+   "status": "foreign_occupation",
+   "controller": "Barakzai sardars of Kandahar (Kohandil Khan), independent principality under Persian-Russian patronage",
+   "start_event": "f_ev_kandahar_treaty_1837",
+   "end_event": "f_ev_kandahar_british_1839",
+   "note": "",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'Principality of Kandahar' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_kandahar",
+   "from": "1839-04-25",
+   "to": "1842",
+   "status": "foreign_occupation",
+   "controller": "British Indian Army of the Indus with Shah Shuja",
+   "start_event": "f_ev_kandahar_british_1839",
+   "end_event": "f_ev_kandahar_1842",
+   "note": "",
+   "date_confidence": "low",
+   "sources": [
+    "Wikipedia, 'First Anglo-Afghan War' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_sistan_afghan",
+   "from": "1800",
+   "to": "1865",
+   "status": "none",
+   "controller": "Sistani/Baluch chiefs (Kayanid maliks until c.1839, Sanjarani and others) under nominal Durrani/Kandahar suzerainty",
+   "start_event": null,
+   "end_event": "f_ev_sistan_1865",
+   "note": "",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Sistan ii. In the Islamic period' (iranicaonline.org/articles/sistan-ii-islamic-period/)",
+    "Wikipedia, 'Sanjrani Chiefdom' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_sistan_afghan",
+   "from": "1865",
+   "to": "1873-04",
+   "status": "contested",
+   "controller": "Persian governor Hesmat-al-Molk (after the 1865 Persian invasion of western Sistan) vs Afghan claim",
+   "start_event": "f_ev_sistan_1865",
+   "end_event": "f_ev_goldsmid_sistan_1872",
+   "note": "Persian takeover of western Sistan, inside modern Iran, is left to the internal agent.",
+   "date_confidence": "low",
+   "sources": [
+    "Encyclopaedia Iranica, 'Sistan ii. In the Islamic period' (iranicaonline.org/articles/sistan-ii-islamic-period/)"
+   ]
+  },
+  {
+   "region": "f_makran_kech_panjgur",
+   "from": "1864",
+   "to": "1871-09-04",
+   "status": "none",
+   "controller": "Gichki and Baluch sardars under nominal Kalat suzerainty",
+   "start_event": "f_ev_makran_claim_1864",
+   "end_event": "f_ev_goldsmid_makran_1871",
+   "note": "No Persian authority.",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "region": "f_kuhak",
+   "from": "1800",
+   "to": "1874-05",
+   "status": "none",
+   "controller": "Baluch chiefs; Kalat nominally (1871 line put it 'on the Kelat side')",
+   "start_event": null,
+   "end_event": "f_ev_kuhak_1874",
+   "note": "",
+   "date_confidence": "low",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "region": "f_kuhak",
+   "from": "1874-05",
+   "to": null,
+   "status": "direct",
+   "controller": "Iran (occupied May 1874)",
+   "start_event": "f_ev_kuhak_1874",
+   "end_event": null,
+   "note": "",
+   "date_confidence": "high",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "region": "f_mirjaveh",
+   "from": "1896-03-26",
+   "to": "1905-05-13",
+   "status": "contested",
+   "controller": "British India (Baluchistan; levy post at Kila Safaid) vs Persia",
+   "start_event": "f_ev_holdich_1896",
+   "end_event": "f_ev_mirjaveh_1905",
+   "note": "McMahon's 1904 memo noted that the likeliest reading of the Holdich agreement put the British post inside Persia; by the 13 May 1905 agreement the UK withdrew its claim to Mirjaveh.",
+   "date_confidence": "medium",
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "region": "f_chabahar",
+   "from": "1800",
+   "to": "1872-02-21",
+   "status": "foreign_occupation",
+   "controller": "Sultanate of Muscat/Oman (appanage from 1792; brief interval 1804)",
+   "start_event": null,
+   "end_event": "f_ev_chabahar_1872",
+   "note": "Persia never renounced its claim (based on Nader Shah's 1736 conquest); Persian forces under Ebrahim Khan occupied Chabahar 21 Feb 1872.",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Cah-bahar' (iranicaonline.org/articles/cah-bahar-...)"
+   ]
+  },
+  {
+   "region": "f_chabahar",
+   "from": "1872-02-21",
+   "to": null,
+   "status": "direct",
+   "controller": "Iran",
+   "start_event": "f_ev_chabahar_1872",
+   "end_event": null,
+   "note": "",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Cah-bahar' (iranicaonline.org/articles/cah-bahar-...)"
+   ]
+  },
+  {
+   "region": "f_bahrain",
+   "from": "1800",
+   "to": "1970-05-14",
+   "status": "foreign_occupation",
+   "controller": "Al Khalifa shaykhs (independent from 1783; British protection from the 1820 treaty, 1861 and 1892 agreements; British-administered foreign relations)",
+   "start_event": null,
+   "end_event": "f_ev_bahrain_majlis_1970",
+   "note": "Not a military occupation; labelled per the project convention for claimed lands ruled by a non-Iranian state. Omani occupation 1800-01 ignored.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Bahrain iii. History of political relations with Iran' (iranicaonline.org/articles/bahrain-all/bahrain-iii-history-of-political-relations-with-iran/)"
+   ]
+  },
+  {
+   "region": "f_abu_musa",
+   "from": "1888",
+   "to": "1971-11-30",
+   "status": "foreign_occupation",
+   "controller": "Qasimi shaykhs of Sharjah (Trucial State under British protection)",
+   "start_event": "f_ev_abumusa_1888",
+   "end_event": "f_ev_abumusa_mou_1971",
+   "note": "Controller is a British-protected Arab shaykhdom (project convention).",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)"
+   ]
+  },
+  {
+   "region": "f_abu_musa",
+   "from": "1971-11-30",
+   "to": "1992-08-24",
+   "status": "contested",
+   "controller": "Shared administration under the 29 Nov 1971 Iran-Sharjah MoU (Iranian troops in the northern sector, Sharjah police and residents elsewhere)",
+   "start_event": "f_ev_abumusa_mou_1971",
+   "end_event": "f_ev_abumusa_1992",
+   "note": "",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)",
+    "Wikipedia, 'Seizure of Abu Musa and the Greater and Lesser Tunbs' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_abu_musa",
+   "from": "1992-08-24",
+   "to": null,
+   "status": "direct",
+   "controller": "Iran",
+   "start_event": "f_ev_abumusa_1992",
+   "end_event": null,
+   "note": "Iran expelled foreign workers in April 1992 and barred Sharjah's teachers on 24 Aug 1992, asserting full control.",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)",
+    "Gulf News, 'August 24, 1992: Iran denies UAE teachers entry into Abu Mousa' (gulfnews.com)"
+   ]
+  },
+  {
+   "region": "f_greater_tunb",
+   "from": "1903",
+   "to": "1971-11-30",
+   "status": "foreign_occupation",
+   "controller": "Qasimi shaykhs (Sharjah 1904-21, Ras al-Khaimah 1921-71) under British protection",
+   "start_event": "f_ev_tunb_flags_1903",
+   "end_event": "f_ev_tunbs_1971",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Tonb Islands' (iranicaonline.org/articles/tonb/)"
+   ]
+  },
+  {
+   "region": "f_greater_tunb",
+   "from": "1971-11-30",
+   "to": null,
+   "status": "direct",
+   "controller": "Iran (landing 29/30 Nov 1971 after armed resistance)",
+   "start_event": "f_ev_tunbs_1971",
+   "end_event": null,
+   "note": "Some sources date the Tunb landing to the evening of 29 Nov.",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Tonb Islands' (iranicaonline.org/articles/tonb/)",
+    "Wikipedia, 'Seizure of Abu Musa and the Greater and Lesser Tunbs' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_lesser_tunb",
+   "from": "1903",
+   "to": "1971-11-30",
+   "status": "foreign_occupation",
+   "controller": "Qasimi shaykhs (Sharjah, then Ras al-Khaimah) under British protection",
+   "start_event": "f_ev_tunb_flags_1903",
+   "end_event": "f_ev_tunbs_1971",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Tonb Islands' (iranicaonline.org/articles/tonb/)"
+   ]
+  },
+  {
+   "region": "f_lesser_tunb",
+   "from": "1971-11-30",
+   "to": null,
+   "status": "direct",
+   "controller": "Iran",
+   "start_event": "f_ev_tunbs_1971",
+   "end_event": null,
+   "note": "",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Tonb Islands' (iranicaonline.org/articles/tonb/)",
+    "Wikipedia, 'Seizure of Abu Musa and the Greater and Lesser Tunbs' (cross-check only)"
+   ]
+  },
+  {
+   "region": "f_sirri",
+   "from": "1800",
+   "to": "1887",
+   "status": "indirect",
+   "controller": "Qasimi deputy-governors of Lengeh (Persian officials)",
+   "start_event": null,
+   "end_event": "f_ev_sirri_1887",
+   "note": "",
+   "date_confidence": "medium",
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)"
+   ]
+  },
+  {
+   "region": "f_sirri",
+   "from": "1887",
+   "to": null,
+   "status": "direct",
+   "controller": "Iran",
+   "start_event": "f_ev_sirri_1887",
+   "end_event": null,
+   "note": "",
+   "date_confidence": "high",
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "f_ev_russians_tbilisi_1799",
+   "date": "1799-11",
+   "end_date": null,
+   "title": "Russian troops enter Tbilisi",
+   "type": "occupation",
+   "summary": "Russian troops entered Tbilisi following the Georgievsk protectorate (1783) and the 1795 Persian sack, ending Iranian leverage over Kartli-Kakheti ahead of formal annexation.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Kingdom of Kartli-Kakheti' (cross-check)",
+    "Encyclopaedia Iranica, 'Erekle II' and 'Georgia ii. History of Iranian-Georgian relations' (iranicaonline.org)"
+   ]
+  },
+  {
+   "id": "f_ev_annexation_kartli_kakheti_1800",
+   "date": "1800-12-30",
+   "end_date": null,
+   "title": "Paul I decrees annexation of Kartli-Kakheti",
+   "type": "conquest",
+   "summary": "Decree of 18 Dec 1800 OS annexing the kingdom; confirmed by Alexander I (Manifesto of 12 Sept 1801 OS = 24 Sept NS; Iranica gives 21 Sept). Tehran never recognised it; renunciation only at Gulistan.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Kingdom of Kartli-Kakheti' (cross-check)",
+    "Encyclopaedia Iranica, 'Erekle II' and 'Georgia ii. History of Iranian-Georgian relations' (iranicaonline.org)"
+   ]
+  },
+  {
+   "id": "f_ev_talysh_protectorate_1802",
+   "date": "1802",
+   "end_date": null,
+   "title": "Talysh khan accepts Russian protection",
+   "type": "agreement",
+   "summary": "Mir Mostafa Khan of Talysh accepted Russian protection (1802 per Wikipedia), starting a decade of contested control of the Lankaran lowland.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_ganja_stormed_1804",
+   "date": "1804-01-15",
+   "end_date": null,
+   "title": "Russians storm Ganja",
+   "type": "conquest",
+   "summary": "Tsitsianov stormed Ganja (3 Jan 1804 OS), killing Javad Khan; renamed Elisavetpol, the khanate abolished 1805. Opened the first Russo-Persian war.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Wikipedia, 'Pavel Tsitsianov' (cross-check only)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "id": "f_ev_kurakchay_1805",
+   "date": "1805-05-26",
+   "end_date": null,
+   "title": "Treaty of Kurakchay (Karabakh)",
+   "type": "treaty",
+   "summary": "Ibrahim Khalil Khan of Karabakh accepted Russian suzerainty (14 May 1805 OS = 26 May NS); Russian garrison at Shusha. Khan killed by Russian soldiers 2 June 1806; Mehdi Qoli installed.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Wikipedia, 'Pavel Tsitsianov' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_shaki_shirvan_shuragel_1805",
+   "date": "1805",
+   "end_date": null,
+   "title": "Shaki, Shirvan and Shuragel accept Russian suzerainty (1805-Jan 1806)",
+   "type": "agreement",
+   "summary": "Salim Khan of Shaki and the Shuragel sultan submitted in 1805; Mostafa Khan of Shirvan formally renounced Persian vassalage on 6 Jan 1806 (calendar uncertain). Shaki later abolished 1819, Shirvan 1820.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Wikipedia, 'Pavel Tsitsianov' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_derbent_taken_1806",
+   "date": "1806-06",
+   "end_date": null,
+   "title": "Russians take Derbent",
+   "type": "conquest",
+   "summary": "Russian forces took Derbent on 21-22 June 1806 (calendar uncertain); Bulgakov then moved on Baku and Quba.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Wikipedia, 'Derbent Khanate' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_baku_taken_1806",
+   "date": "1806-10",
+   "end_date": null,
+   "title": "Fall of Baku (after Tsitsianov's death)",
+   "type": "conquest",
+   "summary": "Tsitsianov was shot outside Baku on 20 Feb 1806 (8 Feb OS); the Russians captured Baku in Oct 1806 (3 Oct OS = 15 Oct NS; Wikipedia says 6 Oct). Hosein Qoli Khan fled to Ardabil.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Wikipedia, 'Hosein Qoli Khan Badkubeh' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_quba_taken_1806",
+   "date": "1806",
+   "end_date": null,
+   "title": "Russians occupy Quba",
+   "type": "conquest",
+   "summary": "Quba occupied by Bulgakov after Derbent and Baku (1806); Shaykh Ali Khan fled.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_lankaran_stormed_1813",
+   "date": "1813-01-13",
+   "end_date": null,
+   "title": "Lankaran stormed",
+   "type": "conquest",
+   "summary": "Kotlyarevsky stormed Lankaran (1 Jan 1813 OS); Mir Mostafa Khan fled. Russia held the Lankaran lowland at the armistice.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, article on the khanate in question (Karabakh/Ganja/Shaki/Shirvan/Baku/Quba/Derbent/Talysh/Erivan/Nakhichevan Khanate) (cross-check only)",
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)"
+   ]
+  },
+  {
+   "id": "f_ev_gulistan",
+   "date": "1813-10-24",
+   "end_date": null,
+   "title": "Treaty of Gulistan",
+   "type": "treaty",
+   "summary": "Signed 12 Oct OS (24 Oct NS; Iranica: 29 Shawwal 1228) at Gulistan; ratified at Tbilisi Sept 1814. Persia recognised Russian sovereignty over Georgia (with Shuragel), Daghestan, Karabakh, Ganja, Shaki, Shirvan, Derbent, Quba, Baku and Talysh (frontier left to commissioners), and Russian-held lands generally. Gokcha/Sevan and Erivan stayed Persian; the vague frontier fuelled the 1826 war.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)",
+    "Treaty of Gulistan (1813), Arts. 2-3, text at karabakh.org/treaties/gulustan-treaty/ (BFSP vol. 5, 1817-18)",
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_gokcha_1825",
+   "date": "1825",
+   "end_date": null,
+   "title": "Russia occupies north shore of Lake Gokcha",
+   "type": "occupation",
+   "summary": "Yermolov seized the northern bank of Lake Gokcha (Sevan) in early 1825, claiming Gulistan allowed it; Iran protested and the occupation became the main grievance behind the 1826 war. The Russian war manifesto conceded Persia's right to the district.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Golestan Treaty' (iranicaonline.org/articles/golestan-treaty/)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "id": "f_ev_war_1826",
+   "date": "1826-07",
+   "end_date": "1828-02-22",
+   "title": "Russo-Persian war reopens; Persian counter-offensive",
+   "type": "war",
+   "summary": "Abbas Mirza's army crossed the Aras in July 1826 (Russia took Bash-Aparan on 8 July; Persia took Pambak/Shuragel late July). Local uprisings in Talysh, Shirvan, Ganja and elsewhere helped Persia retake most Gulistan-ceded lands in summer 1826. Because Tehran had renounced these lands in 1813, they are mapped as 'iranian_held', not as restored claims, although the war's aim was to reverse Gulistan.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)",
+    "Firuz Kazemzadeh, 'Iranian relations with Russia and the Soviet Union, to 1921', Cambridge History of Iran vol. 7 (1991)"
+   ]
+  },
+  {
+   "id": "f_ev_talysh_uprising_1826",
+   "date": "1826-08-12",
+   "end_date": null,
+   "title": "Mir Hasan Khan and Qajar troops retake Lankaran",
+   "type": "rebellion",
+   "summary": "After six days' fighting from 25 July 1826 OS the Russian garrison abandoned Lankaran (31 July OS = 12 Aug NS); Iranian forces also took Salyan. Russia retook the Talysh coast later in 1826 (exact date unverified; Wikipedia's Lankaran article claims Persian retention until 1828).",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Wikipedia, 'Mir-Hasan Khan' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_shamkhor_1826",
+   "date": "1826-09-15",
+   "end_date": null,
+   "title": "Battle of Shamkhor; Ganja retaken",
+   "type": "war",
+   "summary": "Madatov routed the Persian vanguard at Shamkhor (3-4 Sept OS = 15-16 Sept NS) and re-entered Ganja about 17 Sept, ending Persian possession of Ganja. Shusha had withstood a siege begun about 6 Aug.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Wikipedia, 'Battle of Ganja (1826)' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_ganja_battle_1826",
+   "date": "1826-09-25",
+   "end_date": null,
+   "title": "Battle of Ganja (Elisavetpol); Persians withdraw across the Aras",
+   "type": "war",
+   "summary": "Paskevich-era counterattack: Abbas Mirza's army was beaten at Elisavetpol on 13 Sept OS (25 Sept NS) and retreated across the Aras, abandoning Karabakh.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Wikipedia, 'Battle of Ganja (1826)' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_javad_1826",
+   "date": "1826-10-26",
+   "end_date": null,
+   "title": "Battle of Javad; Shirvan lost again",
+   "type": "war",
+   "summary": "Mishchenko defeated Mostafa Khan and Persian regulars; Shirvan, which had gone over to Mostafa Khan about 4 Aug, returned to Russia.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Wikipedia, 'Battle of Javad' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_echmiadzin_1827",
+   "date": "1827-04",
+   "end_date": null,
+   "title": "Echmiadzin surrenders; blockade of Erivan",
+   "type": "conquest",
+   "summary": "Paskevich took Echmiadzin in April 1827 and invested Erivan, raising the siege in July to turn on Nakhchivan.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "id": "f_ev_nakhchivan_1827",
+   "date": "1827-07",
+   "end_date": null,
+   "title": "Russians occupy Nakhchivan",
+   "type": "conquest",
+   "summary": "Paskevich's detachment entered Nakhchivan without a fight in early July 1827 (some sources give 26 May); Abbas Mirza retreated. Exact day uncertain.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Wikipedia, 'Capture of Abbasabad' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_abbasabad_1827",
+   "date": "1827-07-19",
+   "end_date": null,
+   "title": "Abbasabad fortress surrenders",
+   "type": "conquest",
+   "summary": "Ehsan Khan Kangarlu opened the gates of Abbasabad on 7 July OS (19 July NS) after a short siege begun 13 July NS.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Capture of Abbasabad' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_ordubad_1827",
+   "date": "1827-08",
+   "end_date": null,
+   "title": "Russians occupy Ordubad",
+   "type": "conquest",
+   "summary": "Russian columns reached Ordubad on 1 Aug 1827 OS (13 Aug NS); the Persian governor withdrew behind the Aras.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Ordubad uezd' and 'Karim Khan Kangarlu' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_erivan_1827",
+   "date": "1827-10-13",
+   "end_date": null,
+   "title": "Fall of Erivan",
+   "type": "conquest",
+   "summary": "After Sardarabad fell, Paskevich took the Erivan citadel on 1 Oct 1827 OS (13 Oct NS; Wikipedia's text says 14 Oct). Tabriz followed 24 Oct.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Russo-Persian War (1826-1828)' and linked battle articles (cross-check only)",
+    "Wikipedia, 'Capture of Erivan' (cross-check only)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "id": "f_ev_turkmenchay",
+   "date": "1828-02-22",
+   "end_date": null,
+   "title": "Treaty of Turkmenchay",
+   "type": "treaty",
+   "summary": "Signed 10 Feb 1828 OS (22 Feb NS; Persian date 5 Sha'ban 1243 = 21 Feb) by Abbas Mirza and Asef al-Dowleh. Persia ceded the Erivan and Nakhchivan khanates (Art. 3, incl. Ordubad) and the remainder of Talysh/Mughan; frontier on the Aras, a semicircular Russian bridgehead on the right bank at Abbasabad (held to 1893) and the Astara river to the Caspian (Art. 4); indemnity of 10 kurur (million tomans).",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Treaty of Turkmenchay (1828), Arts. 3-4, text at karabakh.org/treaties/turkmenchay-treaty/ (BFSP vol. 15)",
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)",
+    "Muriel Atkin, Russia and Iran, 1780-1828 (Univ. of Minnesota Press, 1980)"
+   ]
+  },
+  {
+   "id": "f_ev_ottoman_war_1821",
+   "date": "1821-09",
+   "end_date": "1823-07-28",
+   "title": "Ottoman-Persian war",
+   "type": "war",
+   "summary": "Abbas Mirza crossed at Gurbulak (16 Sept 1821), stormed Bayezid in Nov 1821 and beat the Ottomans at Toprakkale (May 1822); Mohammad Ali Mirza took Shahrizor and Sulaymaniyah and besieged Baghdad until he died of cholera on 22 Nov 1822.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Ottoman-Persian War (1821-1823)' (cross-check only)",
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_erzurum_1823",
+   "date": "1823-07-28",
+   "end_date": null,
+   "title": "First Treaty of Erzurum",
+   "type": "treaty",
+   "summary": "Restored the status quo ante bellum (1639 Zuhab / 1746 frontier); Persia evacuated Bayezid and Shahrizor; Persian pilgrims' access guaranteed.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Wikipedia, 'Ottoman-Persian War (1821-1823)' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_erzurum_1847",
+   "date": "1847-05-31",
+   "end_date": null,
+   "title": "Second Treaty of Erzurum",
+   "type": "treaty",
+   "summary": "Negotiated 19-31 May 1847 (British and Russian mediation). Persia renounced all claim to Sulaymaniyah and ceded the western Zohab lowlands; the Ottomans gave up the eastern mountains and Kirind valley and recognised Persian Muhammarah (Khorramshahr), Khizr (Abadan) island, the anchorage and the east bank; the Shatt al-Arab itself stayed Ottoman with Persian free navigation.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Encyclopaedia Iranica, 'Boundaries v. With Turkey' (iranicaonline.org/articles/boundaries-v/)",
+    "Wikipedia, 'Treaties of Erzurum' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_berlin_1878",
+   "date": "1878-07-13",
+   "end_date": null,
+   "title": "Treaty of Berlin Art. LX: Turkey to cede Kotur",
+   "type": "treaty",
+   "summary": "Art. LX obliged Turkey to cede the Kotur territory to Persia; the Sary Kamish protocol (15 July OS = 27 July NS 1880) delimited it but the Ottomans did not implement the cession for decades (Kotur remained disputed until the 1932 agreement).",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 28 (1964), Iran-Turkey Boundary (library.law.fsu.edu/.../ibs028.pdf)",
+    "Encyclopaedia Iranica, 'Boundaries v. With Turkey' (iranicaonline.org/articles/boundaries-v/)"
+   ]
+  },
+  {
+   "id": "f_ev_ottoman_encroachments_1905",
+   "date": "1905",
+   "end_date": "1912",
+   "title": "Ottoman encroachments on Persian border districts",
+   "type": "occupation",
+   "summary": "From about 1905 to 1912 Ottoman troops repeatedly occupied Persian frontier districts (reported at Urmia/Sauj Bulaq, Zohab/Mehran and Kotur; details not verified); the 21 Dec 1911 Tehran frontier agreement set up the commission that produced the 1913 Protocol. These areas are inside modern Iran: left to the internal agent.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 28 (1964), Iran-Turkey Boundary (library.law.fsu.edu/.../ibs028.pdf)",
+    "Encyclopaedia Iranica, 'Boundaries v. With Turkey' (iranicaonline.org/articles/boundaries-v/)"
+   ]
+  },
+  {
+   "id": "f_ev_protocol_1913",
+   "date": "1913-11-17",
+   "end_date": null,
+   "title": "Constantinople Protocol",
+   "type": "treaty",
+   "summary": "Signed 4 Nov OS (17 Nov NS) 1913: detailed delimitation of the whole Turco-Persian frontier except ~40 miles at Kotur. The Shatt al-Arab remained Ottoman except Persian islands near Abadan and the Muhammarah anchorage; Persia evacuated the Zohab 'Transferred Territory'. Persia later challenged its validity.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "US Dept of State, International Boundary Study No. 28 (1964), Iran-Turkey Boundary (library.law.fsu.edu/.../ibs028.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_transferred_1914",
+   "date": "1914-05-15",
+   "end_date": null,
+   "title": "Persia hands over the Zohab Transferred Territory",
+   "type": "withdrawal",
+   "summary": "Persian forces left the area east of the Sirwan transferred to the Ottomans under the 1913 Protocol; the commission completed demarcation by Oct 1914 except near Kotur.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Qatar Digital Library, India Office files on the Perso-Turkish frontier (qdl.qa)"
+   ]
+  },
+  {
+   "id": "f_ev_ararat_revolt_1927",
+   "date": "1927-10",
+   "end_date": "1930-09",
+   "title": "Ararat rebellion",
+   "type": "rebellion",
+   "summary": "Kurdish revolt (1927-30) on Mount Ararat, using the Persian side; Turkish forces entered the border zone in 1930 with Persian consent. Context for the 1932 border swap.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Ararat rebellion' (cross-check only)",
+    "US Dept of State, International Boundary Study No. 28 (1964), Iran-Turkey Boundary (library.law.fsu.edu/.../ibs028.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_turkey_1932",
+   "date": "1932-01-23",
+   "end_date": null,
+   "title": "Tehran Agreement on the Turkish-Persian frontier",
+   "type": "agreement",
+   "summary": "Pushed the line east so Turkey got complete control of Little Ararat (about 60 sq mi) and about 90 sq mi near Kotur; Iran got about 80 sq mi between Bajirga and Kuner Kota Dagh and a small strip near Lake Borolan (Iranica). IBS 28 describes the Kotur and Bajirge exchanges as in Iran's favour, which conflicts with Iranica; Iranica is followed. Rectified 26 May 1937 near Deir Marbishu (Iran's favour). Bajirga/Borolan gains are not mapped (location unverified).",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Boundaries v. With Turkey' (iranicaonline.org/articles/boundaries-v/)",
+    "US Dept of State, International Boundary Study No. 28 (1964), Iran-Turkey Boundary (library.law.fsu.edu/.../ibs028.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_league_1934",
+   "date": "1934",
+   "end_date": null,
+   "title": "Iraq complains to the League; Iran contests the 1847 and 1913 regimes",
+   "type": "other",
+   "summary": "Iraq's complaint before the League Council produced Iranian challenges to the validity of the Erzurum Treaty and Constantinople Protocol and led to the 1937 treaty.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_iraq_1937",
+   "date": "1937-07-04",
+   "end_date": null,
+   "title": "Iran-Iraq frontier treaty (Tehran)",
+   "type": "treaty",
+   "summary": "Reaffirmed the 1913 Protocol and 1914 minutes except off Abadan, where the boundary moved to the thalweg (Choteit island to Jetty No. 1).",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_abrogation_1969",
+   "date": "1969-04-19",
+   "end_date": null,
+   "title": "Iran abrogates the 1937 treaty",
+   "type": "other",
+   "summary": "Iran repudiated the 1937 treaty, stopped paying Iraq dues and escorted ships down the river (Joint Operation Arvand, 22-25 Apr 1969), claiming the thalweg as the frontier.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Wikipedia, 'Shatt al-Arab dispute' and 'Joint Operation Arvand' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_algiers_communique_1975",
+   "date": "1975-03-06",
+   "end_date": null,
+   "title": "Algiers Accord (joint communique)",
+   "type": "agreement",
+   "summary": "Shah and Saddam Hussein agreed to demarcate the land border on the 1913 Protocol and 1914 minutes and the river border on the thalweg; Iran ended support for Iraqi Kurds. Tehran protocol 15-17 March 1975.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_baghdad_treaty_1975",
+   "date": "1975-06-13",
+   "end_date": null,
+   "title": "Baghdad treaty on the State Boundary",
+   "type": "treaty",
+   "summary": "Treaty plus three protocols: land boundary redemarcation, river boundary on the thalweg (105 km), border security. Zain al-Qaws and Saif Saad were to pass to Iraq but were never handed over; their location was not verified, so they are not mapped as Iranian-held.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Wikipedia, 'Iraqi invasion of Iran' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_iraq_abrogates_1980",
+   "date": "1980-09-17",
+   "end_date": null,
+   "title": "Iraq abrogates the Algiers Accord",
+   "type": "other",
+   "summary": "Iraq retook Zain al-Qaws and Saif Saad on 10 Sept 1980, Iran declared the accord void 14 Sept and Saddam abrogated it on 17 Sept, five days before the invasion. Tehran maintains the thalweg claim.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 164 (1978), Iran-Iraq Boundary (library.law.fsu.edu/.../ibs164.pdf)",
+    "Wikipedia, 'Shatt al-Arab dispute' and 'Iraqi invasion of Iran' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_iraq_accepts_1990",
+   "date": "1990-08-14",
+   "end_date": null,
+   "title": "Saddam Hussein accepts the 1975 accord",
+   "type": "agreement",
+   "summary": "Mid-Aug 1990 Iraq restored the 1975 border and thalweg and promised to leave occupied Iranian land (about 2,600 sq km, inside modern Iran).",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Christian Science Monitor, 'Iran Jubilant Over Iraq's Proposal but Won't Alter Policy', 17 Aug 1990 (csmonitor.com/1990/0817/oshatt.html)"
+   ]
+  },
+  {
+   "id": "f_ev_muhammarah_sack_1837",
+   "date": "1837",
+   "end_date": null,
+   "title": "Ottoman governor sacks Muhammarah",
+   "type": "campaign",
+   "summary": "Ali Rida Pasha of Baghdad sacked Muhammarah (Khorramshahr) in 1837, part of the Perso-Ottoman crisis of 1837-43 that led to the Erzurum conference.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Mohammad Shah Qajar' and 'Emirate of Muhammara' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_haj_omran_1983",
+   "date": "1983-07-22",
+   "end_date": "1983-07-24",
+   "title": "Operation Dawn 2: Iran seizes Haj Omran",
+   "type": "campaign",
+   "summary": "Iranian forces advanced from Piranshahr and took the Haj Omran highlands (~390 km2) in Iraqi Kurdistan.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Human Rights Watch, Genocide in Iraq: The Anfal Campaign Against the Kurds (1993), ch. 1"
+   ]
+  },
+  {
+   "id": "f_ev_penjwin_1983",
+   "date": "1983-10-19",
+   "end_date": "1983-11-21",
+   "title": "Operation Dawn 4: Penjwin valley",
+   "type": "campaign",
+   "summary": "Iran and PUK peshmerga took the Penjwin valley (466 km2); operation ended around 21 Nov 1983.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Human Rights Watch, Genocide in Iraq: The Anfal Campaign Against the Kurds (1993), ch. 1"
+   ]
+  },
+  {
+   "id": "f_ev_majnoon_1984",
+   "date": "1984-02",
+   "end_date": "1984-03-19",
+   "title": "Operation Kheibar: Majnoon Islands",
+   "type": "campaign",
+   "summary": "Iranian assault through the Hawizeh marsh took the Majnoon Islands (~160 km2, ~50 oil wells), held until 1988.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_faw_1986",
+   "date": "1986-02-11",
+   "end_date": "1986-03-10",
+   "title": "Operation Dawn 8: Iran takes Al-Faw",
+   "type": "campaign",
+   "summary": "Surprise crossing of the Shatt al-Arab (night of 9-10 Feb) captured the Faw peninsula; first major Iranian occupation of Iraqi land.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_karbala5_1987",
+   "date": "1987-01-08",
+   "end_date": null,
+   "title": "Operation Karbala-5 (Basra front)",
+   "type": "campaign",
+   "summary": "Iran seized a sliver of Basra governorate near Duaiji/Fish Lake and held positions around Shalamcheh until Iraq's May 1988 counterattack. Too small to map reliably.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_halabja_1988",
+   "date": "1988-03-15",
+   "end_date": "1988-03-19",
+   "title": "Operation Dawn 10: Halabja captured",
+   "type": "campaign",
+   "summary": "Iranian forces and peshmerga captured Halabja, Dojileh and Khurmal (14-19 March); Iraqi chemical attack 16-17 March.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Christian Science Monitor, 'Iraq adds to string of victories. Iran's faltering forces', 13 July 1988 (csmonitor.com/1988/0713/ohala.html)"
+   ]
+  },
+  {
+   "id": "f_ev_faw_recaptured_1988",
+   "date": "1988-04-18",
+   "end_date": null,
+   "title": "Iraq retakes Al-Faw",
+   "type": "withdrawal",
+   "summary": "Operation Ramadan Mubarak (17-18 April 1988) expelled Iranian forces from the peninsula within 35 hours.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_fish_lake_1988",
+   "date": "1988-05-25",
+   "end_date": null,
+   "title": "Battle of Fish Lake / Shalamcheh",
+   "type": "withdrawal",
+   "summary": "Tawakalna 1 pushed Iranian forces out of positions held in Basra governorate since Jan 1987.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_majnoon_recaptured_1988",
+   "date": "1988-06-25",
+   "end_date": null,
+   "title": "Iraq retakes Majnoon",
+   "type": "withdrawal",
+   "summary": "Iraqi forces recovered the Majnoon oilfield, 4.5 years after Iran took it.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Christian Science Monitor, 'Iranian morale sinks in the marshes', 1 July 1988 (csmonitor.com/1988/0701/omaj.html)"
+   ]
+  },
+  {
+   "id": "f_ev_halabja_abandoned_1988",
+   "date": "1988-07-12",
+   "end_date": null,
+   "title": "Iran abandons Halabja",
+   "type": "withdrawal",
+   "summary": "Iranian forces left Halabja without a fight, the last major foothold in Iraq.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Christian Science Monitor, 'Iraq adds to string of victories. Iran's faltering forces', 13 July 1988 (csmonitor.com/1988/0713/ohala.html)"
+   ]
+  },
+  {
+   "id": "f_ev_ceasefire_1988",
+   "date": "1988-08-20",
+   "end_date": null,
+   "title": "UN-supervised ceasefire",
+   "type": "agreement",
+   "summary": "Khomeini accepted UNSC Res. 598 in mid-July 1988 (18-20 July); the ceasefire took effect 20 Aug 1988. Iraq's counter-invasion of Iran (about 9,600 km2) ended soon after; no Iraqi territory remained mapped as Iranian-held.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia articles on Iran-Iraq War operations (Dawn 2, Dawn-4, Kheibar, Dawn 8, Dawn 10, Karbala-5, Tawakalna ala Allah Operations) (cross-check only)",
+    "Wikipedia, 'United Nations Security Council Resolution 598' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_herat_1807",
+   "date": "1807",
+   "end_date": null,
+   "title": "Persian expedition to Herat (Shahdih)",
+   "type": "campaign",
+   "summary": "Fath-Ali Shah's forces defeated Firuz al-Din Mirza (battle of Shahdih, 1807); tribute exacted and Persian suzerainty (claimed since c.1801) reasserted, repeated 1814.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
+   ]
+  },
+  {
+   "id": "f_ev_herat_barakzai_1818",
+   "date": "1818-04",
+   "end_date": null,
+   "title": "Barakzai coup in Herat",
+   "type": "other",
+   "summary": "Fath Khan Barakzai deposed Firuz al-Din (April 1818); the Sadozai Mahmud and Kamran then ruled Herat independently of Tehran.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Herat (1793-1863)' (cross-check only)",
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)"
+   ]
+  },
+  {
+   "id": "f_ev_herat_siege_1833",
+   "date": "1833-11",
+   "end_date": null,
+   "title": "Abbas Mirza's Herat campaign ends",
+   "type": "campaign",
+   "summary": "Abbas Mirza's army besieged Herat in 1832-33; he died Oct 1833 and his son withdrew after a late-Nov 1833 arrangement with Kamran (hostage, coin and khutba in the shah's name, tribute), per Wikipedia.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Siege of Herat (1833)' (cross-check only)",
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)"
+   ]
+  },
+  {
+   "id": "f_ev_kandahar_treaty_1837",
+   "date": "1837",
+   "end_date": null,
+   "title": "Treaty between Mohammad Shah and the Kandahar sardars",
+   "type": "agreement",
+   "summary": "The Kandahar sardars (Kohandil Khan) accepted Persian suzerainty during the Herat campaign; Russian diplomacy encouraged the Tehran-Kandahar-Kabul entente. Date and terms not found in detail.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'First Herat War' (cross-check only)",
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)"
+   ]
+  },
+  {
+   "id": "f_ev_herat_siege_1837",
+   "date": "1837-11-23",
+   "end_date": "1838-09-09",
+   "title": "Siege of Herat (Mohammad Shah)",
+   "type": "campaign",
+   "summary": "Siege from 23/24 Nov 1837, lasting nearly ten months; the shah withdrew empty-handed on 9 Sept 1838 under British pressure (Kharg occupied).",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "Wikipedia, 'First Herat War' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_herat_lifted_1838",
+   "date": "1838-09-09",
+   "end_date": null,
+   "title": "Persian siege of Herat lifted",
+   "type": "withdrawal",
+   "summary": "Mohammad Shah lifted the siege on 9 Sept 1838 after the British occupation of Kharg and McNeill's ultimatum.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)"
+   ]
+  },
+  {
+   "id": "f_ev_kandahar_british_1839",
+   "date": "1839-04-25",
+   "end_date": null,
+   "title": "British occupy Kandahar",
+   "type": "occupation",
+   "summary": "The Army of the Indus entered Kandahar (25 April 1839), ending the Barakzai principality's independence.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'First Anglo-Afghan War' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_kandahar_1842",
+   "date": "1842",
+   "end_date": null,
+   "title": "Persia relinquishes claims on Kandahar",
+   "type": "renunciation",
+   "summary": "A treaty with the Kandahar chief is reported (India Office Military Report on Persia) to have ended Persian claims to Afghan territory; low confidence, no text seen.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "India Office/General Staff, 'Military Report on Persia' (Qatar Digital Library, qdl.qa/en/archive/81055/vdc_100066221357.0x00001d)"
+   ]
+  },
+  {
+   "id": "f_ev_herat_1856",
+   "date": "1856-10",
+   "end_date": null,
+   "title": "Persian army takes Herat",
+   "type": "occupation",
+   "summary": "Hesam o-Saltaneh's army, with French engineers, captured Herat (11 or 25 Oct 1856; ceremonial entry 30 Oct). Britain declared war 1 Nov 1856 and landed at Bushehr.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "Wikipedia, 'Second Herat War' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_paris_1857",
+   "date": "1857-03-04",
+   "end_date": null,
+   "title": "Treaty of Paris (Anglo-Persian)",
+   "type": "treaty",
+   "summary": "Signed 4 March 1857 (ratified 2 May at Baghdad). Art. V: evacuate Herat within three months; Art. VI: Persia relinquishes all claims to Herat and Afghanistan and any tribute, coin or khutba, and accepts British good offices in disputes.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Herat vi. The Herat Question' (iranicaonline.org/articles/herat-vi/)",
+    "US Dept of State, Office of the Geographer, International Boundary Study No. 6 (1961), Afghanistan-Iran Boundary (library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs006.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_herat_evacuated_1857",
+   "date": "1857-09",
+   "end_date": null,
+   "title": "Persian troops leave Herat",
+   "type": "withdrawal",
+   "summary": "Persian garrison evacuated by about Sept 1857 after installing Sultan Ahmad Khan in April; Dost Mohammad took Herat 27 May 1863.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Herat (1793-1863)' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_sistan_1865",
+   "date": "1865",
+   "end_date": null,
+   "title": "Persian takeover of western Sistan",
+   "type": "occupation",
+   "summary": "Persian invasion of Sistan in 1865 with a governor (Hesmat-al-Molk); Persia had been reclaiming Sistan since 1772. Western (modern-Iranian) Sistan is left to the internal agent.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Sistan ii. In the Islamic period' (iranicaonline.org/articles/sistan-ii-islamic-period/)"
+   ]
+  },
+  {
+   "id": "f_ev_goldsmid_sistan_1872",
+   "date": "1872",
+   "end_date": "1873-04",
+   "title": "Goldsmid's Sistan arbitration",
+   "type": "arbitration",
+   "summary": "Award (1872) split Sistan along the Helmand, giving Persia 'Seistan proper' and Afghanistan the right bank; accepted by both governments in spring 1873. McMahon's 1903-05 award re-fixed it after the river shifted; Persia's shah protested but the award was accepted.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Helmand River iv. In the late 19th and 20th centuries' (iranicaonline.org/articles/helmand-river-iv/)",
+    "US Dept of State, Office of the Geographer, International Boundary Study No. 6 (1961), Afghanistan-Iran Boundary (library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs006.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_maclean_1891",
+   "date": "1891",
+   "end_date": null,
+   "title": "MacLean arbitration (Hashtadan)",
+   "type": "arbitration",
+   "summary": "Hashtadan plain dispute began Mar 1885 when Persians began to cultivate it; MacLean (1888-91) fixed a compromise line from the Hari Rud south to pillar 39 (c. 34 deg 20'N, 60 deg 55'E) with a deflection round Hashtadan mound. Not mapped as a region (extent not found).",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "US Dept of State, Office of the Geographer, International Boundary Study No. 6 (1961), Afghanistan-Iran Boundary (library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs006.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_mcmahon_1905",
+   "date": "1903-11",
+   "end_date": "1905-05-15",
+   "title": "McMahon Sistan arbitration",
+   "type": "arbitration",
+   "summary": "McMahon's award (Nov 1903) fixed the Helmand/Nad Ali line; 90 pillars placed by 15 May 1905. Accepted by Afghanistan; Mozaffar al-Din Shah protested from Europe but the line stands.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "US Dept of State, Office of the Geographer, International Boundary Study No. 6 (1961), Afghanistan-Iran Boundary (library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs006.pdf)",
+    "Encyclopaedia Iranica, 'Helmand River iv. In the late 19th and 20th centuries' (iranicaonline.org/articles/helmand-river-iv/)"
+   ]
+  },
+  {
+   "id": "f_ev_altay_1935",
+   "date": "1935-05-15",
+   "end_date": null,
+   "title": "Altay award (Hashtadan plains, Musa Abad)",
+   "type": "arbitration",
+   "summary": "Turkish General Fahreddin Altay delimited the 250-mile central segment (pillars 40-87, passing Musaabad, Yezdan, Kuh-i-Siah) and the Hari Rud north end. Parcels moved are not mapped (areas not found).",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "US Dept of State, Office of the Geographer, International Boundary Study No. 6 (1961), Afghanistan-Iran Boundary (library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs006.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_makran_claim_1864",
+   "date": "1864",
+   "end_date": null,
+   "title": "Tehran claims all Makran and Baluchistan",
+   "type": "other",
+   "summary": "In 1281 AH (1864) Iran officially claimed all Makran and Baluchistan, grounding it in Nader Shah's 1736 conquest.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Cah-bahar' (iranicaonline.org/articles/cah-bahar-...)"
+   ]
+  },
+  {
+   "id": "f_ev_goldsmid_makran_1871",
+   "date": "1871-09-04",
+   "end_date": null,
+   "title": "Goldsmid's Perso-Kalat line",
+   "type": "agreement",
+   "summary": "Notes exchanged 1 and 4 Sept 1871 (Alison for Kalat; Mirza Saeed Khan) fixed the line from Kuhak to Gwatar Bay, leaving Panjgur, Kohuk, Buleda, Mand/Tump/Kech and Dasht with Kalat; Britain kept treating Gwadar as Omani.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)",
+    "Encyclopaedia Iranica, 'Cah-bahar' (iranicaonline.org/articles/cah-bahar-...)"
+   ]
+  },
+  {
+   "id": "f_ev_chabahar_1872",
+   "date": "1872-02-21",
+   "end_date": null,
+   "title": "Persia occupies Chabahar",
+   "type": "occupation",
+   "summary": "Persian forces under Ebrahim Khan took Chabahar from Omani control (21 Feb 1872, 12 Dhu'l-hejja); Iranian since.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Cah-bahar' (iranicaonline.org/articles/cah-bahar-...)"
+   ]
+  },
+  {
+   "id": "f_ev_kuhak_1874",
+   "date": "1874-05",
+   "end_date": null,
+   "title": "Iran occupies Kuhak",
+   "type": "occupation",
+   "summary": "Iran occupied Kuhak in May 1874 after claiming it despite the 1871 line.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_holdich_1896",
+   "date": "1896-03-26",
+   "end_date": null,
+   "title": "Holdich line (Kuhak to Malik Siah)",
+   "type": "agreement",
+   "summary": "Agreement of 27 Dec 1895, proces-verbal of 24 March 1896 and demarcation agreement of 26 March 1896 formally included Kuhak in Iran; 11 pillars to Gorani. Boundary beyond pillar 11 left open.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)",
+    "Wikipedia, 'Thomas Holdich' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_mirjaveh_1905",
+   "date": "1905-05-13",
+   "end_date": null,
+   "title": "Anglo-Iranian agreement on Mirjaveh",
+   "type": "agreement",
+   "summary": "The UK withdrew its claim to Mirjaveh; Iran allowed the British post at Padaha to take water.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_pakistan_1958",
+   "date": "1958-02-06",
+   "end_date": "1959-12-08",
+   "title": "Iran-Pakistan boundary agreement",
+   "type": "agreement",
+   "summary": "Signed at Tehran; confirms the 1871, 1895 and 1896 lines with new sections from Gwatar Bay to Kuhak and from pillar 11 to Malik Siah; demarcated Feb-May 1958 and Oct 1958-Feb 1959; final protocol 8 Dec 1959. No territory changed hands.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 167 (1979), Iran-Pakistan Boundary (library.law.fsu.edu/.../ibs167.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_sarakhs_expeditions_1832",
+   "date": "1832",
+   "end_date": null,
+   "title": "Qajar expeditions to Sarakhs, Khwarazm and the Turkmen",
+   "type": "campaign",
+   "summary": "Abbas Mirza led an expedition to Sarakhs and Khwarazm in 1832, and Mohammad Shah another in 1837 (Iranica: Persia asserted claims to Marv, Khiva and Sarakhs). Khiva/Khwarazm was claimed rhetorically but no sustained claim or administration is documented, so it is not mapped.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Central Asia viii. Relations with Persia in the 19th Century' (iranicaonline.org/articles/central-asia-viii/)",
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
+   ]
+  },
+  {
+   "id": "f_ev_merv_1860",
+   "date": "1860",
+   "end_date": null,
+   "title": "Disastrous Persian Merv expedition",
+   "type": "campaign",
+   "summary": "The 1860-61 campaign against Merv (Hesam al-Saltaneh) ended in a crushing defeat, 'the beginning of the end of Iran's claims to dominion over the Khavaran plain'.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Central Asia viii. Relations with Persia in the 19th Century' (iranicaonline.org/articles/central-asia-viii/)",
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
+   ]
+  },
+  {
+   "id": "f_ev_atrek_1869",
+   "date": "1869-12-13",
+   "end_date": null,
+   "title": "Russo-Persian agreement on the Atrek",
+   "type": "agreement",
+   "summary": "Russia recognised the Atrek as the boundary (about 30 miles east of the Caspian); Persia dropped claims north of it.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_geok_tepe_1881",
+   "date": "1881-01-24",
+   "end_date": null,
+   "title": "Russians storm Geok Tepe",
+   "type": "conquest",
+   "summary": "Fall of the Tekke fortress (12 Jan 1881 OS) ended Akhal independence.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Battle of Geok Tepe' (cross-check only)",
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_akhal_1881",
+   "date": "1881-12-21",
+   "end_date": null,
+   "title": "Akhal-Khorasan Convention",
+   "type": "treaty",
+   "summary": "Convention of 9/21 Dec 1881 (Wikipedia gives 21 Sept) set the frontier east of the Caspian to Babadurmaz and ended Iran's claims beyond the Tejen (Marv, Abivard, Nesa, Meyhana); Firyuza left to Persia.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)",
+    "Encyclopaedia Iranica, 'Khorasan xi. History in the Qajar and Pahlavi Periods' (iranicaonline.org/articles/khorasan-xi-history-in-the-qajar-and-pahlavi-periods/)"
+   ]
+  },
+  {
+   "id": "f_ev_old_sarakhs_1885",
+   "date": "1885",
+   "end_date": null,
+   "title": "Russia expels Persian garrison from Old Sarakhs",
+   "type": "occupation",
+   "summary": "Komarov's Russians annexed Merv in 1884 and took Old Sarakhs on the Hari Rud in 1884-85; Persia's claim there ended with the 1893 convention.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Wikipedia, 'Sarakhs' and 'Treaty of Akhal' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_firuzeh_1893",
+   "date": "1893-06-08",
+   "end_date": null,
+   "title": "Convention for territorial interchange (Tehran)",
+   "type": "treaty",
+   "summary": "Signed 27 May OS (8 June NS) 1893: Persia ceded the Firyuza oasis and district; Russia gave up the Abbasabad bridgehead and the Hissar oasis near Lotfabad, and the frontier east of Babadurmaz to Afghanistan was delimited. Hissar is not mapped (location not verified).",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_moscow_1921",
+   "date": "1921-02-26",
+   "end_date": null,
+   "title": "Treaty of Friendship (Moscow)",
+   "type": "treaty",
+   "summary": "Art. III provided for return of Firyuza to Persia and Soviet recognition of Persia's islands off the Astrabad coast; Firyuza was never returned.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_ussr_1954",
+   "date": "1954-12-02",
+   "end_date": null,
+   "title": "Iran-USSR frontier and financial agreement",
+   "type": "agreement",
+   "summary": "Signed at Tehran (in force 20 May 1955). Changes in Iran's favour at the Moghan steppe, Dyman, Yedi Evlar island at the Astara mouth, Sarakhs (about 10 sq mi west of the Hari Rud) and a compromise Atrek delta line; Namin adjusted to Soviet gain; Soviet possession of Firyuza confirmed, ending Iran's claim. Parcels other than Firuzeh not mapped (areas small, coordinates not found). Further 1957 demarcation and 1970 Aras reservoir protocol.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  },
+  {
+   "id": "f_ev_bahrain_1822",
+   "date": "1822",
+   "end_date": null,
+   "title": "Bruce-Farmanfarma agreement on Bahrain",
+   "type": "agreement",
+   "summary": "Resident William Bruce and Fars governor Hosein Ali Mirza Farmanfarma agreed that Bahrain was 'always subordinate to the province of Fars'; London disowned it, Tehran cited it for a century.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "Qatar Digital Library (India Office Records), file 'Persian pretentions to Bahrain' (qdl.qa/en/archive/81055/vdc_100023043274.0x000070)",
+    "Encyclopaedia Iranica, 'Bahrain iii. History of political relations with Iran' (iranicaonline.org/articles/bahrain-all/bahrain-iii-history-of-political-relations-with-iran/)"
+   ]
+  },
+  {
+   "id": "f_ev_bahrain_1927",
+   "date": "1927-11-22",
+   "end_date": null,
+   "title": "Persian protest to Britain and the League over Bahrain",
+   "type": "other",
+   "summary": "Persian note protested the Anglo-Saudi Treaty of Jeddah (20 May 1927) and insisted Bahrain was incontestably Persian; copied to the League of Nations.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Bahrain iii. History of political relations with Iran' (iranicaonline.org/articles/bahrain-all/bahrain-iii-history-of-political-relations-with-iran/)"
+   ]
+  },
+  {
+   "id": "f_ev_bahrain_14th_1957",
+   "date": "1957-11-12",
+   "end_date": null,
+   "title": "Majlis declares Bahrain the 14th province",
+   "type": "other",
+   "summary": "Iran formally designated Bahrain its fourteenth province (law of 11-12 Nov 1957).",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Bahrain iii. History of political relations with Iran' (iranicaonline.org/articles/bahrain-all/bahrain-iii-history-of-political-relations-with-iran/)",
+    "Wikipedia, 'Bahrain-Iran relations' and 'United Nations Security Council Resolution 278' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_bahrain_un_1970",
+   "date": "1970-03-29",
+   "end_date": "1970-04-18",
+   "title": "UN good-offices mission to Bahrain",
+   "type": "other",
+   "summary": "Guicciardi mission 29 March-18 April 1970; report circulated 30 April found Bahrainis virtually unanimous for full independence; Security Council Res. 278 endorsed it on 11 May.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "Wikipedia, 'Bahrain-Iran relations' and 'United Nations Security Council Resolution 278' (cross-check only)",
+    "Encyclopaedia Iranica, 'Bahrain iii. History of political relations with Iran' (iranicaonline.org/articles/bahrain-all/bahrain-iii-history-of-political-relations-with-iran/)"
+   ]
+  },
+  {
+   "id": "f_ev_bahrain_majlis_1970",
+   "date": "1970-05-14",
+   "end_date": null,
+   "title": "Iran renounces its claim to Bahrain",
+   "type": "renunciation",
+   "summary": "The Majlis approved the UN report 184-4 on 14 May 1970, the Senate unanimously on 18 May; Bahrain became independent 15 Aug 1971. Tehran date chosen: Majlis vote.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Bahrain iii. History of political relations with Iran' (iranicaonline.org/articles/bahrain-all/bahrain-iii-history-of-political-relations-with-iran/)",
+    "Wikipedia, 'Bahrain-Iran relations' and 'United Nations Security Council Resolution 278' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_sirri_1887",
+   "date": "1887",
+   "end_date": null,
+   "title": "Persia takes Sirri and ends the Qasimi deputy-governorship of Lengeh",
+   "type": "occupation",
+   "summary": "Persia dissolved the Qasimi deputy-governorship at Lengeh and planted its flag on Sirri in 1887; Britain tacitly acquiesced in Aug 1888.",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)"
+   ]
+  },
+  {
+   "id": "f_ev_abumusa_1888",
+   "date": "1888",
+   "end_date": null,
+   "title": "First documented Persian claim to Abu Musa",
+   "type": "other",
+   "summary": "A Persian military report of 1888 for the British prime minister claimed Abu Musa; Britain neither countered nor objected.",
+   "layers": [
+    "dejure"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)"
+   ]
+  },
+  {
+   "id": "f_ev_tunb_flags_1903",
+   "date": "1903",
+   "end_date": "1904",
+   "title": "Competing flag-raising on the Tunbs and Abu Musa",
+   "type": "other",
+   "summary": "Persian and Qasimi flag-hoisting incidents in 1903-04 (a Belgian customs official in Persian service reportedly raised the Persian flag in April 1904; Iranica gives few details); the Tunbs were then administered by Sharjah (1904-21) and Ras al-Khaimah (1921-71).",
+   "layers": [
+    "dejure",
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Tonb Islands' (iranicaonline.org/articles/tonb/)",
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)"
+   ]
+  },
+  {
+   "id": "f_ev_abumusa_mou_1971",
+   "date": "1971-11-29",
+   "end_date": null,
+   "title": "Iran-Sharjah memorandum on Abu Musa",
+   "type": "agreement",
+   "summary": "MoU on shared administration of Abu Musa (Iranian troops in the northern sector, Sharjah police elsewhere); Iranian forces landed on 30 Nov.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)",
+    "Wikipedia, 'Seizure of Abu Musa and the Greater and Lesser Tunbs' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_tunbs_1971",
+   "date": "1971-11-30",
+   "end_date": null,
+   "title": "Iran seizes the Tunbs",
+   "type": "occupation",
+   "summary": "After the British withdrawal Iranian forces landed on Greater and Lesser Tunb (30 Nov 1971; some sources say the evening of 29 Nov). There was an armed clash on Greater Tunb (Wikipedia: four Ras al-Khaimah policemen and three Iranian soldiers killed) and the inhabitants were deported to Ras al-Khaimah.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Tonb Islands' (iranicaonline.org/articles/tonb/)",
+    "Wikipedia, 'Seizure of Abu Musa and the Greater and Lesser Tunbs' (cross-check only)"
+   ]
+  },
+  {
+   "id": "f_ev_abumusa_1992",
+   "date": "1992-08-24",
+   "end_date": null,
+   "title": "Iran asserts full control of Abu Musa",
+   "type": "other",
+   "summary": "After expelling foreign workers in April 1992 Iran barred Sharjah's teachers on 24 Aug 1992; the UAE says this breaches the 1971 MoU.",
+   "layers": [
+    "defacto"
+   ],
+   "sources": [
+    "Encyclopaedia Iranica, 'Abu Musa iii. In International Relations' (iranicaonline.org/articles/abu-musa/abu-musa-bu-musa/)",
+    "Gulf News, 'August 24, 1992: Iran denies UAE teachers entry into Abu Mousa' (gulfnews.com)"
+   ]
+  },
+  {
+   "id": "f_ev_caspian_note",
+   "date": "2018-08-12",
+   "end_date": null,
+   "title": "Caspian sector (note only)",
+   "type": "other",
+   "summary": "Tehran's long-held position was equal division of the Caspian (20 per cent each) while Soviet-Iranian treaties (1921, 1940) left no sectoral line; the 2018 Aktau Convention did not fix sectors. Not mapped.",
+   "layers": [],
+   "sources": [
+    "Wikipedia, 'Legal status of the Caspian Sea' (cross-check only)",
+    "US Dept of State, International Boundary Study No. 25 (rev. 1978), Iran-U.S.S.R. Boundary (library.law.fsu.edu/.../ibs025.pdf)"
+   ]
+  }
+ ]
+}

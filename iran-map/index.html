@@ -668,7 +668,7 @@ function drawLabels() {
         if (!(state.layers.df && df)) continue;
         sub = shortDF(df);
       }
-      items.push({ id, name: m.name, sub, cls, xy: projection(m.label), area: m.area_km2 });
+      items.push({ id, name: shortName(m.name), sub, cls, xy: projection(m.label), area: m.area_km2 });
     }
   }
   items.sort((a, b) => b.area - a.area);
@@ -693,6 +693,7 @@ function drawLabels() {
     .attr("transform", function () { return `${this.dataset.base} scale(${1 / k})`; })
     .html((d) => `<tspan x="0" dy="${d.sub ? -2 : 4}">${esc(d.name)}</tspan>${d.sub ? `<tspan class="sub" x="0" dy="12">${esc(d.sub)}</tspan>` : ""}`);
 }
+function shortName(n) { const s = String(n).split(" (")[0].trim(); return s.length > 34 ? s.slice(0, 32) + "…" : s; }
 function shortDF(r) {
   const c = r.controller ? r.controller.split(/[;(,]/)[0].trim() : "";
   const s = { direct: "direct rule", indirect: "autonomous", contested: "contested", none: "no state control", foreign_occupation: "held by " + (c || "foreign power"), breakaway: c || "breakaway", iranian_held: "held by Iran" }[r.status];
