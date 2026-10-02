@@ -254,6 +254,7 @@ aside.side { grid-area: side; border-left: 1px solid var(--rule); background: va
 .ledger h3:first-child { margin-top: 0; }
 .empty { color: var(--muted); font-size: var(--s-sm); padding: 1rem 0; }
 .about p { font-size: var(--s-sm); }
+.gaps { margin: 0; padding-left: 1.1rem; display: grid; gap: .35rem; max-width: 65ch; }
 
 @media (max-width: 860px) {
   html, body { height: auto; }
@@ -339,6 +340,17 @@ aside.side { grid-area: side; border-left: 1px solid var(--rule); background: va
         <h3>How to read it</h3>
         <p>Drag across the chart below the map to move through time, or use the arrow keys when the chart has focus. Shift with an arrow jumps to the next change. Click any area for its history in both layers.</p>
         <p>Before about 1880 most of these frontiers were zones, not surveyed lines. Areas are built from modern administrative units and carry a confidence rating, so treat their edges as approximate. Areas in km² are computed on an equal-area projection.</p>
+        <h3>Sources</h3>
+        <p>Each record cites its own sources; open any area to see them. The main ones are Encyclopaedia Iranica, the US State Department's International Boundary Studies, treaty texts, FRUS, India Office records and the scholarly literature (Atkin, Kazemzadeh, Cronin, Garthwaite, Beck, Tapper, Schofield, Kashani-Sabet). Wikipedia was used only as a cross-check. All data went through a separate fact-checking pass.</p>
+        <h3>Known gaps</h3>
+        <ul class="small gaps">
+          <li>The Zohab transfer of 1913, the Firuzeh district, and the Kotur and Little Ararat strips are illustrative shapes drawn from verbal descriptions. For Kotur in 1932, sources disagree on which side gained.</li>
+          <li>These appear as events only, with no area drawn: the Hashtadan (1891) and Musa Abad (1935) arbitrations, the Hissar oasis (1893), Bajirga and Borolan (1932), the 1954 Soviet–Iranian parcels and the 1975 Algiers land adjustments.</li>
+          <li>The British occupation zone of 1941–46 beyond Khuzestan, Kermanshah and Hamadan is approximate. The Iraqi-held pockets of 1988–90 are schematic.</li>
+          <li>Not mapped: Baluchistan after 1928, ruled through appointed sardars; the Lur, Bakhtiari and Kurdish tribal resurgences of 1941–44; and Khorasan, Kerman and Yazd during the First World War.</li>
+          <li>For Abu Musa and the Tunbs, which Sharjah and Ras al-Khaimah held, the claim starts at Tehran's first documented assertion: 1888 and 1903–04. Iran's later position that they were always Iranian is noted in their records. Sirri counts as claimed from 1800 as part of the Lengeh governorship, at low confidence.</li>
+          <li>Iran's recoveries in the Caucasus in 1826 are shown as held beyond the claim, because Tehran had renounced those lands in 1813.</li>
+        </ul>
         <p class="small" id="build-info"></p>
       </div>
     </div>
